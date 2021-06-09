@@ -1,0 +1,6326 @@
+@relation 'EMOTION: -C 6'
+@attribute anger_class {0,1}
+@attribute disgust_class {0,1}
+@attribute fear_class {0,1}
+@attribute sadness_class {0,1}
+@attribute surprise_class {0,1}
+@attribute happiness_class {0,1}
+@attribute 'ن دلانے ک' numeric
+@attribute 'دلانے کیل' numeric
+@attribute ' دلانے کی' numeric
+@attribute 'ی یقین دل' numeric
+@attribute 'ین دلانے ' numeric
+@attribute 'یقین دلان' numeric
+@attribute 'لانے کیلئ' numeric
+@attribute ' یقین دلا' numeric
+@attribute 'قین دلانے' numeric
+@attribute 'انے کیلئے' numeric
+@attribute 'نے کیلئے ' numeric
+@attribute 'ہانا پڑتا' numeric
+@attribute 'پڑتا بیما' numeric
+@attribute 'انا پڑتا ' numeric
+@attribute 'ڑتا بیمار' numeric
+@attribute 'ا پڑتا بی' numeric
+@attribute 'نا پڑتا ب' numeric
+@attribute ' پڑتا بیم' numeric
+@attribute 'تا بیماری' numeric
+@attribute 'ئے مرنا پ' numeric
+@attribute 'نسو بہانا' numeric
+@attribute 'ا بیماری ' numeric
+@attribute ' کیلئے مر' numeric
+@attribute ' کیلئے آن' numeric
+@attribute 'لئے آنسو ' numeric
+@attribute 'بہانا پڑت' numeric
+@attribute 'یلئے آنسو' numeric
+@attribute 'ئے آنسو ب' numeric
+@attribute 'یلئے مرنا' numeric
+@attribute 'سو بہانا ' numeric
+@attribute 'کیلئے آنس' numeric
+@attribute 'کیلئے مرن' numeric
+@attribute 'ے کیلئے م' numeric
+@attribute 'ے کیلئے آ' numeric
+@attribute 'و بہانا پ' numeric
+@attribute 'لئے مرنا ' numeric
+@attribute ' بہانا پڑ' numeric
+@attribute 'عاشرے ادا' numeric
+@attribute 'اداسی یقی' numeric
+@attribute 'ے مرنا پڑ' numeric
+@attribute 'مرنا پڑتا' numeric
+@attribute 'اشرے اداس' numeric
+@attribute ' اداسی یق' numeric
+@attribute 'ماری یقین' numeric
+@attribute 'ینا معاشر' numeric
+@attribute 'اری یقین ' numeric
+@attribute 'نابینا مع' numeric
+@attribute 'بیماری یق' numeric
+@attribute ' مرنا پڑت' numeric
+@attribute 'علق نابین' numeric
+@attribute ' آنسو بہا' numeric
+@attribute 'بینا معاش' numeric
+@attribute 'ے آنسو بہ' numeric
+@attribute 'شرے اداسی' numeric
+@attribute ' نابینا م' numeric
+@attribute 'سی یقین د' numeric
+@attribute 'یماری یقی' numeric
+@attribute 'ق نابینا ' numeric
+@attribute 'لق نابینا' numeric
+@attribute 'معاشرے اد' numeric
+@attribute 'اسی یقین ' numeric
+@attribute 'آنسو بہان' numeric
+@attribute 'داسی یقین' numeric
+@attribute 'تعلق نابی' numeric
+@attribute 'ابینا معا' numeric
+@attribute ' بیماری ی' numeric
+@attribute 'ری یقین د' numeric
+@attribute 'نا معاشرے' numeric
+@attribute 'ے اداسی ی' numeric
+@attribute 'ا معاشرے ' numeric
+@attribute ' معاشرے ا' numeric
+@attribute 'رے اداسی ' numeric
+@attribute 'ن فیعل بد' numeric
+@attribute 'ن قابل نف' numeric
+@attribute 'ن قابض فو' numeric
+@attribute 'ن قائد جذ' numeric
+@attribute 'ن قائم آز' numeric
+@attribute 'ن قائدین ' numeric
+@attribute 'ن فکر مین' numeric
+@attribute 'نا احساس ' numeric
+@attribute 'ن فوج خلا' numeric
+@attribute 'ن فرمان د' numeric
+@attribute 'ن فروش دی' numeric
+@attribute 'ن فروش سا' numeric
+@attribute 'ن فروشوں ' numeric
+@attribute 'ن فساد می' numeric
+@attribute 'ن فضا گھل' numeric
+@attribute 'ن فنڈ ریز' numeric
+@attribute 'ن فوج حکو' numeric
+@attribute 'ن فوج غلا' numeric
+@attribute 'ن فیصل آب' numeric
+@attribute 'ن فوری حک' numeric
+@attribute 'ن فوری پا' numeric
+@attribute 'ن فون تیل' numeric
+@attribute 'ن فوٹو دی' numeric
+@attribute 'ن فکر آخر' numeric
+@attribute 'نا اثر کھ' numeric
+@attribute 'نا اداس ~' numeric
+@attribute 'ن فیز اسپ' numeric
+@attribute 'ن قادیانی' numeric
+@attribute 'نئے سفر پ' numeric
+@attribute 'ن قاسم نا' numeric
+@attribute 'ن لرزتا پ' numeric
+@attribute 'ن لاد گہر' numeric
+@attribute 'ن لارہا ک' numeric
+@attribute 'ن لاشوں ر' numeric
+@attribute 'ن لاک ڈاو' numeric
+@attribute 'ن لاۓ ادا' numeric
+@attribute 'ن لبرل ما' numeric
+@attribute 'ن لبوں چو' numeric
+@attribute 'ن لتڑی پا' numeric
+@attribute 'نا اتنی ا' numeric
+@attribute 'ن قدر پہن' numeric
+@attribute 'ن لسٹ ٹوی' numeric
+@attribute 'ن لعنتی ذ' numeric
+@attribute 'ن لفافا م' numeric
+@attribute 'ن لفٹ کرو' numeric
+@attribute 'ن للکار ح' numeric
+@attribute 'ن لمبی لس' numeric
+@attribute 'ن لمحوں ی' numeric
+@attribute 'ن لمحے اد' numeric
+@attribute 'ن لاد گھر' numeric
+@attribute 'ن لائن ھو' numeric
+@attribute 'ن لائن کھ' numeric
+@attribute 'ن لائن کل' numeric
+@attribute 'ن قدرت عج' numeric
+@attribute 'ن قدرتی آ' numeric
+@attribute 'ن قدم کیس' numeric
+@attribute 'ن قرار دل' numeric
+@attribute 'ن فرماتے ' numeric
+@attribute 'ن قصہ سنا' numeric
+@attribute 'ن قطعا خو' numeric
+@attribute 'ن قوم جہا' numeric
+@attribute 'ن قوم نفر' numeric
+@attribute 'ن قوم پرس' numeric
+@attribute 'ن قوم چاہ' numeric
+@attribute 'ن قومی اس' numeric
+@attribute 'ن قہقہے م' numeric
+@attribute 'ن قیمت حک' numeric
+@attribute 'ن لئیے مش' numeric
+@attribute 'ن لائن آک' numeric
+@attribute 'ن لائن لی' numeric
+@attribute 'ن قسم لوگ' numeric
+@attribute 'ن فر ق ات' numeric
+@attribute 'ن فرقہ پر' numeric
+@attribute 'ن علاج اد' numeric
+@attribute 'ن عرس مبا' numeric
+@attribute 'ن عزت کھی' numeric
+@attribute 'ن عزیر بل' numeric
+@attribute 'ن عزیر بھ' numeric
+@attribute 'ن عشق حیر' numeric
+@attribute 'ن عظمت عش' numeric
+@attribute 'ن عقیدہخت' numeric
+@attribute 'ن عقیدۂ خ' numeric
+@attribute 'ن علامت ھ' numeric
+@attribute 'ن فرق پڑت' numeric
+@attribute 'ن علم تبل' numeric
+@attribute 'ن علم خام' numeric
+@attribute 'ن علی اسل' numeric
+@attribute 'ن علیہ قت' numeric
+@attribute 'ن علیہ لو' numeric
+@attribute 'ن عمر فار' numeric
+@attribute 'ن عمر مدت' numeric
+@attribute 'ن عمران ب' numeric
+@attribute 'ن عربی خو' numeric
+@attribute 'ن عذاب می' numeric
+@attribute 'ن عجیب اد' numeric
+@attribute 'ن عبداللہ' numeric
+@attribute 'ن طریقے س' numeric
+@attribute 'ن طلاق غص' numeric
+@attribute 'ن ظالم وح' numeric
+@attribute 'ن ع دل دی' numeric
+@attribute 'ن ع لوگ ر' numeric
+@attribute 'ن ع وارث ' numeric
+@attribute 'ن عادی بن' numeric
+@attribute 'ن عارف عل' numeric
+@attribute 'ن عارف وز' numeric
+@attribute 'ن عالم گھ' numeric
+@attribute 'ن عام مسل' numeric
+@attribute 'ن عبادت م' numeric
+@attribute 'ن عباسی ب' numeric
+@attribute 'ن عباسی ض' numeric
+@attribute 'ن عباسی ک' numeric
+@attribute 'ن عباسی گ' numeric
+@attribute 'ن عباسیجا' numeric
+@attribute 'ن عمران خ' numeric
+@attribute 'ن عمران ن' numeric
+@attribute 'ن عمران ڈ' numeric
+@attribute 'ن غصہ پی ' numeric
+@attribute 'ن غلط بول' numeric
+@attribute 'ن غلط مرح' numeric
+@attribute 'ن غم سہنا' numeric
+@attribute 'ن غم کفیت' numeric
+@attribute 'ن غم کیفی' numeric
+@attribute 'ن غیر اعل' numeric
+@attribute 'ن غیر ضرو' numeric
+@attribute 'ن غیرت حم' numeric
+@attribute 'ن ف ایمان' numeric
+@attribute 'ن ف عہد پ' numeric
+@attribute 'ن فائدہ ک' numeric
+@attribute 'ن فالور ہ' numeric
+@attribute 'ن لوبے شک' numeric
+@attribute 'ن فرار ال' numeric
+@attribute 'ن فراہم ک' numeric
+@attribute 'ن فردوس ع' numeric
+@attribute 'ن فرسٹ ائ' numeric
+@attribute 'ن غلام شہ' numeric
+@attribute 'ن غصہ نکا' numeric
+@attribute 'ن عمرانی ' numeric
+@attribute 'ن غصہ رھا' numeric
+@attribute 'ن عمل نفر' numeric
+@attribute 'ن عوام خو' numeric
+@attribute 'ن عوام شد' numeric
+@attribute 'ن عوام غر' numeric
+@attribute 'ن عوام نم' numeric
+@attribute 'ن عورت عق' numeric
+@attribute 'ن عہد نبو' numeric
+@attribute 'ن غائب آج' numeric
+@attribute 'ن غائر ⁦ ' numeric
+@attribute 'ن غدار قر' numeric
+@attribute 'ن غدار ور' numeric
+@attribute 'ن غرض پسن' numeric
+@attribute 'ن غریبوں ' numeric
+@attribute 'ن غریدہ خ' numeric
+@attribute 'ن غزوہ ہن' numeric
+@attribute 'نا اداس ا' numeric
+@attribute 'ن غصہ تے ' numeric
+@attribute 'ن لندن سو' numeric
+@attribute 'ن لوگ چین' numeric
+@attribute 'ن لوکہ مش' numeric
+@attribute 'ن مخالفین' numeric
+@attribute 'ن محفوظ ل' numeric
+@attribute 'ن محمد زب' numeric
+@attribute 'ن محمد قا' numeric
+@attribute 'ن محمود غ' numeric
+@attribute 'ن محنت گد' numeric
+@attribute 'ن محور اد' numeric
+@attribute 'ن مخالف ش' numeric
+@attribute 'ن مخالفت ' numeric
+@attribute 'ن مختلف ش' numeric
+@attribute 'ن مرد موم' numeric
+@attribute 'ن مدتوں م' numeric
+@attribute 'ن مدد کرن' numeric
+@attribute 'ن مدد گے ' numeric
+@attribute 'ن مذہب اس' numeric
+@attribute 'ن مر اے ا' numeric
+@attribute 'ن مر جانا' numeric
+@attribute 'ن مر قرآن' numeric
+@attribute 'ن مراد ذہ' numeric
+@attribute 'ن محفلسخن' numeric
+@attribute 'ن محشر طل' numeric
+@attribute 'ن محبوب س' numeric
+@attribute 'ن محبت ہم' numeric
+@attribute 'ن مبارکان' numeric
+@attribute 'ن مبہوت ہ' numeric
+@attribute 'ن مبینہ پ' numeric
+@attribute 'ن متاع در' numeric
+@attribute 'ن متشدد ب' numeric
+@attribute 'ن متعلق چ' numeric
+@attribute 'ن متوالے ' numeric
+@attribute 'ن مثال مس' numeric
+@attribute 'ن مثال نی' numeric
+@attribute 'ن مجبور ھ' numeric
+@attribute 'ن مجھےطار' numeric
+@attribute 'ن مجید فر' numeric
+@attribute 'ن محبت اہ' numeric
+@attribute 'ن محبت نظ' numeric
+@attribute 'ن محبت نف' numeric
+@attribute 'ن محبت نو' numeric
+@attribute 'ن محبت ڈر' numeric
+@attribute 'ن مرحوم م' numeric
+@attribute 'ن مرد کھڑ' numeric
+@attribute 'ن لوگ الل' numeric
+@attribute 'ن معاملات' numeric
+@attribute 'ن مسلم ہن' numeric
+@attribute 'ن مسلمان ' numeric
+@attribute 'ن مسلمانو' numeric
+@attribute 'ن مشغلہ خ' numeric
+@attribute 'ن مشورے ح' numeric
+@attribute 'ن مشکلات ' numeric
+@attribute 'ن مطالبات' numeric
+@attribute 'ن معاشرے ' numeric
+@attribute 'ن معاملہ ' numeric
+@attribute 'ن مردوں ٹ' numeric
+@attribute 'نا آوارگی' numeric
+@attribute 'ن معاملے ' numeric
+@attribute 'ن معلوم ا' numeric
+@attribute 'ن معلومات' numeric
+@attribute 'ن مقرر ڈر' numeric
+@attribute 'ن ملا بات' numeric
+@attribute 'ن ملا گے ' numeric
+@attribute 'ن ملتا ال' numeric
+@attribute 'ن مسلم لی' numeric
+@attribute 'ن مسلم خو' numeric
+@attribute 'ن مسلم بغ' numeric
+@attribute 'نا آواز ب' numeric
+@attribute 'ن مرزا عم' numeric
+@attribute 'ن مرض ادا' numeric
+@attribute 'ن مرض اضا' numeric
+@attribute 'ن مرنا سک' numeric
+@attribute 'ن مرنا سی' numeric
+@attribute 'ن مرنے سی' numeric
+@attribute 'ن مرکزی ش' numeric
+@attribute 'ن مریض کر' numeric
+@attribute 'ن مریم حن' numeric
+@attribute 'ن مزاج شن' numeric
+@attribute 'ن مزدور آ' numeric
+@attribute 'ن مزدور ہ' numeric
+@attribute 'نا آواز ت' numeric
+@attribute 'ن مزے لین' numeric
+@attribute 'ن مسئلہ ط' numeric
+@attribute 'ن مستقل ا' numeric
+@attribute 'ن مسلسل ج' numeric
+@attribute 'ن مبارک ھ' numeric
+@attribute 'ن مبارک م' numeric
+@attribute 'ن مبارک خ' numeric
+@attribute 'ن لینا چا' numeric
+@attribute 'ن لگتیں د' numeric
+@attribute 'ن لہو اتا' numeric
+@attribute 'ن لیئے نف' numeric
+@attribute 'ن لیایقین' numeric
+@attribute 'ن لیبارٹر' numeric
+@attribute 'ن لیبر پا' numeric
+@attribute 'ن لیجیے ن' numeric
+@attribute 'ن لینا دل' numeric
+@attribute 'ن لینا ہا' numeric
+@attribute 'ن مبارک ا' numeric
+@attribute 'ن لینگے ی' numeric
+@attribute 'ن لینے رش' numeric
+@attribute 'ن لینے نک' numeric
+@attribute 'ن لینے کھ' numeric
+@attribute 'ن لیوا ثا' numeric
+@attribute 'ن لیوا خو' numeric
+@attribute 'ن لیوا پی' numeric
+@attribute 'ن لیوا ھے' numeric
+@attribute 'ن لگاتا س' numeric
+@attribute 'ن لکھا تخ' numeric
+@attribute 'ن لڑکیوں ' numeric
+@attribute 'نا آکھی د' numeric
+@attribute 'ن لوگ جگہ' numeric
+@attribute 'نا ابوہری' numeric
+@attribute 'ن لوگ صحت' numeric
+@attribute 'ن لوگ عزت' numeric
+@attribute 'ن لوگ عمر' numeric
+@attribute 'ن لوگ عوا' numeric
+@attribute 'ن لوگ نفر' numeric
+@attribute 'ن طرع اپو' numeric
+@attribute 'ن لوگ کہت' numeric
+@attribute 'ن لوگ ہیں' numeric
+@attribute 'ن لوگ یوم' numeric
+@attribute 'نا ؤ خیبر' numeric
+@attribute 'ن لوں خوش' numeric
+@attribute 'ن لپیٹے ا' numeric
+@attribute 'ن لڑ میکے' numeric
+@attribute 'ن لڑنے کھ' numeric
+@attribute 'ن لڑکی چہ' numeric
+@attribute 'ن لیک ڈر ' numeric
+@attribute 'ن لیک کنج' numeric
+@attribute 'ن لیک ہون' numeric
+@attribute 'ن مار کتے' numeric
+@attribute 'ن ماسک دی' numeric
+@attribute 'ن ماشاء ا' numeric
+@attribute 'ن مال وزی' numeric
+@attribute 'ن مالک اد' numeric
+@attribute 'ن مان رحم' numeric
+@attribute 'ن مان ڈر ' numeric
+@attribute 'ن مانتی ح' numeric
+@attribute 'ن مانتی م' numeric
+@attribute 'ن مانند ا' numeric
+@attribute 'نا آور ای' numeric
+@attribute 'ن ماننے ت' numeric
+@attribute 'ن مانگنے ' numeric
+@attribute 'ن مانگے ر' numeric
+@attribute 'ن مانیں خ' numeric
+@attribute 'ن ماںباپ ' numeric
+@attribute 'ن ماہ روز' numeric
+@attribute 'ن مایوس خ' numeric
+@attribute 'ن مارکیٹ ' numeric
+@attribute 'ن مار تا ' numeric
+@attribute 'ن لیگ بول' numeric
+@attribute 'ن ماحول ا' numeric
+@attribute 'ن لیگ حکو' numeric
+@attribute 'ن لیگ حیر' numeric
+@attribute 'ن لیگ دور' numeric
+@attribute 'ن لیگ رہن' numeric
+@attribute 'ن لیگ سپو' numeric
+@attribute 'ن لیگ فین' numeric
+@attribute 'ن لیگ مؤق' numeric
+@attribute 'ن لیگ ملک' numeric
+@attribute 'ن لیگ ووٹ' numeric
+@attribute 'ن لیگ چور' numeric
+@attribute 'ن لیگی ور' numeric
+@attribute 'ن لیںتو ھ' numeric
+@attribute 'ن لیۓ حقی' numeric
+@attribute 'ن لیۓ سوچ' numeric
+@attribute 'ن م سندہ ' numeric
+@attribute 'ن مابین ب' numeric
+@attribute 'ن ماتھے ت' numeric
+@attribute 'ن طریقوں ' numeric
+@attribute 'ن ضبط دشم' numeric
+@attribute 'ن طبقہ کم' numeric
+@attribute 'ن روس سعو' numeric
+@attribute 'ن روایت ف' numeric
+@attribute 'ن روح اصل' numeric
+@attribute 'ن روحانی ' numeric
+@attribute 'ن روز عور' numeric
+@attribute 'ن روزانہ ' numeric
+@attribute 'ن روزہ دا' numeric
+@attribute 'ن روزے دا' numeric
+@attribute 'ن روزے غص' numeric
+@attribute 'ن روشن لگ' numeric
+@attribute 'ن رمضان ل' numeric
+@attribute 'ن روم ڈسچ' numeric
+@attribute 'ن رونا رو' numeric
+@attribute 'ن روندیں ' numeric
+@attribute 'ن روپے چل' numeric
+@attribute 'ن روکتے ا' numeric
+@attribute 'ن رپورٹ م' numeric
+@attribute 'ن رپورٹ ک' numeric
+@attribute 'ن رپورٹس ' numeric
+@attribute 'ن رمضان م' numeric
+@attribute 'ن رمضان د' numeric
+@attribute 'ن راہوں ڈ' numeric
+@attribute 'ن رسول ال' numeric
+@attribute 'ن رب العز' numeric
+@attribute 'نا اداسی ' numeric
+@attribute 'ن رب کام ' numeric
+@attribute 'ن رجحانات' numeric
+@attribute 'ن رحمان ڈ' numeric
+@attribute 'ن رحیمی ا' numeric
+@attribute 'ن رخصت ال' numeric
+@attribute 'ن رسموں ڈ' numeric
+@attribute 'ن رشتوں ص' numeric
+@attribute 'ن رمضان خ' numeric
+@attribute 'ن رشتہ خت' numeric
+@attribute 'ن رشتہ ما' numeric
+@attribute 'ن رشتے طے' numeric
+@attribute 'ن رضاکار ' numeric
+@attribute 'ن رضوی اس' numeric
+@attribute 'ن رضوی تق' numeric
+@attribute 'ن رقص کنا' numeric
+@attribute 'ن رمضان ت' numeric
+@attribute 'ن رکھ خوش' numeric
+@attribute 'ن رکھ ڈر ' numeric
+@attribute 'ن رکھیں ا' numeric
+@attribute 'ن سا ھے ع' numeric
+@attribute 'ن زندگی گ' numeric
+@attribute 'ن زندگیتی' numeric
+@attribute 'ن زندہ با' numeric
+@attribute 'ن زور آور' numeric
+@attribute 'ن زکر وزی' numeric
+@attribute 'ن زیادہ ا' numeric
+@attribute 'ن زیادہ ق' numeric
+@attribute 'ن زیادہ ڈ' numeric
+@attribute 'ن سائیں ق' numeric
+@attribute 'ن رھا ھے ' numeric
+@attribute 'ن سات اشخ' numeric
+@attribute 'ن سات سر ' numeric
+@attribute 'ن ساتھی پ' numeric
+@attribute 'ن سادگی م' numeric
+@attribute 'ن سارا دن' numeric
+@attribute 'ن سارا من' numeric
+@attribute 'ن ساری جم' numeric
+@attribute 'ن ساری را' numeric
+@attribute 'ن زندگی ک' numeric
+@attribute 'ن زندگی ڈ' numeric
+@attribute 'ن زندگی م' numeric
+@attribute 'ن زندگی ف' numeric
+@attribute 'ن رھے ڈر ' numeric
+@attribute 'ن رہائشی ' numeric
+@attribute 'ن رہنما ج' numeric
+@attribute 'ن ریاستی ' numeric
+@attribute 'ن ریڑھ ہڈ' numeric
+@attribute 'ن زادوں آ' numeric
+@attribute 'ن زادہ حر' numeric
+@attribute 'ن زدہ ٹری' numeric
+@attribute 'ن زفرولح ' numeric
+@attribute 'ن زمانہ ی' numeric
+@attribute 'ن زمانے م' numeric
+@attribute 'ن زمین ال' numeric
+@attribute 'ن زنجیر ڈ' numeric
+@attribute 'ن زندگی ا' numeric
+@attribute 'ن زندگی خ' numeric
+@attribute 'ن زندگی د' numeric
+@attribute 'ن زندگی ع' numeric
+@attribute 'ن رب العا' numeric
+@attribute 'ن راشن لی' numeric
+@attribute 'ن طبعی رج' numeric
+@attribute 'ن دوست ہی' numeric
+@attribute 'ن دنیا کا' numeric
+@attribute 'ن دوبھائی' numeric
+@attribute 'نا از قلم' numeric
+@attribute 'ن دور شکر' numeric
+@attribute 'ن دور عرب' numeric
+@attribute 'ن دور مکم' numeric
+@attribute 'ن دوزخ ڈا' numeric
+@attribute 'ن دوست ہم' numeric
+@attribute 'ن دوستی ق' numeric
+@attribute 'ن دنیا می' numeric
+@attribute 'ن دوستی پ' numeric
+@attribute 'ن دوسرے ا' numeric
+@attribute 'ن دوسرے م' numeric
+@attribute 'ن دولت قل' numeric
+@attribute 'ن دونوں ب' numeric
+@attribute 'ن دونوں م' numeric
+@attribute 'ن دوڑ کور' numeric
+@attribute 'ن دوکاندا' numeric
+@attribute 'ن دنیا وز' numeric
+@attribute 'ن دنیا من' numeric
+@attribute 'ن راز بنا' numeric
+@attribute 'ن دن رات ' numeric
+@attribute 'ن دلوں اد' numeric
+@attribute 'ن دلوں ڈر' numeric
+@attribute 'ن دلی خوش' numeric
+@attribute 'ن دلی صدم' numeric
+@attribute 'ن دلیر مز' numeric
+@attribute 'ن دن حالا' numeric
+@attribute 'ن دن دن ب' numeric
+@attribute 'ن دن دن د' numeric
+@attribute 'ن دن سا ھ' numeric
+@attribute 'ن دنیا عا' numeric
+@attribute 'ن دن منکر' numeric
+@attribute 'ن دن کتنے' numeric
+@attribute 'ن دن کیلے' numeric
+@attribute 'ن دن گھوم' numeric
+@attribute 'ن دن ھے ب' numeric
+@attribute 'ن دنیا سا' numeric
+@attribute 'نا ازخود ' numeric
+@attribute 'ن دنیا صن' numeric
+@attribute 'ن دکھ پیم' numeric
+@attribute 'ن دکھتا ا' numeric
+@attribute 'ن دھتی را' numeric
+@attribute 'ن ذبابۃجا' numeric
+@attribute 'ن دیکھ عر' numeric
+@attribute 'ن دیکھ غا' numeric
+@attribute 'ن دیکھ قو' numeric
+@attribute 'ن دیکھا پ' numeric
+@attribute 'ن دیکھی ک' numeric
+@attribute 'ن دیکھیں ' numeric
+@attribute 'ن دیگربیم' numeric
+@attribute 'ن ذات مسخ' numeric
+@attribute 'ن ذرائع 🤓' numeric
+@attribute 'ن دھتی کہ' numeric
+@attribute 'ن ذلیل دئ' numeric
+@attribute 'ن ذکر دل ' numeric
+@attribute 'ن رات بدل' numeric
+@attribute 'ن رات رشی' numeric
+@attribute 'ن رات سون' numeric
+@attribute 'ن رات مصر' numeric
+@attribute 'ن رات نفر' numeric
+@attribute 'ن راجہ دا' numeric
+@attribute 'ن دیکھ خو' numeric
+@attribute 'ن دیوار ب' numeric
+@attribute 'ن دیندے ن' numeric
+@attribute 'ن دین غیر' numeric
+@attribute 'ن دھرتی ن' numeric
+@attribute 'ن دھمکی ب' numeric
+@attribute 'ن دھمکی ٹ' numeric
+@attribute 'ن دھو ڈر ' numeric
+@attribute 'ن دھونے ف' numeric
+@attribute 'نا ادبکاس' numeric
+@attribute 'ن دھونے ڈ' numeric
+@attribute 'ن دھونے 🤢' numeric
+@attribute 'ن دھوپ شد' numeric
+@attribute 'ن دہ ہےنی' numeric
+@attribute 'ن دہر عیا' numeric
+@attribute 'ن دہشتگرد' numeric
+@attribute 'ن دہلی قت' numeric
+@attribute 'ن دہلیز ح' numeric
+@attribute 'ن دیدنی ص' numeric
+@attribute 'ن دیری او' numeric
+@attribute 'ن دین علم' numeric
+@attribute 'ن ساری عم' numeric
+@attribute 'ن سازشیں ' numeric
+@attribute 'ن سال دنی' numeric
+@attribute 'ن شعور ان' numeric
+@attribute 'ن شروع ال' numeric
+@attribute 'ن شروع در' numeric
+@attribute 'ن شروع مس' numeric
+@attribute 'ن شرٹس یا' numeric
+@attribute 'ن شریر آن' numeric
+@attribute 'ن شریف آچ' numeric
+@attribute 'ن شریف وز' numeric
+@attribute 'ن شریف ٹو' numeric
+@attribute 'ن شفاء ضر' numeric
+@attribute 'ن شرم نہی' numeric
+@attribute 'ن شور تاج' numeric
+@attribute 'ن شوق ارد' numeric
+@attribute 'ن شوق تمن' numeric
+@attribute 'ن شوکت مس' numeric
+@attribute 'ن شوہر ہن' numeric
+@attribute 'ن شکئی تع' numeric
+@attribute 'ن شکار حی' numeric
+@attribute 'ن شکار لف' numeric
+@attribute 'ن شرما گی' numeric
+@attribute 'ن شرم حیا' numeric
+@attribute 'ن سال مخت' numeric
+@attribute 'ن شاہد نو' numeric
+@attribute 'ن شاندار ' numeric
+@attribute 'ن شاٹ لیک' numeric
+@attribute 'ن شاکر بو' numeric
+@attribute 'ن شاکر نم' numeric
+@attribute 'ن شاھد من' numeric
+@attribute 'ن شاہ محم' numeric
+@attribute 'ن شاہد بل' numeric
+@attribute 'ن شاہد جا' numeric
+@attribute 'ن شاہد کا' numeric
+@attribute 'ن شدید ات' numeric
+@attribute 'ن شاہین ج' numeric
+@attribute 'ن شخص اسل' numeric
+@attribute 'ن شخص انس' numeric
+@attribute 'ن شخص تفت' numeric
+@attribute 'ن شخص رمض' numeric
+@attribute 'ن شخص فوج' numeric
+@attribute 'ن شخص ڈر ' numeric
+@attribute 'ن شخص کٹھ' numeric
+@attribute 'ن شکایت خ' numeric
+@attribute 'ن شکل دیک' numeric
+@attribute 'ن شکل نفر' numeric
+@attribute 'ن صوبہ پن' numeric
+@attribute 'ن صحتمند ' numeric
+@attribute 'ن صحرا بے' numeric
+@attribute 'ن صدارتی ' numeric
+@attribute 'ن صدر ممل' numeric
+@attribute 'ن صفحۂ ہس' numeric
+@attribute 'ن صفورا گ' numeric
+@attribute 'ن صلی الل' numeric
+@attribute 'ن صوبوں ن' numeric
+@attribute 'ن صوبے دو' numeric
+@attribute 'ن شکن غدا' numeric
+@attribute 'ن صورت حا' numeric
+@attribute 'ن ملتا ہو' numeric
+@attribute 'ن ضد سماج' numeric
+@attribute 'ن ضد پائے' numeric
+@attribute 'ن ضرب عضب' numeric
+@attribute 'ن ضرورت خ' numeric
+@attribute 'ن ضروری ھ' numeric
+@attribute 'ن طاقتور ' numeric
+@attribute 'ن صحافیوں' numeric
+@attribute 'ن صحافی چ' numeric
+@attribute 'ن صحافی ح' numeric
+@attribute 'ن صحافت س' numeric
+@attribute 'ن شھید جا' numeric
+@attribute 'ن شہ رگ ق' numeric
+@attribute 'ن شہادت خ' numeric
+@attribute 'ن شہباز گ' numeric
+@attribute 'ن شہر ڈین' numeric
+@attribute 'ن شہری کر' numeric
+@attribute 'ن شیر شیر' numeric
+@attribute 'ن شیر غصہ' numeric
+@attribute 'ن شیطان ب' numeric
+@attribute 'ن شیطان ت' numeric
+@attribute 'ن شیطان ف' numeric
+@attribute 'ن شیطان ہ' numeric
+@attribute 'ن صاب با ' numeric
+@attribute 'ن صاب ٹھی' numeric
+@attribute 'ن صاحبڈر ' numeric
+@attribute 'ن صب سلیم' numeric
+@attribute 'نا اداس ک' numeric
+@attribute 'ن شانتی گ' numeric
+@attribute 'ن شانتی ص' numeric
+@attribute 'ن شامل ہن' numeric
+@attribute 'ن سمجھتا ' numeric
+@attribute 'ن سلمان ا' numeric
+@attribute 'ن سلوک او' numeric
+@attribute 'ن سلوک پی' numeric
+@attribute 'ن سماجی ر' numeric
+@attribute 'ن سمارٹ ل' numeric
+@attribute 'ن سمجھ آگ' numeric
+@attribute 'ن سمجھ چی' numeric
+@attribute 'ن سمجھ گے' numeric
+@attribute 'ن سمجھتے ' numeric
+@attribute 'ن سو قسط ' numeric
+@attribute 'ن سمری بج' numeric
+@attribute 'ن سمگلنگ ' numeric
+@attribute 'ن سن لوگ ' numeric
+@attribute 'ن سنتے پی' numeric
+@attribute 'ن سنجیدگی' numeric
+@attribute 'ن سندھی ا' numeric
+@attribute 'ن سنسان س' numeric
+@attribute 'ن سنوں سم' numeric
+@attribute 'ن سفید گل' numeric
+@attribute 'ن سفر کرر' numeric
+@attribute 'ن سفر سنگ' numeric
+@attribute 'ن سفر بس ' numeric
+@attribute 'ن سال پرا' numeric
+@attribute 'ن سانپ رو' numeric
+@attribute 'ن سانپ ٹی' numeric
+@attribute 'ن سانپوں ' numeric
+@attribute 'ن سبجیکٹ ' numeric
+@attribute 'ن سبزہ چا' numeric
+@attribute 'ن ستاروں ' numeric
+@attribute 'ن ستارے ن' numeric
+@attribute 'ن سجائے پ' numeric
+@attribute 'ن سر اٹھا' numeric
+@attribute 'ن سر زمین' numeric
+@attribute 'ن سر ملے ' numeric
+@attribute 'ن سرحد عق' numeric
+@attribute 'ن سرمایہ ' numeric
+@attribute 'ن سزا معذ' numeric
+@attribute 'ن سزائے م' numeric
+@attribute 'ن سعودی ع' numeric
+@attribute 'ن سو برس ' numeric
+@attribute 'ن سو گلی ' numeric
+@attribute 'ن شامل بس' numeric
+@attribute 'ن سیٹ بیٹ' numeric
+@attribute 'ن سگے ماں' numeric
+@attribute 'ن سیاست ج' numeric
+@attribute 'ن سیاستدا' numeric
+@attribute 'ن سید عقی' numeric
+@attribute 'ن سیدہخدی' numeric
+@attribute 'ن سیریس ن' numeric
+@attribute 'ن سینیٹائ' numeric
+@attribute 'ن سینے بو' numeric
+@attribute 'ن سیکلر ہ' numeric
+@attribute 'ن سوجھ بو' numeric
+@attribute 'ن سیکھیں ' numeric
+@attribute 'ن سےبالات' numeric
+@attribute 'ن سےجسطرح' numeric
+@attribute 'ن سےقہقہے' numeric
+@attribute 'ن سےکیوں ' numeric
+@attribute 'ن سےہےاتن' numeric
+@attribute 'ن شادی من' numeric
+@attribute 'ن شارٹ ما' numeric
+@attribute 'ن سکولز ک' numeric
+@attribute 'ن سکنہ شک' numeric
+@attribute 'ن سکتی خو' numeric
+@attribute 'ن سڑکیں و' numeric
+@attribute 'ن سوجی بھ' numeric
+@attribute 'ن سورۃ نم' numeric
+@attribute 'ن سوسائٹی' numeric
+@attribute 'ن سوشل می' numeric
+@attribute 'ن سوچ اتن' numeric
+@attribute 'ن سوچ سمج' numeric
+@attribute 'ن سوچ سکت' numeric
+@attribute 'ن سوچتی آ' numeric
+@attribute 'ن سوچوں ق' numeric
+@attribute 'ن سوچوں پ' numeric
+@attribute 'ن سوچے سم' numeric
+@attribute 'ن سوکھے پ' numeric
+@attribute 'ن سوے سال' numeric
+@attribute 'ن سٹائل م' numeric
+@attribute 'ن سٹاپ ٹر' numeric
+@attribute 'ن سچ بولے' numeric
+@attribute 'ن سڑکیں د' numeric
+@attribute 'ن ملتا جل' numeric
+@attribute 'ن ممکن کی' numeric
+@attribute 'ن ملنا شر' numeric
+@attribute 'ن کمی لار' numeric
+@attribute 'ن کلیاں ن' numeric
+@attribute 'ن کلینک ب' numeric
+@attribute 'ن کلینیکل' numeric
+@attribute 'ن کمائی ک' numeric
+@attribute 'ن کمال نظ' numeric
+@attribute 'ن کمال کی' numeric
+@attribute 'ن کمال ھو' numeric
+@attribute 'ن کمزوری ' numeric
+@attribute 'ن کمیونٹی' numeric
+@attribute 'نا آج اسا' numeric
+@attribute 'ن کنجروں ' numeric
+@attribute 'ن کوئ فرق' numeric
+@attribute 'ن کودیتاہ' numeric
+@attribute 'ن کورونا ' numeric
+@attribute 'ن کوریج د' numeric
+@attribute 'ن کوشش ای' numeric
+@attribute 'ن کوشش لا' numeric
+@attribute 'ن کومیسر ' numeric
+@attribute 'ن کلاسز ط' numeric
+@attribute 'ن کلاسز ش' numeric
+@attribute 'ن کرونا ت' numeric
+@attribute 'ن کرپٹعمر' numeric
+@attribute 'ن کرونا ص' numeric
+@attribute 'ن کرونا ف' numeric
+@attribute 'ن کرونا ل' numeric
+@attribute 'ن کرونا و' numeric
+@attribute 'نا آج نین' numeric
+@attribute 'ن کرونا ٹ' numeric
+@attribute 'ن کرونا ڈ' numeric
+@attribute 'ن کرپشن ر' numeric
+@attribute 'ن کرکٹ دک' numeric
+@attribute 'ن کلاسز س' numeric
+@attribute 'ن کرکے حک' numeric
+@attribute 'ن کریم آز' numeric
+@attribute 'ن کریک ڈا' numeric
+@attribute 'ن کریگا ب' numeric
+@attribute 'نا آج زما' numeric
+@attribute 'ن کشمیر م' numeric
+@attribute 'ن کفر بیٹ' numeric
+@attribute 'ن کفیل را' numeric
+@attribute 'ن کونہیں ' numeric
+@attribute 'ن کونے مم' numeric
+@attribute 'ن کووڈ ان' numeric
+@attribute 'ن کہتے کھ' numeric
+@attribute 'ن کہانی ح' numeric
+@attribute 'ن کہانیاں' numeric
+@attribute 'ن کہاکیا ' numeric
+@attribute 'ن کہتا دل' numeric
+@attribute 'ن کہتا کف' numeric
+@attribute 'ن کہتے دی' numeric
+@attribute 'نئے کلاس ' numeric
+@attribute 'ن کہتے ڈر' numeric
+@attribute 'ن کہتے کہ' numeric
+@attribute 'ن کووڈ مر' numeric
+@attribute 'ن کہلاتا ' numeric
+@attribute 'ن کہنا آر' numeric
+@attribute 'نئے کرنسی' numeric
+@attribute 'ن کہنا شر' numeric
+@attribute 'ن کہنا پر' numeric
+@attribute 'ن کہنا ھے' numeric
+@attribute 'ن کہنے حا' numeric
+@attribute 'ن کہوں ات' numeric
+@attribute 'ن کہاجاتا' numeric
+@attribute 'ن کھیلے ​' numeric
+@attribute 'ن کھیل کھ' numeric
+@attribute 'ن کھیل کو' numeric
+@attribute 'ن کوٸی قد' numeric
+@attribute 'ن کپڑے ات' numeric
+@attribute 'ن کپڑے مخ' numeric
+@attribute 'ن کچلنے ب' numeric
+@attribute 'ن کڈیاں ی' numeric
+@attribute 'ن کڑ کڑات' numeric
+@attribute 'ن کھائیں ' numeric
+@attribute 'ن کھاتے ڈ' numeric
+@attribute 'ن کھلی مل' numeric
+@attribute 'ن کھمبوں ' numeric
+@attribute 'ن کھو خوف' numeric
+@attribute 'ن کھول چی' numeric
+@attribute 'ن کھولا ح' numeric
+@attribute 'ن کھولووا' numeric
+@attribute 'ن کھڑا شخ' numeric
+@attribute 'ن کھڑے رو' numeric
+@attribute 'ن کھڑے صن' numeric
+@attribute 'ن کرونا س' numeric
+@attribute 'ن کروایا ' numeric
+@attribute 'ن ملنے گے' numeric
+@attribute 'ن ڈر شریع' numeric
+@attribute 'ن ڈر بھوک' numeric
+@attribute 'ن ڈر جان ' numeric
+@attribute 'ن ڈر حق آ' numeric
+@attribute 'ن ڈر خوف ' numeric
+@attribute 'ن ڈر دن گ' numeric
+@attribute 'ن ڈر دھن ' numeric
+@attribute 'ن ڈر ذاکر' numeric
+@attribute 'ن ڈر سنان' numeric
+@attribute 'ن ڈر عمرا' numeric
+@attribute 'ن ڈر اک ر' numeric
+@attribute 'ن ڈر لاک ' numeric
+@attribute 'ن ڈر مزدو' numeric
+@attribute 'ن ڈر مناظ' numeric
+@attribute 'ن ڈر نواز' numeric
+@attribute 'ن ڈر نہی ' numeric
+@attribute 'ن ڈر پڑھ ' numeric
+@attribute 'ن ڈر پیدا' numeric
+@attribute 'ن ڈر ڈرپو' numeric
+@attribute 'ن ڈر بات ' numeric
+@attribute 'ن ڈر اورج' numeric
+@attribute 'ن کررہی د' numeric
+@attribute 'ن چیز بے ' numeric
+@attribute 'ن چھوڑ چل' numeric
+@attribute 'ن چھوڑنا ' numeric
+@attribute 'ن چھٹی گھ' numeric
+@attribute 'ن چہرے تا' numeric
+@attribute 'ن چہرے خو' numeric
+@attribute 'ن چہرے پے' numeric
+@attribute 'ن چہرے ہا' numeric
+@attribute 'ن چیز اتن' numeric
+@attribute 'ن چیز زیا' numeric
+@attribute 'ن ڈر آیت ' numeric
+@attribute 'ن چیز پاک' numeric
+@attribute 'ن چیزوں د' numeric
+@attribute 'ن چینج خو' numeric
+@attribute 'ن چیک کرو' numeric
+@attribute 'ن چیک یسر' numeric
+@attribute 'ن ڈائریکٹ' numeric
+@attribute 'ن ڈالئ ڈا' numeric
+@attribute 'ن ڈاکٹرز ' numeric
+@attribute 'ن ڈر کراچ' numeric
+@attribute 'ن ڈر کہتا' numeric
+@attribute 'ن ڈر ں اخ' numeric
+@attribute 'ن کتاب ان' numeric
+@attribute 'ن کاموں ت' numeric
+@attribute 'ن کانوں ہ' numeric
+@attribute 'ن کاٹ ادا' numeric
+@attribute 'ن کاٹتا م' numeric
+@attribute 'ن کاٹے جا' numeric
+@attribute 'ن کاکرونا' numeric
+@attribute 'ن کاہےبجل' numeric
+@attribute 'ن کبہی دی' numeric
+@attribute 'ن کتنا بی' numeric
+@attribute 'ن ڈر ھے ک' numeric
+@attribute 'ن کتنی عج' numeric
+@attribute 'ن کتنے اچ' numeric
+@attribute 'ن کتورے پ' numeric
+@attribute 'ن کثرت تل' numeric
+@attribute 'ن کدہر خا' numeric
+@attribute 'ن کرانے پ' numeric
+@attribute 'ن کردہ پی' numeric
+@attribute 'ن کررکھی ' numeric
+@attribute 'ن کام دوس' numeric
+@attribute 'ن کام تھو' numeric
+@attribute 'ن کال پور' numeric
+@attribute 'ن کافی دن' numeric
+@attribute 'ن ڈر ہوگا' numeric
+@attribute 'ن ڈر ہےہی' numeric
+@attribute 'ن ڈرائیور' numeric
+@attribute 'ن ڈرامے ب' numeric
+@attribute 'نا آخری ا' numeric
+@attribute 'ن ڈرامے د' numeric
+@attribute 'ن ڈرتے نئ' numeric
+@attribute 'ن ڈرنا چھ' numeric
+@attribute 'ن ڈرنے لی' numeric
+@attribute 'ن ڈوبی ڈر' numeric
+@attribute 'ن ڈپریشن ' numeric
+@attribute 'ن ڈھلے دن' numeric
+@attribute 'ن ڈی این ' numeric
+@attribute 'ن ڈیوڈ سف' numeric
+@attribute 'ن کااحترا' numeric
+@attribute 'ن کاروبار' numeric
+@attribute 'ن کاری نف' numeric
+@attribute 'ن کیاگیا ' numeric
+@attribute 'نئے نام ش' numeric
+@attribute 'ن کیاگیاو' numeric
+@attribute 'ن ہوے ڈر ' numeric
+@attribute 'ن ہولی دی' numeric
+@attribute 'ن ہولیکن ' numeric
+@attribute 'ن ہوکے می' numeric
+@attribute 'ن ہوگا بھ' numeric
+@attribute 'نئے شگوفے' numeric
+@attribute 'ن ہوگا شی' numeric
+@attribute 'ن ہوگی کھ' numeric
+@attribute 'ن ہوگیا غ' numeric
+@attribute 'ن ہین لوگ' numeric
+@attribute 'ن ہوتئ ہئ' numeric
+@attribute 'ن ہین ہند' numeric
+@attribute 'ن ہیںحالا' numeric
+@attribute 'ن ہےاس دہ' numeric
+@attribute 'ن ہےاور ش' numeric
+@attribute 'ن ہےجو اپ' numeric
+@attribute 'ن ہےپرائز' numeric
+@attribute 'ن یاد دھا' numeric
+@attribute 'ن یاد شاد' numeric
+@attribute 'ن ہوجاۓ خ' numeric
+@attribute 'ن ہواہےمس' numeric
+@attribute 'ن کیجئےآپ' numeric
+@attribute 'ن ہندؤں ا' numeric
+@attribute 'ن ہرجگہ ش' numeric
+@attribute 'ن ہرروز د' numeric
+@attribute 'ن ہزاروں ' numeric
+@attribute 'ن ہمواریو' numeric
+@attribute 'ن ہمیشہ ت' numeric
+@attribute 'ن ہمیشہ خ' numeric
+@attribute 'ن ہمیشہ س' numeric
+@attribute 'ن ہن وی ت' numeric
+@attribute 'ن ہندو دن' numeric
+@attribute 'ن ہواللہ ' numeric
+@attribute 'ن ہندو لڑ' numeric
+@attribute 'ن ہندو ہن' numeric
+@attribute 'ن ہندو ہے' numeric
+@attribute 'ن ہنسانے ' numeric
+@attribute 'ن ہنسنا س' numeric
+@attribute 'ن ہنسی جہ' numeric
+@attribute 'ن ہنسی خو' numeric
+@attribute 'ن ہنسی لب' numeric
+@attribute 'ن یاد مکا' numeric
+@attribute 'ن یاد کوش' numeric
+@attribute 'ن یادوں ز' numeric
+@attribute 'نئی ڈر وز' numeric
+@attribute 'نئی بات م' numeric
+@attribute 'نئی تحقیق' numeric
+@attribute 'نئی جاےگا' numeric
+@attribute 'نئی دنیا ' numeric
+@attribute 'نئی صبح ن' numeric
+@attribute 'نئی عمیر ' numeric
+@attribute 'نئی مہم س' numeric
+@attribute 'نئی نیی س' numeric
+@attribute 'نئیبات با' numeric
+@attribute 'ن یارب ال' numeric
+@attribute 'نئیر بنتا' numeric
+@attribute 'نئیر پارل' numeric
+@attribute 'نئیں تائی' numeric
+@attribute 'نئے ایڈمش' numeric
+@attribute 'نئے حیرت ' numeric
+@attribute 'نئے خد خا' numeric
+@attribute 'نئے دیوان' numeric
+@attribute 'نئے زیادہ' numeric
+@attribute 'نئی بات ب' numeric
+@attribute 'نئس ثابت ' numeric
+@attribute 'نئر محمد ' numeric
+@attribute 'نئر صحافی' numeric
+@attribute 'ن یارو سی' numeric
+@attribute 'ن یاری ہم' numeric
+@attribute 'ن یاں ہات' numeric
+@attribute 'ن یریکٹر ' numeric
+@attribute 'ن یقین آخ' numeric
+@attribute 'ن یقین مش' numeric
+@attribute 'ن یقینا ا' numeric
+@attribute 'ن یلغار غ' numeric
+@attribute 'ن یو وارڈ' numeric
+@attribute 'ن یوتھ ون' numeric
+@attribute 'ن یومے وص' numeric
+@attribute 'ن یونیورس' numeric
+@attribute 'ن یے نعرا' numeric
+@attribute 'ن 🥰🥰 خوشی' numeric
+@attribute 'نء نااہل ' numeric
+@attribute 'نآیاٹھگگھ' numeric
+@attribute 'نئ دیکھات' numeric
+@attribute 'ن ہتھیار ' numeric
+@attribute 'ن ہا ہا ہ' numeric
+@attribute 'ن ھےاور ھ' numeric
+@attribute 'ن گروپ قد' numeric
+@attribute 'ن گانے صا' numeric
+@attribute 'ن گاڑیوں ' numeric
+@attribute 'ن گدھا بہ' numeric
+@attribute 'ن گرج انص' numeric
+@attribute 'ن گردانتی' numeric
+@attribute 'ن گرفتاری' numeric
+@attribute 'ن گرنے ڈر' numeric
+@attribute 'ن گروپ ان' numeric
+@attribute 'ن گروپ لو' numeric
+@attribute 'ن گلے تون' numeric
+@attribute 'ن گروپ پر' numeric
+@attribute 'ن گروی رک' numeric
+@attribute 'ن گزارتے ' numeric
+@attribute 'ن گزاریں ' numeric
+@attribute 'ن گزر گے ' numeric
+@attribute 'ن گزرتا ک' numeric
+@attribute 'نئے غصہ ا' numeric
+@attribute 'ن گزرتے ب' numeric
+@attribute 'ن گالیوں ' numeric
+@attribute 'ن گالیاں ' numeric
+@attribute 'نئے مکان ' numeric
+@attribute 'ن گالی نک' numeric
+@attribute 'ن کیجیئے ' numeric
+@attribute 'ن کیجیے ز' numeric
+@attribute 'ن کیخلاف ' numeric
+@attribute 'ن کیساتھ ' numeric
+@attribute 'ن کیسز بت' numeric
+@attribute 'ن کیلیے خ' numeric
+@attribute 'ن کیلیے ک' numeric
+@attribute 'ن کیلے دن' numeric
+@attribute 'ن کیڑے ہو' numeric
+@attribute 'ن کےاخبار' numeric
+@attribute 'ن کےان تک' numeric
+@attribute 'ن کےجھولے' numeric
+@attribute 'ن کےخلاف ' numeric
+@attribute 'ن کےدربار' numeric
+@attribute 'ن کےلفظ س' numeric
+@attribute 'ن گارہا ڈ' numeric
+@attribute 'ن گالی با' numeric
+@attribute 'ن گلیاں ج' numeric
+@attribute 'ن گناہوں ' numeric
+@attribute 'ن ھے گالی' numeric
+@attribute 'ن ھوتی ھے' numeric
+@attribute 'ن ھائی ذر' numeric
+@attribute 'ن ھاں کہا' numeric
+@attribute 'ن ھم خوشی' numeric
+@attribute 'ن ھم زندہ' numeric
+@attribute 'ن ھمارے ا' numeric
+@attribute 'ن ھو جانو' numeric
+@attribute 'ن ھو گئیک' numeric
+@attribute 'ن ھوا ادا' numeric
+@attribute 'ن ھون ڈر ' numeric
+@attribute 'ن گندم کا' numeric
+@attribute 'ن ھونے نش' numeric
+@attribute 'ن ھوں گیم' numeric
+@attribute 'ن ھی اسلے' numeric
+@attribute 'ن ھی ھے ب' numeric
+@attribute 'ن ھے اسلے' numeric
+@attribute 'ن ھے بزرگ' numeric
+@attribute 'ن ھے تکلی' numeric
+@attribute 'ن ھے چوتھ' numeric
+@attribute 'ن گے گولی' numeric
+@attribute 'ن گے ٹوئی' numeric
+@attribute 'ن گے دنیا' numeric
+@attribute 'ن گے خبر ' numeric
+@attribute 'ن گندی او' numeric
+@attribute 'ن گنڈوں ج' numeric
+@attribute 'ن گوئی جھ' numeric
+@attribute 'ن گوئیاں ' numeric
+@attribute 'ن گودی می' numeric
+@attribute 'ن گورنر ا' numeric
+@attribute 'ن گورنمنٹ' numeric
+@attribute 'ن گونجنی ' numeric
+@attribute 'ن گھر ادا' numeric
+@attribute 'ن گھر محص' numeric
+@attribute 'ن گھر چھت' numeric
+@attribute 'ن گھر کام' numeric
+@attribute 'ن گھروں ق' numeric
+@attribute 'ن گھوم وا' numeric
+@attribute 'ن گھومنا ' numeric
+@attribute 'ن گھڑی ال' numeric
+@attribute 'ن گیم لگا' numeric
+@attribute 'ن چھو سجد' numeric
+@attribute 'ن چڑھایا ' numeric
+@attribute 'ن چڑھ وقت' numeric
+@attribute 'ن ننگی چو' numeric
+@attribute 'ن نفرت چن' numeric
+@attribute 'ن نفرت ھو' numeric
+@attribute 'ن نفرت ھے' numeric
+@attribute 'ن نقصان د' numeric
+@attribute 'ن نقوی دش' numeric
+@attribute 'ن نقوی گد' numeric
+@attribute 'ن نم آنکھ' numeric
+@attribute 'ن نمودعشق' numeric
+@attribute 'ن نواز شر' numeric
+@attribute 'ن نفرت پی' numeric
+@attribute 'ن نور سو ' numeric
+@attribute 'ن نوں غصہ' numeric
+@attribute 'ن نوں قاب' numeric
+@attribute 'ن نٻازی م' numeric
+@attribute 'ن نکاتی ف' numeric
+@attribute 'ن نکاح مر' numeric
+@attribute 'ن نکالتا ' numeric
+@attribute 'ن نکل مطل' numeric
+@attribute 'ن نفرت چل' numeric
+@attribute 'ن نفرت پھ' numeric
+@attribute 'ن وزیراعظ' numeric
+@attribute 'ن نفرت بھ' numeric
+@attribute 'ن نفرت آگ' numeric
+@attribute 'ن نفرت ات' numeric
+@attribute 'ن نفرت از' numeric
+@attribute 'ن نفرت اس' numeric
+@attribute 'ن نفرت با' numeric
+@attribute 'ن نفرت بج' numeric
+@attribute 'ن نفرت بز' numeric
+@attribute 'نا آنکھوں' numeric
+@attribute 'ن نفرت بی' numeric
+@attribute 'ن نفرت پر' numeric
+@attribute 'ن نفرت جا' numeric
+@attribute 'ن نفرت در' numeric
+@attribute 'ن نفرت دل' numeric
+@attribute 'ن نفرت دی' numeric
+@attribute 'ن نفرت لو' numeric
+@attribute 'ن نفرت وق' numeric
+@attribute 'ن نفرت ٹن' numeric
+@attribute 'ن نفرت پا' numeric
+@attribute 'ن نکلا ھے' numeric
+@attribute 'ن نہایت ق' numeric
+@attribute 'ن نہتے مس' numeric
+@attribute 'ن واحد کو' numeric
+@attribute 'ن نیوز نی' numeric
+@attribute 'ن نیوز یک' numeric
+@attribute 'ن نیٹ فلی' numeric
+@attribute 'ن نیک تمن' numeric
+@attribute 'ن نیں کرو' numeric
+@attribute 'ن نےمسلما' numeric
+@attribute 'ن واحد مل' numeric
+@attribute 'ن واحد کر' numeric
+@attribute 'ن واقع پا' numeric
+@attribute 'ن نہی سوچ' numeric
+@attribute 'ن واقف حی' numeric
+@attribute 'ن وجود دن' numeric
+@attribute 'ن وحشت چھ' numeric
+@attribute 'ن وحی بند' numeric
+@attribute 'ن وردی غر' numeric
+@attribute 'ن ورکر وا' numeric
+@attribute 'ن وزارعظم' numeric
+@attribute 'ن وزراء م' numeric
+@attribute 'ن نیند آن' numeric
+@attribute 'ن نیت رب ' numeric
+@attribute 'ن نیب ڈر ' numeric
+@attribute 'ن نیب دفت' numeric
+@attribute 'ن نہیںاگر' numeric
+@attribute 'ن نیا چان' numeric
+@attribute 'ن نیازی ا' numeric
+@attribute 'ن نیازی ب' numeric
+@attribute 'ن نیازی ت' numeric
+@attribute 'نا آنسوں ' numeric
+@attribute 'ن نیازی ج' numeric
+@attribute 'ن نیازی خ' numeric
+@attribute 'نا آنسو ہ' numeric
+@attribute 'ن نیازی د' numeric
+@attribute 'ن نیازی ر' numeric
+@attribute 'ن نیازی ز' numeric
+@attribute 'ن نیازی غ' numeric
+@attribute 'ن نیازی ق' numeric
+@attribute 'ن نیازی م' numeric
+@attribute 'ن نیازیبھ' numeric
+@attribute 'ن نیب تیس' numeric
+@attribute 'ن نعرہ لگ' numeric
+@attribute 'ن نظر کچل' numeric
+@attribute 'ن نظر دہک' numeric
+@attribute 'ن مووی عو' numeric
+@attribute 'ن موت سیڑ' numeric
+@attribute 'ن موجودہ ' numeric
+@attribute 'ن مودی کھ' numeric
+@attribute 'ن موسم خا' numeric
+@attribute 'ن دلانے م' numeric
+@attribute 'ن موقر جر' numeric
+@attribute 'ن مولانا ' numeric
+@attribute 'ن مولوی ت' numeric
+@attribute 'ن مٹی تیل' numeric
+@attribute 'ن مہینہ ک' numeric
+@attribute 'ن مڑیا زہ' numeric
+@attribute 'ن مکمل ثب' numeric
+@attribute 'ن مکمل جد' numeric
+@attribute 'ن مکمل حو' numeric
+@attribute 'ن مگرمچھ ' numeric
+@attribute 'ن مہلک کر' numeric
+@attribute 'ن مہک اٹھ' numeric
+@attribute 'ن مہینہ آ' numeric
+@attribute 'ن موت دعو' numeric
+@attribute 'ن موت اعم' numeric
+@attribute 'ن موبائل ' numeric
+@attribute 'ن منھ ف ک' numeric
+@attribute 'ن ملک بات' numeric
+@attribute 'ن ملک صدر' numeric
+@attribute 'ن ملک لوٹ' numeric
+@attribute 'ن ملک ہند' numeric
+@attribute 'ن ملکوں ج' numeric
+@attribute 'ن ممالک ط' numeric
+@attribute 'نئے سرے ج' numeric
+@attribute 'ن من جان ' numeric
+@attribute 'ن منا رے ' numeric
+@attribute 'ن منائیں ' numeric
+@attribute 'ن منائےگی' numeric
+@attribute 'ن منجھی م' numeric
+@attribute 'ن منزل دہ' numeric
+@attribute 'ن منسٹر ع' numeric
+@attribute 'ن منفرد ب' numeric
+@attribute 'ن منکرین ' numeric
+@attribute 'ن منگول ک' numeric
+@attribute 'ن مہینہ ل' numeric
+@attribute 'ن مہینے خ' numeric
+@attribute 'ن نظر اند' numeric
+@attribute 'ن نرمی شی' numeric
+@attribute 'ن نام فرق' numeric
+@attribute 'ن نام قتل' numeric
+@attribute 'ن نام لین' numeric
+@attribute 'ن نامکمل ' numeric
+@attribute 'ن نامی شخ' numeric
+@attribute 'ن ناپتا ن' numeric
+@attribute 'ن نایاب و' numeric
+@attribute 'ن نثار پر' numeric
+@attribute 'ن نسل نفر' numeric
+@attribute 'ن مہینے ع' numeric
+@attribute 'ن نسلیں ظ' numeric
+@attribute 'ن نشانہ ب' numeric
+@attribute 'ن نشانہ ج' numeric
+@attribute 'ن نشانی خ' numeric
+@attribute 'ن نشانی ع' numeric
+@attribute 'ن نصب لوگ' numeric
+@attribute 'ن نصیب ڈر' numeric
+@attribute 'ن نصیب ہے' numeric
+@attribute 'ن نام عطی' numeric
+@attribute 'ن نام رمض' numeric
+@attribute 'ن نام بدل' numeric
+@attribute 'ن نالائقی' numeric
+@attribute 'ن می ایسا' numeric
+@attribute 'ن میانداد' numeric
+@attribute 'ن میر شکی' numeric
+@attribute 'ن میزبانی' numeric
+@attribute 'ن میسج با' numeric
+@attribute 'ن میل دل ' numeric
+@attribute 'ن میم خیر' numeric
+@attribute 'ن میمن غی' numeric
+@attribute 'ن میمن کو' numeric
+@attribute 'ن مین سفر' numeric
+@attribute 'ن میڈیا ب' numeric
+@attribute 'ن میڈیا م' numeric
+@attribute 'ن میڈیا ہ' numeric
+@attribute 'ن میک دیک' numeric
+@attribute 'ن میںعباد' numeric
+@attribute 'ن ناتجربہ' numeric
+@attribute 'ن نازی جر' numeric
+@attribute 'ن وزٹ قدی' numeric
+@attribute 'ن وزیرستا' numeric
+@attribute 'ن چڑانے م' numeric
+@attribute 'ن پہولون ' numeric
+@attribute 'ن پھولوں ' numeric
+@attribute 'ن پھیلای ' numeric
+@attribute 'ن پھیلاۓ ' numeric
+@attribute 'ن پھینک پ' numeric
+@attribute 'ن پہنچ جل' numeric
+@attribute 'ن پہنچ ٹھ' numeric
+@attribute 'ن پہنچایا' numeric
+@attribute 'ن پہنچے غ' numeric
+@attribute 'ن پہچان ب' numeric
+@attribute 'ن پھلوں ک' numeric
+@attribute 'ن پہچان ر' numeric
+@attribute 'ن پہچان م' numeric
+@attribute 'ن پی آج م' numeric
+@attribute 'ن پی ٹی آ' numeric
+@attribute 'ن پی ٹی ا' numeric
+@attribute 'ن پیار خو' numeric
+@attribute 'ن پیدا ان' numeric
+@attribute 'ن پیدا جا' numeric
+@attribute 'ن پھول چو' numeric
+@attribute 'ن پھرتیاں' numeric
+@attribute 'ن وسائل ج' numeric
+@attribute 'ن پڑتا جا' numeric
+@attribute 'ن پوسٹ ما' numeric
+@attribute 'ن پوچھا ش' numeric
+@attribute 'ن پوچھو م' numeric
+@attribute 'ن پوچھے ج' numeric
+@attribute 'ن پٹواری ' numeric
+@attribute 'ن پچھنا د' numeric
+@attribute 'ن پڑتا اد' numeric
+@attribute 'ن پڑتا تج' numeric
+@attribute 'ن پڑتی نم' numeric
+@attribute 'نا آرٹ فن' numeric
+@attribute 'ن پڑوسی پ' numeric
+@attribute 'ن پڑھ سکے' numeric
+@attribute 'ن پڑھا آن' numeric
+@attribute 'ن پڑھتے ت' numeric
+@attribute 'ن پڑے عمر' numeric
+@attribute 'ن پکوڑے ت' numeric
+@attribute 'ن پکڑیں گ' numeric
+@attribute 'ن پکڑے ڈر' numeric
+@attribute 'ن پیروکار' numeric
+@attribute 'ن پیسہ پو' numeric
+@attribute 'ن پیسہ کم' numeric
+@attribute 'ن چودہ سو' numeric
+@attribute 'ن چلتی ہا' numeric
+@attribute 'ن چلتے قد' numeric
+@attribute 'ن چمٹی ہی' numeric
+@attribute 'ن چن حیرت' numeric
+@attribute 'ن چن شھید' numeric
+@attribute 'ن چندہ ما' numeric
+@attribute 'ن چوتھی ع' numeric
+@attribute 'ن چود بغی' numeric
+@attribute 'نا آر ایس' numeric
+@attribute 'ن پیسے گھ' numeric
+@attribute 'ن چور دیک' numeric
+@attribute 'ن چوروں ل' numeric
+@attribute 'ن چوزے دی' numeric
+@attribute 'ن چوما عم' numeric
+@attribute 'ن چوہدری ' numeric
+@attribute 'ن چٹائی ب' numeric
+@attribute 'ن چپکے چپ' numeric
+@attribute 'ن چڑ فضول' numeric
+@attribute 'ن چلارہے ' numeric
+@attribute 'ن چل عید ' numeric
+@attribute 'ن چل زھرا' numeric
+@attribute 'ن چل اے ف' numeric
+@attribute 'ن پیش بہن' numeric
+@attribute 'ن پیش خیب' numeric
+@attribute 'ن پیش نظر' numeric
+@attribute 'ن پیش کتے' numeric
+@attribute 'ن پینے کر' numeric
+@attribute 'ن پیٹ بھر' numeric
+@attribute 'ن پیپلز پ' numeric
+@attribute 'ن پیپلزپا' numeric
+@attribute 'ن پیچیدگی' numeric
+@attribute 'ن پیڑ بین' numeric
+@attribute 'ن چار لبا' numeric
+@attribute 'ن چالیس ف' numeric
+@attribute 'ن چاند دی' numeric
+@attribute 'ن چاند چہ' numeric
+@attribute 'ن چاپلوسی' numeric
+@attribute 'ن چاہتا خ' numeric
+@attribute 'ن چبھے اد' numeric
+@attribute 'ن پورے مل' numeric
+@attribute 'ن پورے عا' numeric
+@attribute 'ن پورے رو' numeric
+@attribute 'ن ٹاون اگ' numeric
+@attribute 'نا آسان س' numeric
+@attribute 'ن وی لاگ ' numeric
+@attribute 'ن ویلڈن ف' numeric
+@attribute 'ن ویڈیو د' numeric
+@attribute 'ن ویکسین ' numeric
+@attribute 'ن ٹائیگر ' numeric
+@attribute 'ن ٹانگیں ' numeric
+@attribute 'ن ٹاور جہ' numeric
+@attribute 'ن ٹرائل م' numeric
+@attribute 'ن ٹویٹ غص' numeric
+@attribute 'ن ٹرانسمی' numeric
+@attribute 'ن ٹرین با' numeric
+@attribute 'ن ٹرین قص' numeric
+@attribute 'ن ٹرین می' numeric
+@attribute 'ن ٹرینڈز ' numeric
+@attribute 'ن ٹول پلا' numeric
+@attribute 'ن ٹوٹتا ج' numeric
+@attribute 'ن ٹوٹل عو' numeric
+@attribute 'ن وی تسی ' numeric
+@attribute 'ن وہان جی' numeric
+@attribute 'ن ووٹ ڈیڑ' numeric
+@attribute 'ن ووٹ حیر' numeric
+@attribute 'ن وسیم کھ' numeric
+@attribute 'ن وعوامی ' numeric
+@attribute 'ن وفا جھو' numeric
+@attribute 'ن وفا درب' numeric
+@attribute 'ن وفا قسم' numeric
+@attribute 'ن وقت جلن' numeric
+@attribute 'ن وقت حال' numeric
+@attribute 'ن وقت خوش' numeric
+@attribute 'ن وقت سمج' numeric
+@attribute 'ن وقت نفر' numeric
+@attribute 'ن وقت ڈر ' numeric
+@attribute 'ن وقت کھی' numeric
+@attribute 'ن وقت گزر' numeric
+@attribute 'ن وقتہ خو' numeric
+@attribute 'نا آلود ش' numeric
+@attribute 'ن وقتی من' numeric
+@attribute 'ن ووٹ انص' numeric
+@attribute 'ن ٹویٹ اچ' numeric
+@attribute 'ن ٹویٹر ب' numeric
+@attribute 'ن پوری ٹی' numeric
+@attribute 'ن پسینہ م' numeric
+@attribute 'ن پتا الل' numeric
+@attribute 'ن پرابلم ' numeric
+@attribute 'ن پرانی ک' numeric
+@attribute 'ن پرو لین' numeric
+@attribute 'ن پروگرام' numeric
+@attribute 'ن پریشان ' numeric
+@attribute 'ن پریشانی' numeric
+@attribute 'ن پسندیدہ' numeric
+@attribute 'ن پشتون س' numeric
+@attribute 'ن ٹویٹس ک' numeric
+@attribute 'ن پلس بزد' numeric
+@attribute 'ن پناہ سو' numeric
+@attribute 'ن پناہ ما' numeric
+@attribute 'ن پناہ گز' numeric
+@attribute 'ن پنجاب پ' numeric
+@attribute 'ن پورا ہو' numeric
+@attribute 'ن پورٹل ک' numeric
+@attribute 'ن پوری دن' numeric
+@attribute 'نا آزاد ہ' numeric
+@attribute 'ن پاکستان' numeric
+@attribute 'ن پاک مہی' numeric
+@attribute 'ن پاک سمج' numeric
+@attribute 'ن ٹپس وزن' numeric
+@attribute 'ن ٹھہرے ا' numeric
+@attribute 'ن ٹھیک ہو' numeric
+@attribute 'ن ٹیسٹ رپ' numeric
+@attribute 'ن ٹیسٹ من' numeric
+@attribute 'ن ٹیسٹ پو' numeric
+@attribute 'ن ٹیم دل ' numeric
+@attribute 'ن ٹیکسی ڈ' numeric
+@attribute 'ن پ شہر ا' numeric
+@attribute 'ن پا بی ج' numeric
+@attribute 'ن پائیں م' numeric
+@attribute 'ن پارلیمن' numeric
+@attribute 'ن پارٹی ق' numeric
+@attribute 'ن پانچ وق' numeric
+@attribute 'ن پاک بے ' numeric
+@attribute 'ن پاک تلا' numeric
+@attribute 'ن پاک خضر' numeric
+@attribute 'ن موسم شج' numeric
+@attribute 'ن دشمن جا' numeric
+@attribute 'ن دلانے آ' numeric
+@attribute 'ن دل ھم ھ' numeric
+@attribute 'میڈیا جان' numeric
+@attribute 'میڈیا جتن' numeric
+@attribute 'میڈیا جرم' numeric
+@attribute 'میڈیا جمہ' numeric
+@attribute 'میڈیا جھو' numeric
+@attribute 'میڈیا حکو' numeric
+@attribute 'میڈیا خاص' numeric
+@attribute 'میڈیا خام' numeric
+@attribute 'میڈیا خلا' numeric
+@attribute 'میڈیا خوش' numeric
+@attribute 'میڈیا دنو' numeric
+@attribute 'میڈیا ذری' numeric
+@attribute 'میڈیا راج' numeric
+@attribute 'میڈیا رپو' numeric
+@attribute 'میڈیا سرگ' numeric
+@attribute 'میڈیا سوش' numeric
+@attribute 'میڈیا شخص' numeric
+@attribute 'میڈیا شرم' numeric
+@attribute 'میڈیا صاف' numeric
+@attribute 'میڈیا تیز' numeric
+@attribute 'میڈیا ترج' numeric
+@attribute 'میڈیا تار' numeric
+@attribute 'میڈیا است' numeric
+@attribute 'میڈم مزار' numeric
+@attribute 'میڈم مشور' numeric
+@attribute 'میڈم پکچر' numeric
+@attribute 'میڈم کہتی' numeric
+@attribute 'میڈیا آخر' numeric
+@attribute 'میڈیا اتن' numeric
+@attribute 'میڈیا اجن' numeric
+@attribute 'میڈیا ارن' numeric
+@attribute 'میڈیا افس' numeric
+@attribute 'میڈیا بیٹ' numeric
+@attribute 'میڈیا اکر' numeric
+@attribute 'میڈیا این' numeric
+@attribute 'میڈیا بائ' numeric
+@attribute 'میڈیا بات' numeric
+@attribute 'میڈیا بتا' numeric
+@attribute 'میڈیا بدو' numeric
+@attribute 'میڈیا بھا' numeric
+@attribute 'میڈیا بیر' numeric
+@attribute 'میڈیا صحا' numeric
+@attribute 'میڈیا عرو' numeric
+@attribute 'میڈیا عمر' numeric
+@attribute 'میڈیا کدھ' numeric
+@attribute 'میڈیا چاہ' numeric
+@attribute 'میڈیا چیخ' numeric
+@attribute 'میڈیا چین' numeric
+@attribute 'میڈیا ڈر ' numeric
+@attribute 'میڈیا ڈنڈ' numeric
+@attribute 'میڈیا کئی' numeric
+@attribute 'میڈیا کام' numeric
+@attribute 'میڈیا کتو' numeric
+@attribute 'میڈیا کرد' numeric
+@attribute 'میڈیا پھی' numeric
+@attribute 'میڈیا کہت' numeric
+@attribute 'میڈیا گلا' numeric
+@attribute 'میڈیا ہاو' numeric
+@data
+{3 1,536 1}
+{3 1,5 1,1458 1}
+{3 1,1263 1,1458 1}
+{4 1}
+{2 1,850 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,4 1,173 1}
+{3 1,5 1}
+{3 1,4 1,5 1}
+{3 1,4 1}
+{3 1,5 1}
+{601 1}
+{0 1,1 1,3 1}
+{3 1,4 1,456 1}
+{0 1,3 1}
+{}
+{0 1,1 1,2 1,3 1,340 1}
+{4 1}
+{3 1,1503 1}
+{1 1,3 1,4 1}
+{}
+{2 1,528 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{4 1,1108 1}
+{5 1}
+{3 1,727 1,1392 1}
+{4 1}
+{3 1}
+{4 1}
+{4 1}
+{}
+{0 1,382 1}
+{3 1}
+{4 1}
+{5 1}
+{2 1,5 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,1490 1}
+{402 1}
+{3 1}
+{3 1,1383 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,38 1}
+{5 1,494 1,496 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,5 1}
+{3 1,1404 1}
+{3 1,4 1,484 1}
+{3 1}
+{3 1,1008 1}
+{4 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1}
+{4 1,1171 1}
+{3 1,5 1}
+{5 1,1144 1}
+{3 1,51 1,423 1,433 1,1440 1}
+{3 1,1386 1}
+{2 1,3 1}
+{3 1}
+{2 1}
+{2 1}
+{5 1}
+{4 1,5 1}
+{4 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1}
+{5 1}
+{3 1}
+{1 1,4 1}
+{2 1}
+{3 1,907 1,967 1,968 1,1389 1}
+{1124 1}
+{3 1,5 1}
+{3 1}
+{0 1,218 1}
+{3 1,4 1}
+{5 1,597 1,1334 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{3 1,1503 1}
+{4 1,330 1}
+{2 1,1276 1}
+{0 1,1 1,2 1,1228 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1,4 1,843 1}
+{3 1,4 1}
+{0 1,3 1,501 1}
+{0 1,1 1}
+{3 1,5 1}
+{2 1,3 1}
+{5 1,1084 1}
+{3 1,4 1,1363 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{3 1,4 1}
+{5 1}
+{865 1}
+{3 1}
+{2 1,5 1}
+{3 1}
+{4 1}
+{3 1,1431 1}
+{2 1,3 1}
+{5 1}
+{3 1,1353 1,1491 1}
+{3 1,1390 1}
+{3 1}
+{}
+{0 1,1 1,795 1}
+{3 1}
+{3 1,4 1,5 1,1262 1}
+{1 1,3 1}
+{1 1,3 1}
+{4 1}
+{4 1,808 1}
+{3 1}
+{3 1,5 1}
+{3 1}
+{4 1,5 1}
+{4 1,5 1}
+{0 1,1 1}
+{0 1,1 1,3 1,455 1}
+{5 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{0 1,2 1,3 1}
+{3 1,964 1}
+{4 1}
+{5 1}
+{3 1,22 1,1294 1}
+{}
+{2 1,3 1}
+{5 1,1356 1}
+{4 1,1292 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{5 1,710 1}
+{3 1,4 1}
+{1196 1}
+{409 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{1 1,4 1}
+{5 1}
+{5 1,1181 1}
+{4 1,5 1}
+{}
+{4 1}
+{3 1}
+{2 1}
+{3 1,152 1,1379 1}
+{}
+{3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,2 1,3 1,883 1}
+{5 1}
+{3 1}
+{3 1,4 1,638 1}
+{0 1,1 1,629 1}
+{2 1,45 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{4 1,151 1}
+{3 1,1391 1}
+{1 1,3 1}
+{0 1,1 1,3 1}
+{1 1,3 1,516 1}
+{5 1,868 1}
+{2 1,4 1}
+{0 1,3 1,986 1}
+{2 1,3 1}
+{1 1}
+{3 1}
+{5 1,712 1}
+{5 1}
+{2 1,3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,5 1,250 1}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{4 1,515 1}
+{2 1,3 1}
+{3 1}
+{585 1}
+{5 1}
+{3 1,1346 1}
+{4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1,103 1,112 1,130 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,675 1,1336 1}
+{2 1}
+{2 1,3 1}
+{3 1,553 1,977 1}
+{0 1,1 1}
+{3 1,1139 1}
+{4 1}
+{3 1,174 1,1174 1}
+{0 1,1 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{2 1,3 1,537 1}
+{2 1}
+{4 1}
+{}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,917 1,1388 1}
+{4 1}
+{2 1,3 1}
+{1 1,4 1,526 1}
+{0 1,1 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1,5 1}
+{5 1}
+{3 1,1395 1}
+{0 1,1 1}
+{3 1,715 1}
+{3 1,4 1,1419 1}
+{708 1}
+{2 1}
+{3 1}
+{2 1}
+{3 1,1349 1}
+{2 1,3 1}
+{2 1,3 1}
+{905 1}
+{0 1,1 1}
+{0 1}
+{1 1,4 1}
+{5 1}
+{3 1,656 1,966 1,967 1,1389 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{0 1,3 1}
+{3 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{1 1,3 1}
+{3 1,4 1}
+{3 1}
+{3 1,996 1}
+{0 1,3 1}
+{3 1,4 1,863 1}
+{3 1,5 1}
+{3 1}
+{2 1,525 1}
+{0 1,1 1,800 1,1062 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{3 1,4 1,147 1}
+{5 1}
+{5 1}
+{5 1,547 1,1190 1}
+{4 1,5 1}
+{1349 1}
+{3 1,1412 1}
+{5 1}
+{4 1,1048 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{3 1,5 1}
+{4 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,992 1}
+{1 1,4 1}
+{0 1,1 1}
+{3 1,4 1,993 1}
+{0 1,1 1,340 1}
+{2 1}
+{0 1,1 1,660 1,866 1}
+{3 1,1011 1}
+{4 1}
+{3 1,4 1,1383 1}
+{3 1,4 1,1473 1}
+{4 1,5 1}
+{0 1}
+{1 1,3 1}
+{4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1,261 1,716 1,1470 1}
+{3 1,1413 1}
+{5 1}
+{2 1,3 1,526 1}
+{0 1,1 1,4 1}
+{0 1,1 1,3 1,633 1}
+{2 1,3 1}
+{5 1}
+{1 1,4 1}
+{5 1,309 1}
+{3 1,5 1}
+{0 1,3 1}
+{1443 1}
+{0 1,1 1}
+{}
+{3 1,1503 1}
+{2 1,3 1,242 1}
+{3 1,314 1}
+{5 1}
+{5 1}
+{2 1,3 1,912 1}
+{3 1,4 1}
+{1 1,4 1}
+{4 1}
+{4 1}
+{2 1,3 1,1074 1}
+{1 1}
+{4 1}
+{4 1}
+{0 1}
+{0 1,3 1}
+{4 1,1435 1}
+{5 1,59 1,400 1}
+{0 1,2 1,20 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{0 1,3 1,5 1}
+{4 1}
+{3 1}
+{1018 1}
+{0 1,1 1,3 1}
+{4 1,1057 1}
+{3 1,4 1,548 1}
+{5 1,1249 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{5 1,322 1}
+{2 1}
+{4 1}
+{4 1,5 1}
+{5 1,720 1}
+{3 1,1311 1}
+{0 1,2 1,3 1}
+{0 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{2 1,4 1}
+{4 1,5 1}
+{3 1}
+{2 1}
+{1251 1}
+{2 1,3 1}
+{4 1,753 1}
+{3 1,4 1}
+{5 1}
+{0 1}
+{4 1,5 1}
+{0 1,1 1,4 1}
+{5 1}
+{1344 1}
+{0 1,3 1,4 1,96 1}
+{5 1}
+{3 1,944 1}
+{4 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{}
+{0 1,1 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{4 1}
+{3 1,550 1,562 1,706 1}
+{3 1,4 1}
+{3 1,4 1,1503 1}
+{1 1,3 1,4 1,404 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,4 1,1028 1,1399 1}
+{0 1,3 1,4 1}
+{3 1,128 1,568 1,940 1,1390 1}
+{0 1,1 1}
+{0 1,1 1}
+{1 1}
+{3 1}
+{0 1,1 1,3 1}
+{}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1,424 1}
+{1 1,4 1}
+{4 1,5 1}
+{0 1,5 1,914 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{4 1,1358 1}
+{2 1,3 1,761 1}
+{}
+{4 1,741 1}
+{0 1,1 1,3 1}
+{5 1}
+{0 1,4 1}
+{1 1,3 1,4 1}
+{5 1}
+{4 1}
+{3 1,1014 1,1016 1}
+{5 1,251 1}
+{0 1,1 1}
+{3 1,1399 1}
+{5 1}
+{3 1,1435 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,1413 1}
+{0 1}
+{0 1,1 1,4 1,61 1}
+{3 1}
+{2 1,539 1}
+{5 1}
+{3 1,4 1}
+{}
+{3 1}
+{3 1,4 1}
+{3 1,1297 1}
+{3 1}
+{2 1,4 1}
+{4 1}
+{}
+{3 1}
+{3 1,4 1}
+{3 1,949 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1,1363 1}
+{4 1}
+{3 1,4 1,602 1,1395 1}
+{3 1,4 1,1396 1}
+{2 1}
+{3 1,5 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{0 1,1 1,3 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,4 1,1203 1}
+{2 1,3 1}
+{}
+{5 1}
+{4 1}
+{5 1}
+{}
+{3 1}
+{3 1}
+{0 1,4 1,824 1}
+{0 1,1 1,3 1}
+{1 1,3 1,1016 1,1166 1}
+{}
+{3 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,820 1}
+{5 1,1051 1}
+{4 1}
+{3 1,4 1,1491 1}
+{5 1,930 1,1300 1,1335 1}
+{4 1}
+{3 1,4 1,1454 1}
+{0 1,1 1}
+{2 1,3 1}
+{}
+{3 1,4 1}
+{5 1}
+{4 1,889 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,2 1,352 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{5 1,583 1,1344 1}
+{3 1,4 1}
+{0 1,2 1}
+{3 1}
+{0 1,1 1,4 1}
+{4 1}
+{0 1,1 1}
+{3 1,499 1}
+{0 1,1 1}
+{5 1}
+{4 1,258 1}
+{2 1,424 1}
+{3 1,1336 1,1392 1,1400 1}
+{3 1,4 1,1346 1}
+{0 1,1 1,4 1}
+{3 1,860 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{2 1,3 1}
+{5 1,925 1}
+{3 1}
+{5 1,1051 1}
+{2 1,3 1}
+{0 1,1 1}
+{4 1,5 1,901 1}
+{228 1}
+{3 1,1462 1}
+{2 1,5 1,487 1}
+{3 1}
+{0 1}
+{}
+{0 1,2 1}
+{3 1,4 1,541 1}
+{2 1,3 1}
+{0 1,2 1}
+{2 1}
+{}
+{3 1}
+{2 1}
+{3 1,1301 1}
+{3 1,1500 1}
+{5 1}
+{4 1}
+{4 1,937 1,970 1}
+{5 1,485 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{4 1,1094 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{5 1,705 1}
+{4 1}
+{3 1,1328 1}
+{0 1,1288 1}
+{4 1,5 1}
+{0 1,2 1}
+{0 1,1 1,882 1,1054 1}
+{0 1,3 1,997 1}
+{0 1,3 1,560 1}
+{3 1,584 1}
+{5 1}
+{0 1,1 1,269 1}
+{3 1}
+{3 1}
+{3 1,577 1,1368 1}
+{18 1,19 1,1430 1}
+{4 1,1487 1}
+{4 1,5 1}
+{4 1,26 1,1134 1}
+{2 1,3 1}
+{3 1,4 1,1503 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1,5 1}
+{2 1}
+{2 1}
+{5 1,1420 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,5 1}
+{3 1,149 1}
+{2 1,589 1,945 1}
+{0 1,3 1}
+{3 1}
+{}
+{3 1,1413 1}
+{}
+{4 1}
+{5 1}
+{3 1}
+{1 1,3 1}
+{0 1,1 1,3 1,679 1,700 1}
+{0 1,3 1}
+{2 1,3 1,714 1}
+{2 1,3 1}
+{0 1,1 1,2 1,3 1,352 1}
+{2 1,3 1}
+{3 1,4 1,1503 1}
+{0 1,3 1}
+{1 1,4 1}
+{0 1,1 1,4 1}
+{3 1,556 1,977 1,1083 1}
+{2 1,3 1}
+{}
+{5 1}
+{0 1}
+{5 1,586 1}
+{0 1,1 1}
+{3 1,1393 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1,1239 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,1399 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1,32 1}
+{0 1,1 1,2 1,352 1}
+{3 1}
+{2 1,3 1,12 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{3 1,591 1,1038 1,1459 1}
+{2 1,3 1}
+{4 1,5 1}
+{5 1}
+{3 1,4 1,1491 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,222 1,994 1}
+{3 1,458 1,659 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,105 1}
+{0 1,1 1}
+{5 1}
+{2 1,3 1,356 1}
+{1 1}
+{3 1,1074 1}
+{5 1}
+{3 1,4 1}
+{5 1,33 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{4 1,5 1}
+{0 1,1 1,3 1,1016 1,1098 1}
+{4 1}
+{3 1}
+{1 1,4 1}
+{5 1}
+{2 1,538 1,1064 1}
+{4 1,695 1,711 1,740 1}
+{3 1,1198 1}
+{3 1,1403 1}
+{3 1,4 1}
+{0 1,4 1}
+{2 1,3 1}
+{2 1,4 1}
+{3 1,4 1,53 1}
+{0 1,1 1}
+{0 1,3 1}
+{4 1}
+{3 1,617 1}
+{5 1,244 1}
+{3 1}
+{3 1,4 1,1261 1}
+{5 1,329 1}
+{}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1,4 1,657 1}
+{2 1,1455 1}
+{2 1,5 1}
+{4 1}
+{2 1,5 1}
+{0 1,1 1,3 1}
+{2 1,3 1,1413 1}
+{2 1,3 1}
+{3 1}
+{4 1}
+{3 1,444 1,1337 1}
+{0 1,1 1}
+{4 1,5 1}
+{5 1}
+{3 1,1303 1,1412 1}
+{924 1}
+{5 1,600 1}
+{4 1}
+{4 1}
+{2 1}
+{3 1,4 1}
+{4 1,5 1}
+{0 1,4 1,267 1}
+{4 1}
+{3 1,1293 1}
+{4 1,5 1}
+{5 1,549 1}
+{5 1}
+{3 1,1477 1}
+{3 1,4 1,302 1,1426 1}
+{3 1,1486 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,346 1}
+{3 1,4 1,1327 1,1399 1}
+{4 1,189 1}
+{3 1}
+{3 1}
+{1 1,3 1}
+{3 1,4 1,1399 1}
+{0 1,1 1,897 1}
+{0 1,1 1}
+{3 1}
+{2 1,1104 1}
+{3 1,221 1,1330 1}
+{0 1,4 1}
+{3 1,4 1,95 1}
+{1 1,4 1}
+{3 1,4 1}
+{486 1}
+{}
+{3 1,1345 1}
+{3 1,4 1,140 1}
+{0 1,1 1,3 1,4 1}
+{0 1,1 1,3 1,4 1,671 1}
+{4 1}
+{3 1,263 1}
+{0 1,1 1,3 1,1019 1}
+{4 1}
+{3 1,1363 1}
+{}
+{2 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1,508 1}
+{3 1}
+{5 1,180 1}
+{2 1,3 1,641 1}
+{3 1,429 1}
+{5 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{}
+{}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{4 1,1000 1}
+{1 1,3 1,4 1}
+{0 1,3 1}
+{4 1,5 1}
+{0 1}
+{0 1,1 1,3 1}
+{529 1}
+{3 1,4 1,444 1,1337 1}
+{4 1}
+{2 1}
+{3 1,1454 1}
+{3 1}
+{3 1}
+{5 1,162 1}
+{3 1,1078 1,1413 1}
+{1498 1}
+{3 1,4 1,456 1}
+{}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{3 1,4 1,1503 1}
+{3 1,1152 1,1359 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1,1363 1}
+{1 1,4 1}
+{1 1}
+{}
+{0 1,4 1}
+{2 1}
+{3 1}
+{1 1,3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,4 1,1074 1}
+{1 1,4 1,495 1,1290 1}
+{5 1}
+{0 1,1023 1}
+{1 1,4 1,619 1}
+{4 1,135 1,937 1,970 1}
+{3 1,4 1,177 1}
+{1145 1}
+{4 1,5 1,1051 1}
+{3 1,4 1,439 1}
+{3 1,4 1,1111 1}
+{4 1}
+{3 1,4 1}
+{2 1,5 1}
+{1 1}
+{3 1,1295 1,1336 1,1350 1}
+{5 1}
+{3 1,4 1}
+{3 1,5 1}
+{1 1}
+{350 1}
+{4 1,937 1,970 1}
+{5 1}
+{4 1}
+{5 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,4 1,1220 1}
+{4 1,1000 1}
+{1 1,3 1,4 1}
+{0 1,1 1,4 1}
+{5 1,1051 1}
+{5 1}
+{4 1,5 1,1000 1}
+{4 1}
+{2 1,141 1}
+{0 1,1 1,4 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{3 1,4 1,419 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1,415 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1,1295 1}
+{5 1}
+{3 1,4 1,1305 1}
+{2 1}
+{4 1}
+{3 1,115 1}
+{4 1}
+{3 1}
+{2 1,840 1}
+{1 1,3 1}
+{2 1,3 1}
+{1478 1}
+{0 1,1 1,2 1,3 1}
+{2 1}
+{3 1}
+{}
+{5 1}
+{}
+{5 1,559 1}
+{1 1,3 1,4 1}
+{3 1}
+{4 1,1192 1}
+{2 1,3 1,5 1,1403 1}
+{}
+{}
+{4 1,5 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1,638 1}
+{2 1,3 1}
+{4 1,5 1}
+{3 1}
+{0 1,3 1}
+{3 1,1214 1}
+{}
+{3 1,4 1,1336 1}
+{5 1}
+{4 1}
+{636 1}
+{2 1,5 1}
+{5 1,487 1}
+{5 1}
+{4 1}
+{3 1,722 1}
+{4 1,885 1}
+{4 1}
+{4 1}
+{3 1}
+{0 1,4 1,5 1,655 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1,1138 1}
+{0 1}
+{0 1,1 1,4 1,167 1}
+{3 1,5 1}
+{4 1}
+{}
+{5 1}
+{2 1,3 1}
+{5 1,733 1}
+{870 1}
+{0 1,3 1,4 1}
+{3 1,1193 1}
+{3 1}
+{5 1,309 1}
+{3 1}
+{4 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{0 1,1 1,4 1,210 1}
+{3 1,4 1,570 1}
+{5 1,119 1}
+{0 1,1 1,3 1}
+{3 1,410 1}
+{}
+{2 1,5 1}
+{0 1,1 1}
+{3 1,4 1,1261 1}
+{1052 1}
+{2 1,521 1,522 1}
+{1 1,4 1}
+{1 1,3 1,997 1}
+{4 1}
+{5 1}
+{3 1,677 1}
+{0 1,1 1,3 1,77 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1,583 1,1491 1}
+{}
+{}
+{1 1,3 1}
+{4 1}
+{2 1,3 1}
+{5 1,126 1,1184 1}
+{5 1}
+{1 1,2 1}
+{4 1}
+{0 1,911 1}
+{3 1,4 1,1503 1}
+{1 1,3 1}
+{5 1,622 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1,5 1}
+{2 1,4 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,5 1}
+{0 1,1 1,239 1,383 1}
+{4 1,135 1,937 1,970 1}
+{0 1,2 1,3 1,1081 1}
+{5 1}
+{3 1,74 1}
+{0 1,1 1}
+{3 1,857 1}
+{5 1,663 1}
+{}
+{3 1}
+{}
+{}
+{5 1}
+{}
+{0 1}
+{3 1,4 1,1117 1}
+{3 1,4 1}
+{3 1,163 1,1358 1}
+{1 1,3 1}
+{0 1,1 1,4 1,224 1}
+{3 1,4 1}
+{3 1,4 1,5 1}
+{4 1,5 1}
+{5 1}
+{3 1}
+{}
+{3 1,4 1,5 1}
+{1 1,2 1}
+{2 1}
+{0 1,1 1,3 1}
+{3 1,4 1,960 1}
+{3 1,4 1}
+{2 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{3 1,1503 1}
+{2 1,4 1}
+{2 1,132 1,939 1}
+{4 1}
+{4 1}
+{0 1,4 1}
+{3 1,4 1,811 1}
+{3 1,4 1,1403 1}
+{5 1}
+{5 1}
+{}
+{1 1,2 1,3 1,1034 1}
+{2 1,4 1,279 1}
+{905 1,1253 1}
+{5 1,801 1,1418 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1,1377 1}
+{3 1,4 1}
+{0 1,4 1}
+{5 1}
+{5 1}
+{4 1}
+{4 1}
+{5 1}
+{4 1,281 1,744 1}
+{0 1,4 1}
+{5 1,524 1}
+{5 1,497 1}
+{0 1,1 1}
+{1 1,3 1}
+{1 1,3 1,4 1,959 1}
+{4 1,5 1}
+{}
+{4 1,5 1}
+{5 1}
+{5 1}
+{3 1,1442 1}
+{5 1,846 1}
+{1 1,3 1,4 1}
+{0 1,3 1}
+{0 1,1 1,188 1,196 1}
+{1 1,3 1,309 1}
+{3 1,908 1,909 1,910 1,1458 1}
+{2 1}
+{0 1,1 1,2 1,3 1}
+{0 1,1 1,3 1,4 1}
+{3 1,1455 1}
+{4 1,330 1}
+{4 1}
+{5 1}
+{1 1,4 1}
+{4 1,1200 1}
+{3 1}
+{0 1,3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{}
+{2 1,3 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{0 1,5 1,176 1}
+{2 1,3 1}
+{0 1,1 1,2 1,3 1}
+{3 1,4 1,1399 1}
+{4 1,207 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{0 1,1 1,990 1}
+{3 1}
+{5 1}
+{3 1}
+{5 1,527 1}
+{3 1,482 1,483 1}
+{4 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,4 1,583 1}
+{3 1}
+{0 1,1 1}
+{1 1,3 1}
+{5 1,1087 1}
+{5 1}
+{5 1}
+{3 1,4 1,5 1}
+{}
+{3 1}
+{5 1}
+{0 1,4 1}
+{0 1,1 1,340 1,680 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{4 1,5 1,143 1}
+{3 1,4 1,1413 1}
+{4 1,689 1}
+{5 1}
+{5 1,513 1}
+{0 1,1 1}
+{4 1}
+{2 1,4 1}
+{0 1,1 1,348 1}
+{3 1,1316 1,1481 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1}
+{3 1}
+{2 1,5 1}
+{2 1}
+{3 1}
+{}
+{4 1,5 1}
+{5 1,389 1}
+{3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{0 1,5 1}
+{0 1,58 1}
+{3 1,4 1}
+{2 1,3 1,1092 1}
+{5 1}
+{3 1,1404 1}
+{3 1,4 1}
+{3 1,4 1,1413 1}
+{3 1}
+{2 1}
+{2 1}
+{3 1,601 1}
+{4 1}
+{3 1,4 1}
+{3 1,5 1,245 1}
+{}
+{3 1,4 1}
+{}
+{2 1,3 1}
+{5 1,426 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{3 1,884 1}
+{0 1,1 1,3 1,4 1}
+{5 1}
+{0 1}
+{0 1,1 1,315 1}
+{902 1}
+{3 1}
+{}
+{5 1}
+{0 1}
+{4 1}
+{4 1}
+{0 1,3 1,4 1}
+{0 1,2 1,3 1,4 1}
+{3 1,1364 1}
+{4 1,169 1}
+{3 1,4 1,25 1,1129 1,1465 1}
+{5 1}
+{4 1,1422 1}
+{5 1,523 1,1009 1}
+{3 1}
+{3 1,599 1}
+{3 1}
+{3 1,1332 1}
+{4 1,5 1,1235 1}
+{0 1,5 1}
+{0 1}
+{3 1,4 1,1234 1}
+{}
+{}
+{2 1}
+{5 1}
+{3 1,4 1,127 1,139 1,1310 1,1330 1}
+{1 1,3 1}
+{0 1,3 1}
+{3 1}
+{5 1,702 1,980 1}
+{4 1,436 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,2 1,3 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{3 1,1393 1,1452 1,1453 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1,1386 1}
+{2 1,3 1}
+{2 1,222 1}
+{3 1,181 1}
+{2 1}
+{4 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1,1455 1}
+{3 1,5 1}
+{3 1,1381 1}
+{3 1}
+{0 1,1 1,233 1,1175 1}
+{2 1,4 1}
+{0 1,1 1,2 1}
+{3 1}
+{0 1,1 1,869 1}
+{3 1}
+{0 1,1 1,3 1,129 1}
+{5 1}
+{3 1,166 1,1360 1}
+{0 1,3 1}
+{}
+{0 1,3 1,4 1}
+{1 1,3 1,4 1}
+{3 1,4 1}
+{5 1,80 1}
+{0 1,1 1,3 1}
+{}
+{3 1}
+{5 1}
+{3 1,4 1,1295 1,1448 1}
+{3 1,4 1,783 1}
+{2 1,5 1}
+{3 1,957 1,1404 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1,3 1}
+{1444 1}
+{5 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{4 1,1097 1}
+{4 1}
+{}
+{}
+{1 1}
+{3 1,4 1,512 1}
+{5 1}
+{5 1,73 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1}
+{3 1,5 1}
+{5 1}
+{2 1,3 1}
+{0 1,1 1,2 1,3 1}
+{2 1}
+{3 1,4 1}
+{3 1,5 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{4 1}
+{4 1,1361 1}
+{0 1,1 1}
+{0 1,1 1,3 1,864 1}
+{0 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1,546 1,579 1}
+{4 1}
+{3 1,4 1}
+{2 1,5 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{5 1,309 1}
+{3 1,627 1}
+{3 1,338 1,1088 1}
+{4 1,5 1,98 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{3 1,5 1,600 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{3 1,1154 1}
+{4 1,5 1}
+{4 1,5 1,819 1}
+{3 1}
+{2 1,3 1}
+{1 1,2 1,292 1}
+{3 1,4 1}
+{5 1}
+{}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,2 1,352 1}
+{5 1}
+{5 1,639 1}
+{903 1}
+{5 1}
+{5 1,1007 1}
+{0 1,1 1,770 1}
+{3 1}
+{3 1,4 1}
+{2 1}
+{3 1}
+{4 1,1070 1}
+{2 1}
+{3 1}
+{0 1,4 1}
+{5 1,1217 1}
+{0 1}
+{2 1,3 1,759 1}
+{0 1}
+{4 1,391 1}
+{1 1}
+{3 1}
+{3 1,37 1}
+{0 1,687 1,936 1}
+{5 1,720 1}
+{3 1,4 1}
+{3 1}
+{0 1,3 1}
+{4 1}
+{}
+{2 1,777 1}
+{3 1}
+{4 1,664 1,1146 1,1162 1}
+{3 1}
+{3 1}
+{4 1,5 1}
+{0 1,891 1,1202 1}
+{2 1,3 1,4 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1,1392 1,1423 1}
+{5 1}
+{3 1,168 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1,40 1,1137 1}
+{5 1,1068 1}
+{}
+{5 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,4 1,796 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{433 1}
+{3 1,4 1}
+{3 1,4 1,439 1}
+{2 1,3 1}
+{3 1,1413 1}
+{5 1}
+{5 1}
+{3 1}
+{0 1,3 1}
+{5 1,396 1}
+{3 1,1498 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1}
+{3 1,5 1}
+{3 1,563 1,564 1,1446 1}
+{1 1,3 1}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{3 1,148 1,803 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,728 1,1074 1}
+{1 1,3 1,4 1,717 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1,435 1,468 1,1046 1}
+{2 1}
+{0 1,1 1,1074 1}
+{0 1,4 1,775 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{4 1,5 1}
+{5 1}
+{4 1}
+{4 1}
+{0 1}
+{3 1,4 1,240 1,1322 1,1392 1}
+{2 1}
+{3 1,5 1,1057 1}
+{4 1,5 1,420 1}
+{1 1,3 1,4 1}
+{0 1,2 1}
+{1 1,2 1,3 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1,1465 1}
+{3 1,271 1,1004 1}
+{3 1,4 1,1342 1,1480 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1,1490 1}
+{0 1,1 1,3 1}
+{3 1,583 1}
+{3 1}
+{3 1,4 1,1399 1}
+{0 1}
+{0 1,4 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{1 1}
+{}
+{2 1,3 1}
+{3 1,4 1}
+{5 1}
+{0 1,649 1,1091 1}
+{4 1}
+{0 1,4 1}
+{0 1,1 1}
+{3 1}
+{1 1,2 1,3 1}
+{5 1}
+{3 1}
+{3 1,1263 1,1458 1}
+{5 1}
+{5 1}
+{5 1}
+{}
+{0 1,1 1}
+{3 1,4 1,1363 1}
+{4 1,1000 1}
+{3 1,4 1,456 1}
+{0 1,5 1}
+{4 1}
+{1 1,4 1,1274 1}
+{1 1,3 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{5 1,510 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{3 1,1411 1}
+{2 1,5 1,308 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1,1 1,3 1,1049 1}
+{2 1,5 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{5 1,610 1,612 1}
+{5 1,309 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1,4 1,1463 1}
+{3 1}
+{4 1}
+{0 1,4 1}
+{3 1}
+{0 1,1 1,1206 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,739 1}
+{4 1,1000 1}
+{1370 1}
+{2 1,542 1}
+{0 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1}
+{0 1}
+{5 1,219 1}
+{}
+{3 1}
+{5 1,855 1}
+{0 1,1 1,3 1,500 1,690 1}
+{2 1,5 1}
+{2 1,3 1,332 1}
+{1 1,2 1,3 1}
+{0 1,1 1,2 1}
+{5 1,742 1,1378 1}
+{3 1}
+{2 1,3 1,1190 1}
+{3 1,309 1}
+{5 1}
+{3 1,4 1,1413 1}
+{3 1,543 1}
+{0 1,3 1}
+{3 1,4 1,1413 1}
+{5 1}
+{2 1,459 1}
+{1 1,4 1,326 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1}
+{3 1,4 1,320 1,335 1}
+{0 1,1 1,3 1}
+{5 1}
+{4 1}
+{3 1,1168 1}
+{3 1,1359 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{0 1,1 1}
+{}
+{5 1}
+{2 1}
+{1 1,4 1}
+{2 1,3 1}
+{4 1}
+{0 1,1 1,942 1,1057 1,1093 1}
+{2 1,5 1,1050 1}
+{0 1}
+{0 1,5 1,478 1,682 1}
+{0 1,4 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1,746 1,755 1}
+{309 1}
+{4 1,5 1,70 1}
+{0 1}
+{1 1,3 1,179 1}
+{3 1,268 1}
+{1186 1}
+{0 1,1 1,3 1,144 1}
+{2 1,5 1,1067 1}
+{3 1,1355 1}
+{3 1}
+{5 1}
+{3 1,1399 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{5 1,575 1,1334 1}
+{1 1,2 1,3 1,1189 1}
+{5 1}
+{3 1,1392 1}
+{3 1}
+{}
+{3 1,4 1}
+{0 1,5 1,158 1}
+{3 1}
+{3 1,1505 1}
+{3 1,4 1,357 1}
+{2 1,449 1}
+{5 1,535 1}
+{3 1,4 1}
+{3 1,4 1,638 1}
+{5 1,1143 1}
+{3 1,1503 1}
+{3 1,1452 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,952 1}
+{5 1}
+{3 1,4 1,114 1}
+{4 1}
+{3 1,1403 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{5 1,1179 1}
+{5 1}
+{}
+{3 1,613 1}
+{0 1,1 1,4 1}
+{4 1}
+{3 1}
+{5 1}
+{0 1}
+{}
+{3 1,4 1}
+{4 1}
+{3 1,1145 1}
+{0 1,1 1,620 1}
+{0 1,1 1,2 1}
+{2 1,3 1,595 1}
+{3 1,5 1}
+{4 1,552 1,597 1}
+{0 1,1 1,3 1,827 1}
+{4 1,638 1}
+{3 1}
+{3 1,1492 1}
+{3 1,1418 1}
+{4 1}
+{5 1}
+{3 1}
+{1 1,4 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{3 1,5 1}
+{4 1}
+{3 1,1422 1,1505 1}
+{0 1,4 1,110 1,694 1}
+{3 1,4 1,5 1,669 1,678 1}
+{3 1,4 1}
+{3 1,1503 1}
+{5 1,137 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{0 1,4 1,260 1}
+{2 1}
+{3 1}
+{}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,3 1,123 1,403 1}
+{3 1}
+{3 1}
+{0 1,3 1,4 1}
+{5 1}
+{5 1,592 1}
+{3 1,1362 1}
+{2 1}
+{3 1,4 1,456 1}
+{}
+{0 1}
+{1 1}
+{5 1,365 1}
+{3 1,4 1,588 1}
+{3 1,1436 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{2 1}
+{3 1,1393 1,1453 1}
+{3 1,1489 1}
+{2 1,3 1,386 1,1062 1}
+{0 1,1 1}
+{5 1}
+{2 1,3 1,1140 1}
+{3 1,4 1}
+{5 1}
+{3 1,1390 1}
+{4 1}
+{3 1,4 1}
+{0 1,3 1}
+{4 1}
+{598 1,851 1}
+{0 1,3 1}
+{4 1}
+{5 1}
+{0 1,4 1}
+{0 1,1 1,158 1}
+{3 1}
+{2 1,3 1}
+{2 1}
+{0 1,1 1}
+{3 1,4 1}
+{5 1}
+{}
+{4 1}
+{3 1,5 1}
+{3 1,4 1}
+{5 1,208 1}
+{5 1,597 1,1334 1}
+{3 1}
+{5 1}
+{4 1}
+{5 1,1145 1}
+{1 1,3 1,87 1}
+{0 1}
+{5 1}
+{3 1}
+{0 1,1 1,1266 1}
+{0 1,1 1,1256 1}
+{2 1,3 1}
+{3 1,1418 1}
+{2 1,3 1}
+{3 1,1150 1,1413 1}
+{3 1,1063 1}
+{3 1,4 1,638 1}
+{3 1,205 1}
+{3 1,919 1}
+{2 1}
+{0 1,1 1,3 1}
+{4 1}
+{3 1,1422 1}
+{3 1,310 1}
+{1 1,3 1,4 1}
+{0 1,1 1,4 1,105 1}
+{}
+{0 1,4 1}
+{5 1,574 1}
+{2 1,3 1}
+{3 1,4 1}
+{3 1,124 1,1028 1}
+{2 1}
+{2 1,4 1}
+{4 1}
+{3 1,969 1}
+{3 1,4 1}
+{4 1}
+{5 1,366 1}
+{3 1,590 1}
+{3 1}
+{5 1}
+{3 1}
+{}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,5 1}
+{3 1,4 1}
+{0 1,1 1}
+{1 1,982 1}
+{3 1,1343 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{3 1,1267 1,1346 1}
+{0 1,3 1,4 1}
+{0 1}
+{3 1}
+{}
+{1 1,3 1,1282 1}
+{3 1,4 1,1323 1,1412 1}
+{3 1,380 1}
+{5 1,161 1,1146 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1,575 1,1334 1}
+{0 1,1 1,239 1,383 1}
+{4 1}
+{}
+{3 1,1427 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1,1485 1}
+{3 1,933 1}
+{1 1,4 1,1238 1}
+{3 1}
+{3 1,4 1,5 1}
+{3 1,4 1,1476 1}
+{3 1}
+{3 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{5 1}
+{4 1}
+{3 1,4 1,1395 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1,796 1}
+{3 1}
+{}
+{2 1,3 1}
+{}
+{5 1}
+{0 1,673 1}
+{5 1,823 1}
+{3 1,554 1}
+{3 1,4 1}
+{5 1}
+{4 1,1065 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1,1016 1}
+{3 1,4 1}
+{4 1,5 1}
+{}
+{1 1,3 1,4 1,344 1}
+{0 1}
+{2 1,5 1}
+{1 1,3 1}
+{600 1}
+{4 1}
+{3 1,1379 1}
+{3 1,1456 1}
+{2 1,3 1,5 1}
+{5 1}
+{0 1,1 1,3 1}
+{4 1}
+{3 1,1499 1}
+{}
+{1 1,3 1}
+{3 1}
+{1 1,3 1}
+{0 1,1 1}
+{4 1,284 1}
+{3 1,4 1}
+{4 1,5 1}
+{3 1,583 1,948 1,1413 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{}
+{5 1}
+{0 1,3 1}
+{1 1,3 1,4 1}
+{3 1,1392 1}
+{3 1}
+{4 1}
+{3 1,583 1,947 1,1474 1}
+{}
+{4 1,5 1}
+{5 1,461 1}
+{0 1,1 1,3 1}
+{5 1,203 1,1051 1}
+{3 1,4 1}
+{4 1,1106 1,1222 1}
+{3 1,858 1}
+{4 1,5 1}
+{0 1,2 1,98 1}
+{0 1,3 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{4 1,5 1}
+{0 1,1 1}
+{4 1}
+{2 1,3 1,159 1}
+{4 1}
+{5 1}
+{0 1,4 1}
+{2 1,5 1}
+{0 1,1 1,4 1}
+{4 1,1000 1}
+{3 1,643 1}
+{3 1}
+{3 1,4 1,1352 1}
+{0 1,1 1}
+{4 1,237 1}
+{2 1,3 1}
+{5 1,1109 1}
+{3 1,929 1}
+{2 1}
+{3 1,4 1,358 1}
+{0 1,1 1,340 1}
+{4 1,5 1}
+{0 1,1 1}
+{3 1,1362 1}
+{3 1,309 1}
+{1 1,3 1,4 1,1242 1}
+{4 1}
+{0 1,2 1,3 1,1081 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{3 1,887 1}
+{1 1,3 1}
+{3 1,1491 1}
+{}
+{3 1,4 1,160 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{5 1,1051 1}
+{0 1,1 1}
+{0 1}
+{0 1,1 1,187 1}
+{3 1,1152 1,1359 1}
+{2 1,3 1}
+{3 1,4 1}
+{5 1}
+{3 1,645 1,1391 1}
+{}
+{5 1}
+{0 1,1 1,2 1,547 1}
+{5 1,1051 1,1189 1}
+{0 1}
+{3 1}
+{0 1,3 1}
+{}
+{3 1,4 1,1395 1}
+{3 1,4 1}
+{2 1,3 1,1081 1}
+{3 1,4 1,1225 1}
+{4 1,5 1}
+{2 1,3 1}
+{2 1,3 1,944 1}
+{4 1}
+{3 1,4 1}
+{2 1}
+{}
+{3 1,1456 1}
+{0 1,3 1}
+{3 1}
+{1 1,3 1,526 1}
+{3 1,950 1}
+{2 1,3 1}
+{1 1,3 1,1279 1}
+{0 1,1 1}
+{2 1}
+{1 1,2 1,3 1}
+{3 1,1390 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{2 1}
+{3 1,536 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{1 1,4 1}
+{0 1,1 1}
+{3 1,1102 1}
+{1041 1}
+{4 1}
+{5 1}
+{4 1}
+{2 1,3 1,328 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1}
+{3 1,4 1}
+{2 1,3 1}
+{1 1,2 1}
+{4 1}
+{}
+{3 1,5 1,849 1}
+{3 1,4 1,1115 1}
+{}
+{4 1,5 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1,676 1}
+{2 1,3 1}
+{0 1,5 1}
+{4 1,465 1}
+{0 1,2 1,665 1,928 1}
+{}
+{3 1}
+{3 1}
+{1 1,3 1}
+{2 1,5 1}
+{5 1}
+{5 1}
+{3 1,563 1,564 1,1446 1}
+{3 1,4 1,1413 1}
+{2 1,3 1,957 1,1404 1}
+{4 1}
+{0 1,3 1,4 1}
+{2 1,3 1}
+{2 1}
+{5 1}
+{4 1}
+{0 1,1 1,340 1}
+{3 1,266 1}
+{0 1,1 1}
+{3 1,674 1}
+{0 1,1 1,90 1}
+{3 1,4 1,1342 1,1387 1}
+{0 1,1 1}
+{3 1,582 1,596 1,1366 1}
+{0 1,1 1}
+{0 1,1 1}
+{4 1}
+{5 1,1302 1,1392 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1}
+{4 1,5 1}
+{4 1}
+{2 1,3 1}
+{3 1,5 1,1393 1}
+{0 1,2 1,4 1}
+{0 1,1 1}
+{0 1,5 1,158 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{3 1,1463 1}
+{4 1,253 1}
+{309 1}
+{3 1,1028 1}
+{2 1}
+{3 1,4 1}
+{3 1}
+{5 1,629 1,853 1}
+{0 1,1 1,3 1,4 1}
+{681 1}
+{5 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,1341 1}
+{0 1}
+{3 1}
+{0 1,1 1,4 1}
+{5 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1,1485 1}
+{5 1}
+{4 1,5 1,1383 1}
+{3 1,1502 1}
+{5 1,1383 1}
+{4 1,988 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,555 1,1416 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,1363 1}
+{3 1,1336 1}
+{3 1,4 1}
+{0 1,1 1,3 1,629 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1}
+{1 1,4 1}
+{3 1}
+{4 1}
+{5 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,1503 1}
+{3 1,1365 1}
+{3 1,4 1,1447 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{0 1,4 1,71 1,352 1}
+{5 1}
+{4 1}
+{4 1}
+{1178 1}
+{2 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{1 1,2 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{5 1}
+{4 1,60 1}
+{1 1,3 1,4 1,906 1}
+{3 1}
+{2 1,3 1}
+{3 1,1438 1}
+{3 1,1392 1}
+{0 1,1 1,3 1}
+{5 1,597 1,1334 1}
+{4 1}
+{3 1,4 1}
+{}
+{5 1,454 1,1212 1}
+{5 1,511 1}
+{3 1}
+{3 1,4 1,471 1}
+{5 1}
+{4 1,1413 1}
+{}
+{4 1}
+{5 1}
+{3 1,643 1}
+{2 1,3 1,1081 1}
+{0 1,1 1,3 1,764 1}
+{0 1,1 1}
+{3 1}
+{3 1,1336 1}
+{1 1,3 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{991 1}
+{2 1}
+{0 1,1 1,1074 1}
+{2 1,3 1,299 1}
+{2 1}
+{}
+{2 1,3 1,589 1}
+{4 1,1006 1}
+{2 1,3 1,787 1}
+{3 1,913 1}
+{5 1}
+{}
+{79 1,852 1}
+{2 1}
+{5 1}
+{3 1,101 1,1424 1}
+{3 1,4 1}
+{4 1,5 1}
+{5 1,1466 1}
+{3 1}
+{3 1,5 1}
+{3 1}
+{5 1}
+{0 1,5 1}
+{5 1}
+{2 1}
+{1 1,303 1}
+{4 1,1413 1}
+{4 1}
+{4 1,5 1}
+{3 1,1379 1}
+{5 1}
+{2 1,3 1,117 1,984 1}
+{3 1,839 1,1494 1}
+{4 1}
+{3 1,4 1,1482 1}
+{1 1,3 1,231 1}
+{0 1,3 1}
+{0 1,1 1}
+{2 1,3 1}
+{0 1,1 1,781 1}
+{2 1}
+{3 1,4 1,274 1,1331 1}
+{0 1,2 1,3 1,778 1,794 1}
+{3 1,4 1,5 1}
+{4 1,160 1}
+{4 1}
+{3 1}
+{3 1,1399 1}
+{3 1}
+{5 1,920 1}
+{3 1,4 1,1413 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{2 1,4 1}
+{1 1,3 1}
+{3 1,4 1,785 1,809 1,1367 1}
+{3 1,4 1}
+{3 1,4 1,307 1,1271 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{}
+{5 1}
+{3 1}
+{}
+{3 1,4 1}
+{5 1,597 1,1334 1}
+{2 1,3 1,834 1,835 1}
+{}
+{3 1}
+{5 1,1133 1}
+{3 1,4 1}
+{4 1}
+{0 1,4 1}
+{4 1}
+{4 1,5 1}
+{2 1}
+{0 1,1 1}
+{2 1,4 1}
+{3 1,5 1}
+{4 1}
+{4 1,5 1}
+{0 1,4 1}
+{3 1,4 1}
+{3 1,1014 1,1016 1}
+{3 1,602 1}
+{3 1,4 1,1349 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{4 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{3 1,1038 1,1459 1}
+{1 1,3 1,4 1}
+{3 1}
+{4 1}
+{3 1}
+{3 1}
+{}
+{0 1,1 1,340 1}
+{3 1,4 1,871 1}
+{3 1,540 1,1334 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{4 1,5 1,637 1}
+{3 1,952 1}
+{0 1,3 1}
+{2 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{1 1}
+{5 1}
+{4 1,5 1}
+{4 1,446 1}
+{0 1,1 1,4 1,1074 1}
+{4 1,1051 1,1354 1}
+{0 1,1 1,299 1}
+{1 1,3 1}
+{0 1,1 1,2 1,4 1}
+{5 1}
+{0 1}
+{5 1}
+{5 1}
+{}
+{4 1}
+{1 1,4 1}
+{0 1}
+{5 1}
+{0 1,1 1}
+{2 1,3 1}
+{0 1,1 1}
+{2 1}
+{4 1}
+{5 1}
+{3 1,4 1,1363 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{1 1,4 1,981 1}
+{5 1}
+{1103 1}
+{5 1}
+{}
+{0 1,1 1,3 1,647 1}
+{3 1,1472 1}
+{4 1,5 1}
+{5 1,154 1,628 1}
+{5 1}
+{4 1}
+{3 1,1438 1}
+{4 1}
+{0 1}
+{3 1}
+{4 1}
+{}
+{2 1}
+{2 1,3 1}
+{4 1,806 1}
+{0 1,1 1}
+{0 1}
+{3 1,952 1}
+{4 1}
+{3 1}
+{4 1}
+{4 1}
+{3 1,751 1,752 1}
+{4 1}
+{4 1,270 1,1281 1,1289 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{}
+{0 1}
+{5 1}
+{5 1,1503 1}
+{0 1,1 1,3 1}
+{2 1}
+{3 1,4 1}
+{4 1}
+{}
+{3 1,4 1}
+{5 1,710 1,735 1}
+{0 1,382 1,725 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1,3 1,4 1}
+{1 1,3 1,781 1}
+{4 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,304 1,1342 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1,487 1}
+{5 1,745 1}
+{5 1}
+{0 1,4 1}
+{5 1,236 1,644 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{0 1,1 1,3 1,359 1}
+{3 1,1336 1,1467 1}
+{2 1,3 1}
+{4 1}
+{786 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1}
+{2 1,5 1}
+{3 1}
+{3 1}
+{2 1,3 1,170 1}
+{4 1}
+{3 1}
+{0 1,1 1,256 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{3 1,5 1}
+{0 1}
+{5 1,575 1,1334 1}
+{3 1}
+{4 1}
+{2 1,3 1,414 1}
+{4 1}
+{0 1,3 1,4 1}
+{1086 1}
+{3 1,4 1,544 1,1380 1}
+{3 1,1061 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{}
+{4 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1}
+{3 1,4 1,444 1,1337 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{3 1,343 1}
+{5 1}
+{5 1}
+{4 1,5 1,819 1}
+{2 1,5 1}
+{2 1,4 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,557 1}
+{4 1,1302 1}
+{4 1}
+{2 1,3 1,1139 1}
+{3 1,4 1}
+{0 1}
+{4 1}
+{0 1}
+{5 1}
+{0 1,1 1,3 1,899 1}
+{5 1}
+{2 1,5 1}
+{}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{}
+{1502 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,1392 1}
+{3 1}
+{5 1}
+{5 1}
+{2 1}
+{3 1}
+{2 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{3 1}
+{0 1,3 1}
+{0 1,4 1}
+{4 1}
+{4 1,1360 1,1395 1}
+{0 1,1 1}
+{4 1}
+{0 1,3 1}
+{5 1,603 1}
+{1 1,3 1}
+{4 1,430 1}
+{3 1}
+{2 1,3 1}
+{}
+{3 1}
+{3 1,23 1,34 1}
+{0 1,1 1,731 1}
+{4 1,180 1}
+{0 1,1 1,4 1}
+{0 1,5 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{3 1,4 1,439 1}
+{5 1}
+{2 1,3 1}
+{3 1,4 1,63 1}
+{3 1,4 1}
+{3 1,413 1}
+{3 1,4 1}
+{}
+{3 1}
+{5 1,1051 1}
+{}
+{3 1}
+{0 1,81 1}
+{4 1,222 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{3 1,1503 1}
+{3 1}
+{0 1,1 1}
+{4 1,13 1,14 1,15 1,16 1,17 1,662 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,1259 1}
+{1 1,3 1}
+{0 1,1 1,2 1,340 1,836 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{3 1,4 1,1395 1}
+{1 1,4 1}
+{0 1,1 1}
+{3 1,594 1}
+{2 1,3 1}
+{}
+{5 1}
+{3 1}
+{3 1,40 1,1137 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{0 1,4 1,1074 1}
+{1 1,3 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,5 1}
+{0 1,3 1,4 1,324 1}
+{3 1}
+{5 1}
+{0 1,1 1,4 1}
+{0 1,3 1,4 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,3 1,4 1}
+{0 1,3 1}
+{2 1,3 1}
+{1 1,2 1,3 1}
+{0 1,1 1,3 1,4 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1}
+{1 1,3 1}
+{2 1,3 1,107 1}
+{5 1}
+{3 1,1312 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{370 1}
+{0 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{3 1,1175 1}
+{3 1,4 1,1399 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1,616 1,1394 1}
+{3 1}
+{}
+{2 1,3 1}
+{0 1,1 1}
+{}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,2 1,1231 1}
+{0 1,1 1}
+{0 1}
+{3 1}
+{0 1,1 1}
+{3 1,5 1}
+{3 1,1370 1}
+{3 1}
+{3 1,4 1}
+{1 1,5 1}
+{1 1,3 1,4 1}
+{2 1}
+{0 1}
+{0 1,1 1,5 1}
+{0 1,4 1,1248 1}
+{0 1,1 1,361 1}
+{5 1,93 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,222 1}
+{3 1,4 1,606 1,614 1}
+{3 1,4 1}
+{3 1,1471 1}
+{0 1}
+{0 1,3 1}
+{5 1}
+{4 1}
+{3 1,929 1}
+{3 1,1329 1}
+{0 1,1 1,4 1}
+{0 1}
+{0 1,1 1}
+{4 1,1413 1}
+{3 1}
+{0 1,1 1,915 1}
+{3 1}
+{2 1,3 1,842 1}
+{0 1,1 1,5 1}
+{4 1}
+{3 1,4 1}
+{0 1}
+{0 1,1 1}
+{5 1}
+{1 1,3 1}
+{1 1,3 1,1125 1,1156 1}
+{3 1,4 1,932 1}
+{0 1,5 1}
+{2 1,3 1,1500 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{0 1,4 1,802 1}
+{0 1,1 1}
+{}
+{0 1,3 1,4 1}
+{0 1,4 1}
+{}
+{3 1,4 1,758 1}
+{0 1,3 1,4 1}
+{3 1,4 1,456 1}
+{1 1,3 1}
+{5 1,534 1,562 1}
+{3 1}
+{1 1}
+{3 1}
+{4 1}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1}
+{3 1,5 1,1321 1}
+{4 1}
+{3 1,4 1}
+{1 1,3 1,1166 1}
+{4 1}
+{2 1}
+{4 1}
+{5 1,1126 1}
+{3 1,1187 1}
+{3 1,5 1,1207 1}
+{5 1}
+{1 1,3 1,4 1}
+{2 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1,1076 1}
+{4 1,5 1,696 1,1492 1}
+{}
+{3 1,4 1,1408 1}
+{0 1,1 1,362 1}
+{5 1}
+{4 1}
+{5 1,115 1}
+{0 1}
+{5 1}
+{5 1,476 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{0 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{351 1,517 1,710 1}
+{3 1,4 1}
+{4 1,330 1}
+{1 1,3 1,4 1}
+{3 1,4 1}
+{5 1,216 1}
+{3 1}
+{5 1}
+{5 1}
+{4 1,367 1}
+{5 1,980 1}
+{3 1,550 1}
+{3 1,4 1,1386 1}
+{0 1}
+{2 1,3 1,1221 1}
+{56 1,654 1}
+{3 1,1105 1,1335 1}
+{0 1,1 1}
+{5 1}
+{4 1,243 1,591 1}
+{5 1}
+{3 1,469 1}
+{2 1,3 1,6 1}
+{0 1}
+{4 1}
+{0 1,4 1}
+{1392 1}
+{0 1,1 1}
+{0 1,1 1,2 1,3 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1,1455 1}
+{3 1,4 1,466 1}
+{}
+{3 1}
+{4 1,934 1}
+{0 1,1 1,4 1}
+{3 1}
+{5 1,489 1}
+{0 1,1 1,3 1,4 1,401 1}
+{3 1,4 1,565 1}
+{2 1,3 1}
+{3 1,949 1}
+{3 1,1461 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1,4 1,1391 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1}
+{4 1}
+{2 1,3 1,1493 1}
+{1 1,2 1}
+{2 1,3 1,184 1}
+{5 1}
+{4 1,147 1}
+{5 1,1012 1}
+{3 1,1450 1}
+{4 1,5 1,254 1}
+{2 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{0 1,3 1,4 1,305 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{3 1,39 1,533 1,844 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,5 1,506 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{2 1,5 1}
+{4 1,5 1}
+{2 1}
+{3 1}
+{3 1}
+{}
+{4 1}
+{0 1,3 1}
+{2 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,691 1,1080 1}
+{5 1}
+{4 1,828 1,879 1}
+{3 1,1491 1}
+{1 1,3 1,42 1}
+{0 1,3 1,4 1,160 1,1242 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{5 1,771 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{}
+{5 1}
+{4 1}
+{2 1,813 1}
+{2 1}
+{309 1,692 1}
+{3 1,1336 1}
+{3 1,4 1}
+{3 1,675 1,1418 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{2 1,4 1,670 1}
+{3 1,4 1}
+{0 1,2 1,3 1}
+{}
+{4 1,31 1,36 1}
+{3 1,4 1,893 1}
+{1021 1}
+{5 1}
+{0 1,1 1,205 1}
+{2 1}
+{5 1}
+{4 1,472 1}
+{5 1}
+{3 1,1496 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1,953 1}
+{3 1,1418 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,4 1}
+{1 1,3 1}
+{2 1,3 1}
+{5 1}
+{0 1,4 1}
+{4 1}
+{}
+{5 1,209 1}
+{0 1,1 1,99 1}
+{5 1}
+{2 1}
+{3 1}
+{2 1,3 1,146 1,994 1}
+{3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1,1453 1,1487 1}
+{3 1}
+{3 1}
+{0 1,4 1}
+{1 1,3 1,4 1}
+{3 1,1503 1}
+{3 1,4 1,1491 1}
+{5 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1,825 1}
+{0 1,1 1,1243 1}
+{2 1,867 1,1142 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,301 1,313 1}
+{0 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{}
+{3 1}
+{5 1}
+{5 1}
+{0 1,629 1}
+{4 1,417 1}
+{2 1}
+{5 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,285 1}
+{4 1}
+{0 1,3 1}
+{0 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1}
+{1201 1}
+{3 1,4 1,128 1}
+{3 1,4 1}
+{2 1,4 1}
+{0 1,1 1}
+{3 1,4 1,1204 1}
+{3 1,1363 1}
+{4 1,5 1,1450 1}
+{5 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1}
+{}
+{4 1,1000 1}
+{0 1,1 1}
+{4 1}
+{3 1,616 1,1394 1}
+{2 1,3 1,493 1,1090 1}
+{2 1,3 1}
+{3 1,4 1,1372 1}
+{1 1}
+{4 1}
+{}
+{4 1}
+{3 1}
+{2 1}
+{5 1}
+{5 1,293 1}
+{4 1,97 1}
+{5 1}
+{3 1,922 1}
+{3 1}
+{0 1,1 1,4 1}
+{2 1,3 1}
+{0 1,1 1}
+{}
+{0 1,4 1,718 1,1100 1}
+{0 1,1 1,768 1}
+{0 1,1 1}
+{3 1,949 1}
+{1 1,3 1,4 1}
+{5 1}
+{0 1,3 1,4 1}
+{4 1,5 1}
+{3 1,4 1}
+{5 1}
+{1 1,4 1}
+{4 1}
+{5 1}
+{2 1,3 1}
+{3 1,1188 1}
+{0 1,1 1,1216 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1}
+{0 1,1 1,5 1,348 1}
+{0 1,1 1,666 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{4 1}
+{3 1}
+{5 1}
+{4 1,5 1,381 1}
+{5 1}
+{3 1,1413 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1,426 1}
+{0 1,1 1,2 1,1278 1}
+{4 1}
+{1 1,3 1,4 1}
+{5 1,393 1}
+{3 1,599 1}
+{3 1,1357 1}
+{0 1,4 1,199 1}
+{3 1}
+{5 1}
+{3 1}
+{1 1,3 1}
+{5 1,588 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{}
+{593 1,634 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{3 1,4 1}
+{2 1,5 1}
+{4 1}
+{3 1,1298 1}
+{3 1}
+{4 1,5 1,1491 1}
+{1 1,3 1,202 1}
+{5 1}
+{2 1,3 1}
+{1 1,4 1}
+{4 1}
+{0 1,3 1}
+{4 1}
+{3 1}
+{5 1,118 1}
+{2 1}
+{3 1}
+{5 1}
+{4 1,5 1,987 1}
+{3 1,4 1}
+{3 1,1469 1}
+{4 1,5 1,498 1,1434 1}
+{3 1,1194 1}
+{2 1,3 1}
+{0 1,1 1,333 1}
+{0 1,1 1}
+{4 1,5 1,1422 1}
+{3 1,4 1}
+{2 1,4 1}
+{3 1,602 1}
+{0 1}
+{2 1}
+{3 1}
+{5 1}
+{3 1,607 1,683 1}
+{2 1}
+{2 1}
+{5 1}
+{4 1,276 1}
+{3 1}
+{3 1,1385 1}
+{2 1,5 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{0 1,4 1}
+{2 1,3 1}
+{3 1,1413 1}
+{4 1,5 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{0 1,3 1,4 1}
+{4 1}
+{4 1}
+{3 1,1379 1}
+{0 1,1 1}
+{4 1,5 1}
+{}
+{4 1}
+{4 1}
+{5 1}
+{3 1,104 1}
+{3 1,5 1}
+{5 1}
+{4 1,5 1,1503 1}
+{5 1}
+{0 1,1 1,1215 1}
+{3 1,4 1}
+{1 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{0 1,4 1,217 1}
+{3 1,4 1}
+{2 1,3 1,4 1}
+{4 1,235 1}
+{3 1,4 1,252 1}
+{2 1,5 1}
+{3 1,988 1}
+{2 1}
+{1 1}
+{3 1}
+{5 1}
+{}
+{2 1,3 1}
+{4 1}
+{3 1,1483 1}
+{5 1,1190 1}
+{3 1}
+{1 1,4 1}
+{4 1}
+{5 1}
+{5 1,600 1}
+{1 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1}
+{4 1}
+{2 1,3 1}
+{1244 1}
+{2 1}
+{5 1}
+{709 1}
+{3 1,4 1}
+{0 1,1 1}
+{}
+{1 1,4 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{2 1,3 1,1131 1}
+{3 1}
+{0 1,1 1}
+{0 1,3 1}
+{5 1,587 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1,1213 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{}
+{3 1,4 1,5 1,1437 1}
+{0 1,1 1}
+{2 1,3 1}
+{1 1,3 1,4 1}
+{5 1,597 1,1334 1}
+{3 1}
+{1 1,3 1,1255 1}
+{4 1}
+{0 1,1 1,3 1,371 1}
+{3 1,1198 1}
+{3 1,1456 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{}
+{4 1,1264 1}
+{}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{5 1}
+{3 1,1336 1}
+{3 1,4 1,222 1}
+{3 1,4 1}
+{4 1,1121 1}
+{5 1,28 1,1287 1}
+{3 1,4 1,456 1}
+{2 1,275 1}
+{5 1}
+{3 1,1501 1}
+{4 1}
+{4 1,1202 1}
+{3 1}
+{5 1,41 1}
+{3 1}
+{}
+{4 1,193 1}
+{0 1,3 1,1001 1}
+{}
+{5 1,1119 1}
+{5 1,1246 1}
+{3 1}
+{3 1}
+{1 1,4 1}
+{2 1,3 1,45 1}
+{3 1,1168 1,1457 1}
+{3 1,950 1}
+{5 1}
+{3 1}
+{3 1,1428 1}
+{0 1,1 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{3 1,1455 1}
+{5 1}
+{3 1,1477 1}
+{3 1,4 1}
+{2 1,5 1}
+{0 1}
+{0 1}
+{3 1}
+{3 1,4 1}
+{4 1,5 1}
+{0 1,1 1}
+{2 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1,1314 1,1505 1}
+{1 1,3 1}
+{0 1}
+{3 1,1413 1}
+{0 1,1 1,4 1}
+{}
+{3 1,1423 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1}
+{2 1}
+{0 1,1 1,2 1,178 1}
+{2 1,3 1}
+{0 1}
+{2 1,5 1}
+{3 1,1360 1}
+{3 1,4 1,1458 1}
+{3 1}
+{4 1,5 1}
+{0 1,1 1}
+{0 1,4 1}
+{3 1,4 1,5 1,572 1}
+{3 1}
+{4 1,248 1}
+{0 1,3 1}
+{4 1,192 1}
+{62 1}
+{1439 1}
+{1 1,3 1,4 1}
+{3 1,27 1,1348 1}
+{3 1,1157 1}
+{1000 1}
+{3 1}
+{5 1,774 1}
+{3 1}
+{3 1}
+{}
+{5 1}
+{3 1}
+{3 1,754 1}
+{3 1,50 1}
+{4 1}
+{5 1,309 1}
+{4 1,1448 1}
+{5 1}
+{3 1,1496 1}
+{4 1,388 1}
+{4 1}
+{0 1,1 1,5 1}
+{0 1,1 1,3 1,4 1,376 1}
+{1 1,2 1,3 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1,1491 1}
+{3 1,1413 1}
+{3 1,4 1}
+{3 1}
+{}
+{2 1,5 1}
+{3 1,4 1}
+{3 1,1374 1}
+{0 1,1 1,1037 1}
+{1 1,3 1}
+{}
+{2 1,5 1}
+{3 1,4 1}
+{2 1,3 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{4 1}
+{4 1}
+{5 1,238 1,816 1}
+{1 1}
+{1175 1,1177 1}
+{3 1,829 1}
+{3 1}
+{3 1,445 1,1176 1}
+{3 1}
+{4 1,5 1}
+{3 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,1338 1}
+{3 1,4 1}
+{5 1,1161 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1}
+{4 1}
+{3 1,4 1,971 1}
+{3 1}
+{2 1,3 1,629 1}
+{0 1,1 1,1030 1}
+{3 1,4 1,1108 1}
+{3 1}
+{2 1,3 1}
+{2 1,5 1}
+{3 1,4 1,434 1}
+{0 1,589 1}
+{5 1,295 1,650 1}
+{3 1,1375 1}
+{0 1,3 1,4 1,1190 1}
+{5 1}
+{5 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1}
+{4 1}
+{4 1,5 1,1000 1}
+{1 1,3 1}
+{3 1,4 1}
+{0 1,1 1}
+{2 1,1247 1}
+{0 1,688 1}
+{0 1,1 1,99 1}
+{1 1,3 1}
+{1 1,3 1}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,4 1}
+{3 1,648 1}
+{2 1,3 1,1500 1}
+{}
+{3 1,4 1,479 1}
+{0 1,1 1,362 1}
+{4 1}
+{3 1}
+{0 1,1 1,3 1,1169 1}
+{3 1,4 1,810 1}
+{3 1}
+{2 1,3 1,437 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{0 1}
+{5 1}
+{4 1}
+{3 1,1504 1}
+{3 1,839 1,1494 1}
+{3 1,978 1}
+{5 1,905 1,1253 1}
+{5 1}
+{1 1,3 1}
+{4 1,5 1}
+{3 1,4 1,78 1}
+{2 1}
+{3 1,4 1,1399 1}
+{3 1,583 1,1373 1}
+{3 1}
+{5 1}
+{0 1,3 1}
+{5 1}
+{3 1}
+{2 1}
+{3 1}
+{4 1}
+{4 1}
+{3 1}
+{0 1,286 1}
+{4 1}
+{}
+{1 1,3 1,4 1}
+{5 1}
+{1 1,3 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,873 1}
+{3 1,4 1,439 1}
+{4 1,5 1,845 1,847 1}
+{2 1,3 1,4 1}
+{5 1}
+{4 1}
+{4 1}
+{}
+{}
+{3 1,4 1,526 1}
+{}
+{2 1,5 1}
+{3 1,4 1,1175 1}
+{3 1,4 1,713 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,3 1,290 1}
+{5 1}
+{5 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1}
+{1 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1}
+{4 1}
+{3 1,309 1,580 1,692 1}
+{4 1}
+{0 1,4 1,106 1,1275 1}
+{2 1,3 1}
+{3 1,4 1}
+{3 1}
+{448 1,1438 1}
+{1 1,1130 1}
+{4 1}
+{4 1,1043 1}
+{}
+{1 1,3 1,4 1}
+{5 1}
+{0 1,2 1,3 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1,651 1}
+{3 1,1505 1}
+{3 1,5 1}
+{3 1,1451 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{}
+{0 1}
+{3 1,4 1}
+{0 1}
+{3 1}
+{3 1}
+{3 1}
+{5 1}
+{4 1}
+{3 1,418 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{4 1,5 1}
+{4 1,5 1}
+{0 1,2 1,490 1}
+{3 1,4 1}
+{5 1,732 1,738 1}
+{0 1,1 1,4 1}
+{5 1}
+{4 1}
+{0 1}
+{}
+{}
+{3 1,1503 1}
+{2 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1,815 1}
+{0 1,1 1}
+{}
+{1 1,2 1,3 1}
+{2 1,4 1}
+{1477 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1,2 1}
+{5 1}
+{5 1}
+{3 1,140 1}
+{3 1,4 1}
+{5 1,621 1}
+{748 1}
+{3 1,4 1,838 1}
+{2 1,3 1}
+{3 1,597 1}
+{3 1,5 1}
+{1 1,3 1,4 1,321 1,1010 1}
+{5 1,309 1}
+{5 1,361 1}
+{1 1,3 1}
+{0 1,1 1}
+{1 1,4 1}
+{5 1}
+{0 1,2 1,5 1}
+{3 1}
+{0 1,3 1}
+{5 1}
+{5 1}
+{2 1}
+{4 1,5 1}
+{2 1,5 1}
+{3 1,4 1,1042 1}
+{3 1,4 1}
+{3 1}
+{1361 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1}
+{5 1,505 1,1051 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{1 1,3 1,4 1,890 1,1074 1}
+{3 1,4 1,5 1,412 1}
+{0 1,2 1}
+{4 1,462 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{2 1,4 1}
+{1 1,3 1,4 1,1233 1}
+{3 1}
+{4 1}
+{5 1,373 1,378 1}
+{5 1,309 1}
+{2 1,5 1}
+{4 1}
+{4 1}
+{5 1,730 1}
+{2 1,3 1,983 1,1020 1}
+{4 1}
+{4 1,1224 1}
+{3 1,4 1}
+{3 1,1425 1}
+{3 1,1390 1}
+{5 1,1005 1}
+{0 1,1 1}
+{1 1,4 1}
+{3 1}
+{4 1,444 1,1337 1}
+{3 1,4 1}
+{3 1,4 1,8 1,9 1}
+{4 1,1151 1}
+{2 1,3 1}
+{3 1,1415 1}
+{3 1,4 1,1410 1}
+{3 1,4 1,160 1}
+{3 1,1354 1}
+{3 1,1460 1}
+{3 1,4 1,1362 1}
+{5 1,385 1}
+{0 1,3 1}
+{1 1,4 1,623 1,658 1,707 1}
+{0 1,1 1,4 1}
+{0 1,1 1}
+{0 1,1 1,789 1}
+{3 1,4 1}
+{4 1,1028 1}
+{1 1,3 1,4 1}
+{3 1,5 1}
+{3 1,4 1}
+{5 1}
+{4 1,5 1}
+{0 1,3 1}
+{3 1}
+{5 1}
+{1 1,3 1}
+{1044 1}
+{0 1,1 1,3 1}
+{1418 1}
+{3 1,4 1,1208 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{4 1,805 1}
+{5 1}
+{5 1}
+{0 1,1 1,185 1}
+{65 1,66 1}
+{1 1}
+{0 1,2 1}
+{0 1}
+{4 1,5 1}
+{3 1,4 1,68 1}
+{0 1,4 1}
+{4 1}
+{5 1}
+{1 1,3 1}
+{3 1,5 1,226 1}
+{3 1,83 1}
+{3 1,1349 1}
+{4 1,5 1}
+{5 1,600 1}
+{5 1}
+{3 1,4 1}
+{3 1,1395 1}
+{4 1}
+{2 1,3 1}
+{4 1,336 1}
+{0 1,3 1}
+{1 1}
+{4 1,5 1}
+{91 1}
+{5 1,1444 1}
+{4 1}
+{5 1}
+{0 1,1 1,4 1}
+{4 1}
+{3 1,1384 1}
+{0 1,1 1}
+{2 1,5 1}
+{0 1,1 1,3 1}
+{2 1}
+{5 1}
+{3 1,1354 1}
+{927 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1,309 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,4 1}
+{}
+{3 1,1180 1}
+{5 1}
+{4 1}
+{2 1,3 1,1503 1}
+{5 1}
+{0 1,4 1,668 1}
+{5 1}
+{4 1,5 1}
+{0 1}
+{5 1}
+{0 1,3 1,4 1}
+{1 1,3 1,4 1}
+{3 1,5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{3 1}
+{0 1,4 1}
+{1 1,3 1}
+{0 1,5 1,158 1}
+{3 1,4 1,1491 1}
+{4 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{3 1,5 1}
+{0 1,1 1,4 1,342 1}
+{0 1,105 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{4 1}
+{2 1,3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{1347 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{1 1}
+{1 1,3 1}
+{0 1,1 1}
+{4 1,5 1}
+{0 1,4 1}
+{1367 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1,3 1}
+{3 1,1483 1}
+{1 1,3 1}
+{3 1,609 1,1356 1}
+{5 1}
+{1 1,4 1}
+{0 1,1 1,452 1}
+{5 1,1318 1}
+{4 1,66 1}
+{3 1}
+{5 1}
+{5 1,931 1}
+{5 1}
+{3 1,1313 1}
+{2 1,3 1,327 1}
+{}
+{}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{4 1,1000 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{3 1,578 1,1406 1}
+{0 1,4 1,106 1,1275 1}
+{5 1}
+{0 1,1 1,3 1}
+{1 1,4 1}
+{0 1,2 1,3 1}
+{3 1,1336 1}
+{3 1}
+{0 1,3 1}
+{1344 1}
+{2 1,3 1}
+{5 1}
+{2 1,3 1}
+{2 1}
+{4 1}
+{4 1}
+{5 1,1051 1}
+{0 1}
+{2 1,3 1}
+{4 1}
+{3 1,1372 1}
+{2 1,116 1,1260 1}
+{3 1,590 1}
+{5 1,421 1}
+{4 1,743 1,877 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{3 1,1336 1,1450 1}
+{2 1,1123 1}
+{0 1,1 1}
+{5 1,21 1,1179 1}
+{5 1}
+{3 1}
+{3 1}
+{4 1}
+{3 1,862 1}
+{0 1,4 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,3 1}
+{3 1,4 1}
+{3 1,4 1,1424 1}
+{4 1,1022 1}
+{2 1,3 1,685 1}
+{4 1,5 1,254 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{2 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{1235 1}
+{0 1,2 1}
+{3 1}
+{2 1,3 1}
+{3 1,5 1}
+{3 1,427 1}
+{3 1}
+{1 1,3 1,4 1}
+{0 1}
+{5 1}
+{1 1,3 1,776 1}
+{4 1}
+{4 1}
+{}
+{4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,68 1}
+{0 1,1 1}
+{3 1,4 1}
+{0 1,3 1,191 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{5 1}
+{3 1,4 1,1438 1}
+{2 1,3 1}
+{3 1,4 1}
+{}
+{2 1,3 1}
+{5 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1,1166 1}
+{4 1}
+{}
+{0 1,1 1,3 1}
+{3 1}
+{}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{5 1,343 1}
+{3 1}
+{2 1}
+{4 1}
+{5 1}
+{3 1}
+{5 1}
+{4 1}
+{2 1}
+{}
+{3 1,4 1,223 1}
+{1 1,3 1}
+{1 1}
+{3 1,4 1,227 1}
+{5 1}
+{4 1,894 1}
+{2 1,3 1,1155 1}
+{5 1}
+{4 1,5 1,1356 1}
+{4 1}
+{3 1,4 1}
+{0 1,2 1}
+{3 1,1163 1}
+{3 1,428 1,473 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{5 1,1079 1}
+{4 1,5 1}
+{3 1}
+{0 1,1 1,5 1}
+{3 1,4 1,1008 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1}
+{5 1}
+{4 1,5 1}
+{2 1,3 1}
+{5 1}
+{3 1,618 1,1341 1}
+{5 1}
+{3 1}
+{3 1}
+{}
+{0 1,1 1}
+{1 1,3 1}
+{0 1,1 1,4 1}
+{3 1,4 1,1441 1}
+{0 1,1 1,5 1,826 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,798 1}
+{3 1,165 1,841 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1}
+{1 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,1503 1}
+{2 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{4 1,456 1}
+{3 1,4 1}
+{5 1}
+{3 1,5 1}
+{3 1,4 1}
+{3 1,1424 1}
+{3 1,543 1}
+{3 1}
+{5 1,113 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{2 1,3 1}
+{3 1,1349 1}
+{0 1,1 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{}
+{3 1,1341 1}
+{5 1}
+{2 1,5 1}
+{}
+{5 1}
+{3 1}
+{1 1,3 1,488 1,1269 1}
+{4 1}
+{1 1,3 1}
+{0 1,1 1}
+{}
+{3 1,4 1}
+{3 1,948 1,1335 1}
+{}
+{1 1,2 1}
+{5 1,377 1,379 1}
+{3 1,1411 1}
+{0 1,1 1,2 1}
+{0 1,1 1,2 1,3 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1}
+{1 1,3 1,352 1}
+{4 1,5 1,506 1}
+{0 1,1 1}
+{4 1}
+{0 1}
+{4 1,457 1}
+{876 1}
+{3 1,4 1,299 1}
+{2 1}
+{1 1,3 1,4 1,1164 1}
+{4 1}
+{5 1}
+{0 1,1 1,3 1}
+{0 1,1 1,3 1}
+{5 1,1032 1}
+{3 1}
+{3 1,4 1,1429 1}
+{5 1}
+{}
+{5 1,425 1}
+{3 1,872 1,874 1}
+{0 1,1 1,3 1}
+{3 1,4 1,1386 1}
+{2 1,3 1,602 1}
+{3 1,1114 1}
+{5 1,164 1}
+{3 1,1371 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{4 1,1150 1,1413 1}
+{3 1}
+{4 1,5 1}
+{4 1,5 1}
+{5 1,241 1,1185 1}
+{3 1,598 1}
+{0 1,1 1,153 1}
+{4 1}
+{5 1}
+{5 1,527 1}
+{4 1}
+{0 1,1141 1}
+{4 1}
+{5 1}
+{2 1,5 1}
+{1 1,3 1,4 1}
+{0 1,4 1}
+{5 1}
+{5 1}
+{2 1,3 1}
+{4 1,1013 1}
+{2 1,5 1}
+{3 1,1363 1}
+{4 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1}
+{2 1,5 1}
+{4 1,5 1}
+{2 1}
+{5 1}
+{3 1,1376 1}
+{5 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1,957 1,1404 1}
+{929 1}
+{3 1,4 1}
+{4 1}
+{5 1,309 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{0 1,3 1}
+{}
+{0 1,1 1,2 1}
+{3 1,396 1}
+{0 1,1 1,2 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,3 1,4 1}
+{3 1}
+{4 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{0 1}
+{3 1,4 1}
+{0 1}
+{395 1}
+{2 1,5 1}
+{4 1,1367 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1}
+{5 1,518 1,520 1}
+{2 1,5 1}
+{0 1,1 1}
+{0 1}
+{4 1}
+{3 1}
+{4 1,756 1}
+{3 1,1382 1}
+{2 1,3 1,432 1}
+{3 1,1250 1,1254 1}
+{3 1,4 1}
+{0 1,1 1}
+{2 1}
+{4 1}
+{2 1}
+{3 1,4 1}
+{3 1,4 1,788 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1}
+{}
+{5 1,247 1,830 1,833 1}
+{}
+{}
+{4 1,5 1}
+{}
+{3 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1}
+{2 1,3 1}
+{2 1,4 1,100 1}
+{3 1,4 1,460 1}
+{3 1,5 1}
+{5 1}
+{3 1}
+{0 1}
+{2 1}
+{0 1,1 1,2 1,4 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,3 1,1074 1}
+{1 1,3 1}
+{3 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,530 1}
+{2 1,1182 1}
+{1 1,3 1,921 1}
+{4 1}
+{3 1,1442 1}
+{}
+{5 1}
+{5 1}
+{3 1}
+{}
+{5 1}
+{5 1}
+{}
+{0 1,2 1,75 1}
+{1370 1}
+{3 1}
+{3 1}
+{0 1,4 1}
+{0 1,1 1,3 1,762 1}
+{1 1,3 1}
+{5 1,70 1}
+{4 1,5 1}
+{1 1,3 1}
+{}
+{0 1}
+{3 1,1003 1}
+{4 1}
+{3 1}
+{4 1,5 1}
+{2 1,4 1}
+{5 1,652 1}
+{3 1,4 1,439 1}
+{3 1,82 1,1296 1,1309 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1}
+{2 1,4 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1}
+{1 1,3 1,4 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{4 1,5 1,1077 1,1491 1}
+{3 1,4 1,583 1,1339 1}
+{4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{3 1,1158 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{3 1,4 1}
+{}
+{1 1,4 1}
+{4 1,55 1}
+{2 1,3 1}
+{3 1,1392 1}
+{0 1,1 1,4 1}
+{4 1}
+{4 1,5 1}
+{5 1,1262 1}
+{3 1}
+{3 1}
+{3 1}
+{4 1}
+{0 1,1 1,4 1,122 1,289 1}
+{5 1}
+{4 1}
+{3 1,1418 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,5 1}
+{1 1,3 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{2 1}
+{}
+{3 1,4 1,120 1}
+{3 1,954 1,1392 1}
+{2 1}
+{4 1,1283 1}
+{3 1,1390 1}
+{5 1}
+{4 1,626 1,726 1,734 1,1191 1,1341 1}
+{5 1}
+{0 1,2 1,3 1}
+{3 1,4 1,1413 1}
+{2 1,5 1}
+{4 1,5 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1,625 1}
+{2 1}
+{0 1,1 1,3 1,4 1}
+{3 1,4 1,1351 1}
+{0 1,1 1,4 1,1226 1}
+{5 1}
+{4 1,5 1}
+{3 1,566 1,1421 1}
+{4 1}
+{5 1}
+{3 1,4 1,29 1}
+{2 1,3 1}
+{5 1}
+{0 1,1 1,340 1}
+{0 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{2 1,5 1,1252 1}
+{3 1,1099 1}
+{3 1,5 1,611 1}
+{0 1,3 1,4 1,1074 1}
+{5 1}
+{4 1,1149 1,1150 1,1413 1}
+{3 1,408 1}
+{3 1,4 1,1326 1}
+{0 1,1 1}
+{5 1,518 1,520 1}
+{5 1}
+{3 1,312 1}
+{3 1}
+{0 1,1 1,3 1,451 1}
+{653 1}
+{3 1}
+{2 1,5 1,605 1}
+{2 1,1058 1}
+{3 1,4 1,587 1}
+{0 1,1 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1,1418 1}
+{3 1}
+{4 1}
+{5 1,296 1}
+{3 1,394 1}
+{2 1}
+{4 1,5 1}
+{0 1,2 1,3 1}
+{5 1,422 1}
+{4 1}
+{2 1,3 1}
+{0 1,1 1,340 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{2 1}
+{}
+{4 1,5 1}
+{4 1,439 1}
+{0 1,1 1}
+{}
+{3 1,667 1}
+{0 1,1 1}
+{3 1}
+{5 1,161 1,821 1}
+{3 1,1319 1}
+{4 1}
+{2 1,3 1,109 1,363 1,464 1}
+{3 1}
+{3 1}
+{5 1}
+{2 1,5 1}
+{3 1,1280 1}
+{963 1}
+{4 1}
+{3 1,782 1}
+{3 1,4 1,1354 1}
+{1 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1}
+{2 1}
+{0 1,3 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,1409 1}
+{0 1}
+{1 1,3 1,4 1}
+{5 1}
+{2 1,3 1,4 1}
+{3 1,923 1}
+{4 1}
+{3 1}
+{3 1}
+{5 1}
+{}
+{5 1,1036 1}
+{5 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,955 1,1359 1}
+{3 1,791 1,1455 1}
+{2 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{0 1,5 1,158 1}
+{5 1}
+{1 1,3 1}
+{4 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1}
+{0 1,3 1,4 1}
+{4 1}
+{3 1,1458 1}
+{3 1,4 1}
+{1 1,2 1,4 1}
+{2 1}
+{1 1,3 1}
+{3 1}
+{5 1}
+{2 1}
+{}
+{0 1,1 1}
+{2 1,4 1,262 1,387 1}
+{}
+{4 1,1475 1}
+{0 1,4 1,372 1}
+{3 1,1240 1}
+{3 1,291 1,1122 1,1464 1}
+{3 1,4 1}
+{3 1}
+{0 1,2 1,3 1}
+{2 1,3 1}
+{5 1}
+{5 1}
+{3 1,1227 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,3 1}
+{5 1,597 1,1334 1}
+{0 1,2 1,352 1}
+{3 1,4 1}
+{}
+{3 1,561 1,1339 1}
+{4 1}
+{}
+{3 1,128 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{4 1,5 1}
+{4 1}
+{3 1}
+{2 1,3 1}
+{3 1,1187 1}
+{0 1,1 1,4 1}
+{3 1,1449 1}
+{5 1,1016 1}
+{4 1,5 1}
+{3 1,4 1,1399 1}
+{0 1,1 1,340 1}
+{3 1,4 1}
+{3 1,1414 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{443 1,1257 1}
+{5 1}
+{3 1,230 1}
+{2 1,4 1,1128 1}
+{5 1}
+{4 1,5 1,523 1,724 1}
+{3 1,4 1}
+{4 1,1183 1}
+{4 1,750 1}
+{0 1,1 1}
+{1453 1}
+{5 1}
+{3 1,92 1,935 1}
+{3 1,4 1}
+{4 1}
+{3 1,5 1}
+{0 1,4 1}
+{3 1,4 1,147 1}
+{5 1}
+{4 1}
+{3 1,4 1,1399 1}
+{0 1,1210 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,1304 1,1306 1}
+{2 1,5 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,1503 1}
+{2 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,300 1,439 1}
+{3 1,956 1,1207 1,1359 1}
+{3 1,4 1}
+{4 1}
+{5 1,892 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1}
+{4 1,5 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{3 1,1503 1}
+{5 1}
+{4 1}
+{4 1}
+{5 1,723 1}
+{3 1,581 1}
+{0 1,1 1,3 1,1277 1}
+{2 1,3 1}
+{4 1,229 1}
+{0 1,3 1}
+{2 1,3 1}
+{}
+{5 1,24 1}
+{5 1}
+{3 1,1336 1}
+{2 1,3 1}
+{0 1,4 1}
+{3 1,282 1,1307 1}
+{0 1,1 1,635 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,226 1}
+{4 1}
+{0 1,2 1,4 1}
+{0 1,1 1,897 1}
+{}
+{}
+{5 1}
+{1 1,3 1,763 1}
+{5 1}
+{1 1,3 1,4 1}
+{}
+{0 1,1 1,2 1,3 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,1354 1}
+{0 1,4 1}
+{3 1,1308 1}
+{4 1,5 1}
+{3 1,5 1}
+{0 1,3 1,780 1}
+{0 1,1 1,3 1}
+{3 1,1453 1}
+{5 1}
+{4 1}
+{5 1}
+{4 1,567 1,1334 1}
+{4 1,5 1}
+{2 1,3 1,888 1}
+{2 1}
+{5 1}
+{2 1}
+{2 1,171 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1,1116 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1,4 1,198 1}
+{3 1}
+{2 1,5 1}
+{2 1}
+{2 1,49 1}
+{0 1,2 1,3 1}
+{5 1}
+{0 1,3 1}
+{4 1,5 1}
+{5 1}
+{5 1}
+{5 1}
+{0 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,1265 1}
+{3 1,1455 1}
+{4 1}
+{3 1,5 1}
+{3 1,4 1}
+{}
+{5 1}
+{4 1}
+{4 1}
+{1 1,4 1,1172 1}
+{4 1,438 1,467 1}
+{3 1,4 1,439 1,571 1}
+{0 1,1 1,3 1,5 1,348 1}
+{}
+{5 1}
+{0 1,1 1}
+{}
+{3 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1,4 1,886 1}
+{5 1}
+{3 1,4 1,1402 1}
+{3 1}
+{2 1}
+{2 1}
+{2 1,4 1}
+{0 1,2 1,4 1,1045 1}
+{4 1}
+{5 1}
+{0 1,2 1}
+{4 1}
+{4 1,5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1}
+{1494 1}
+{0 1,1 1,3 1}
+{3 1,226 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1}
+{3 1,958 1,1498 1}
+{5 1}
+{3 1,356 1}
+{3 1}
+{5 1}
+{0 1}
+{0 1,1136 1}
+{5 1,934 1}
+{5 1,1195 1}
+{5 1}
+{4 1,278 1,1167 1}
+{}
+{3 1}
+{708 1}
+{3 1,182 1,1409 1}
+{4 1}
+{3 1}
+{2 1,3 1,787 1}
+{3 1,4 1,1336 1,1497 1}
+{4 1}
+{3 1}
+{3 1,133 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,456 1}
+{4 1,962 1}
+{5 1}
+{0 1,1 1,5 1}
+{4 1,5 1}
+{4 1}
+{3 1}
+{2 1,3 1,4 1}
+{3 1,4 1,1346 1}
+{}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{5 1}
+{5 1}
+{3 1,1379 1}
+{3 1,1379 1}
+{}
+{1 1,3 1}
+{5 1}
+{5 1,699 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1,854 1}
+{1 1,2 1,3 1}
+{5 1}
+{4 1,5 1,1059 1}
+{0 1,3 1,4 1,1040 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1,817 1}
+{543 1}
+{3 1,545 1}
+{4 1,1132 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,1335 1}
+{3 1,4 1}
+{5 1}
+{0 1,3 1}
+{4 1,5 1,1056 1}
+{3 1}
+{4 1,828 1,879 1}
+{2 1,3 1}
+{4 1,46 1,47 1}
+{3 1,189 1}
+{3 1}
+{2 1,3 1,1029 1}
+{0 1,1 1}
+{5 1,558 1}
+{1 1,4 1}
+{}
+{4 1}
+{3 1,4 1,1399 1}
+{4 1,5 1,1026 1}
+{0 1,1 1}
+{2 1}
+{3 1,1340 1,1392 1}
+{3 1,5 1}
+{1147 1}
+{}
+{2 1,3 1}
+{5 1,1411 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,1413 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1,131 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1}
+{3 1,1409 1}
+{5 1}
+{1 1,3 1,4 1,698 1}
+{2 1,5 1}
+{4 1,5 1,331 1}
+{5 1}
+{3 1,4 1,972 1}
+{3 1}
+{3 1,4 1,1438 1}
+{5 1}
+{}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,1016 1}
+{3 1,1338 1}
+{3 1,4 1}
+{0 1,1 1,85 1}
+{3 1,4 1}
+{4 1,5 1}
+{3 1}
+{4 1}
+{4 1,5 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,1397 1}
+{3 1,602 1}
+{1 1,2 1}
+{3 1,1328 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{}
+{}
+{1 1,3 1,123 1,403 1}
+{1 1,3 1,5 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,1424 1}
+{3 1,5 1}
+{5 1,1411 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{0 1,1 1,3 1,108 1,111 1}
+{0 1,1 1}
+{2 1,3 1}
+{1134 1}
+{4 1}
+{409 1}
+{3 1}
+{2 1,5 1}
+{0 1,1 1,2 1}
+{1 1,2 1,3 1,4 1}
+{5 1,492 1}
+{2 1,3 1,1205 1}
+{3 1}
+{2 1,361 1,589 1}
+{0 1,340 1}
+{4 1,584 1}
+{0 1,4 1}
+{0 1,3 1,4 1,186 1}
+{600 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{2 1}
+{3 1,353 1}
+{5 1}
+{2 1,3 1,248 1,280 1,287 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,1390 1}
+{0 1,1 1,895 1}
+{3 1,4 1,1241 1}
+{298 1}
+{3 1}
+{4 1}
+{1 1}
+{3 1,1395 1}
+{2 1,5 1}
+{3 1,4 1}
+{2 1,3 1}
+{0 1}
+{0 1,4 1,5 1,1073 1,1170 1}
+{3 1,4 1}
+{0 1,4 1}
+{0 1,4 1}
+{0 1}
+{1 1,3 1,4 1,394 1}
+{3 1}
+{3 1,1453 1}
+{0 1,3 1}
+{0 1,1 1}
+{3 1,4 1,1399 1}
+{5 1,597 1,1334 1}
+{0 1}
+{0 1,1 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1}
+{3 1,4 1}
+{2 1}
+{3 1}
+{4 1,5 1}
+{0 1,3 1,4 1}
+{5 1,309 1}
+{5 1,1095 1}
+{3 1,1453 1}
+{3 1}
+{5 1,496 1}
+{0 1,1 1}
+{2 1,850 1}
+{4 1}
+{5 1,1190 1}
+{5 1}
+{1 1,3 1,4 1}
+{5 1,749 1}
+{4 1}
+{0 1,4 1,375 1,769 1}
+{3 1,4 1,5 1}
+{}
+{2 1,5 1}
+{4 1}
+{5 1,88 1}
+{2 1,5 1}
+{4 1}
+{5 1,1041 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,988 1}
+{5 1}
+{5 1}
+{3 1,1344 1}
+{406 1}
+{3 1}
+{2 1,3 1}
+{3 1,1318 1}
+{4 1,5 1,583 1,1420 1}
+{5 1}
+{3 1,4 1,591 1,1505 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1}
+{1 1,2 1,3 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{2 1,4 1}
+{3 1,4 1,1315 1}
+{2 1,3 1,4 1,222 1,994 1}
+{3 1,4 1,1355 1}
+{2 1,3 1}
+{3 1,1503 1}
+{5 1,1127 1}
+{3 1,458 1,659 1}
+{5 1,503 1,507 1}
+{4 1}
+{4 1,1056 1}
+{4 1}
+{0 1,2 1,3 1}
+{1 1,3 1}
+{5 1}
+{0 1,3 1}
+{5 1}
+{3 1,4 1,1399 1}
+{}
+{5 1}
+{5 1}
+{2 1,5 1}
+{2 1,450 1}
+{2 1,3 1,772 1,773 1}
+{1 1,4 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1,4 1,908 1,909 1,910 1}
+{2 1,5 1,1165 1}
+{3 1,4 1}
+{2 1,4 1}
+{2 1,3 1,4 1}
+{}
+{3 1,1336 1}
+{5 1}
+{1 1,3 1,4 1,481 1}
+{0 1,1 1,1291 1}
+{2 1,3 1,503 1,509 1}
+{5 1}
+{3 1,1503 1}
+{5 1,306 1}
+{4 1,369 1,514 1}
+{4 1,150 1,1199 1}
+{}
+{2 1,5 1}
+{4 1,985 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,1483 1}
+{5 1}
+{3 1,957 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,790 1}
+{2 1,3 1}
+{2 1}
+{}
+{3 1,272 1,1439 1}
+{3 1}
+{5 1}
+{}

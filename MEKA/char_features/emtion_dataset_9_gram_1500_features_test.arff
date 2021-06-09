@@ -1,0 +1,2733 @@
+@relation 'EMOTION: -C 6'
+@attribute anger_class {0,1}
+@attribute disgust_class {0,1}
+@attribute fear_class {0,1}
+@attribute sadness_class {0,1}
+@attribute surprise_class {0,1}
+@attribute happiness_class {0,1}
+@attribute 'ن دلانے ک' numeric
+@attribute 'دلانے کیل' numeric
+@attribute ' دلانے کی' numeric
+@attribute 'ی یقین دل' numeric
+@attribute 'ین دلانے ' numeric
+@attribute 'یقین دلان' numeric
+@attribute 'لانے کیلئ' numeric
+@attribute ' یقین دلا' numeric
+@attribute 'قین دلانے' numeric
+@attribute 'انے کیلئے' numeric
+@attribute 'نے کیلئے ' numeric
+@attribute 'ہانا پڑتا' numeric
+@attribute 'پڑتا بیما' numeric
+@attribute 'انا پڑتا ' numeric
+@attribute 'ڑتا بیمار' numeric
+@attribute 'ا پڑتا بی' numeric
+@attribute 'نا پڑتا ب' numeric
+@attribute ' پڑتا بیم' numeric
+@attribute 'تا بیماری' numeric
+@attribute 'ئے مرنا پ' numeric
+@attribute 'نسو بہانا' numeric
+@attribute 'ا بیماری ' numeric
+@attribute ' کیلئے مر' numeric
+@attribute ' کیلئے آن' numeric
+@attribute 'لئے آنسو ' numeric
+@attribute 'بہانا پڑت' numeric
+@attribute 'یلئے آنسو' numeric
+@attribute 'ئے آنسو ب' numeric
+@attribute 'یلئے مرنا' numeric
+@attribute 'سو بہانا ' numeric
+@attribute 'کیلئے آنس' numeric
+@attribute 'کیلئے مرن' numeric
+@attribute 'ے کیلئے م' numeric
+@attribute 'ے کیلئے آ' numeric
+@attribute 'و بہانا پ' numeric
+@attribute 'لئے مرنا ' numeric
+@attribute ' بہانا پڑ' numeric
+@attribute 'عاشرے ادا' numeric
+@attribute 'اداسی یقی' numeric
+@attribute 'ے مرنا پڑ' numeric
+@attribute 'مرنا پڑتا' numeric
+@attribute 'اشرے اداس' numeric
+@attribute ' اداسی یق' numeric
+@attribute 'ماری یقین' numeric
+@attribute 'ینا معاشر' numeric
+@attribute 'اری یقین ' numeric
+@attribute 'نابینا مع' numeric
+@attribute 'بیماری یق' numeric
+@attribute ' مرنا پڑت' numeric
+@attribute 'علق نابین' numeric
+@attribute ' آنسو بہا' numeric
+@attribute 'بینا معاش' numeric
+@attribute 'ے آنسو بہ' numeric
+@attribute 'شرے اداسی' numeric
+@attribute ' نابینا م' numeric
+@attribute 'سی یقین د' numeric
+@attribute 'یماری یقی' numeric
+@attribute 'ق نابینا ' numeric
+@attribute 'لق نابینا' numeric
+@attribute 'معاشرے اد' numeric
+@attribute 'اسی یقین ' numeric
+@attribute 'آنسو بہان' numeric
+@attribute 'داسی یقین' numeric
+@attribute 'تعلق نابی' numeric
+@attribute 'ابینا معا' numeric
+@attribute ' بیماری ی' numeric
+@attribute 'ری یقین د' numeric
+@attribute 'نا معاشرے' numeric
+@attribute 'ے اداسی ی' numeric
+@attribute 'ا معاشرے ' numeric
+@attribute ' معاشرے ا' numeric
+@attribute 'رے اداسی ' numeric
+@attribute 'ن فیعل بد' numeric
+@attribute 'ن قابل نف' numeric
+@attribute 'ن قابض فو' numeric
+@attribute 'ن قائد جذ' numeric
+@attribute 'ن قائم آز' numeric
+@attribute 'ن قائدین ' numeric
+@attribute 'ن فکر مین' numeric
+@attribute 'نا احساس ' numeric
+@attribute 'ن فوج خلا' numeric
+@attribute 'ن فرمان د' numeric
+@attribute 'ن فروش دی' numeric
+@attribute 'ن فروش سا' numeric
+@attribute 'ن فروشوں ' numeric
+@attribute 'ن فساد می' numeric
+@attribute 'ن فضا گھل' numeric
+@attribute 'ن فنڈ ریز' numeric
+@attribute 'ن فوج حکو' numeric
+@attribute 'ن فوج غلا' numeric
+@attribute 'ن فیصل آب' numeric
+@attribute 'ن فوری حک' numeric
+@attribute 'ن فوری پا' numeric
+@attribute 'ن فون تیل' numeric
+@attribute 'ن فوٹو دی' numeric
+@attribute 'ن فکر آخر' numeric
+@attribute 'نا اثر کھ' numeric
+@attribute 'نا اداس ~' numeric
+@attribute 'ن فیز اسپ' numeric
+@attribute 'ن قادیانی' numeric
+@attribute 'نئے سفر پ' numeric
+@attribute 'ن قاسم نا' numeric
+@attribute 'ن لرزتا پ' numeric
+@attribute 'ن لاد گہر' numeric
+@attribute 'ن لارہا ک' numeric
+@attribute 'ن لاشوں ر' numeric
+@attribute 'ن لاک ڈاو' numeric
+@attribute 'ن لاۓ ادا' numeric
+@attribute 'ن لبرل ما' numeric
+@attribute 'ن لبوں چو' numeric
+@attribute 'ن لتڑی پا' numeric
+@attribute 'نا اتنی ا' numeric
+@attribute 'ن قدر پہن' numeric
+@attribute 'ن لسٹ ٹوی' numeric
+@attribute 'ن لعنتی ذ' numeric
+@attribute 'ن لفافا م' numeric
+@attribute 'ن لفٹ کرو' numeric
+@attribute 'ن للکار ح' numeric
+@attribute 'ن لمبی لس' numeric
+@attribute 'ن لمحوں ی' numeric
+@attribute 'ن لمحے اد' numeric
+@attribute 'ن لاد گھر' numeric
+@attribute 'ن لائن ھو' numeric
+@attribute 'ن لائن کھ' numeric
+@attribute 'ن لائن کل' numeric
+@attribute 'ن قدرت عج' numeric
+@attribute 'ن قدرتی آ' numeric
+@attribute 'ن قدم کیس' numeric
+@attribute 'ن قرار دل' numeric
+@attribute 'ن فرماتے ' numeric
+@attribute 'ن قصہ سنا' numeric
+@attribute 'ن قطعا خو' numeric
+@attribute 'ن قوم جہا' numeric
+@attribute 'ن قوم نفر' numeric
+@attribute 'ن قوم پرس' numeric
+@attribute 'ن قوم چاہ' numeric
+@attribute 'ن قومی اس' numeric
+@attribute 'ن قہقہے م' numeric
+@attribute 'ن قیمت حک' numeric
+@attribute 'ن لئیے مش' numeric
+@attribute 'ن لائن آک' numeric
+@attribute 'ن لائن لی' numeric
+@attribute 'ن قسم لوگ' numeric
+@attribute 'ن فر ق ات' numeric
+@attribute 'ن فرقہ پر' numeric
+@attribute 'ن علاج اد' numeric
+@attribute 'ن عرس مبا' numeric
+@attribute 'ن عزت کھی' numeric
+@attribute 'ن عزیر بل' numeric
+@attribute 'ن عزیر بھ' numeric
+@attribute 'ن عشق حیر' numeric
+@attribute 'ن عظمت عش' numeric
+@attribute 'ن عقیدہخت' numeric
+@attribute 'ن عقیدۂ خ' numeric
+@attribute 'ن علامت ھ' numeric
+@attribute 'ن فرق پڑت' numeric
+@attribute 'ن علم تبل' numeric
+@attribute 'ن علم خام' numeric
+@attribute 'ن علی اسل' numeric
+@attribute 'ن علیہ قت' numeric
+@attribute 'ن علیہ لو' numeric
+@attribute 'ن عمر فار' numeric
+@attribute 'ن عمر مدت' numeric
+@attribute 'ن عمران ب' numeric
+@attribute 'ن عربی خو' numeric
+@attribute 'ن عذاب می' numeric
+@attribute 'ن عجیب اد' numeric
+@attribute 'ن عبداللہ' numeric
+@attribute 'ن طریقے س' numeric
+@attribute 'ن طلاق غص' numeric
+@attribute 'ن ظالم وح' numeric
+@attribute 'ن ع دل دی' numeric
+@attribute 'ن ع لوگ ر' numeric
+@attribute 'ن ع وارث ' numeric
+@attribute 'ن عادی بن' numeric
+@attribute 'ن عارف عل' numeric
+@attribute 'ن عارف وز' numeric
+@attribute 'ن عالم گھ' numeric
+@attribute 'ن عام مسل' numeric
+@attribute 'ن عبادت م' numeric
+@attribute 'ن عباسی ب' numeric
+@attribute 'ن عباسی ض' numeric
+@attribute 'ن عباسی ک' numeric
+@attribute 'ن عباسی گ' numeric
+@attribute 'ن عباسیجا' numeric
+@attribute 'ن عمران خ' numeric
+@attribute 'ن عمران ن' numeric
+@attribute 'ن عمران ڈ' numeric
+@attribute 'ن غصہ پی ' numeric
+@attribute 'ن غلط بول' numeric
+@attribute 'ن غلط مرح' numeric
+@attribute 'ن غم سہنا' numeric
+@attribute 'ن غم کفیت' numeric
+@attribute 'ن غم کیفی' numeric
+@attribute 'ن غیر اعل' numeric
+@attribute 'ن غیر ضرو' numeric
+@attribute 'ن غیرت حم' numeric
+@attribute 'ن ف ایمان' numeric
+@attribute 'ن ف عہد پ' numeric
+@attribute 'ن فائدہ ک' numeric
+@attribute 'ن فالور ہ' numeric
+@attribute 'ن لوبے شک' numeric
+@attribute 'ن فرار ال' numeric
+@attribute 'ن فراہم ک' numeric
+@attribute 'ن فردوس ع' numeric
+@attribute 'ن فرسٹ ائ' numeric
+@attribute 'ن غلام شہ' numeric
+@attribute 'ن غصہ نکا' numeric
+@attribute 'ن عمرانی ' numeric
+@attribute 'ن غصہ رھا' numeric
+@attribute 'ن عمل نفر' numeric
+@attribute 'ن عوام خو' numeric
+@attribute 'ن عوام شد' numeric
+@attribute 'ن عوام غر' numeric
+@attribute 'ن عوام نم' numeric
+@attribute 'ن عورت عق' numeric
+@attribute 'ن عہد نبو' numeric
+@attribute 'ن غائب آج' numeric
+@attribute 'ن غائر ⁦ ' numeric
+@attribute 'ن غدار قر' numeric
+@attribute 'ن غدار ور' numeric
+@attribute 'ن غرض پسن' numeric
+@attribute 'ن غریبوں ' numeric
+@attribute 'ن غریدہ خ' numeric
+@attribute 'ن غزوہ ہن' numeric
+@attribute 'نا اداس ا' numeric
+@attribute 'ن غصہ تے ' numeric
+@attribute 'ن لندن سو' numeric
+@attribute 'ن لوگ چین' numeric
+@attribute 'ن لوکہ مش' numeric
+@attribute 'ن مخالفین' numeric
+@attribute 'ن محفوظ ل' numeric
+@attribute 'ن محمد زب' numeric
+@attribute 'ن محمد قا' numeric
+@attribute 'ن محمود غ' numeric
+@attribute 'ن محنت گد' numeric
+@attribute 'ن محور اد' numeric
+@attribute 'ن مخالف ش' numeric
+@attribute 'ن مخالفت ' numeric
+@attribute 'ن مختلف ش' numeric
+@attribute 'ن مرد موم' numeric
+@attribute 'ن مدتوں م' numeric
+@attribute 'ن مدد کرن' numeric
+@attribute 'ن مدد گے ' numeric
+@attribute 'ن مذہب اس' numeric
+@attribute 'ن مر اے ا' numeric
+@attribute 'ن مر جانا' numeric
+@attribute 'ن مر قرآن' numeric
+@attribute 'ن مراد ذہ' numeric
+@attribute 'ن محفلسخن' numeric
+@attribute 'ن محشر طل' numeric
+@attribute 'ن محبوب س' numeric
+@attribute 'ن محبت ہم' numeric
+@attribute 'ن مبارکان' numeric
+@attribute 'ن مبہوت ہ' numeric
+@attribute 'ن مبینہ پ' numeric
+@attribute 'ن متاع در' numeric
+@attribute 'ن متشدد ب' numeric
+@attribute 'ن متعلق چ' numeric
+@attribute 'ن متوالے ' numeric
+@attribute 'ن مثال مس' numeric
+@attribute 'ن مثال نی' numeric
+@attribute 'ن مجبور ھ' numeric
+@attribute 'ن مجھےطار' numeric
+@attribute 'ن مجید فر' numeric
+@attribute 'ن محبت اہ' numeric
+@attribute 'ن محبت نظ' numeric
+@attribute 'ن محبت نف' numeric
+@attribute 'ن محبت نو' numeric
+@attribute 'ن محبت ڈر' numeric
+@attribute 'ن مرحوم م' numeric
+@attribute 'ن مرد کھڑ' numeric
+@attribute 'ن لوگ الل' numeric
+@attribute 'ن معاملات' numeric
+@attribute 'ن مسلم ہن' numeric
+@attribute 'ن مسلمان ' numeric
+@attribute 'ن مسلمانو' numeric
+@attribute 'ن مشغلہ خ' numeric
+@attribute 'ن مشورے ح' numeric
+@attribute 'ن مشکلات ' numeric
+@attribute 'ن مطالبات' numeric
+@attribute 'ن معاشرے ' numeric
+@attribute 'ن معاملہ ' numeric
+@attribute 'ن مردوں ٹ' numeric
+@attribute 'نا آوارگی' numeric
+@attribute 'ن معاملے ' numeric
+@attribute 'ن معلوم ا' numeric
+@attribute 'ن معلومات' numeric
+@attribute 'ن مقرر ڈر' numeric
+@attribute 'ن ملا بات' numeric
+@attribute 'ن ملا گے ' numeric
+@attribute 'ن ملتا ال' numeric
+@attribute 'ن مسلم لی' numeric
+@attribute 'ن مسلم خو' numeric
+@attribute 'ن مسلم بغ' numeric
+@attribute 'نا آواز ب' numeric
+@attribute 'ن مرزا عم' numeric
+@attribute 'ن مرض ادا' numeric
+@attribute 'ن مرض اضا' numeric
+@attribute 'ن مرنا سک' numeric
+@attribute 'ن مرنا سی' numeric
+@attribute 'ن مرنے سی' numeric
+@attribute 'ن مرکزی ش' numeric
+@attribute 'ن مریض کر' numeric
+@attribute 'ن مریم حن' numeric
+@attribute 'ن مزاج شن' numeric
+@attribute 'ن مزدور آ' numeric
+@attribute 'ن مزدور ہ' numeric
+@attribute 'نا آواز ت' numeric
+@attribute 'ن مزے لین' numeric
+@attribute 'ن مسئلہ ط' numeric
+@attribute 'ن مستقل ا' numeric
+@attribute 'ن مسلسل ج' numeric
+@attribute 'ن مبارک ھ' numeric
+@attribute 'ن مبارک م' numeric
+@attribute 'ن مبارک خ' numeric
+@attribute 'ن لینا چا' numeric
+@attribute 'ن لگتیں د' numeric
+@attribute 'ن لہو اتا' numeric
+@attribute 'ن لیئے نف' numeric
+@attribute 'ن لیایقین' numeric
+@attribute 'ن لیبارٹر' numeric
+@attribute 'ن لیبر پا' numeric
+@attribute 'ن لیجیے ن' numeric
+@attribute 'ن لینا دل' numeric
+@attribute 'ن لینا ہا' numeric
+@attribute 'ن مبارک ا' numeric
+@attribute 'ن لینگے ی' numeric
+@attribute 'ن لینے رش' numeric
+@attribute 'ن لینے نک' numeric
+@attribute 'ن لینے کھ' numeric
+@attribute 'ن لیوا ثا' numeric
+@attribute 'ن لیوا خو' numeric
+@attribute 'ن لیوا پی' numeric
+@attribute 'ن لیوا ھے' numeric
+@attribute 'ن لگاتا س' numeric
+@attribute 'ن لکھا تخ' numeric
+@attribute 'ن لڑکیوں ' numeric
+@attribute 'نا آکھی د' numeric
+@attribute 'ن لوگ جگہ' numeric
+@attribute 'نا ابوہری' numeric
+@attribute 'ن لوگ صحت' numeric
+@attribute 'ن لوگ عزت' numeric
+@attribute 'ن لوگ عمر' numeric
+@attribute 'ن لوگ عوا' numeric
+@attribute 'ن لوگ نفر' numeric
+@attribute 'ن طرع اپو' numeric
+@attribute 'ن لوگ کہت' numeric
+@attribute 'ن لوگ ہیں' numeric
+@attribute 'ن لوگ یوم' numeric
+@attribute 'نا ؤ خیبر' numeric
+@attribute 'ن لوں خوش' numeric
+@attribute 'ن لپیٹے ا' numeric
+@attribute 'ن لڑ میکے' numeric
+@attribute 'ن لڑنے کھ' numeric
+@attribute 'ن لڑکی چہ' numeric
+@attribute 'ن لیک ڈر ' numeric
+@attribute 'ن لیک کنج' numeric
+@attribute 'ن لیک ہون' numeric
+@attribute 'ن مار کتے' numeric
+@attribute 'ن ماسک دی' numeric
+@attribute 'ن ماشاء ا' numeric
+@attribute 'ن مال وزی' numeric
+@attribute 'ن مالک اد' numeric
+@attribute 'ن مان رحم' numeric
+@attribute 'ن مان ڈر ' numeric
+@attribute 'ن مانتی ح' numeric
+@attribute 'ن مانتی م' numeric
+@attribute 'ن مانند ا' numeric
+@attribute 'نا آور ای' numeric
+@attribute 'ن ماننے ت' numeric
+@attribute 'ن مانگنے ' numeric
+@attribute 'ن مانگے ر' numeric
+@attribute 'ن مانیں خ' numeric
+@attribute 'ن ماںباپ ' numeric
+@attribute 'ن ماہ روز' numeric
+@attribute 'ن مایوس خ' numeric
+@attribute 'ن مارکیٹ ' numeric
+@attribute 'ن مار تا ' numeric
+@attribute 'ن لیگ بول' numeric
+@attribute 'ن ماحول ا' numeric
+@attribute 'ن لیگ حکو' numeric
+@attribute 'ن لیگ حیر' numeric
+@attribute 'ن لیگ دور' numeric
+@attribute 'ن لیگ رہن' numeric
+@attribute 'ن لیگ سپو' numeric
+@attribute 'ن لیگ فین' numeric
+@attribute 'ن لیگ مؤق' numeric
+@attribute 'ن لیگ ملک' numeric
+@attribute 'ن لیگ ووٹ' numeric
+@attribute 'ن لیگ چور' numeric
+@attribute 'ن لیگی ور' numeric
+@attribute 'ن لیںتو ھ' numeric
+@attribute 'ن لیۓ حقی' numeric
+@attribute 'ن لیۓ سوچ' numeric
+@attribute 'ن م سندہ ' numeric
+@attribute 'ن مابین ب' numeric
+@attribute 'ن ماتھے ت' numeric
+@attribute 'ن طریقوں ' numeric
+@attribute 'ن ضبط دشم' numeric
+@attribute 'ن طبقہ کم' numeric
+@attribute 'ن روس سعو' numeric
+@attribute 'ن روایت ف' numeric
+@attribute 'ن روح اصل' numeric
+@attribute 'ن روحانی ' numeric
+@attribute 'ن روز عور' numeric
+@attribute 'ن روزانہ ' numeric
+@attribute 'ن روزہ دا' numeric
+@attribute 'ن روزے دا' numeric
+@attribute 'ن روزے غص' numeric
+@attribute 'ن روشن لگ' numeric
+@attribute 'ن رمضان ل' numeric
+@attribute 'ن روم ڈسچ' numeric
+@attribute 'ن رونا رو' numeric
+@attribute 'ن روندیں ' numeric
+@attribute 'ن روپے چل' numeric
+@attribute 'ن روکتے ا' numeric
+@attribute 'ن رپورٹ م' numeric
+@attribute 'ن رپورٹ ک' numeric
+@attribute 'ن رپورٹس ' numeric
+@attribute 'ن رمضان م' numeric
+@attribute 'ن رمضان د' numeric
+@attribute 'ن راہوں ڈ' numeric
+@attribute 'ن رسول ال' numeric
+@attribute 'ن رب العز' numeric
+@attribute 'نا اداسی ' numeric
+@attribute 'ن رب کام ' numeric
+@attribute 'ن رجحانات' numeric
+@attribute 'ن رحمان ڈ' numeric
+@attribute 'ن رحیمی ا' numeric
+@attribute 'ن رخصت ال' numeric
+@attribute 'ن رسموں ڈ' numeric
+@attribute 'ن رشتوں ص' numeric
+@attribute 'ن رمضان خ' numeric
+@attribute 'ن رشتہ خت' numeric
+@attribute 'ن رشتہ ما' numeric
+@attribute 'ن رشتے طے' numeric
+@attribute 'ن رضاکار ' numeric
+@attribute 'ن رضوی اس' numeric
+@attribute 'ن رضوی تق' numeric
+@attribute 'ن رقص کنا' numeric
+@attribute 'ن رمضان ت' numeric
+@attribute 'ن رکھ خوش' numeric
+@attribute 'ن رکھ ڈر ' numeric
+@attribute 'ن رکھیں ا' numeric
+@attribute 'ن سا ھے ع' numeric
+@attribute 'ن زندگی گ' numeric
+@attribute 'ن زندگیتی' numeric
+@attribute 'ن زندہ با' numeric
+@attribute 'ن زور آور' numeric
+@attribute 'ن زکر وزی' numeric
+@attribute 'ن زیادہ ا' numeric
+@attribute 'ن زیادہ ق' numeric
+@attribute 'ن زیادہ ڈ' numeric
+@attribute 'ن سائیں ق' numeric
+@attribute 'ن رھا ھے ' numeric
+@attribute 'ن سات اشخ' numeric
+@attribute 'ن سات سر ' numeric
+@attribute 'ن ساتھی پ' numeric
+@attribute 'ن سادگی م' numeric
+@attribute 'ن سارا دن' numeric
+@attribute 'ن سارا من' numeric
+@attribute 'ن ساری جم' numeric
+@attribute 'ن ساری را' numeric
+@attribute 'ن زندگی ک' numeric
+@attribute 'ن زندگی ڈ' numeric
+@attribute 'ن زندگی م' numeric
+@attribute 'ن زندگی ف' numeric
+@attribute 'ن رھے ڈر ' numeric
+@attribute 'ن رہائشی ' numeric
+@attribute 'ن رہنما ج' numeric
+@attribute 'ن ریاستی ' numeric
+@attribute 'ن ریڑھ ہڈ' numeric
+@attribute 'ن زادوں آ' numeric
+@attribute 'ن زادہ حر' numeric
+@attribute 'ن زدہ ٹری' numeric
+@attribute 'ن زفرولح ' numeric
+@attribute 'ن زمانہ ی' numeric
+@attribute 'ن زمانے م' numeric
+@attribute 'ن زمین ال' numeric
+@attribute 'ن زنجیر ڈ' numeric
+@attribute 'ن زندگی ا' numeric
+@attribute 'ن زندگی خ' numeric
+@attribute 'ن زندگی د' numeric
+@attribute 'ن زندگی ع' numeric
+@attribute 'ن رب العا' numeric
+@attribute 'ن راشن لی' numeric
+@attribute 'ن طبعی رج' numeric
+@attribute 'ن دوست ہی' numeric
+@attribute 'ن دنیا کا' numeric
+@attribute 'ن دوبھائی' numeric
+@attribute 'نا از قلم' numeric
+@attribute 'ن دور شکر' numeric
+@attribute 'ن دور عرب' numeric
+@attribute 'ن دور مکم' numeric
+@attribute 'ن دوزخ ڈا' numeric
+@attribute 'ن دوست ہم' numeric
+@attribute 'ن دوستی ق' numeric
+@attribute 'ن دنیا می' numeric
+@attribute 'ن دوستی پ' numeric
+@attribute 'ن دوسرے ا' numeric
+@attribute 'ن دوسرے م' numeric
+@attribute 'ن دولت قل' numeric
+@attribute 'ن دونوں ب' numeric
+@attribute 'ن دونوں م' numeric
+@attribute 'ن دوڑ کور' numeric
+@attribute 'ن دوکاندا' numeric
+@attribute 'ن دنیا وز' numeric
+@attribute 'ن دنیا من' numeric
+@attribute 'ن راز بنا' numeric
+@attribute 'ن دن رات ' numeric
+@attribute 'ن دلوں اد' numeric
+@attribute 'ن دلوں ڈر' numeric
+@attribute 'ن دلی خوش' numeric
+@attribute 'ن دلی صدم' numeric
+@attribute 'ن دلیر مز' numeric
+@attribute 'ن دن حالا' numeric
+@attribute 'ن دن دن ب' numeric
+@attribute 'ن دن دن د' numeric
+@attribute 'ن دن سا ھ' numeric
+@attribute 'ن دنیا عا' numeric
+@attribute 'ن دن منکر' numeric
+@attribute 'ن دن کتنے' numeric
+@attribute 'ن دن کیلے' numeric
+@attribute 'ن دن گھوم' numeric
+@attribute 'ن دن ھے ب' numeric
+@attribute 'ن دنیا سا' numeric
+@attribute 'نا ازخود ' numeric
+@attribute 'ن دنیا صن' numeric
+@attribute 'ن دکھ پیم' numeric
+@attribute 'ن دکھتا ا' numeric
+@attribute 'ن دھتی را' numeric
+@attribute 'ن ذبابۃجا' numeric
+@attribute 'ن دیکھ عر' numeric
+@attribute 'ن دیکھ غا' numeric
+@attribute 'ن دیکھ قو' numeric
+@attribute 'ن دیکھا پ' numeric
+@attribute 'ن دیکھی ک' numeric
+@attribute 'ن دیکھیں ' numeric
+@attribute 'ن دیگربیم' numeric
+@attribute 'ن ذات مسخ' numeric
+@attribute 'ن ذرائع 🤓' numeric
+@attribute 'ن دھتی کہ' numeric
+@attribute 'ن ذلیل دئ' numeric
+@attribute 'ن ذکر دل ' numeric
+@attribute 'ن رات بدل' numeric
+@attribute 'ن رات رشی' numeric
+@attribute 'ن رات سون' numeric
+@attribute 'ن رات مصر' numeric
+@attribute 'ن رات نفر' numeric
+@attribute 'ن راجہ دا' numeric
+@attribute 'ن دیکھ خو' numeric
+@attribute 'ن دیوار ب' numeric
+@attribute 'ن دیندے ن' numeric
+@attribute 'ن دین غیر' numeric
+@attribute 'ن دھرتی ن' numeric
+@attribute 'ن دھمکی ب' numeric
+@attribute 'ن دھمکی ٹ' numeric
+@attribute 'ن دھو ڈر ' numeric
+@attribute 'ن دھونے ف' numeric
+@attribute 'نا ادبکاس' numeric
+@attribute 'ن دھونے ڈ' numeric
+@attribute 'ن دھونے 🤢' numeric
+@attribute 'ن دھوپ شد' numeric
+@attribute 'ن دہ ہےنی' numeric
+@attribute 'ن دہر عیا' numeric
+@attribute 'ن دہشتگرد' numeric
+@attribute 'ن دہلی قت' numeric
+@attribute 'ن دہلیز ح' numeric
+@attribute 'ن دیدنی ص' numeric
+@attribute 'ن دیری او' numeric
+@attribute 'ن دین علم' numeric
+@attribute 'ن ساری عم' numeric
+@attribute 'ن سازشیں ' numeric
+@attribute 'ن سال دنی' numeric
+@attribute 'ن شعور ان' numeric
+@attribute 'ن شروع ال' numeric
+@attribute 'ن شروع در' numeric
+@attribute 'ن شروع مس' numeric
+@attribute 'ن شرٹس یا' numeric
+@attribute 'ن شریر آن' numeric
+@attribute 'ن شریف آچ' numeric
+@attribute 'ن شریف وز' numeric
+@attribute 'ن شریف ٹو' numeric
+@attribute 'ن شفاء ضر' numeric
+@attribute 'ن شرم نہی' numeric
+@attribute 'ن شور تاج' numeric
+@attribute 'ن شوق ارد' numeric
+@attribute 'ن شوق تمن' numeric
+@attribute 'ن شوکت مس' numeric
+@attribute 'ن شوہر ہن' numeric
+@attribute 'ن شکئی تع' numeric
+@attribute 'ن شکار حی' numeric
+@attribute 'ن شکار لف' numeric
+@attribute 'ن شرما گی' numeric
+@attribute 'ن شرم حیا' numeric
+@attribute 'ن سال مخت' numeric
+@attribute 'ن شاہد نو' numeric
+@attribute 'ن شاندار ' numeric
+@attribute 'ن شاٹ لیک' numeric
+@attribute 'ن شاکر بو' numeric
+@attribute 'ن شاکر نم' numeric
+@attribute 'ن شاھد من' numeric
+@attribute 'ن شاہ محم' numeric
+@attribute 'ن شاہد بل' numeric
+@attribute 'ن شاہد جا' numeric
+@attribute 'ن شاہد کا' numeric
+@attribute 'ن شدید ات' numeric
+@attribute 'ن شاہین ج' numeric
+@attribute 'ن شخص اسل' numeric
+@attribute 'ن شخص انس' numeric
+@attribute 'ن شخص تفت' numeric
+@attribute 'ن شخص رمض' numeric
+@attribute 'ن شخص فوج' numeric
+@attribute 'ن شخص ڈر ' numeric
+@attribute 'ن شخص کٹھ' numeric
+@attribute 'ن شکایت خ' numeric
+@attribute 'ن شکل دیک' numeric
+@attribute 'ن شکل نفر' numeric
+@attribute 'ن صوبہ پن' numeric
+@attribute 'ن صحتمند ' numeric
+@attribute 'ن صحرا بے' numeric
+@attribute 'ن صدارتی ' numeric
+@attribute 'ن صدر ممل' numeric
+@attribute 'ن صفحۂ ہس' numeric
+@attribute 'ن صفورا گ' numeric
+@attribute 'ن صلی الل' numeric
+@attribute 'ن صوبوں ن' numeric
+@attribute 'ن صوبے دو' numeric
+@attribute 'ن شکن غدا' numeric
+@attribute 'ن صورت حا' numeric
+@attribute 'ن ملتا ہو' numeric
+@attribute 'ن ضد سماج' numeric
+@attribute 'ن ضد پائے' numeric
+@attribute 'ن ضرب عضب' numeric
+@attribute 'ن ضرورت خ' numeric
+@attribute 'ن ضروری ھ' numeric
+@attribute 'ن طاقتور ' numeric
+@attribute 'ن صحافیوں' numeric
+@attribute 'ن صحافی چ' numeric
+@attribute 'ن صحافی ح' numeric
+@attribute 'ن صحافت س' numeric
+@attribute 'ن شھید جا' numeric
+@attribute 'ن شہ رگ ق' numeric
+@attribute 'ن شہادت خ' numeric
+@attribute 'ن شہباز گ' numeric
+@attribute 'ن شہر ڈین' numeric
+@attribute 'ن شہری کر' numeric
+@attribute 'ن شیر شیر' numeric
+@attribute 'ن شیر غصہ' numeric
+@attribute 'ن شیطان ب' numeric
+@attribute 'ن شیطان ت' numeric
+@attribute 'ن شیطان ف' numeric
+@attribute 'ن شیطان ہ' numeric
+@attribute 'ن صاب با ' numeric
+@attribute 'ن صاب ٹھی' numeric
+@attribute 'ن صاحبڈر ' numeric
+@attribute 'ن صب سلیم' numeric
+@attribute 'نا اداس ک' numeric
+@attribute 'ن شانتی گ' numeric
+@attribute 'ن شانتی ص' numeric
+@attribute 'ن شامل ہن' numeric
+@attribute 'ن سمجھتا ' numeric
+@attribute 'ن سلمان ا' numeric
+@attribute 'ن سلوک او' numeric
+@attribute 'ن سلوک پی' numeric
+@attribute 'ن سماجی ر' numeric
+@attribute 'ن سمارٹ ل' numeric
+@attribute 'ن سمجھ آگ' numeric
+@attribute 'ن سمجھ چی' numeric
+@attribute 'ن سمجھ گے' numeric
+@attribute 'ن سمجھتے ' numeric
+@attribute 'ن سو قسط ' numeric
+@attribute 'ن سمری بج' numeric
+@attribute 'ن سمگلنگ ' numeric
+@attribute 'ن سن لوگ ' numeric
+@attribute 'ن سنتے پی' numeric
+@attribute 'ن سنجیدگی' numeric
+@attribute 'ن سندھی ا' numeric
+@attribute 'ن سنسان س' numeric
+@attribute 'ن سنوں سم' numeric
+@attribute 'ن سفید گل' numeric
+@attribute 'ن سفر کرر' numeric
+@attribute 'ن سفر سنگ' numeric
+@attribute 'ن سفر بس ' numeric
+@attribute 'ن سال پرا' numeric
+@attribute 'ن سانپ رو' numeric
+@attribute 'ن سانپ ٹی' numeric
+@attribute 'ن سانپوں ' numeric
+@attribute 'ن سبجیکٹ ' numeric
+@attribute 'ن سبزہ چا' numeric
+@attribute 'ن ستاروں ' numeric
+@attribute 'ن ستارے ن' numeric
+@attribute 'ن سجائے پ' numeric
+@attribute 'ن سر اٹھا' numeric
+@attribute 'ن سر زمین' numeric
+@attribute 'ن سر ملے ' numeric
+@attribute 'ن سرحد عق' numeric
+@attribute 'ن سرمایہ ' numeric
+@attribute 'ن سزا معذ' numeric
+@attribute 'ن سزائے م' numeric
+@attribute 'ن سعودی ع' numeric
+@attribute 'ن سو برس ' numeric
+@attribute 'ن سو گلی ' numeric
+@attribute 'ن شامل بس' numeric
+@attribute 'ن سیٹ بیٹ' numeric
+@attribute 'ن سگے ماں' numeric
+@attribute 'ن سیاست ج' numeric
+@attribute 'ن سیاستدا' numeric
+@attribute 'ن سید عقی' numeric
+@attribute 'ن سیدہخدی' numeric
+@attribute 'ن سیریس ن' numeric
+@attribute 'ن سینیٹائ' numeric
+@attribute 'ن سینے بو' numeric
+@attribute 'ن سیکلر ہ' numeric
+@attribute 'ن سوجھ بو' numeric
+@attribute 'ن سیکھیں ' numeric
+@attribute 'ن سےبالات' numeric
+@attribute 'ن سےجسطرح' numeric
+@attribute 'ن سےقہقہے' numeric
+@attribute 'ن سےکیوں ' numeric
+@attribute 'ن سےہےاتن' numeric
+@attribute 'ن شادی من' numeric
+@attribute 'ن شارٹ ما' numeric
+@attribute 'ن سکولز ک' numeric
+@attribute 'ن سکنہ شک' numeric
+@attribute 'ن سکتی خو' numeric
+@attribute 'ن سڑکیں و' numeric
+@attribute 'ن سوجی بھ' numeric
+@attribute 'ن سورۃ نم' numeric
+@attribute 'ن سوسائٹی' numeric
+@attribute 'ن سوشل می' numeric
+@attribute 'ن سوچ اتن' numeric
+@attribute 'ن سوچ سمج' numeric
+@attribute 'ن سوچ سکت' numeric
+@attribute 'ن سوچتی آ' numeric
+@attribute 'ن سوچوں ق' numeric
+@attribute 'ن سوچوں پ' numeric
+@attribute 'ن سوچے سم' numeric
+@attribute 'ن سوکھے پ' numeric
+@attribute 'ن سوے سال' numeric
+@attribute 'ن سٹائل م' numeric
+@attribute 'ن سٹاپ ٹر' numeric
+@attribute 'ن سچ بولے' numeric
+@attribute 'ن سڑکیں د' numeric
+@attribute 'ن ملتا جل' numeric
+@attribute 'ن ممکن کی' numeric
+@attribute 'ن ملنا شر' numeric
+@attribute 'ن کمی لار' numeric
+@attribute 'ن کلیاں ن' numeric
+@attribute 'ن کلینک ب' numeric
+@attribute 'ن کلینیکل' numeric
+@attribute 'ن کمائی ک' numeric
+@attribute 'ن کمال نظ' numeric
+@attribute 'ن کمال کی' numeric
+@attribute 'ن کمال ھو' numeric
+@attribute 'ن کمزوری ' numeric
+@attribute 'ن کمیونٹی' numeric
+@attribute 'نا آج اسا' numeric
+@attribute 'ن کنجروں ' numeric
+@attribute 'ن کوئ فرق' numeric
+@attribute 'ن کودیتاہ' numeric
+@attribute 'ن کورونا ' numeric
+@attribute 'ن کوریج د' numeric
+@attribute 'ن کوشش ای' numeric
+@attribute 'ن کوشش لا' numeric
+@attribute 'ن کومیسر ' numeric
+@attribute 'ن کلاسز ط' numeric
+@attribute 'ن کلاسز ش' numeric
+@attribute 'ن کرونا ت' numeric
+@attribute 'ن کرپٹعمر' numeric
+@attribute 'ن کرونا ص' numeric
+@attribute 'ن کرونا ف' numeric
+@attribute 'ن کرونا ل' numeric
+@attribute 'ن کرونا و' numeric
+@attribute 'نا آج نین' numeric
+@attribute 'ن کرونا ٹ' numeric
+@attribute 'ن کرونا ڈ' numeric
+@attribute 'ن کرپشن ر' numeric
+@attribute 'ن کرکٹ دک' numeric
+@attribute 'ن کلاسز س' numeric
+@attribute 'ن کرکے حک' numeric
+@attribute 'ن کریم آز' numeric
+@attribute 'ن کریک ڈا' numeric
+@attribute 'ن کریگا ب' numeric
+@attribute 'نا آج زما' numeric
+@attribute 'ن کشمیر م' numeric
+@attribute 'ن کفر بیٹ' numeric
+@attribute 'ن کفیل را' numeric
+@attribute 'ن کونہیں ' numeric
+@attribute 'ن کونے مم' numeric
+@attribute 'ن کووڈ ان' numeric
+@attribute 'ن کہتے کھ' numeric
+@attribute 'ن کہانی ح' numeric
+@attribute 'ن کہانیاں' numeric
+@attribute 'ن کہاکیا ' numeric
+@attribute 'ن کہتا دل' numeric
+@attribute 'ن کہتا کف' numeric
+@attribute 'ن کہتے دی' numeric
+@attribute 'نئے کلاس ' numeric
+@attribute 'ن کہتے ڈر' numeric
+@attribute 'ن کہتے کہ' numeric
+@attribute 'ن کووڈ مر' numeric
+@attribute 'ن کہلاتا ' numeric
+@attribute 'ن کہنا آر' numeric
+@attribute 'نئے کرنسی' numeric
+@attribute 'ن کہنا شر' numeric
+@attribute 'ن کہنا پر' numeric
+@attribute 'ن کہنا ھے' numeric
+@attribute 'ن کہنے حا' numeric
+@attribute 'ن کہوں ات' numeric
+@attribute 'ن کہاجاتا' numeric
+@attribute 'ن کھیلے ​' numeric
+@attribute 'ن کھیل کھ' numeric
+@attribute 'ن کھیل کو' numeric
+@attribute 'ن کوٸی قد' numeric
+@attribute 'ن کپڑے ات' numeric
+@attribute 'ن کپڑے مخ' numeric
+@attribute 'ن کچلنے ب' numeric
+@attribute 'ن کڈیاں ی' numeric
+@attribute 'ن کڑ کڑات' numeric
+@attribute 'ن کھائیں ' numeric
+@attribute 'ن کھاتے ڈ' numeric
+@attribute 'ن کھلی مل' numeric
+@attribute 'ن کھمبوں ' numeric
+@attribute 'ن کھو خوف' numeric
+@attribute 'ن کھول چی' numeric
+@attribute 'ن کھولا ح' numeric
+@attribute 'ن کھولووا' numeric
+@attribute 'ن کھڑا شخ' numeric
+@attribute 'ن کھڑے رو' numeric
+@attribute 'ن کھڑے صن' numeric
+@attribute 'ن کرونا س' numeric
+@attribute 'ن کروایا ' numeric
+@attribute 'ن ملنے گے' numeric
+@attribute 'ن ڈر شریع' numeric
+@attribute 'ن ڈر بھوک' numeric
+@attribute 'ن ڈر جان ' numeric
+@attribute 'ن ڈر حق آ' numeric
+@attribute 'ن ڈر خوف ' numeric
+@attribute 'ن ڈر دن گ' numeric
+@attribute 'ن ڈر دھن ' numeric
+@attribute 'ن ڈر ذاکر' numeric
+@attribute 'ن ڈر سنان' numeric
+@attribute 'ن ڈر عمرا' numeric
+@attribute 'ن ڈر اک ر' numeric
+@attribute 'ن ڈر لاک ' numeric
+@attribute 'ن ڈر مزدو' numeric
+@attribute 'ن ڈر مناظ' numeric
+@attribute 'ن ڈر نواز' numeric
+@attribute 'ن ڈر نہی ' numeric
+@attribute 'ن ڈر پڑھ ' numeric
+@attribute 'ن ڈر پیدا' numeric
+@attribute 'ن ڈر ڈرپو' numeric
+@attribute 'ن ڈر بات ' numeric
+@attribute 'ن ڈر اورج' numeric
+@attribute 'ن کررہی د' numeric
+@attribute 'ن چیز بے ' numeric
+@attribute 'ن چھوڑ چل' numeric
+@attribute 'ن چھوڑنا ' numeric
+@attribute 'ن چھٹی گھ' numeric
+@attribute 'ن چہرے تا' numeric
+@attribute 'ن چہرے خو' numeric
+@attribute 'ن چہرے پے' numeric
+@attribute 'ن چہرے ہا' numeric
+@attribute 'ن چیز اتن' numeric
+@attribute 'ن چیز زیا' numeric
+@attribute 'ن ڈر آیت ' numeric
+@attribute 'ن چیز پاک' numeric
+@attribute 'ن چیزوں د' numeric
+@attribute 'ن چینج خو' numeric
+@attribute 'ن چیک کرو' numeric
+@attribute 'ن چیک یسر' numeric
+@attribute 'ن ڈائریکٹ' numeric
+@attribute 'ن ڈالئ ڈا' numeric
+@attribute 'ن ڈاکٹرز ' numeric
+@attribute 'ن ڈر کراچ' numeric
+@attribute 'ن ڈر کہتا' numeric
+@attribute 'ن ڈر ں اخ' numeric
+@attribute 'ن کتاب ان' numeric
+@attribute 'ن کاموں ت' numeric
+@attribute 'ن کانوں ہ' numeric
+@attribute 'ن کاٹ ادا' numeric
+@attribute 'ن کاٹتا م' numeric
+@attribute 'ن کاٹے جا' numeric
+@attribute 'ن کاکرونا' numeric
+@attribute 'ن کاہےبجل' numeric
+@attribute 'ن کبہی دی' numeric
+@attribute 'ن کتنا بی' numeric
+@attribute 'ن ڈر ھے ک' numeric
+@attribute 'ن کتنی عج' numeric
+@attribute 'ن کتنے اچ' numeric
+@attribute 'ن کتورے پ' numeric
+@attribute 'ن کثرت تل' numeric
+@attribute 'ن کدہر خا' numeric
+@attribute 'ن کرانے پ' numeric
+@attribute 'ن کردہ پی' numeric
+@attribute 'ن کررکھی ' numeric
+@attribute 'ن کام دوس' numeric
+@attribute 'ن کام تھو' numeric
+@attribute 'ن کال پور' numeric
+@attribute 'ن کافی دن' numeric
+@attribute 'ن ڈر ہوگا' numeric
+@attribute 'ن ڈر ہےہی' numeric
+@attribute 'ن ڈرائیور' numeric
+@attribute 'ن ڈرامے ب' numeric
+@attribute 'نا آخری ا' numeric
+@attribute 'ن ڈرامے د' numeric
+@attribute 'ن ڈرتے نئ' numeric
+@attribute 'ن ڈرنا چھ' numeric
+@attribute 'ن ڈرنے لی' numeric
+@attribute 'ن ڈوبی ڈر' numeric
+@attribute 'ن ڈپریشن ' numeric
+@attribute 'ن ڈھلے دن' numeric
+@attribute 'ن ڈی این ' numeric
+@attribute 'ن ڈیوڈ سف' numeric
+@attribute 'ن کااحترا' numeric
+@attribute 'ن کاروبار' numeric
+@attribute 'ن کاری نف' numeric
+@attribute 'ن کیاگیا ' numeric
+@attribute 'نئے نام ش' numeric
+@attribute 'ن کیاگیاو' numeric
+@attribute 'ن ہوے ڈر ' numeric
+@attribute 'ن ہولی دی' numeric
+@attribute 'ن ہولیکن ' numeric
+@attribute 'ن ہوکے می' numeric
+@attribute 'ن ہوگا بھ' numeric
+@attribute 'نئے شگوفے' numeric
+@attribute 'ن ہوگا شی' numeric
+@attribute 'ن ہوگی کھ' numeric
+@attribute 'ن ہوگیا غ' numeric
+@attribute 'ن ہین لوگ' numeric
+@attribute 'ن ہوتئ ہئ' numeric
+@attribute 'ن ہین ہند' numeric
+@attribute 'ن ہیںحالا' numeric
+@attribute 'ن ہےاس دہ' numeric
+@attribute 'ن ہےاور ش' numeric
+@attribute 'ن ہےجو اپ' numeric
+@attribute 'ن ہےپرائز' numeric
+@attribute 'ن یاد دھا' numeric
+@attribute 'ن یاد شاد' numeric
+@attribute 'ن ہوجاۓ خ' numeric
+@attribute 'ن ہواہےمس' numeric
+@attribute 'ن کیجئےآپ' numeric
+@attribute 'ن ہندؤں ا' numeric
+@attribute 'ن ہرجگہ ش' numeric
+@attribute 'ن ہرروز د' numeric
+@attribute 'ن ہزاروں ' numeric
+@attribute 'ن ہمواریو' numeric
+@attribute 'ن ہمیشہ ت' numeric
+@attribute 'ن ہمیشہ خ' numeric
+@attribute 'ن ہمیشہ س' numeric
+@attribute 'ن ہن وی ت' numeric
+@attribute 'ن ہندو دن' numeric
+@attribute 'ن ہواللہ ' numeric
+@attribute 'ن ہندو لڑ' numeric
+@attribute 'ن ہندو ہن' numeric
+@attribute 'ن ہندو ہے' numeric
+@attribute 'ن ہنسانے ' numeric
+@attribute 'ن ہنسنا س' numeric
+@attribute 'ن ہنسی جہ' numeric
+@attribute 'ن ہنسی خو' numeric
+@attribute 'ن ہنسی لب' numeric
+@attribute 'ن یاد مکا' numeric
+@attribute 'ن یاد کوش' numeric
+@attribute 'ن یادوں ز' numeric
+@attribute 'نئی ڈر وز' numeric
+@attribute 'نئی بات م' numeric
+@attribute 'نئی تحقیق' numeric
+@attribute 'نئی جاےگا' numeric
+@attribute 'نئی دنیا ' numeric
+@attribute 'نئی صبح ن' numeric
+@attribute 'نئی عمیر ' numeric
+@attribute 'نئی مہم س' numeric
+@attribute 'نئی نیی س' numeric
+@attribute 'نئیبات با' numeric
+@attribute 'ن یارب ال' numeric
+@attribute 'نئیر بنتا' numeric
+@attribute 'نئیر پارل' numeric
+@attribute 'نئیں تائی' numeric
+@attribute 'نئے ایڈمش' numeric
+@attribute 'نئے حیرت ' numeric
+@attribute 'نئے خد خا' numeric
+@attribute 'نئے دیوان' numeric
+@attribute 'نئے زیادہ' numeric
+@attribute 'نئی بات ب' numeric
+@attribute 'نئس ثابت ' numeric
+@attribute 'نئر محمد ' numeric
+@attribute 'نئر صحافی' numeric
+@attribute 'ن یارو سی' numeric
+@attribute 'ن یاری ہم' numeric
+@attribute 'ن یاں ہات' numeric
+@attribute 'ن یریکٹر ' numeric
+@attribute 'ن یقین آخ' numeric
+@attribute 'ن یقین مش' numeric
+@attribute 'ن یقینا ا' numeric
+@attribute 'ن یلغار غ' numeric
+@attribute 'ن یو وارڈ' numeric
+@attribute 'ن یوتھ ون' numeric
+@attribute 'ن یومے وص' numeric
+@attribute 'ن یونیورس' numeric
+@attribute 'ن یے نعرا' numeric
+@attribute 'ن 🥰🥰 خوشی' numeric
+@attribute 'نء نااہل ' numeric
+@attribute 'نآیاٹھگگھ' numeric
+@attribute 'نئ دیکھات' numeric
+@attribute 'ن ہتھیار ' numeric
+@attribute 'ن ہا ہا ہ' numeric
+@attribute 'ن ھےاور ھ' numeric
+@attribute 'ن گروپ قد' numeric
+@attribute 'ن گانے صا' numeric
+@attribute 'ن گاڑیوں ' numeric
+@attribute 'ن گدھا بہ' numeric
+@attribute 'ن گرج انص' numeric
+@attribute 'ن گردانتی' numeric
+@attribute 'ن گرفتاری' numeric
+@attribute 'ن گرنے ڈر' numeric
+@attribute 'ن گروپ ان' numeric
+@attribute 'ن گروپ لو' numeric
+@attribute 'ن گلے تون' numeric
+@attribute 'ن گروپ پر' numeric
+@attribute 'ن گروی رک' numeric
+@attribute 'ن گزارتے ' numeric
+@attribute 'ن گزاریں ' numeric
+@attribute 'ن گزر گے ' numeric
+@attribute 'ن گزرتا ک' numeric
+@attribute 'نئے غصہ ا' numeric
+@attribute 'ن گزرتے ب' numeric
+@attribute 'ن گالیوں ' numeric
+@attribute 'ن گالیاں ' numeric
+@attribute 'نئے مکان ' numeric
+@attribute 'ن گالی نک' numeric
+@attribute 'ن کیجیئے ' numeric
+@attribute 'ن کیجیے ز' numeric
+@attribute 'ن کیخلاف ' numeric
+@attribute 'ن کیساتھ ' numeric
+@attribute 'ن کیسز بت' numeric
+@attribute 'ن کیلیے خ' numeric
+@attribute 'ن کیلیے ک' numeric
+@attribute 'ن کیلے دن' numeric
+@attribute 'ن کیڑے ہو' numeric
+@attribute 'ن کےاخبار' numeric
+@attribute 'ن کےان تک' numeric
+@attribute 'ن کےجھولے' numeric
+@attribute 'ن کےخلاف ' numeric
+@attribute 'ن کےدربار' numeric
+@attribute 'ن کےلفظ س' numeric
+@attribute 'ن گارہا ڈ' numeric
+@attribute 'ن گالی با' numeric
+@attribute 'ن گلیاں ج' numeric
+@attribute 'ن گناہوں ' numeric
+@attribute 'ن ھے گالی' numeric
+@attribute 'ن ھوتی ھے' numeric
+@attribute 'ن ھائی ذر' numeric
+@attribute 'ن ھاں کہا' numeric
+@attribute 'ن ھم خوشی' numeric
+@attribute 'ن ھم زندہ' numeric
+@attribute 'ن ھمارے ا' numeric
+@attribute 'ن ھو جانو' numeric
+@attribute 'ن ھو گئیک' numeric
+@attribute 'ن ھوا ادا' numeric
+@attribute 'ن ھون ڈر ' numeric
+@attribute 'ن گندم کا' numeric
+@attribute 'ن ھونے نش' numeric
+@attribute 'ن ھوں گیم' numeric
+@attribute 'ن ھی اسلے' numeric
+@attribute 'ن ھی ھے ب' numeric
+@attribute 'ن ھے اسلے' numeric
+@attribute 'ن ھے بزرگ' numeric
+@attribute 'ن ھے تکلی' numeric
+@attribute 'ن ھے چوتھ' numeric
+@attribute 'ن گے گولی' numeric
+@attribute 'ن گے ٹوئی' numeric
+@attribute 'ن گے دنیا' numeric
+@attribute 'ن گے خبر ' numeric
+@attribute 'ن گندی او' numeric
+@attribute 'ن گنڈوں ج' numeric
+@attribute 'ن گوئی جھ' numeric
+@attribute 'ن گوئیاں ' numeric
+@attribute 'ن گودی می' numeric
+@attribute 'ن گورنر ا' numeric
+@attribute 'ن گورنمنٹ' numeric
+@attribute 'ن گونجنی ' numeric
+@attribute 'ن گھر ادا' numeric
+@attribute 'ن گھر محص' numeric
+@attribute 'ن گھر چھت' numeric
+@attribute 'ن گھر کام' numeric
+@attribute 'ن گھروں ق' numeric
+@attribute 'ن گھوم وا' numeric
+@attribute 'ن گھومنا ' numeric
+@attribute 'ن گھڑی ال' numeric
+@attribute 'ن گیم لگا' numeric
+@attribute 'ن چھو سجد' numeric
+@attribute 'ن چڑھایا ' numeric
+@attribute 'ن چڑھ وقت' numeric
+@attribute 'ن ننگی چو' numeric
+@attribute 'ن نفرت چن' numeric
+@attribute 'ن نفرت ھو' numeric
+@attribute 'ن نفرت ھے' numeric
+@attribute 'ن نقصان د' numeric
+@attribute 'ن نقوی دش' numeric
+@attribute 'ن نقوی گد' numeric
+@attribute 'ن نم آنکھ' numeric
+@attribute 'ن نمودعشق' numeric
+@attribute 'ن نواز شر' numeric
+@attribute 'ن نفرت پی' numeric
+@attribute 'ن نور سو ' numeric
+@attribute 'ن نوں غصہ' numeric
+@attribute 'ن نوں قاب' numeric
+@attribute 'ن نٻازی م' numeric
+@attribute 'ن نکاتی ف' numeric
+@attribute 'ن نکاح مر' numeric
+@attribute 'ن نکالتا ' numeric
+@attribute 'ن نکل مطل' numeric
+@attribute 'ن نفرت چل' numeric
+@attribute 'ن نفرت پھ' numeric
+@attribute 'ن وزیراعظ' numeric
+@attribute 'ن نفرت بھ' numeric
+@attribute 'ن نفرت آگ' numeric
+@attribute 'ن نفرت ات' numeric
+@attribute 'ن نفرت از' numeric
+@attribute 'ن نفرت اس' numeric
+@attribute 'ن نفرت با' numeric
+@attribute 'ن نفرت بج' numeric
+@attribute 'ن نفرت بز' numeric
+@attribute 'نا آنکھوں' numeric
+@attribute 'ن نفرت بی' numeric
+@attribute 'ن نفرت پر' numeric
+@attribute 'ن نفرت جا' numeric
+@attribute 'ن نفرت در' numeric
+@attribute 'ن نفرت دل' numeric
+@attribute 'ن نفرت دی' numeric
+@attribute 'ن نفرت لو' numeric
+@attribute 'ن نفرت وق' numeric
+@attribute 'ن نفرت ٹن' numeric
+@attribute 'ن نفرت پا' numeric
+@attribute 'ن نکلا ھے' numeric
+@attribute 'ن نہایت ق' numeric
+@attribute 'ن نہتے مس' numeric
+@attribute 'ن واحد کو' numeric
+@attribute 'ن نیوز نی' numeric
+@attribute 'ن نیوز یک' numeric
+@attribute 'ن نیٹ فلی' numeric
+@attribute 'ن نیک تمن' numeric
+@attribute 'ن نیں کرو' numeric
+@attribute 'ن نےمسلما' numeric
+@attribute 'ن واحد مل' numeric
+@attribute 'ن واحد کر' numeric
+@attribute 'ن واقع پا' numeric
+@attribute 'ن نہی سوچ' numeric
+@attribute 'ن واقف حی' numeric
+@attribute 'ن وجود دن' numeric
+@attribute 'ن وحشت چھ' numeric
+@attribute 'ن وحی بند' numeric
+@attribute 'ن وردی غر' numeric
+@attribute 'ن ورکر وا' numeric
+@attribute 'ن وزارعظم' numeric
+@attribute 'ن وزراء م' numeric
+@attribute 'ن نیند آن' numeric
+@attribute 'ن نیت رب ' numeric
+@attribute 'ن نیب ڈر ' numeric
+@attribute 'ن نیب دفت' numeric
+@attribute 'ن نہیںاگر' numeric
+@attribute 'ن نیا چان' numeric
+@attribute 'ن نیازی ا' numeric
+@attribute 'ن نیازی ب' numeric
+@attribute 'ن نیازی ت' numeric
+@attribute 'نا آنسوں ' numeric
+@attribute 'ن نیازی ج' numeric
+@attribute 'ن نیازی خ' numeric
+@attribute 'نا آنسو ہ' numeric
+@attribute 'ن نیازی د' numeric
+@attribute 'ن نیازی ر' numeric
+@attribute 'ن نیازی ز' numeric
+@attribute 'ن نیازی غ' numeric
+@attribute 'ن نیازی ق' numeric
+@attribute 'ن نیازی م' numeric
+@attribute 'ن نیازیبھ' numeric
+@attribute 'ن نیب تیس' numeric
+@attribute 'ن نعرہ لگ' numeric
+@attribute 'ن نظر کچل' numeric
+@attribute 'ن نظر دہک' numeric
+@attribute 'ن مووی عو' numeric
+@attribute 'ن موت سیڑ' numeric
+@attribute 'ن موجودہ ' numeric
+@attribute 'ن مودی کھ' numeric
+@attribute 'ن موسم خا' numeric
+@attribute 'ن دلانے م' numeric
+@attribute 'ن موقر جر' numeric
+@attribute 'ن مولانا ' numeric
+@attribute 'ن مولوی ت' numeric
+@attribute 'ن مٹی تیل' numeric
+@attribute 'ن مہینہ ک' numeric
+@attribute 'ن مڑیا زہ' numeric
+@attribute 'ن مکمل ثب' numeric
+@attribute 'ن مکمل جد' numeric
+@attribute 'ن مکمل حو' numeric
+@attribute 'ن مگرمچھ ' numeric
+@attribute 'ن مہلک کر' numeric
+@attribute 'ن مہک اٹھ' numeric
+@attribute 'ن مہینہ آ' numeric
+@attribute 'ن موت دعو' numeric
+@attribute 'ن موت اعم' numeric
+@attribute 'ن موبائل ' numeric
+@attribute 'ن منھ ف ک' numeric
+@attribute 'ن ملک بات' numeric
+@attribute 'ن ملک صدر' numeric
+@attribute 'ن ملک لوٹ' numeric
+@attribute 'ن ملک ہند' numeric
+@attribute 'ن ملکوں ج' numeric
+@attribute 'ن ممالک ط' numeric
+@attribute 'نئے سرے ج' numeric
+@attribute 'ن من جان ' numeric
+@attribute 'ن منا رے ' numeric
+@attribute 'ن منائیں ' numeric
+@attribute 'ن منائےگی' numeric
+@attribute 'ن منجھی م' numeric
+@attribute 'ن منزل دہ' numeric
+@attribute 'ن منسٹر ع' numeric
+@attribute 'ن منفرد ب' numeric
+@attribute 'ن منکرین ' numeric
+@attribute 'ن منگول ک' numeric
+@attribute 'ن مہینہ ل' numeric
+@attribute 'ن مہینے خ' numeric
+@attribute 'ن نظر اند' numeric
+@attribute 'ن نرمی شی' numeric
+@attribute 'ن نام فرق' numeric
+@attribute 'ن نام قتل' numeric
+@attribute 'ن نام لین' numeric
+@attribute 'ن نامکمل ' numeric
+@attribute 'ن نامی شخ' numeric
+@attribute 'ن ناپتا ن' numeric
+@attribute 'ن نایاب و' numeric
+@attribute 'ن نثار پر' numeric
+@attribute 'ن نسل نفر' numeric
+@attribute 'ن مہینے ع' numeric
+@attribute 'ن نسلیں ظ' numeric
+@attribute 'ن نشانہ ب' numeric
+@attribute 'ن نشانہ ج' numeric
+@attribute 'ن نشانی خ' numeric
+@attribute 'ن نشانی ع' numeric
+@attribute 'ن نصب لوگ' numeric
+@attribute 'ن نصیب ڈر' numeric
+@attribute 'ن نصیب ہے' numeric
+@attribute 'ن نام عطی' numeric
+@attribute 'ن نام رمض' numeric
+@attribute 'ن نام بدل' numeric
+@attribute 'ن نالائقی' numeric
+@attribute 'ن می ایسا' numeric
+@attribute 'ن میانداد' numeric
+@attribute 'ن میر شکی' numeric
+@attribute 'ن میزبانی' numeric
+@attribute 'ن میسج با' numeric
+@attribute 'ن میل دل ' numeric
+@attribute 'ن میم خیر' numeric
+@attribute 'ن میمن غی' numeric
+@attribute 'ن میمن کو' numeric
+@attribute 'ن مین سفر' numeric
+@attribute 'ن میڈیا ب' numeric
+@attribute 'ن میڈیا م' numeric
+@attribute 'ن میڈیا ہ' numeric
+@attribute 'ن میک دیک' numeric
+@attribute 'ن میںعباد' numeric
+@attribute 'ن ناتجربہ' numeric
+@attribute 'ن نازی جر' numeric
+@attribute 'ن وزٹ قدی' numeric
+@attribute 'ن وزیرستا' numeric
+@attribute 'ن چڑانے م' numeric
+@attribute 'ن پہولون ' numeric
+@attribute 'ن پھولوں ' numeric
+@attribute 'ن پھیلای ' numeric
+@attribute 'ن پھیلاۓ ' numeric
+@attribute 'ن پھینک پ' numeric
+@attribute 'ن پہنچ جل' numeric
+@attribute 'ن پہنچ ٹھ' numeric
+@attribute 'ن پہنچایا' numeric
+@attribute 'ن پہنچے غ' numeric
+@attribute 'ن پہچان ب' numeric
+@attribute 'ن پھلوں ک' numeric
+@attribute 'ن پہچان ر' numeric
+@attribute 'ن پہچان م' numeric
+@attribute 'ن پی آج م' numeric
+@attribute 'ن پی ٹی آ' numeric
+@attribute 'ن پی ٹی ا' numeric
+@attribute 'ن پیار خو' numeric
+@attribute 'ن پیدا ان' numeric
+@attribute 'ن پیدا جا' numeric
+@attribute 'ن پھول چو' numeric
+@attribute 'ن پھرتیاں' numeric
+@attribute 'ن وسائل ج' numeric
+@attribute 'ن پڑتا جا' numeric
+@attribute 'ن پوسٹ ما' numeric
+@attribute 'ن پوچھا ش' numeric
+@attribute 'ن پوچھو م' numeric
+@attribute 'ن پوچھے ج' numeric
+@attribute 'ن پٹواری ' numeric
+@attribute 'ن پچھنا د' numeric
+@attribute 'ن پڑتا اد' numeric
+@attribute 'ن پڑتا تج' numeric
+@attribute 'ن پڑتی نم' numeric
+@attribute 'نا آرٹ فن' numeric
+@attribute 'ن پڑوسی پ' numeric
+@attribute 'ن پڑھ سکے' numeric
+@attribute 'ن پڑھا آن' numeric
+@attribute 'ن پڑھتے ت' numeric
+@attribute 'ن پڑے عمر' numeric
+@attribute 'ن پکوڑے ت' numeric
+@attribute 'ن پکڑیں گ' numeric
+@attribute 'ن پکڑے ڈر' numeric
+@attribute 'ن پیروکار' numeric
+@attribute 'ن پیسہ پو' numeric
+@attribute 'ن پیسہ کم' numeric
+@attribute 'ن چودہ سو' numeric
+@attribute 'ن چلتی ہا' numeric
+@attribute 'ن چلتے قد' numeric
+@attribute 'ن چمٹی ہی' numeric
+@attribute 'ن چن حیرت' numeric
+@attribute 'ن چن شھید' numeric
+@attribute 'ن چندہ ما' numeric
+@attribute 'ن چوتھی ع' numeric
+@attribute 'ن چود بغی' numeric
+@attribute 'نا آر ایس' numeric
+@attribute 'ن پیسے گھ' numeric
+@attribute 'ن چور دیک' numeric
+@attribute 'ن چوروں ل' numeric
+@attribute 'ن چوزے دی' numeric
+@attribute 'ن چوما عم' numeric
+@attribute 'ن چوہدری ' numeric
+@attribute 'ن چٹائی ب' numeric
+@attribute 'ن چپکے چپ' numeric
+@attribute 'ن چڑ فضول' numeric
+@attribute 'ن چلارہے ' numeric
+@attribute 'ن چل عید ' numeric
+@attribute 'ن چل زھرا' numeric
+@attribute 'ن چل اے ف' numeric
+@attribute 'ن پیش بہن' numeric
+@attribute 'ن پیش خیب' numeric
+@attribute 'ن پیش نظر' numeric
+@attribute 'ن پیش کتے' numeric
+@attribute 'ن پینے کر' numeric
+@attribute 'ن پیٹ بھر' numeric
+@attribute 'ن پیپلز پ' numeric
+@attribute 'ن پیپلزپا' numeric
+@attribute 'ن پیچیدگی' numeric
+@attribute 'ن پیڑ بین' numeric
+@attribute 'ن چار لبا' numeric
+@attribute 'ن چالیس ف' numeric
+@attribute 'ن چاند دی' numeric
+@attribute 'ن چاند چہ' numeric
+@attribute 'ن چاپلوسی' numeric
+@attribute 'ن چاہتا خ' numeric
+@attribute 'ن چبھے اد' numeric
+@attribute 'ن پورے مل' numeric
+@attribute 'ن پورے عا' numeric
+@attribute 'ن پورے رو' numeric
+@attribute 'ن ٹاون اگ' numeric
+@attribute 'نا آسان س' numeric
+@attribute 'ن وی لاگ ' numeric
+@attribute 'ن ویلڈن ف' numeric
+@attribute 'ن ویڈیو د' numeric
+@attribute 'ن ویکسین ' numeric
+@attribute 'ن ٹائیگر ' numeric
+@attribute 'ن ٹانگیں ' numeric
+@attribute 'ن ٹاور جہ' numeric
+@attribute 'ن ٹرائل م' numeric
+@attribute 'ن ٹویٹ غص' numeric
+@attribute 'ن ٹرانسمی' numeric
+@attribute 'ن ٹرین با' numeric
+@attribute 'ن ٹرین قص' numeric
+@attribute 'ن ٹرین می' numeric
+@attribute 'ن ٹرینڈز ' numeric
+@attribute 'ن ٹول پلا' numeric
+@attribute 'ن ٹوٹتا ج' numeric
+@attribute 'ن ٹوٹل عو' numeric
+@attribute 'ن وی تسی ' numeric
+@attribute 'ن وہان جی' numeric
+@attribute 'ن ووٹ ڈیڑ' numeric
+@attribute 'ن ووٹ حیر' numeric
+@attribute 'ن وسیم کھ' numeric
+@attribute 'ن وعوامی ' numeric
+@attribute 'ن وفا جھو' numeric
+@attribute 'ن وفا درب' numeric
+@attribute 'ن وفا قسم' numeric
+@attribute 'ن وقت جلن' numeric
+@attribute 'ن وقت حال' numeric
+@attribute 'ن وقت خوش' numeric
+@attribute 'ن وقت سمج' numeric
+@attribute 'ن وقت نفر' numeric
+@attribute 'ن وقت ڈر ' numeric
+@attribute 'ن وقت کھی' numeric
+@attribute 'ن وقت گزر' numeric
+@attribute 'ن وقتہ خو' numeric
+@attribute 'نا آلود ش' numeric
+@attribute 'ن وقتی من' numeric
+@attribute 'ن ووٹ انص' numeric
+@attribute 'ن ٹویٹ اچ' numeric
+@attribute 'ن ٹویٹر ب' numeric
+@attribute 'ن پوری ٹی' numeric
+@attribute 'ن پسینہ م' numeric
+@attribute 'ن پتا الل' numeric
+@attribute 'ن پرابلم ' numeric
+@attribute 'ن پرانی ک' numeric
+@attribute 'ن پرو لین' numeric
+@attribute 'ن پروگرام' numeric
+@attribute 'ن پریشان ' numeric
+@attribute 'ن پریشانی' numeric
+@attribute 'ن پسندیدہ' numeric
+@attribute 'ن پشتون س' numeric
+@attribute 'ن ٹویٹس ک' numeric
+@attribute 'ن پلس بزد' numeric
+@attribute 'ن پناہ سو' numeric
+@attribute 'ن پناہ ما' numeric
+@attribute 'ن پناہ گز' numeric
+@attribute 'ن پنجاب پ' numeric
+@attribute 'ن پورا ہو' numeric
+@attribute 'ن پورٹل ک' numeric
+@attribute 'ن پوری دن' numeric
+@attribute 'نا آزاد ہ' numeric
+@attribute 'ن پاکستان' numeric
+@attribute 'ن پاک مہی' numeric
+@attribute 'ن پاک سمج' numeric
+@attribute 'ن ٹپس وزن' numeric
+@attribute 'ن ٹھہرے ا' numeric
+@attribute 'ن ٹھیک ہو' numeric
+@attribute 'ن ٹیسٹ رپ' numeric
+@attribute 'ن ٹیسٹ من' numeric
+@attribute 'ن ٹیسٹ پو' numeric
+@attribute 'ن ٹیم دل ' numeric
+@attribute 'ن ٹیکسی ڈ' numeric
+@attribute 'ن پ شہر ا' numeric
+@attribute 'ن پا بی ج' numeric
+@attribute 'ن پائیں م' numeric
+@attribute 'ن پارلیمن' numeric
+@attribute 'ن پارٹی ق' numeric
+@attribute 'ن پانچ وق' numeric
+@attribute 'ن پاک بے ' numeric
+@attribute 'ن پاک تلا' numeric
+@attribute 'ن پاک خضر' numeric
+@attribute 'ن موسم شج' numeric
+@attribute 'ن دشمن جا' numeric
+@attribute 'ن دلانے آ' numeric
+@attribute 'ن دل ھم ھ' numeric
+@attribute 'میڈیا جان' numeric
+@attribute 'میڈیا جتن' numeric
+@attribute 'میڈیا جرم' numeric
+@attribute 'میڈیا جمہ' numeric
+@attribute 'میڈیا جھو' numeric
+@attribute 'میڈیا حکو' numeric
+@attribute 'میڈیا خاص' numeric
+@attribute 'میڈیا خام' numeric
+@attribute 'میڈیا خلا' numeric
+@attribute 'میڈیا خوش' numeric
+@attribute 'میڈیا دنو' numeric
+@attribute 'میڈیا ذری' numeric
+@attribute 'میڈیا راج' numeric
+@attribute 'میڈیا رپو' numeric
+@attribute 'میڈیا سرگ' numeric
+@attribute 'میڈیا سوش' numeric
+@attribute 'میڈیا شخص' numeric
+@attribute 'میڈیا شرم' numeric
+@attribute 'میڈیا صاف' numeric
+@attribute 'میڈیا تیز' numeric
+@attribute 'میڈیا ترج' numeric
+@attribute 'میڈیا تار' numeric
+@attribute 'میڈیا است' numeric
+@attribute 'میڈم مزار' numeric
+@attribute 'میڈم مشور' numeric
+@attribute 'میڈم پکچر' numeric
+@attribute 'میڈم کہتی' numeric
+@attribute 'میڈیا آخر' numeric
+@attribute 'میڈیا اتن' numeric
+@attribute 'میڈیا اجن' numeric
+@attribute 'میڈیا ارن' numeric
+@attribute 'میڈیا افس' numeric
+@attribute 'میڈیا بیٹ' numeric
+@attribute 'میڈیا اکر' numeric
+@attribute 'میڈیا این' numeric
+@attribute 'میڈیا بائ' numeric
+@attribute 'میڈیا بات' numeric
+@attribute 'میڈیا بتا' numeric
+@attribute 'میڈیا بدو' numeric
+@attribute 'میڈیا بھا' numeric
+@attribute 'میڈیا بیر' numeric
+@attribute 'میڈیا صحا' numeric
+@attribute 'میڈیا عرو' numeric
+@attribute 'میڈیا عمر' numeric
+@attribute 'میڈیا کدھ' numeric
+@attribute 'میڈیا چاہ' numeric
+@attribute 'میڈیا چیخ' numeric
+@attribute 'میڈیا چین' numeric
+@attribute 'میڈیا ڈر ' numeric
+@attribute 'میڈیا ڈنڈ' numeric
+@attribute 'میڈیا کئی' numeric
+@attribute 'میڈیا کام' numeric
+@attribute 'میڈیا کتو' numeric
+@attribute 'میڈیا کرد' numeric
+@attribute 'میڈیا پھی' numeric
+@attribute 'میڈیا کہت' numeric
+@attribute 'میڈیا گلا' numeric
+@attribute 'میڈیا ہاو' numeric
+@data
+{5 1}
+{}
+{0 1,1 1}
+{4 1,5 1,1293 1}
+{5 1}
+{5 1}
+{4 1}
+{0 1,259 1,757 1,1024 1}
+{0 1,4 1}
+{5 1}
+{0 1,4 1}
+{4 1,736 1,814 1}
+{4 1}
+{4 1}
+{0 1}
+{4 1}
+{0 1,1 1}
+{2 1}
+{3 1}
+{0 1}
+{175 1,1160 1}
+{4 1,704 1}
+{3 1}
+{0 1,4 1}
+{}
+{0 1}
+{0 1}
+{5 1}
+{0 1}
+{3 1,859 1}
+{4 1,453 1}
+{5 1}
+{4 1}
+{5 1,779 1,792 1,799 1}
+{0 1}
+{0 1,1 1}
+{}
+{4 1,10 1,11 1}
+{4 1}
+{5 1,7 1,317 1}
+{0 1,5 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1,1107 1}
+{0 1,1 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,463 1}
+{2 1,5 1,411 1}
+{2 1,390 1}
+{5 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{0 1,1 1,311 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1,1209 1}
+{0 1,1 1,1236 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{5 1,1118 1}
+{3 1,4 1}
+{3 1,4 1,283 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{0 1,3 1,1112 1}
+{4 1,5 1}
+{3 1}
+{}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1,265 1}
+{3 1,4 1}
+{}
+{3 1,4 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{1 1,3 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{3 1,597 1}
+{2 1,5 1,519 1}
+{5 1}
+{3 1,4 1}
+{}
+{3 1}
+{0 1,3 1,4 1}
+{0 1,3 1}
+{0 1,1197 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,1074 1}
+{0 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{0 1}
+{0 1,1 1,3 1}
+{4 1,213 1}
+{}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{1 1,3 1}
+{1 1,3 1,793 1}
+{416 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{4 1}
+{1 1,3 1,4 1}
+{1 1,3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1,4 1}
+{0 1}
+{1 1,3 1}
+{1 1}
+{3 1}
+{3 1,4 1,737 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1}
+{3 1}
+{3 1}
+{1 1,3 1}
+{3 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{1 1,898 1}
+{3 1}
+{3 1,4 1,76 1,121 1}
+{5 1}
+{5 1}
+{2 1}
+{2 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{0 1}
+{3 1,1153 1}
+{1 1,3 1,4 1}
+{4 1}
+{2 1}
+{1 1,3 1,1002 1}
+{1 1,3 1,1232 1}
+{3 1}
+{2 1}
+{2 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{}
+{4 1,5 1}
+{1 1,4 1}
+{3 1,5 1,632 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1,405 1}
+{2 1}
+{5 1,246 1,531 1,582 1}
+{5 1,425 1}
+{2 1,459 1}
+{1 1,3 1,4 1}
+{4 1}
+{5 1,837 1}
+{5 1}
+{3 1}
+{5 1}
+{4 1,5 1,1101 1}
+{4 1}
+{5 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1,5 1}
+{3 1,4 1,5 1,226 1}
+{5 1}
+{5 1,506 1}
+{5 1}
+{5 1,477 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1,5 1,154 1}
+{5 1}
+{3 1,5 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1,3 1}
+{}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1,5 1}
+{3 1,4 1,5 1}
+{3 1}
+{5 1,1051 1}
+{4 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1,1189 1}
+{4 1,1051 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{5 1,206 1}
+{4 1,5 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1,1017 1}
+{0 1}
+{3 1}
+{4 1,5 1}
+{3 1,172 1}
+{5 1}
+{5 1}
+{3 1}
+{4 1,5 1,642 1}
+{5 1}
+{3 1,4 1,918 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{5 1}
+{0 1,4 1,110 1,694 1}
+{}
+{3 1,1455 1}
+{35 1}
+{}
+{5 1,747 1}
+{4 1,5 1}
+{5 1,848 1}
+{345 1}
+{4 1,5 1}
+{3 1,4 1,5 1}
+{5 1}
+{0 1,1 1,4 1}
+{1071 1}
+{4 1,5 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{4 1,5 1}
+{4 1,5 1}
+{0 1,4 1}
+{3 1,4 1}
+{5 1,84 1}
+{5 1}
+{3 1,4 1,1320 1}
+{4 1,5 1,1110 1}
+{5 1}
+{4 1,5 1}
+{5 1}
+{5 1,138 1}
+{3 1,4 1}
+{}
+{4 1,125 1,995 1,1173 1}
+{5 1}
+{4 1,5 1}
+{3 1}
+{5 1,974 1}
+{3 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1,5 1}
+{5 1,703 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1,1027 1}
+{5 1,1113 1,1284 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{0 1,1 1,812 1,904 1}
+{5 1}
+{3 1,4 1,669 1,677 1}
+{0 1,1 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1,4 1,1425 1}
+{4 1,5 1,1444 1}
+{3 1,4 1,1335 1}
+{3 1,64 1,583 1,1484 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1,1383 1}
+{3 1,4 1,584 1,604 1}
+{4 1,1028 1}
+{3 1,4 1,264 1}
+{2 1}
+{3 1,656 1,966 1,967 1,1389 1}
+{3 1}
+{3 1}
+{3 1,4 1,568 1,940 1,1390 1}
+{3 1,4 1}
+{4 1}
+{3 1,1342 1}
+{3 1,4 1,1365 1}
+{3 1,4 1,630 1}
+{3 1}
+{4 1,1476 1}
+{3 1,4 1,1413 1}
+{3 1,941 1,1404 1}
+{1445 1}
+{3 1,839 1,1494 1}
+{3 1,4 1}
+{3 1,4 1,1503 1}
+{3 1,4 1,1503 1}
+{3 1,1318 1}
+{3 1}
+{3 1,1338 1}
+{3 1,4 1,624 1}
+{4 1,1495 1}
+{3 1,1503 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,943 1}
+{3 1,1353 1}
+{3 1,128 1,1362 1}
+{3 1,1483 1}
+{3 1,4 1}
+{3 1,1413 1}
+{3 1,4 1,384 1,1333 1}
+{3 1,1105 1,1335 1}
+{3 1}
+{4 1,1480 1}
+{3 1,831 1,1365 1}
+{3 1,1432 1}
+{3 1,4 1,540 1,1334 1}
+{3 1,1335 1}
+{3 1}
+{3 1,1413 1}
+{3 1}
+{3 1}
+{3 1,1413 1}
+{3 1,4 1}
+{5 1,721 1,1491 1}
+{4 1}
+{3 1,4 1,1422 1}
+{3 1,1407 1}
+{4 1,5 1}
+{3 1,4 1,1414 1}
+{3 1,4 1}
+{5 1,1418 1}
+{3 1,4 1,1389 1}
+{}
+{3 1}
+{3 1,4 1,1363 1}
+{5 1}
+{4 1,5 1,325 1,822 1,1317 1}
+{4 1}
+{3 1,1399 1}
+{3 1,4 1,1386 1}
+{3 1,4 1,616 1,1394 1}
+{4 1,1422 1}
+{4 1}
+{4 1,1364 1}
+{3 1,407 1,589 1}
+{3 1,961 1}
+{3 1,4 1,1455 1}
+{3 1,1391 1}
+{3 1,4 1,1393 1}
+{3 1}
+{3 1,86 1}
+{3 1,4 1}
+{3 1,1390 1}
+{3 1,1500 1}
+{3 1,4 1,1399 1}
+{3 1}
+{3 1,1455 1}
+{4 1}
+{4 1,767 1}
+{4 1}
+{3 1,4 1,273 1}
+{4 1,1159 1}
+{4 1}
+{4 1,447 1}
+{3 1,4 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{4 1,5 1,67 1}
+{1 1,4 1,480 1}
+{4 1}
+{0 1,5 1,938 1}
+{0 1,4 1}
+{0 1,1 1,4 1,985 1}
+{4 1,288 1}
+{3 1,4 1,1325 1}
+{}
+{4 1,5 1}
+{4 1,1057 1}
+{4 1,66 1}
+{4 1}
+{4 1}
+{4 1,194 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{}
+{4 1}
+{4 1}
+{4 1,52 1}
+{3 1}
+{4 1,1135 1}
+{4 1,697 1}
+{4 1,197 1,1032 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{4 1,277 1}
+{4 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1,334 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1,661 1}
+{4 1}
+{4 1}
+{}
+{4 1,5 1}
+{3 1,4 1,355 1}
+{4 1,270 1,1281 1,1289 1}
+{4 1}
+{3 1,4 1,1223 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1,44 1}
+{4 1,896 1}
+{3 1,4 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{1 1,3 1,4 1,631 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1,360 1}
+{4 1}
+{4 1}
+{4 1,234 1}
+{4 1}
+{4 1}
+{0 1,1 1,3 1,4 1}
+{4 1,646 1}
+{4 1,392 1}
+{1 1,3 1,4 1,1274 1}
+{4 1}
+{0 1,1 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,456 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{4 1}
+{0 1,1 1,4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{4 1,5 1,615 1}
+{0 1,1 1,3 1}
+{1 1,3 1,4 1,613 1}
+{1 1,3 1,4 1,1082 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1,985 1,1274 1}
+{4 1,1148 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{3 1,4 1,1219 1}
+{2 1}
+{2 1,4 1,1245 1}
+{2 1,4 1,43 1}
+{2 1}
+{2 1,3 1}
+{0 1,1 1}
+{2 1,364 1}
+{2 1,3 1,72 1,573 1}
+{2 1,3 1,1015 1}
+{4 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1,4 1}
+{2 1,4 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{2 1}
+{0 1,1 1,4 1}
+{2 1,3 1,600 1,946 1}
+{2 1,3 1,532 1,576 1}
+{1237 1}
+{2 1,3 1}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1}
+{2 1}
+{2 1}
+{2 1,3 1}
+{2 1}
+{2 1}
+{2 1,608 1}
+{2 1}
+{2 1,3 1,4 1,184 1}
+{2 1,818 1}
+{2 1}
+{2 1,4 1}
+{1 1,3 1}
+{2 1,5 1}
+{2 1}
+{2 1,3 1,184 1}
+{2 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1,878 1}
+{2 1,3 1}
+{2 1,3 1}
+{5 1}
+{3 1,441 1,442 1}
+{2 1}
+{5 1}
+{2 1,3 1}
+{1 1,4 1}
+{2 1,3 1,105 1}
+{2 1,3 1}
+{4 1}
+{2 1,3 1,861 1}
+{1 1,3 1,4 1}
+{2 1,4 1,214 1}
+{3 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1,760 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1}
+{5 1}
+{2 1,3 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{1 1,2 1,3 1,4 1,640 1}
+{5 1}
+{3 1,1096 1}
+{3 1}
+{2 1,3 1}
+{}
+{0 1,1 1}
+{0 1,1 1}
+{2 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1,1205 1}
+{5 1}
+{2 1,3 1,4 1}
+{5 1}
+{2 1,5 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1}
+{4 1,337 1}
+{4 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1,5 1,341 1,1272 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1,1 1,474 1,504 1}
+{5 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{1 1,3 1}
+{3 1}
+{3 1}
+{}
+{0 1,1 1}
+{5 1}
+{5 1}
+{3 1}
+{1 1,3 1,4 1,123 1,403 1}
+{3 1}
+{5 1}
+{2 1,349 1}
+{5 1,309 1}
+{}
+{2 1,3 1}
+{3 1}
+{0 1,1 1}
+{5 1,309 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{3 1}
+{255 1}
+{3 1}
+{3 1,602 1}
+{600 1}
+{0 1,1 1,316 1}
+{5 1}
+{3 1}
+{1 1,3 1,123 1,403 1}
+{5 1}
+{54 1}
+{}
+{5 1}
+{3 1,600 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,105 1}
+{1 1,3 1}
+{5 1}
+{0 1,1 1,3 1,211 1,399 1,976 1}
+{3 1,4 1,1033 1}
+{3 1,431 1}
+{5 1}
+{2 1,3 1}
+{3 1,589 1,946 1}
+{5 1}
+{5 1,1229 1}
+{3 1,319 1}
+{3 1,951 1,1003 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1,926 1}
+{5 1,69 1}
+{4 1,253 1}
+{2 1}
+{3 1,551 1,582 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1,309 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,5 1,1299 1}
+{5 1}
+{2 1,3 1,629 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{}
+{3 1}
+{5 1,94 1,600 1}
+{2 1}
+{0 1,1 1}
+{0 1,1 1,807 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{5 1}
+{5 1,491 1}
+{3 1}
+{1 1,4 1}
+{5 1}
+{0 1,1 1,102 1}
+{}
+{5 1,875 1}
+{3 1,156 1}
+{3 1,1089 1}
+{5 1}
+{3 1}
+{3 1,582 1,719 1}
+{}
+{3 1}
+{3 1,1258 1}
+{3 1,5 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1,204 1}
+{5 1}
+{0 1,1 1,3 1}
+{}
+{1 1,3 1}
+{5 1}
+{3 1}
+{5 1,452 1}
+{3 1,142 1}
+{3 1}
+{0 1,1 1,3 1,30 1}
+{5 1}
+{1 1,3 1}
+{0 1,1 1}
+{965 1}
+{3 1}
+{3 1,183 1}
+{5 1,850 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,3 1,979 1}
+{4 1,258 1}
+{2 1}
+{}
+{0 1,1 1,3 1}
+{3 1}
+{0 1,1 1,3 1,1016 1}
+{3 1,242 1}
+{0 1,1 1}
+{2 1,5 1}
+{5 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{0 1,1 1}
+{4 1,211 1,339 1}
+{0 1,1 1,3 1}
+{3 1,880 1}
+{5 1}
+{4 1,5 1,323 1}
+{3 1,5 1}
+{0 1,1 1,153 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1,5 1}
+{5 1,475 1}
+{0 1,1 1,3 1}
+{3 1}
+{1 1}
+{2 1,3 1}
+{4 1,881 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{2 1,3 1}
+{5 1}
+{2 1,3 1}
+{1 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{}
+{2 1,3 1}
+{2 1,3 1}
+{4 1}
+{0 1,2 1,352 1}
+{1 1,2 1}
+{0 1,57 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1,5 1}
+{0 1,1 1}
+{0 1,4 1,89 1,1035 1,1082 1}
+{4 1,5 1,1000 1,1072 1}
+{0 1,1 1,2 1,374 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,327 1}
+{0 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1,5 1}
+{5 1}
+{5 1}
+{2 1}
+{4 1,5 1}
+{3 1}
+{0 1,3 1}
+{}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,2 1}
+{0 1,1 1}
+{1 1,3 1}
+{0 1,5 1,1039 1}
+{0 1,3 1}
+{5 1}
+{1 1,3 1}
+{0 1,1 1,2 1,3 1,1120 1}
+{0 1,1 1,2 1}
+{0 1,2 1,3 1}
+{0 1,2 1,3 1}
+{3 1}
+{0 1,1 1,2 1}
+{0 1,2 1,3 1}
+{0 1,1 1}
+{}
+{1 1}
+{1 1,3 1,1270 1}
+{5 1}
+{0 1,1 1,2 1}
+{5 1,215 1,693 1}
+{4 1}
+{0 1,3 1}
+{3 1,4 1}
+{}
+{0 1,3 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1,1085 1}
+{0 1,4 1}
+{0 1,1 1}
+{0 1,1 1,2 1,340 1}
+{0 1,2 1}
+{1 1,2 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1,2 1}
+{1 1,2 1,3 1}
+{1 1,3 1}
+{3 1}
+{0 1,3 1}
+{1 1,2 1,3 1}
+{0 1,1 1,2 1,3 1}
+{0 1,1 1,2 1}
+{0 1,1 1,2 1,3 1}
+{0 1,1 1}
+{}
+{5 1}
+{3 1}
+{4 1}
+{684 1,975 1}
+{0 1,3 1,136 1,729 1,973 1}
+{3 1}
+{3 1}
+{0 1,2 1,1066 1}
+{2 1,397 1}
+{0 1,1 1,2 1}
+{2 1,4 1,5 1}
+{2 1,4 1,997 1}
+{2 1,3 1,4 1}
+{1 1,2 1,3 1,856 1}
+{2 1,3 1}
+{2 1}
+{}
+{2 1,3 1}
+{4 1,5 1}
+{2 1,48 1}
+{0 1,190 1,589 1}
+{3 1,440 1}
+{2 1,3 1}
+{}
+{3 1}
+{}
+{3 1,4 1,294 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{3 1,5 1,1256 1}
+{3 1,145 1}
+{3 1,5 1}
+{1 1,5 1}
+{0 1,3 1}
+{3 1}
+{3 1,1022 1}
+{3 1,5 1}
+{5 1}
+{}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1,999 1}
+{5 1}
+{5 1}
+{2 1,3 1,4 1}
+{3 1,1324 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1,4 1,5 1}
+{3 1,4 1}
+{3 1}
+{5 1,1014 1}
+{1 1,3 1,4 1,5 1,900 1}
+{5 1}
+{2 1,5 1}
+{3 1,916 1}
+{5 1}
+{2 1,3 1,318 1}
+{2 1,3 1}
+{4 1}
+{5 1,1025 1}
+{0 1,3 1}
+{3 1,4 1}
+{5 1,201 1}
+{5 1}
+{3 1}
+{3 1}
+{}
+{3 1,1403 1}
+{3 1}
+{5 1,1339 1}
+{3 1,1483 1}
+{3 1,1468 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,591 1,1038 1,1459 1}
+{3 1,1379 1}
+{4 1}
+{3 1,1268 1,1413 1}
+{3 1}
+{3 1,4 1,1413 1}
+{3 1,1218 1,1433 1}
+{3 1}
+{3 1,163 1,1358 1}
+{3 1}
+{3 1,4 1}
+{3 1,672 1,1412 1}
+{3 1,1395 1}
+{3 1,804 1,1479 1}
+{3 1,908 1,909 1,910 1,1458 1}
+{3 1}
+{3 1}
+{3 1,1403 1}
+{3 1}
+{3 1}
+{3 1,1503 1}
+{3 1}
+{3 1}
+{3 1,595 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,1503 1}
+{3 1,1364 1}
+{3 1,1413 1}
+{3 1}
+{3 1}
+{3 1,1405 1}
+{3 1,1401 1}
+{1392 1}
+{3 1,128 1,1488 1}
+{3 1}
+{257 1}
+{3 1,305 1}
+{3 1,1473 1}
+{3 1,1456 1}
+{1361 1}
+{3 1}
+{3 1,4 1,502 1,1484 1}
+{3 1,313 1}
+{3 1}
+{5 1,1398 1}
+{3 1,1491 1}
+{3 1,1473 1}
+{3 1,1487 1}
+{3 1}
+{3 1,1386 1}
+{}
+{3 1,1369 1}
+{3 1,1340 1,1392 1}
+{1102 1,1395 1}
+{}
+{3 1}
+{3 1,1444 1}
+{3 1}
+{3 1,830 1,832 1}
+{3 1,1336 1,1417 1}
+{3 1}
+{3 1,1503 1}
+{3 1,1413 1}
+{3 1,354 1,616 1,1341 1}
+{3 1,1395 1}
+{3 1,1295 1,1455 1}
+{3 1,5 1,1458 1}
+{3 1}
+{3 1,1412 1}
+{2 1,4 1,195 1,1450 1}
+{3 1}
+{2 1,3 1}
+{3 1,1482 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1}
+{4 1}
+{4 1}
+{4 1}
+{1 1,4 1}
+{1 1,4 1,5 1,157 1}
+{1 1,4 1}
+{4 1}
+{0 1,4 1}
+{0 1,4 1,347 1}
+{}
+{4 1,225 1}
+{4 1}
+{1 1,4 1}
+{4 1}
+{0 1,1 1,4 1,797 1}
+{0 1,4 1}
+{249 1,368 1}
+{4 1}
+{4 1,1047 1}
+{0 1,3 1}
+{3 1,569 1}
+{0 1}
+{4 1}
+{1 1,4 1,134 1,200 1}
+{1 1,4 1,297 1}
+{4 1}
+{0 1,4 1}
+{4 1,5 1}
+{5 1}
+{4 1}
+{1 1,4 1}
+{4 1}
+{0 1,4 1}
+{2 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{}
+{4 1}
+{4 1}
+{}
+{1 1,4 1}
+{1 1,4 1}
+{4 1}
+{4 1,1031 1,1053 1,1069 1}
+{4 1,5 1}
+{2 1,4 1,686 1,1057 1}
+{2 1,4 1,1274 1}
+{1 1,3 1,220 1}
+{1285 1}
+{4 1,5 1}
+{2 1,4 1}
+{1 1,4 1,1273 1}
+{1 1,4 1}
+{1 1,4 1,5 1}
+{}
+{4 1,1230 1}
+{4 1,5 1,1211 1}
+{1 1,4 1,155 1}
+{4 1}
+{4 1,766 1}
+{4 1}
+{2 1,784 1}
+{2 1,3 1}
+{2 1,3 1,989 1,998 1}
+{1 1,2 1,3 1}
+{2 1,1055 1}
+{3 1,212 1}
+{2 1}
+{3 1,765 1}
+{3 1,536 1}
+{3 1}
+{0 1}
+{2 1,5 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{2 1}
+{2 1,5 1}
+{3 1}
+{2 1,5 1}
+{2 1}
+{2 1}
+{3 1,184 1}
+{3 1}
+{2 1}
+{2 1}
+{2 1}
+{}
+{2 1}
+{5 1}
+{600 1}
+{3 1}
+{3 1,4 1}
+{3 1,600 1}
+{}
+{5 1}
+{5 1}
+{2 1,5 1}
+{0 1,1 1,2 1}
+{2 1,3 1}
+{2 1,5 1}
+{}
+{2 1,5 1,1037 1}
+{905 1}
+{2 1,3 1}
+{2 1,3 1}
+{1 1,3 1,123 1,403 1}
+{1 1,3 1,701 1,1286 1}
+{2 1,3 1,5 1}
+{5 1,254 1}
+{1 1,2 1}
+{4 1}
+{2 1,5 1}
+{0 1}
+{2 1,3 1,424 1}
+{0 1,5 1}
+{2 1,3 1,470 1}
+{2 1,5 1,922 1}
+{3 1}
+{5 1}
+{0 1,1 1,5 1}
+{0 1,3 1,398 1}
+{3 1}
+{2 1,3 1,232 1}
+{2 1,5 1}
+{2 1}
+{2 1,3 1}
+{2 1,3 1,5 1}
+{0 1}
+{2 1,5 1}
+{2 1,3 1}
+{0 1,730 1}
+{3 1,1060 1,1075 1}
+{2 1,5 1}
+{1 1,2 1,3 1}
+{3 1,4 1,5 1}
+{0 1,1 1,2 1}
+{5 1}
