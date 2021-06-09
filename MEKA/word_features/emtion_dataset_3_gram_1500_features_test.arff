@@ -1,0 +1,2733 @@
+@relation 'EMOTION: -C 6'
+@attribute anger_class {0,1}
+@attribute disgust_class {0,1}
+@attribute fear_class {0,1}
+@attribute sadness_class {0,1}
+@attribute surprise_class {0,1}
+@attribute happiness_class {0,1}
+@attribute 'یقین دلانے کیلئے' numeric
+@attribute 'تعلق نابینا معاشرے' numeric
+@attribute 'بیماری یقین دلانے' numeric
+@attribute 'اداسی یقین دلانے' numeric
+@attribute 'معاشرے اداسی یقین' numeric
+@attribute 'نابینا معاشرے اداسی' numeric
+@attribute 'معاملات بے بس' numeric
+@attribute 'مقام آپکو خوشی' numeric
+@attribute 'مفتی کفایت اللہ' numeric
+@attribute 'مفت سیکھااداسی مسکرانے' numeric
+@attribute 'مفت سیکھا اداسی' numeric
+@attribute 'مغرب وقت لڑکیوں' numeric
+@attribute 'معصوم بیگناہ بنگالیوں' numeric
+@attribute 'معذرت کیساتھ اداسی' numeric
+@attribute 'معدنی وسائل سودا' numeric
+@attribute 'معاملات بتایا حکمران' numeric
+@attribute 'مقام دھوکہ جائز' numeric
+@attribute 'مظلوم پشتون شہادت' numeric
+@attribute 'مشین کہتا دل' numeric
+@attribute 'مشکل دور جینا' numeric
+@attribute 'مشکل حال جینا' numeric
+@attribute 'مشکل آقا گر' numeric
+@attribute 'مسکرانے ہنر بدلے' numeric
+@attribute 'مسلماں کہتے کہتے' numeric
+@attribute 'مسلماں رگ باطل' numeric
+@attribute 'مقام حیرت بات' numeric
+@attribute 'آباد ہائیکورٹ ضمانت' numeric
+@attribute 'ملا حیرت پوچھا' numeric
+@attribute 'مسلمانوں نفرت بازگشت' numeric
+@attribute 'موت ڈر آخری' numeric
+@attribute 'موت پوری کہنا' numeric
+@attribute 'موت جذبہ زیست' numeric
+@attribute 'موت اے آصف' numeric
+@attribute 'موت اتنا ڈر' numeric
+@attribute 'منگول حملہ کردیں' numeric
+@attribute 'منظر دور جینا' numeric
+@attribute 'منظر حال جینا' numeric
+@attribute 'منحوس اداسی مٹتی' numeric
+@attribute 'مناظر موجودگی عبادات' numeric
+@attribute 'منا رے ھے' numeric
+@attribute 'ممکنہ نسل کشی' numeric
+@attribute 'ممالک روزگار کیلئے' numeric
+@attribute 'ملے شیر دن' numeric
+@attribute 'ملے آنکھوں ڈر' numeric
+@attribute 'ملی ھے ڈر' numeric
+@attribute 'ملک وزیراعظم کہتا' numeric
+@attribute 'ملنے پیارا مہمان' numeric
+@attribute 'ملنا مکمل جدائی' numeric
+@attribute 'ملنا خوشی بات' numeric
+@attribute 'مسلمانوں نسل کشی' numeric
+@attribute 'موت ڈر زوق' numeric
+@attribute 'متعلق حیرت انگیز' numeric
+@attribute 'محمد قاسم کیخلاف' numeric
+@attribute 'محمد اذان خلاف' numeric
+@attribute 'محسوس ہنسا رات' numeric
+@attribute 'محبت پتہ انسان' numeric
+@attribute 'محبت سکھائی ہوس' numeric
+@attribute 'محبت دور بات' numeric
+@attribute 'محبت بے وفائی' numeric
+@attribute 'مجذوب اداسی گم' numeric
+@attribute 'مثبت کافی دکھ' numeric
+@attribute 'متعصبانہ ظالمانہ رویے' numeric
+@attribute 'محو یاس ملنا' numeric
+@attribute 'مبارک اللہ آپکو' numeric
+@attribute 'مایوسی بھری تصویر' numeric
+@attribute 'مایوسی بھری اک' numeric
+@attribute 'مایوس ختم زندگی' numeric
+@attribute 'ماں گالی پڑی' numeric
+@attribute 'ماں کہتی اوڑھ' numeric
+@attribute 'ماں موت ڈرتی' numeric
+@attribute 'ماں موت اتنا' numeric
+@attribute 'ماں سوئی تابش' numeric
+@attribute 'محو حیرت دنیا' numeric
+@attribute 'مختصر اسر چیزیں' numeric
+@attribute 'مسلمانوں ممکنہ نسل' numeric
+@attribute 'مرشد بھری جوانی' numeric
+@attribute 'مسلمانوں خوشی لہردوڑ' numeric
+@attribute 'مسلمانوں خلاف پھیلی' numeric
+@attribute 'مسلمانوں خلاف نفرت' numeric
+@attribute 'مسلح جتھوں خمیر' numeric
+@attribute 'مساجد مئی کھولنے' numeric
+@attribute 'مزدور ہاتھ گھر' numeric
+@attribute 'مزاج غرور سارا' numeric
+@attribute 'مرض حقیقی بحران' numeric
+@attribute 'مرشد دیکھ ڈر' numeric
+@attribute 'مرشد اداسی ہمسفر' numeric
+@attribute 'مدت خواب نیند' numeric
+@attribute 'مررہے لوگ اللہ' numeric
+@attribute 'مرد ڈر حالات' numeric
+@attribute 'مرد مرد بہن' numeric
+@attribute 'مرد بہن نصیب' numeric
+@attribute 'مرتا بس اک' numeric
+@attribute 'مراد علی شاہ' numeric
+@attribute 'مر راشن بٹ' numeric
+@attribute 'مدتوں محو یاس' numeric
+@attribute 'مدت ماں سوئی' numeric
+@attribute 'موت ڈر جینے' numeric
+@attribute 'موت ڈر موت' numeric
+@attribute 'موت ڈر سینوں' numeric
+@attribute 'نفرت بحران ہےاس' numeric
+@attribute 'نفرت انگیز ٹوئیٹ' numeric
+@attribute 'نظریے پرآگے بڑھ' numeric
+@attribute 'نظر کھڑے حیرت' numeric
+@attribute 'نظر چہرے جگہ' numeric
+@attribute 'نصیب ڈر بہن' numeric
+@attribute 'نصیب لکھنے اللہ' numeric
+@attribute 'نشاط چن مدتوں' numeric
+@attribute 'نسلیں ظالموں کانپیں' numeric
+@attribute 'نسل کشی نظریے' numeric
+@attribute 'نخرے بیوی دکھانا' numeric
+@attribute 'نتیجہ چیز خوش' numeric
+@attribute 'نبی کریم صلی' numeric
+@attribute 'نبوت قربان عقیدہختمنبوتمحورایمان' numeric
+@attribute 'ناول دکھ سکھ' numeric
+@attribute 'نام کاروبار شروع' numeric
+@attribute 'نام نسب پوچھ' numeric
+@attribute 'نام میزائیلوں نام' numeric
+@attribute 'نام میزائیل نام' numeric
+@attribute 'نام مر شرعی' numeric
+@attribute 'نفرت بازگشت خلیجی' numeric
+@attribute 'نفرت بیج بونے' numeric
+@attribute 'نام عشق ذات' numeric
+@attribute 'نفرت نکل خلیجی' numeric
+@attribute 'نیوز کھوتے بھیک' numeric
+@attribute 'نیوز چینل بلیک' numeric
+@attribute 'نیوز نفرت ھے' numeric
+@attribute 'نیند گولی پنکھا' numeric
+@attribute 'نیند خیال حیرت' numeric
+@attribute 'نکلتا گھوڑا قبیلے' numeric
+@attribute 'نکلتا قبیلے گھوڑا' numeric
+@attribute 'نکل خلیجی ملکوں' numeric
+@attribute 'نکل باقاعدہ تھوڑا' numeric
+@attribute 'نکالا موت ڈر' numeric
+@attribute 'نورانی اک دانش' numeric
+@attribute 'نواز شریف بھیجتا' numeric
+@attribute 'ننھے بچوں سوالات' numeric
+@attribute 'نمی بکری دودھ' numeric
+@attribute 'نفرت ھے آج' numeric
+@attribute 'نفرت کمال ہنر' numeric
+@attribute 'نفرت پیار حشر' numeric
+@attribute 'نفرت واجب گے' numeric
+@attribute 'نفرت نگاہ دیکھا' numeric
+@attribute 'نام لینے ڈر' numeric
+@attribute 'نام زہر جان' numeric
+@attribute 'موت ڈر علی' numeric
+@attribute 'مینیو فکر ستا' numeric
+@attribute 'مہمان رھا ھے' numeric
+@attribute 'مکمل ملنا مکمل' numeric
+@attribute 'مکمل جدائی ادھوری' numeric
+@attribute 'مٹتی اتنی بے' numeric
+@attribute 'مولانا طارق جمیل' numeric
+@attribute 'موسم خان کورونا' numeric
+@attribute 'موسم خان کرونا' numeric
+@attribute 'مودی ڈر مودی' numeric
+@attribute 'مودی اتفاق اتحاد' numeric
+@attribute 'موجودہ صورتحال بائیس' numeric
+@attribute 'موجودگی عبادات منہ' numeric
+@attribute 'موجود ختم ہوگا' numeric
+@attribute 'موجود اداسی پچھلی' numeric
+@attribute 'موجزن ابہی پت' numeric
+@attribute 'موت کورونا ڈر' numeric
+@attribute 'موت ڈرتی مرتے' numeric
+@attribute 'موت ڈرتا بچوں' numeric
+@attribute 'موت ڈرتا بچووں' numeric
+@attribute 'ماں اکلوتے موبائل' numeric
+@attribute 'میاں نواز شریف' numeric
+@attribute 'میٹھا بولنے اداسی' numeric
+@attribute 'نام رکھیں گے' numeric
+@attribute 'میڈیا بات شروع' numeric
+@attribute 'نام رنجیت رکھ' numeric
+@attribute 'نام خوشی خوشی' numeric
+@attribute 'نام بھولنے والو' numeric
+@attribute 'نام اک اداسی' numeric
+@attribute 'ناصر اداسی بال' numeric
+@attribute 'ناز عمر دراز' numeric
+@attribute 'ناز الحمدللہ موت' numeric
+@attribute 'ناراضگی ڈر بات' numeric
+@attribute 'نادیدہ ہستی جھنجوڑا' numeric
+@attribute 'ناداں کہو پچھتائیں' numeric
+@attribute 'ناجائز نسلوں قاسم' numeric
+@attribute 'نائنٹین حقیقی بحران' numeric
+@attribute 'میک دیکھ ڈر' numeric
+@attribute 'میڈیا ہندو مسلم' numeric
+@attribute 'میڈیا نفرت پھیلانے' numeric
+@attribute 'میڈیا مسلمانوں خلاف' numeric
+@attribute 'میڈیا دنوں غصہ' numeric
+@attribute 'میڈیا جتنا خوف' numeric
+@attribute 'میڈیا بیٹھ الفاظ' numeric
+@attribute 'ماں بتا پڑھی' numeric
+@attribute 'مانگتے دیکھیں گے' numeric
+@attribute 'مانگنا پسند عبدالستار' numeric
+@attribute 'علیہ وسلم فرمایا' numeric
+@attribute 'غرور سارا قصور' numeric
+@attribute 'غربت اداسی سبب' numeric
+@attribute 'عورتوں بازار روک' numeric
+@attribute 'عورت ڈر مرد' numeric
+@attribute 'عمل جوہر بھروسا' numeric
+@attribute 'عمرہ حبیب جالب' numeric
+@attribute 'عمران خان نفرت' numeric
+@attribute 'عمران خان تعریف' numeric
+@attribute 'عمران خان بھیجتا' numeric
+@attribute 'علیہ وآلہ وسلم' numeric
+@attribute 'عرش انساں تگ' numeric
+@attribute 'علیکم چیزیں اہم' numeric
+@attribute 'علیکم ورحمۃ اللہ' numeric
+@attribute 'علی رضی اللہ' numeric
+@attribute 'علامہ اقبال پوچھا' numeric
+@attribute 'عقل انتہا جواب' numeric
+@attribute 'عطا فرمائے آمین' numeric
+@attribute 'عشق فقیر طلب' numeric
+@attribute 'عشق بازی چاہو' numeric
+@attribute 'عزت ملی ھے' numeric
+@attribute 'غصہ سو عمران' numeric
+@attribute 'غصہ مشین کہتا' numeric
+@attribute 'غصہ نواز شریفبھیجتا' numeric
+@attribute 'غلط بات غصہ' numeric
+@attribute 'فرمایا چیز زیادہ' numeric
+@attribute 'فرمایا شخص اللہ' numeric
+@attribute 'فرمایا اللہ تعالی' numeric
+@attribute 'فرماتے غلطیوں محبت' numeric
+@attribute 'فرشتوں حیرت آواز' numeric
+@attribute 'فتح راور شہر' numeric
+@attribute 'فاقوں مر راشن' numeric
+@attribute 'فاصلہ دیکھ بڑھتا' numeric
+@attribute 'فائرنگ گولی سر' numeric
+@attribute 'غیروں ڈر ڈر' numeric
+@attribute 'غیرتوں جوابھی بے' numeric
+@attribute 'غیرت سلیکٹڈ زانی' numeric
+@attribute 'غیرت حکومت بے' numeric
+@attribute 'غم ڈر شب' numeric
+@attribute 'غم قبول خوشی' numeric
+@attribute 'غم دنیا اک' numeric
+@attribute 'غم خوشی امید' numeric
+@attribute 'غم جاناں غم' numeric
+@attribute 'غلط پیشن گوئی' numeric
+@attribute 'عرش کھلتا راز' numeric
+@attribute 'عذابوں آشنا اداسی' numeric
+@attribute 'فریب رہائی دلائی' numeric
+@attribute 'شخص شادی سالہ' numeric
+@attribute 'شہر راستوں پہرہ' numeric
+@attribute 'شہر راستوں پہرا' numeric
+@attribute 'شہادت خبر آج' numeric
+@attribute 'شگوفے چہروں گلاب' numeric
+@attribute 'شگوفوں رنگ بھرتے' numeric
+@attribute 'شکن ہنسانے چلی' numeric
+@attribute 'شور ڈر بیٹھا' numeric
+@attribute 'شرابی جواری زکوتہ' numeric
+@attribute 'شخص محبت دور' numeric
+@attribute 'شخص اداسی حل' numeric
+@attribute 'عجب عالم دل' numeric
+@attribute 'شب گفتگو ڈر' numeric
+@attribute 'شب روز چلتی' numeric
+@attribute 'شاہد خاقان عباسی' numeric
+@attribute 'شادی سالہ خاتون' numeric
+@attribute 'سیکھااداسی مسکرانے ہنر' numeric
+@attribute 'سیکھا اداسی مسکرانے' numeric
+@attribute 'سیدنا ابوہریرہ رضی' numeric
+@attribute 'سید شھداءامام حسین' numeric
+@attribute 'سگریٹ پینا چھوڑ' numeric
+@attribute 'شہری کرونا صحت' numeric
+@attribute 'شیخ الاسلام ڈاکٹر' numeric
+@attribute 'شیر دن زندگی' numeric
+@attribute 'شیرازی سالگرہ مبارک' numeric
+@attribute 'عباسی گرفتاری ڈر' numeric
+@attribute 'عبادات منہ مار' numeric
+@attribute 'عالمی منڈی تیل' numeric
+@attribute 'عاصمہ شیرازی سالگرہ' numeric
+@attribute 'عادی بنانا انسان' numeric
+@attribute 'طوفان بجلیوں ڈر' numeric
+@attribute 'طبیعت ٹھیک اداسی' numeric
+@attribute 'طارق جمیل خوف' numeric
+@attribute 'طارق جمیل حکومتی' numeric
+@attribute 'طارق جمیل اختیار' numeric
+@attribute 'ضمانت کیلیے رجوع' numeric
+@attribute 'صلی اللہ علیہ' numeric
+@attribute 'صدا اداسی ھے' numeric
+@attribute 'صحت یاب گھر' numeric
+@attribute 'صحافی غلط پیشن' numeric
+@attribute 'صحافی حضرات ڈر' numeric
+@attribute 'صحافت دن منا' numeric
+@attribute 'صبح بائیک نکلتا' numeric
+@attribute 'صبح بائیک لےکرنکلتا' numeric
+@attribute 'فرنگ حیرت شیشہ' numeric
+@attribute 'فسردگی جاں اترتی' numeric
+@attribute 'وائرس ڈر سگریٹ' numeric
+@attribute 'لوگ عمران خان' numeric
+@attribute 'لڑکیوں بال کھول' numeric
+@attribute 'لڑکی چہرے محبت' numeric
+@attribute 'لڑکی دن لکھا' numeric
+@attribute 'لڑکا دن لکھا' numeric
+@attribute 'لڑتے رات تھک' numeric
+@attribute 'لوں سانس دل' numeric
+@attribute 'لوگ ہنسی چھین' numeric
+@attribute 'لوگ ڈر ڈر' numeric
+@attribute 'لوگ فیصلوں دنیا' numeric
+@attribute 'لوگ رغبت اجر' numeric
+@attribute 'لبریز آہوں ٹھنڈی' numeric
+@attribute 'لوگ دنیا ڈر' numeric
+@attribute 'لوگ جلدی ٹر' numeric
+@attribute 'لوگ بے اداسی' numeric
+@attribute 'لوگ بھوکوں مررہے' numeric
+@attribute 'لوگ اللہ خوف' numeric
+@attribute 'لوٹ مار مال' numeric
+@attribute 'لقمان حیرت عشق' numeric
+@attribute 'لفظوں تکلم گرا' numeric
+@attribute 'لفظ نکلا آج' numeric
+@attribute 'لکھا تختی اداسی' numeric
+@attribute 'لکھنے اللہ دنیا' numeric
+@attribute 'لگاتا سالے روز' numeric
+@attribute 'لگتاہےقبیلےسےگھوڑا لےکرنکل رہاہوں' numeric
+@attribute 'مانوس خلوت غم' numeric
+@attribute 'مانند اترتی نقصان' numeric
+@attribute 'مان محمد قاسم' numeric
+@attribute 'مان رسموں ڈر' numeric
+@attribute 'مالوں جانوں پھلوں' numeric
+@attribute 'مارے مظلوم پشتون' numeric
+@attribute 'مارے بزدلی چوڑیاں' numeric
+@attribute 'مار مال واپس' numeric
+@attribute 'مار بچوں مر' numeric
+@attribute 'ماتھے اداسی شکن' numeric
+@attribute 'مئی کھولنے فیصلہ' numeric
+@attribute 'لےکرنکلتا لگتاہےقبیلےسےگھوڑا لےکرنکل' numeric
+@attribute 'لےکرنکلتا لگتاہے قبیلے' numeric
+@attribute 'لےکرنکل رہاہوں باقاعدہ' numeric
+@attribute 'لینے ہتھیار ڈال' numeric
+@attribute 'لینا بچوں بال' numeric
+@attribute 'لہرانے اداروں خاموشی' numeric
+@attribute 'لہجے تلخی ڈر' numeric
+@attribute 'لگتاہےکہیں منگول حملہ' numeric
+@attribute 'لفظ دیکھتے باتوں' numeric
+@attribute 'لب محو حیرت' numeric
+@attribute 'فضائے دل اداسی' numeric
+@attribute 'فیروز کیمرہ مین' numeric
+@attribute 'قابو اداسی وحشت' numeric
+@attribute 'قابل مذمت باعث' numeric
+@attribute 'قابض پتہ لوگ' numeric
+@attribute 'قابض پتا لوگ' numeric
+@attribute 'فیض احمد فیض' numeric
+@attribute 'فیصلہ مسلمانوں خوشی' numeric
+@attribute 'فیصلہ دوہری اذیت' numeric
+@attribute 'فیصلوں دنیا بدل' numeric
+@attribute 'فیصل ایدھی کرونا' numeric
+@attribute 'فکر لاشوں ریاست' numeric
+@attribute 'لب آسکتا محو' numeric
+@attribute 'فکر بہتات ترجمہ' numeric
+@attribute 'فکر آج دل' numeric
+@attribute 'فون اجازت یاد' numeric
+@attribute 'فوری حکم گاڑیاں' numeric
+@attribute 'فوج ملک دشمنوں' numeric
+@attribute 'فوج دم دبا' numeric
+@attribute 'فوت جاؤں اچھے' numeric
+@attribute 'فقیر طلب اداسی' numeric
+@attribute 'فطرت رعایت گنجائش' numeric
+@attribute 'قاتل فاتح نہیںورنہ' numeric
+@attribute 'قاتل ڈر بات' numeric
+@attribute 'قاسم جوتے ڈر' numeric
+@attribute 'قاسم ناجائز نسلوں' numeric
+@attribute 'لاکھ کرونا وائرس' numeric
+@attribute 'لاکھ درجے چہرے' numeric
+@attribute 'لالچ عبادت تاجر' numeric
+@attribute 'قہقہے من بوجھ' numeric
+@attribute 'قہقہوں درد مختلف' numeric
+@attribute 'قوم خلاف بےجا' numeric
+@attribute 'قوم آغاز اقراء' numeric
+@attribute 'قصے بچوں کہانی' numeric
+@attribute 'قسم اتنی خوشی' numeric
+@attribute 'قتل فوج دم' numeric
+@attribute 'قبیلے گھوڑا نکل' numeric
+@attribute 'قبیلے نکلا ڈر' numeric
+@attribute 'قبیلے مان رسموں' numeric
+@attribute 'قبیلے سےگھوڑا لےکرنکل' numeric
+@attribute 'قبول نفرت پیار' numeric
+@attribute 'قبول تعلق نفرت' numeric
+@attribute 'قبر خوف اے' numeric
+@attribute 'قبر اک پھول' numeric
+@attribute 'قاسم کیخلاف بھونک' numeric
+@attribute 'وائرس نام کاروبار' numeric
+@attribute 'وحشت لوں سانس' numeric
+@attribute 'وائرس ڈر پاکستانیوں' numeric
+@attribute 'کہانی سن حیدر' numeric
+@attribute 'کہتے ہچکچا مسلماں' numeric
+@attribute 'کہتے کہتے ہچکچا' numeric
+@attribute 'کہتے کہتے بات' numeric
+@attribute 'کہتے مغرب وقت' numeric
+@attribute 'کہتے بچھڑے سوچا' numeric
+@attribute 'کہتے بات یقیں' numeric
+@attribute 'کہتی نخرے بیوی' numeric
+@attribute 'کہتا سر ملے' numeric
+@attribute 'کہتا دل پھینک' numeric
+@attribute 'کھیلتی لڑکی دن' numeric
+@attribute 'کھا گے اداسی' numeric
+@attribute 'کھیلتا لڑکا دن' numeric
+@attribute 'کھڑے حیرت آج' numeric
+@attribute 'کھڑی مرنے کھائے' numeric
+@attribute 'کھونے زندگی زندگی' numeric
+@attribute 'کھولنے فیصلہ مسلمانوں' numeric
+@attribute 'کھولا نظر کھڑے' numeric
+@attribute 'کھول چھت پیڑ' numeric
+@attribute 'کھوتے بھیک مانگتے' numeric
+@attribute 'کھلتا راز تا' numeric
+@attribute 'کہنا مکمل ملنا' numeric
+@attribute 'کہنا ہارے بازی' numeric
+@attribute 'کہو پچھتائیں گے' numeric
+@attribute 'کہوں علاج اداسی' numeric
+@attribute 'گزر سنو ادہورا' numeric
+@attribute 'گزر دور ذرا' numeric
+@attribute 'گریبان پکڑیں گے' numeric
+@attribute 'گرگٹ مات فطرت' numeric
+@attribute 'گرفتاری ڈر بھارتی' numeric
+@attribute 'گرفتاری ڈر اسلام' numeric
+@attribute 'گرفتاری حکم خیر' numeric
+@attribute 'گرفتار مسافر پاؤں' numeric
+@attribute 'گر گے خبر' numeric
+@attribute 'گر جیت کہنا' numeric
+@attribute 'گر بازی عشق' numeric
+@attribute 'گر آنکھوں گے' numeric
+@attribute 'گاڑیاں لوٹ مار' numeric
+@attribute 'گالیوں پرہیز زیادہ' numeric
+@attribute 'گئیں دین دنیا' numeric
+@attribute 'کیلیے رجوع کرلیا' numeric
+@attribute 'کیلشیم کمی چیز' numeric
+@attribute 'کیلشم کمی چیز' numeric
+@attribute 'کیخلاف بھونک آرائیوں' numeric
+@attribute 'کھاؤ جوٹی راوایت' numeric
+@attribute 'کھا گیں اداسی' numeric
+@attribute 'ڈیرے ابہی تسنیم' numeric
+@attribute 'کافی کاروبار زہر' numeric
+@attribute 'کرونا وائرس نام' numeric
+@attribute 'کرونا صحت یاب' numeric
+@attribute 'کرلیا بندہ کہتا' numeric
+@attribute 'کردار نظر چہرے' numeric
+@attribute 'کتنا ڈر تجوری' numeric
+@attribute 'کامیاب لوگ فیصلوں' numeric
+@attribute 'کام جلنے داغ' numeric
+@attribute 'کالین سفید گلدستہ' numeric
+@attribute 'کال پورا شہر' numeric
+@attribute 'کافی دکھ بات' numeric
+@attribute 'کھا شباب دلکش' numeric
+@attribute 'کافی توحید حشر' numeric
+@attribute 'کاروبار شروع دئیے' numeric
+@attribute 'کاروبار زہر لوگ' numeric
+@attribute 'کاروبار جرنیلوں آئین' numeric
+@attribute 'کارواں شامل نظر' numeric
+@attribute 'کئی گاؤں قصبوں' numeric
+@attribute 'کئی اترے دل' numeric
+@attribute 'ڈیڑھ کروڑ پڑا' numeric
+@attribute 'ڈیڑھ آبادی چھوڑ' numeric
+@attribute 'کرونا وائرس ڈر' numeric
+@attribute 'کرونا ٹیسٹ مثبت' numeric
+@attribute 'کرونا ٹیسٹ منفی' numeric
+@attribute 'کرونا پھیلایا اتنا' numeric
+@attribute 'کھا اداسی کھڑی' numeric
+@attribute 'کچہہ سوکہے گلاب' numeric
+@attribute 'کووڈ مرض حقیقی' numeric
+@attribute 'کووڈ انیس مرض' numeric
+@attribute 'کورونا ٹیسٹ منفی' numeric
+@attribute 'کنارے کناروں نمی' numeric
+@attribute 'کمی چیز ذمہ' numeric
+@attribute 'کمپنیوں شدید نقصان' numeric
+@attribute 'کمزور لوگ دنیا' numeric
+@attribute 'کمال ہنر دیکھنا' numeric
+@attribute 'کلیاں نشاط چن' numeric
+@attribute 'کشی نظریے پرآگے' numeric
+@attribute 'کشمیر بیٹا غلامی' numeric
+@attribute 'کسک یادوں بے' numeric
+@attribute 'کریم صلی اللہ' numeric
+@attribute 'کرپٹ لوگ بھوکوں' numeric
+@attribute 'کرونا کرونا پیو' numeric
+@attribute 'کرونا ڈیٹ کرکے' numeric
+@attribute 'کرونا پیو آجائے' numeric
+@attribute 'گزرنا چاہیے جنات' numeric
+@attribute 'گل الفت مہکوں' numeric
+@attribute 'گل چراغوں خوشی' numeric
+@attribute 'ہائیکورٹ ضمانت کیلیے' numeric
+@attribute 'ہستی عمل جوہر' numeric
+@attribute 'ہجوم دیکھ رستہ' numeric
+@attribute 'ہجر بھرا عشق' numeric
+@attribute 'ہتھیار ڈال سانس' numeric
+@attribute 'ہتھیار ڈال ارطغرلغازی' numeric
+@attribute 'ہتھیار ڈال ارطغرل' numeric
+@attribute 'ہارے بازی مات' numeric
+@attribute 'ہاتھجب مزدور گھر' numeric
+@attribute 'ہاتھ مزدور گھر' numeric
+@attribute 'ھے ھم ملنے' numeric
+@attribute 'گلاب جامن خوشی' numeric
+@attribute 'ھے گالیوں پرہیز' numeric
+@attribute 'ھے کرونا وائرس' numeric
+@attribute 'ھے ڈر ھے' numeric
+@attribute 'ھے چینل قومے' numeric
+@attribute 'ھے حیرت ھے' numeric
+@attribute 'ھے اداسی دوا' numeric
+@attribute 'ھے آج جیو' numeric
+@attribute 'ھوا اداسی شاٹس' numeric
+@attribute 'ھم ملنے پیارا' numeric
+@attribute 'ہمسفر مرشد دیکھ' numeric
+@attribute 'ہمیشہ تکلیف سیکھتا' numeric
+@attribute 'ہندوستان کووڈ مرض' numeric
+@attribute 'ہنر بدلے زندگی' numeric
+@attribute 'یوتھیوں جیو نیوز' numeric
+@attribute 'یاس ملنا خوشی' numeric
+@attribute 'یار پیڑوں اداسی' numeric
+@attribute 'یادوں بے چینی' numeric
+@attribute 'یاد آنگن اداسی' numeric
+@attribute 'یاب گھر خوشی' numeric
+@attribute 'ہیرو مان محمد' numeric
+@attribute 'ہچکچا مسلماں کہتے' numeric
+@attribute 'ہٹلر خاکی وردی' numeric
+@attribute 'ہوگی ہتھیار ڈال' numeric
+@attribute 'ہوگا ہتھیار ڈال' numeric
+@attribute 'ہونٹوں اداسی آنکھوں' numeric
+@attribute 'ہونٹوں اداسی آنکھ' numeric
+@attribute 'ہوس بہشت دوزخ' numeric
+@attribute 'ہوائیں اداسی ڈوبی' numeric
+@attribute 'ہنسی چھین قہقہے' numeric
+@attribute 'ہنستا کھیلتا لڑکا' numeric
+@attribute 'ہنس ہنس تھک' numeric
+@attribute 'ہنر دیکھنا نظر' numeric
+@attribute 'گے گے چھین' numeric
+@attribute 'گے گر آنکھوں' numeric
+@attribute 'گے ڈر بھوک' numeric
+@attribute 'گڈ مارننگ میسج' numeric
+@attribute 'گونجی صدا اداسی' numeric
+@attribute 'گولی پنکھا رسی' numeric
+@attribute 'گورے رنگ سمجھدار' numeric
+@attribute 'گورنمنٹ سندھ کرپٹ' numeric
+@attribute 'گورا کریم دوکاندار' numeric
+@attribute 'گوئی جھوٹی خبر' numeric
+@attribute 'گنگا جمنی تہذیب' numeric
+@attribute 'گندا جھنڈا لہرانے' numeric
+@attribute 'گناہ چھوڑنا لاکھ' numeric
+@attribute 'گم سمندر سمندر' numeric
+@attribute 'گم دہوپ چہاوں' numeric
+@attribute 'گم حیرت بات' numeric
+@attribute 'گلے پڑ ضدی' numeric
+@attribute 'گلیوں ڈر گھومتا' numeric
+@attribute 'گلی کتا شخص' numeric
+@attribute 'گلہ زندگی اجاڑ' numeric
+@attribute 'گلدستہ فیروز کیمرہ' numeric
+@attribute 'گلابوں شجر باوضو' numeric
+@attribute 'گلاب منحوس اداسی' numeric
+@attribute 'گونگی آج زباں' numeric
+@attribute 'گھر بائیک نکلتا' numeric
+@attribute 'گے چھین وعدے' numeric
+@attribute 'گھر بچوں روٹی' numeric
+@attribute 'گے محبت جاۓ' numeric
+@attribute 'گے دشمن ڈر' numeric
+@attribute 'گے خبر مصیبت' numeric
+@attribute 'گے اداسی کھڑی' numeric
+@attribute 'گے اداسی سبب' numeric
+@attribute 'گھیر ہنس بلایا' numeric
+@attribute 'گھڑی کتابیں خاموش' numeric
+@attribute 'گھٹائیں محبت دنیا' numeric
+@attribute 'گھٹا چھٹتی سینے' numeric
+@attribute 'گھوڑا نکل باقاعدہ' numeric
+@attribute 'گھوڑا قبیلے نکلا' numeric
+@attribute 'گھر یوممزدور رمضان' numeric
+@attribute 'گھر ڈر لڑکا' numeric
+@attribute 'گھر پاکیزہ محبت' numeric
+@attribute 'گھر نکلو گے' numeric
+@attribute 'گھر نکلتا گھوڑا' numeric
+@attribute 'گھر شیر سڑکوں' numeric
+@attribute 'گھر دیواروں ناصر' numeric
+@attribute 'گھر خوشی بھائی' numeric
+@attribute 'ڈیٹ کرکے اپن' numeric
+@attribute 'ڈھیروں خوشیاں مبارک' numeric
+@attribute 'واجب گے محبت' numeric
+@attribute 'پشتون شہادت خبر' numeric
+@attribute 'پوچھنے اجمل گے' numeric
+@attribute 'پوچھا عقل انتہا' numeric
+@attribute 'پوچھ چھوٹا چار' numeric
+@attribute 'پوچھ بہانے بنانے' numeric
+@attribute 'پولیس گرفتاری ڈر' numeric
+@attribute 'پوری کہنا اداسی' numeric
+@attribute 'پوری دنیا حالات' numeric
+@attribute 'پوائنٹس چاہیے صحافی' numeric
+@attribute 'پنکھا رسی موت' numeric
+@attribute 'پرہیز زیادہ غصہ' numeric
+@attribute 'پاکستان کرونا ڈر' numeric
+@attribute 'پرآگے بڑھ مسلمانوں' numeric
+@attribute 'پتہ لوگ ڈر' numeric
+@attribute 'پتہ انسان نفرت' numeric
+@attribute 'پتا لڑکے رپلائی' numeric
+@attribute 'پتا لوگ ڈر' numeric
+@attribute 'پت جہڑ ڈیرے' numeric
+@attribute 'پاکیزہ رشتے نفرت' numeric
+@attribute 'پاکستانیوں کرونا وائرس' numeric
+@attribute 'پاکستانی پانچ وقت' numeric
+@attribute 'پچھتائیں گے گر' numeric
+@attribute 'پچھتایا اے نام' numeric
+@attribute 'پچھلی رات بہلا' numeric
+@attribute 'پچھلے سبق بھول' numeric
+@attribute 'پیاس مال جان' numeric
+@attribute 'پیاروں جنازے اٹھانے' numeric
+@attribute 'پیارا مہمان رھا' numeric
+@attribute 'پیا کیلشیم کمی' numeric
+@attribute 'پیا کیلشم کمی' numeric
+@attribute 'پی ٹی وی' numeric
+@attribute 'پی ٹی ایم' numeric
+@attribute 'پی بھارت مسلمانوں' numeric
+@attribute 'پہن نسلیں ظالموں' numeric
+@attribute 'پہلو گلے پڑ' numeric
+@attribute 'پہرہ اداسی راستے' numeric
+@attribute 'پہرا اداسی راستے' numeric
+@attribute 'پھینک ٹی وی' numeric
+@attribute 'پھیلی نفرت نکل' numeric
+@attribute 'پھیلایا اتنا دوزخ' numeric
+@attribute 'پھیلا جسم تنہائیوں' numeric
+@attribute 'پڑوسی بھوکا تیسرا' numeric
+@attribute 'پڑتے بیماری یقین' numeric
+@attribute 'پڑ ضدی اداسی' numeric
+@attribute 'پاکستانی عالم دین' numeric
+@attribute 'پاکستان مسلم لیگ' numeric
+@attribute 'ڈرتا بچوں ڈر' numeric
+@attribute 'وفائی عذابوں آشنا' numeric
+@attribute 'ٹوٹا دل حیرت' numeric
+@attribute 'ٹوئیٹ دبئی پولیس' numeric
+@attribute 'ٹوئٹ حیرت پچھلے' numeric
+@attribute 'وی چینلوں سوشل' numeric
+@attribute 'وی زمین جعلی' numeric
+@attribute 'وی جتنی عزت' numeric
+@attribute 'وقت نمازی ھوتا' numeric
+@attribute 'وقت لڑکیوں بال' numeric
+@attribute 'وقت خوشی رب' numeric
+@attribute 'وسیم بہائی آج' numeric
+@attribute 'پاکستان لوگ کہتے' numeric
+@attribute 'وسوسوں گھیر ہنس' numeric
+@attribute 'وزیرستان موسم خان' numeric
+@attribute 'وزیراعظم کرونا ٹیسٹ' numeric
+@attribute 'وزیراعظم عمران خان' numeric
+@attribute 'وزیر اعظم عمران' numeric
+@attribute 'وردی غرور ناز' numeric
+@attribute 'وردی آر ایس' numeric
+@attribute 'ورحمۃ اللہ وبرکاتہ' numeric
+@attribute 'سکھائی ہوس بہشت' numeric
+@attribute 'ٹھنڈی ہوائیں اداسی' numeric
+@attribute 'ٹھہری غم اوقات' numeric
+@attribute 'ٹھیک اداسی کلیجہ' numeric
+@attribute 'ٹی وی اینکر' numeric
+@attribute 'پاکستان عوام شدید' numeric
+@attribute 'پاکستان عمران خان' numeric
+@attribute 'پاکستان صدر مملکت' numeric
+@attribute 'پاکستان تجربہ گاہ' numeric
+@attribute 'پاک ہمیشہ خوش' numeric
+@attribute 'پاک ڈر ڈر' numeric
+@attribute 'پاک فوج ملک' numeric
+@attribute 'پاک صلی اللہ' numeric
+@attribute 'پانچویں امیر ترین' numeric
+@attribute 'پانچ وقت نمازی' numeric
+@attribute 'پارٹیوں شیڈول مینیو' numeric
+@attribute 'پابندی سلطنت عثمانیہ' numeric
+@attribute 'پائی دولہا بڑا' numeric
+@attribute 'پاؤ گے زندگی' numeric
+@attribute 'پا گلابوں شجر' numeric
+@attribute 'ٹیسٹ مثبت کافی' numeric
+@attribute 'ٹی وی چینلوں' numeric
+@attribute 'ٹی وی زمین' numeric
+@attribute 'ٹی وی جتنی' numeric
+@attribute 'پیاسی ورثے ملی' numeric
+@attribute 'پیشن گوئی جھوٹی' numeric
+@attribute 'پیغام رھا ھے' numeric
+@attribute 'ڈر تجوری جیب' numeric
+@attribute 'ڈر سخت مشکل' numeric
+@attribute 'ڈر ریگولرائزیشن سمری' numeric
+@attribute 'ڈر رستوں گھر' numeric
+@attribute 'ڈر رات ہاتھ' numeric
+@attribute 'ڈر دیکھ لگن' numeric
+@attribute 'ڈر حالات خونی' numeric
+@attribute 'ڈر جینے ارمان' numeric
+@attribute 'ڈر جیب گھر' numeric
+@attribute 'ڈر تقاضا بدلتے' numeric
+@attribute 'ڈر بہن کھیلے' numeric
+@attribute 'پینا چھوڑ سگریٹ' numeric
+@attribute 'ڈر بہن عزت' numeric
+@attribute 'ڈر بھوک پیاس' numeric
+@attribute 'ڈر بھارتی سنگر' numeric
+@attribute 'ڈر بولی اللہ' numeric
+@attribute 'ڈر بغاوت سکے' numeric
+@attribute 'ڈر بس اللہ' numeric
+@attribute 'ڈر اک رات' numeric
+@attribute 'ڈر اچھے اخلاق' numeric
+@attribute 'ڈر اچھا اخلاق' numeric
+@attribute 'ڈر سگریٹ پینا' numeric
+@attribute 'ڈر سینوں نبی' numeric
+@attribute 'ڈر شب گزر' numeric
+@attribute 'ڈر علی چھوڑ' numeric
+@attribute 'ڈرامے پی ٹی' numeric
+@attribute 'ڈر ھے چینل' numeric
+@attribute 'ڈر گر جیت' numeric
+@attribute 'ڈر کہتے بچھڑے' numeric
+@attribute 'ڈر کھونے زندگی' numeric
+@attribute 'ڈر ڈر فوت' numeric
+@attribute 'ڈر چھت گرا' numeric
+@attribute 'ڈر پاکستانیوں کرونا' numeric
+@attribute 'ڈر مودی ڈر' numeric
+@attribute 'ڈر مناظر موجودگی' numeric
+@attribute 'ڈر ملے شیر' numeric
+@attribute 'ڈر مارے مظلوم' numeric
+@attribute 'ڈر مارے بزدلی' numeric
+@attribute 'ڈر مار بچوں' numeric
+@attribute 'ڈر لگنے محبت' numeric
+@attribute 'ڈر لگتاہےکہیں منگول' numeric
+@attribute 'ڈر فیصلے بدل' numeric
+@attribute 'ڈر فوت بتایا' numeric
+@attribute 'ڈر فاصلہ دیکھ' numeric
+@attribute 'ڈر اللہ در' numeric
+@attribute 'ڈر اسلام آباد' numeric
+@attribute 'ڈر آخری سانس' numeric
+@attribute 'چھت پیڑ گزرنا' numeric
+@attribute 'چوڑیاں پہن نسلیں' numeric
+@attribute 'چوتھی عمرہ حبیب' numeric
+@attribute 'چنچل ڈالی ڈالی' numeric
+@attribute 'چنچل چنچل ڈالی' numeric
+@attribute 'چن مدتوں محو' numeric
+@attribute 'چلتے پھرتے آنسو' numeric
+@attribute 'چلتی پہلو گلے' numeric
+@attribute 'چل رب دروازے' numeric
+@attribute 'چراغوں خوشی بزم' numeric
+@attribute 'چاہیے صحافی غلط' numeric
+@attribute 'چاہیے جنات اثر' numeric
+@attribute 'چاہو ڈر گر' numeric
+@attribute 'چاہت بھروسہ بچھڑ' numeric
+@attribute 'چاہئیں دفعہ چیزوں' numeric
+@attribute 'چاپلوسی اچھی شخصیت' numeric
+@attribute 'چار دن دوستی' numeric
+@attribute 'پیڑوں اداسی دیکھی' numeric
+@attribute 'پیڑ گزرنا چاہیے' numeric
+@attribute 'پیو آجائے عورتوں' numeric
+@attribute 'چھا بارش خیالوں' numeric
+@attribute 'چھت گرا مر' numeric
+@attribute 'ڈاکٹر محمد طاہرالقادری' numeric
+@attribute 'چھم چھم ڈر' numeric
+@attribute 'ڈال سانس حرام' numeric
+@attribute 'ڈال ارطغرل غازی' numeric
+@attribute 'چیک خلیجی ممالک' numeric
+@attribute 'چینی سونپ سورج' numeric
+@attribute 'چینلوں سوشل میڈیا' numeric
+@attribute 'چینل قومے جائے' numeric
+@attribute 'چینل بلیک پوائنٹس' numeric
+@attribute 'چیزیں اہم اللہ' numeric
+@attribute 'چیز زیادہ جنت' numeric
+@attribute 'چیز ذمہ دار' numeric
+@attribute 'چیز خوش سکتی' numeric
+@attribute 'چیختی قہقہوں درد' numeric
+@attribute 'چہرے ہمیشہ مسکراہٹ' numeric
+@attribute 'چہرے محبت بے' numeric
+@attribute 'چہروں گلاب منحوس' numeric
+@attribute 'چھین قہقہے من' numeric
+@attribute 'چھوڑ سگریٹ بنانے' numeric
+@attribute 'چھوٹا چار سنا' numeric
+@attribute 'چھوٹا بھائی سال' numeric
+@attribute 'سگریٹ بنانے کمپنیوں' numeric
+@attribute 'سکتی خوش چاہیں' numeric
+@attribute 'سکوت گونجی صدا' numeric
+@attribute 'بچوں ڈر اک' numeric
+@attribute 'بھائی بڑے با' numeric
+@attribute 'بکھرتی فسردگی جاں' numeric
+@attribute 'بکری دودھ پیا' numeric
+@attribute 'بڑے با امیر' numeric
+@attribute 'بڑھتا راستہ دیکھ' numeric
+@attribute 'بڑا بھائی بڑے' numeric
+@attribute 'بچھڑے سوچا پاگل' numeric
+@attribute 'بچوں کہانی سن' numeric
+@attribute 'بچوں ڈر رات' numeric
+@attribute 'بچوں مر محنت' numeric
+@attribute 'بس بول طبیعت' numeric
+@attribute 'بچوں سوالات ڈر' numeric
+@attribute 'بٹ فوٹو ڈر' numeric
+@attribute 'بول طبیعت ٹھیک' numeric
+@attribute 'بوتل نیند گولی' numeric
+@attribute 'بندہ کہتا نیب' numeric
+@attribute 'بنانے کمپنیوں شدید' numeric
+@attribute 'بلیک پوائنٹس چاہیے' numeric
+@attribute 'بسم اللہ الرحمن' numeric
+@attribute 'بس ختم نبوت' numeric
+@attribute 'بھائی سال بڑا' numeric
+@attribute 'بھائی فائرنگ گولی' numeric
+@attribute 'بھارت مسلمانوں خلاف' numeric
+@attribute 'بھارتی سنگر سونو' numeric
+@attribute 'بھوکا انسان پیٹ' numeric
+@attribute 'بھوکا آج تیسرا' numeric
+@attribute 'بھوک پیاس مال' numeric
+@attribute 'بھوک موت مروں' numeric
+@attribute 'بھوک مالوں جانوں' numeric
+@attribute 'بھونک آرائیوں پیاز' numeric
+@attribute 'بھولنے والو یاد' numeric
+@attribute 'بھولا دل ہجر' numeric
+@attribute 'بھول ھم ڈرنے' numeric
+@attribute 'بھول پڑے بھولا' numeric
+@attribute 'بھلائی فتح راور' numeric
+@attribute 'بھرے ساۓ ڈر' numeric
+@attribute 'بھری تصویر رکھ' numeric
+@attribute 'بھری اک تصویر' numeric
+@attribute 'بھروسہ بچھڑ ڈر' numeric
+@attribute 'بھروسا قوت بازو' numeric
+@attribute 'بھرتے شخص اداسی' numeric
+@attribute 'بھرا عشق فقیر' numeric
+@attribute 'بھاگنے بھلائی فتح' numeric
+@attribute 'بس جان ختم' numeric
+@attribute 'بس اک خلش' numeric
+@attribute 'بھوکوں مررہے لوگ' numeric
+@attribute 'بات نکلے دور' numeric
+@attribute 'بادل دل نگری' numeric
+@attribute 'بادل بارش خوشی' numeric
+@attribute 'بادل بادل دل' numeric
+@attribute 'بادشاہ لقمان حیرت' numeric
+@attribute 'بادشاہ قتل فوج' numeric
+@attribute 'باتوں دل جانا' numeric
+@attribute 'باتوں بات بدل' numeric
+@attribute 'بات یقیں بس' numeric
+@attribute 'بات پکا ثبوت' numeric
+@attribute 'بات نفرت پھیلانے' numeric
+@attribute 'بزدلی چوڑیاں پہن' numeric
+@attribute 'بات نفرت دکھ' numeric
+@attribute 'بات نئی بات' numeric
+@attribute 'بات ملے رونے' numeric
+@attribute 'بات مرشد بھری' numeric
+@attribute 'بات مان محبوب' numeric
+@attribute 'بات غصہ جانا' numeric
+@attribute 'بات عظیم قوم' numeric
+@attribute 'بات شروع عرب' numeric
+@attribute 'بات رونا خاک' numeric
+@attribute 'بادل پے اداسی' numeric
+@attribute 'بازار روک کرونا' numeric
+@attribute 'بازگشت خلیجی ممالک' numeric
+@attribute 'بازی عشق بازی' numeric
+@attribute 'برہانی دانش برہانی' numeric
+@attribute 'برہانی حیرت فراوانی' numeric
+@attribute 'برطانیہ لاکھ کرونا' numeric
+@attribute 'برادری مسلمانوں ممکنہ' numeric
+@attribute 'بذات اداسی دکھ' numeric
+@attribute 'بدلے زندگی خوشی' numeric
+@attribute 'بدلتے ڈر تقاضا' numeric
+@attribute 'بدل کمزور لوگ' numeric
+@attribute 'بد مزاج غرور' numeric
+@attribute 'بخود منزل حوصلہ' numeric
+@attribute 'بحران ہےاس دہلی' numeric
+@attribute 'بحران نفرت بھوک' numeric
+@attribute 'بحران اصل بحران' numeric
+@attribute 'بجلیوں ڈر سخت' numeric
+@attribute 'بتایا حکمران کہانیاں' numeric
+@attribute 'بال کھول چھت' numeric
+@attribute 'باقی ابہی دربار' numeric
+@attribute 'باقاعدہ تھوڑا ڈر' numeric
+@attribute 'بازی چاہو ڈر' numeric
+@attribute 'بھوکا تیسرا دن' numeric
+@attribute 'بھکاریوں گرفتاری حکم' numeric
+@attribute 'آج آزادی صحافت' numeric
+@attribute 'جان ختم نبوت' numeric
+@attribute 'جانوں پھلوں کمی' numeric
+@attribute 'جانم سارا نشہ' numeric
+@attribute 'جانداروں انسان پیسہ' numeric
+@attribute 'جاناں غم دنیا' numeric
+@attribute 'جانا مومن نشانی' numeric
+@attribute 'جانا شرافت نشانی' numeric
+@attribute 'جانا جلدی رو' numeric
+@attribute 'جان خوشی ہوئ' numeric
+@attribute 'جان خوشی ھم' numeric
+@attribute 'جان بس ختم' numeric
+@attribute 'تکلیف سیکھتا خوشی' numeric
+@attribute 'جال غم کتنے' numeric
+@attribute 'جاسکتا مسکراہٹ کتنی' numeric
+@attribute 'جاؤں اچھے لوگ' numeric
+@attribute 'ثواب لالچ عبادت' numeric
+@attribute 'ثبوت عشق لاجواب' numeric
+@attribute 'تیل قیمتوں حیرت' numeric
+@attribute 'تیسرا دن چوتھی' numeric
+@attribute 'تھکان اتارنے وقفہ' numeric
+@attribute 'تھک سو ڈر' numeric
+@attribute 'جاوید میانداد ہوگیا' numeric
+@attribute 'جاں بلا رنج' numeric
+@attribute 'جایگا ہٹےگا بیوقوف' numeric
+@attribute 'جاۓ روتے شکر' numeric
+@attribute 'جوہر بھروسا قوت' numeric
+@attribute 'جواری زکوتہ چندہ' numeric
+@attribute 'جوابھی بے غیرت' numeric
+@attribute 'جواب ملا حیرت' numeric
+@attribute 'جنوبی وزیرستان موسم' numeric
+@attribute 'جنت داخل اللہ' numeric
+@attribute 'جنازے اٹھانے خاندان' numeric
+@attribute 'جنات اثر ڈر' numeric
+@attribute 'جمیل خوف اتنی' numeric
+@attribute 'جمیل حکومتی معاملات' numeric
+@attribute 'جسم تنہائیوں زہر' numeric
+@attribute 'جرمنی مساجد مئی' numeric
+@attribute 'جذبہ زیست نفرت' numeric
+@attribute 'جذب رونقیں زہر' numeric
+@attribute 'جدائی ادھوری اک' numeric
+@attribute 'جتھوں خمیر قوم' numeric
+@attribute 'جتنی عزت ملی' numeric
+@attribute 'جتنی اچھی ڈر' numeric
+@attribute 'جتنا خوف کرونا' numeric
+@attribute 'تھوڑا ڈر لگتاہےکہیں' numeric
+@attribute 'تنہائیوں زہر رگ' numeric
+@attribute 'بھکت حیرت شیوخ' numeric
+@attribute 'بہشت دوزخ ڈر' numeric
+@attribute 'بے اداسی بے' numeric
+@attribute 'بیٹا غلامی نفرت' numeric
+@attribute 'بی جے پی' numeric
+@attribute 'بہن نصیب ڈر' numeric
+@attribute 'بہن مریم حنا' numeric
+@attribute 'بہن عزت کھیلے' numeric
+@attribute 'بہلا دل زرا' numeric
+@attribute 'بہلا دل ذرا' numeric
+@attribute 'بہشت ڈر دوزخ' numeric
+@attribute 'بہترین سزا معذرت' numeric
+@attribute 'تعلیم ترقی قوم' numeric
+@attribute 'بہترین دن سا' numeric
+@attribute 'بہتات ترجمہ ٹھیک' numeric
+@attribute 'بہادر دلیر صحافیوں' numeric
+@attribute 'بہائی آج پوری' numeric
+@attribute 'بہ ظاہر زیادہ' numeric
+@attribute 'بھیک مانگنا پسند' numeric
+@attribute 'بھیک مانگتے دیکھیں' numeric
+@attribute 'بھیڑ بکریاں سمجھا' numeric
+@attribute 'بھیجتا بات ختم' numeric
+@attribute 'بے اداسی سبب' numeric
+@attribute 'بے حد نفرت' numeric
+@attribute 'بے سبب اداسی' numeric
+@attribute 'بے غیرت حکومت' numeric
+@attribute 'تعالی ڈر اچھا' numeric
+@attribute 'تصویر ڈی پی' numeric
+@attribute 'تصویر رکھ لینا' numeric
+@attribute 'تصدیق برائی بلا' numeric
+@attribute 'تشدد علامت برس' numeric
+@attribute 'تسنیم باقی ابہی' numeric
+@attribute 'ترین آدمی فون' numeric
+@attribute 'ترک رفاقت پریشاں' numeric
+@attribute 'ترقی قوم آغاز' numeric
+@attribute 'تختی اداسی کھا' numeric
+@attribute 'تجوری جیب دونوں' numeric
+@attribute 'تاریک سرمستی حیرت' numeric
+@attribute 'تابش اک ڈر' numeric
+@attribute 'تا سر عرش' numeric
+@attribute 'بے چینی سونپ' numeric
+@attribute 'بے وفائی عذابوں' numeric
+@attribute 'بے نام اداسی' numeric
+@attribute 'بے غیرتوں جوابھی' numeric
+@attribute 'بے غیرت سلیکٹڈ' numeric
+@attribute 'بات خوشی فیصل' numeric
+@attribute 'بائیک نکلتا قبیلے' numeric
+@attribute 'بائیک لےکرنکلتا لگتاہےقبیلےسےگھوڑا' numeric
+@attribute 'اداسی دکھ دور' numeric
+@attribute 'اداسی سبب پوچھتے' numeric
+@attribute 'اداسی سبب پوچھ' numeric
+@attribute 'اداسی سبب بتلایا' numeric
+@attribute 'اداسی رگوں خون' numeric
+@attribute 'اداسی روح شاداب' numeric
+@attribute 'اداسی روح جذب' numeric
+@attribute 'اداسی راستے آرہی' numeric
+@attribute 'اداسی دیکھی ملنا' numeric
+@attribute 'اداسی دھواں طاقوں' numeric
+@attribute 'اداسی دوا اداسی' numeric
+@attribute 'احساس ٹیلی تھون' numeric
+@attribute 'اداسی دل ملال' numeric
+@attribute 'اداسی در بام' numeric
+@attribute 'اداسی حصے مسکرایا' numeric
+@attribute 'اداسی بے انتہا' numeric
+@attribute 'اداسی بکھرتی فسردگی' numeric
+@attribute 'اداسی بد مزاج' numeric
+@attribute 'اداسی بال کھولے' numeric
+@attribute 'اداسی آنکھوں نمی' numeric
+@attribute 'اداسی آنکھ نمی' numeric
+@attribute 'اداسی سبب پوچھنے' numeric
+@attribute 'اداسی سبب پوچھیں' numeric
+@attribute 'اداسی شاٹس کیلئے' numeric
+@attribute 'اداسی شکن ہنسانے' numeric
+@attribute 'اذان خلاف نفرت' numeric
+@attribute 'ادھوری اک موت' numeric
+@attribute 'اداسی ہنس ہنس' numeric
+@attribute 'اداسی ہمسفر مرشد' numeric
+@attribute 'اداسی ھے اداسی' numeric
+@attribute 'اداسی گم سمندر' numeric
+@attribute 'اداسی کھڑی مرنے' numeric
+@attribute 'اداسی کھا شباب' numeric
+@attribute 'اداسی کلیجہ منہ' numeric
+@attribute 'اداسی ڈوبی گھٹائیں' numeric
+@attribute 'اداسی چیختی قہقہوں' numeric
+@attribute 'اداسی چھا بارش' numeric
+@attribute 'اداسی پچھلی رات' numeric
+@attribute 'اداسی وحشت لوں' numeric
+@attribute 'اداسی مٹتی اتنی' numeric
+@attribute 'اداسی مسکرانے ہنر' numeric
+@attribute 'اداسی محسوس ہنسا' numeric
+@attribute 'اداسی مایوسی بھری' numeric
+@attribute 'اداسی لاکھ درجے' numeric
+@attribute 'اداروں حیرت انگیز' numeric
+@attribute 'اجمل گے اداسی' numeric
+@attribute 'با امیر آدمی' numeric
+@attribute 'آخری سانس لینے' numeric
+@attribute 'آشنا اداسی استعارہ' numeric
+@attribute 'آسکتا محو حیرت' numeric
+@attribute 'آزمائیں گے ڈر' numeric
+@attribute 'آزمائش گے دشمن' numeric
+@attribute 'آزادی صحافت دن' numeric
+@attribute 'آرایس ایس مسلمانوں' numeric
+@attribute 'آرائیوں پیاز پیتل' numeric
+@attribute 'آر ایس ایس' numeric
+@attribute 'آدمی فون ڈر' numeric
+@attribute 'آخری سانس حرام' numeric
+@attribute 'اجر ثواب لالچ' numeric
+@attribute 'آجائے عورتوں بازار' numeric
+@attribute 'آج ڈر مارے' numeric
+@attribute 'آج پوری دنیا' numeric
+@attribute 'آج صبح بائیک' numeric
+@attribute 'آج زباں کہتے' numeric
+@attribute 'آج حیرت مولانا' numeric
+@attribute 'آج جیو نیوز' numeric
+@attribute 'آج بھول پڑے' numeric
+@attribute 'آج اچانک مودی' numeric
+@attribute 'آقا گر گے' numeric
+@attribute 'آنکھ دیکھتی لب' numeric
+@attribute 'آنکھوں اداسی سبب' numeric
+@attribute 'آنکھوں دھڑکتا ڈر' numeric
+@attribute 'اتنی چاپلوسی اچھی' numeric
+@attribute 'اتنی نفرت جتنی' numeric
+@attribute 'اتنی خوشی امی' numeric
+@attribute 'اتنی بے رنگ' numeric
+@attribute 'اتنا دوزخ پھیلایا' numeric
+@attribute 'اتفاق اتحاد ٹوئٹ' numeric
+@attribute 'اترے دل اداسی' numeric
+@attribute 'اتر شخص فیصلہ' numeric
+@attribute 'اتحاد ٹوئٹ حیرت' numeric
+@attribute 'ابہی پت جہڑ' numeric
+@attribute 'ابہی دربار الفت' numeric
+@attribute 'ابہی تسنیم باقی' numeric
+@attribute 'آہوں ٹھنڈی ہوائیں' numeric
+@attribute 'آواز عرش کھلتا' numeric
+@attribute 'آنگن اداسی دھواں' numeric
+@attribute 'آنکھوں گے گے' numeric
+@attribute 'آنکھوں ڈر ملے' numeric
+@attribute 'آنکھوں نمی بکری' numeric
+@attribute 'آنکھوں شگوفے چہروں' numeric
+@attribute 'اذیت گرفتار مسافر' numeric
+@attribute 'ارتغل ڈرامے پی' numeric
+@attribute 'اردن شہری کرونا' numeric
+@attribute 'انسان ہمیشہ تکلیف' numeric
+@attribute 'اٹھے سو خاک' numeric
+@attribute 'اٹھانے خاندان ڈر' numeric
+@attribute 'اٹھا یاد آنگن' numeric
+@attribute 'انیس مرض حقیقی' numeric
+@attribute 'انگیز ٹوئیٹ دبئی' numeric
+@attribute 'انڈیا ڈرانے افغانیوں' numeric
+@attribute 'انڈیا مسلمانوں خلاف' numeric
+@attribute 'انڈیا اسلاموفوبیا مسلمانوں' numeric
+@attribute 'انڈیا آرایس ایس' numeric
+@attribute 'انسان نفرت دل' numeric
+@attribute 'ارطغرل یورپی ممالک' numeric
+@attribute 'انسان مایوس ختم' numeric
+@attribute 'انجام پائی دولہا' numeric
+@attribute 'انتہا جواب ملا' numeric
+@attribute 'انتخاب نتیجہ چیز' numeric
+@attribute 'امیر ترین آدمی' numeric
+@attribute 'امی کہتی نخرے' numeric
+@attribute 'اللہ ڈر اچھے' numeric
+@attribute 'اللہ ڈر اللہ' numeric
+@attribute 'اللہ پاک ہمیشہ' numeric
+@attribute 'اچانک مودی اتفاق' numeric
+@attribute 'اچھی شخصیت متنازع' numeric
+@attribute 'اچھے لوگ جلدی' numeric
+@attribute 'اک بے نام' numeric
+@attribute 'اے شگوفوں رنگ' numeric
+@attribute 'اے شخص محبت' numeric
+@attribute 'ایس مسلمانوں نسل' numeric
+@attribute 'ایس مسلح جتھوں' numeric
+@attribute 'ایس ایس مسلح' numeric
+@attribute 'ایدھی کرونا ٹیسٹ' numeric
+@attribute 'اہم اللہ ڈر' numeric
+@attribute 'اہلخانہ روز محشر' numeric
+@attribute 'اہل عطا بنے' numeric
+@attribute 'اہل عشق زمانے' numeric
+@attribute 'اہل ایمان خوشی' numeric
+@attribute 'اکاؤنٹس چیک خلیجی' numeric
+@attribute 'اک موت پوری' numeric
+@attribute 'اک رات ہاتھجب' numeric
+@attribute 'اک رات ہاتھ' numeric
+@attribute 'اک دوجے لڑتے' numeric
+@attribute 'اک دانش نورانی' numeric
+@attribute 'اک دانش برہانی' numeric
+@attribute 'اک تصویر رکھ' numeric
+@attribute 'اللہ علیہ وسلم' numeric
+@attribute 'اللہ علیہ وآلہ' numeric
+@attribute 'اللہ صلی اللہ' numeric
+@attribute 'اطمینان بات نفرت' numeric
+@attribute 'اشک ناداں کہو' numeric
+@attribute 'اشک سینے اتر' numeric
+@attribute 'اشرافیہ کہنے کھلنے' numeric
+@attribute 'اسٹیٹ بینک پاکستان' numeric
+@attribute 'اسوقت پاکستان لوگ' numeric
+@attribute 'اسلامی جمہوریہ پاکستان' numeric
+@attribute 'اسلاموفوبیا مسلمانوں نفرت' numeric
+@attribute 'اسلام چھوڑ ہندو' numeric
+@attribute 'اسلام مرتد سزا' numeric
+@attribute 'اسلام خلاف نفرت' numeric
+@attribute 'اسلام آباد یہودی' numeric
+@attribute 'اسلام آباد ہائیکورٹ' numeric
+@attribute 'اسلام آباد پیشہ' numeric
+@attribute 'اسلئے بھکتوں دروازے' numeric
+@attribute 'اسرائیلی گندا جھنڈا' numeric
+@attribute 'اسر چیزیں اہم' numeric
+@attribute 'استقبال رمضان کیلیے' numeric
+@attribute 'ارمان جان بس' numeric
+@attribute 'ارمان بس جان' numeric
+@attribute 'اصل بحران نفرت' numeric
+@attribute 'اظہار کردیا جسم' numeric
+@attribute 'اللہ راہ خرچ' numeric
+@attribute 'اعظم عمران خان' numeric
+@attribute 'اللہ دنیا ڈر' numeric
+@attribute 'اللہ در گئیں' numeric
+@attribute 'اللہ خوف عاری' numeric
+@attribute 'اللہ تعالی ڈر' numeric
+@attribute 'اللہ تعالی ذکر' numeric
+@attribute 'اللہ الرحمن الرحیم' numeric
+@attribute 'الحمدللہ موت ڈر' numeric
+@attribute 'الاسلام ڈاکٹر محمدطاہرالقادری' numeric
+@attribute 'الاسلام ڈاکٹر محمد' numeric
+@attribute 'اقلیتوں کیلئے خوف' numeric
+@attribute 'اقبال چل رب' numeric
+@attribute 'اقبال پوچھا عقل' numeric
+@attribute 'افغانیوں نام میزائیلوں' numeric
+@attribute 'افغان لڑکیوں حیرت' numeric
+@attribute 'افطاری خوشی حاصل' numeric
+@attribute 'افطار پارٹیوں شیڈول' numeric
+@attribute 'افطار وقت خوشی' numeric
+@attribute 'اعمال اللہ ڈر' numeric
+@attribute 'اعظم نفرت اظہار' numeric
+@attribute 'جھوٹی خبر حکومت' numeric
+@attribute 'جہڑ ڈیرے ابہی' numeric
+@attribute 'جیب دونوں پڑوسی' numeric
+@attribute 'رنگ درد مہجوری' numeric
+@attribute 'رواں رگ جاں' numeric
+@attribute 'رواج حیرت روٹھے' numeric
+@attribute 'رو رواں رگ' numeric
+@attribute 'رنگوں ڈر رنگ' numeric
+@attribute 'رنگوں آٹھواں رنگ' numeric
+@attribute 'رنگباز ھے کپیتان' numeric
+@attribute 'رنگ ھے پریشانی' numeric
+@attribute 'رنگ گورا کریم' numeric
+@attribute 'رنگ سمجھدار بیوی' numeric
+@attribute 'رنگ حیرت گرگٹ' numeric
+@attribute 'رمضان المبارک خوشی' numeric
+@attribute 'رنگ بھرتے شخص' numeric
+@attribute 'رنگ اداسی موسم' numeric
+@attribute 'رنج بے انتہا' numeric
+@attribute 'رمضان ھے گالیوں' numeric
+@attribute 'رمضان گالیوں پرہیز' numeric
+@attribute 'رمضان کیلیے خاص' numeric
+@attribute 'رمضان مبارک خوشی' numeric
+@attribute 'رمضان رمضان تیاری' numeric
+@attribute 'رمضان تیاری دل' numeric
+@attribute 'روتے شکر ادا' numeric
+@attribute 'روح اداسی ہنس' numeric
+@attribute 'روح جذب رونقیں' numeric
+@attribute 'روح پیاسی اداسی' numeric
+@attribute 'رہاہوں باقاعدہ تھوڑا' numeric
+@attribute 'رھا ھے ھم' numeric
+@attribute 'رھا ھے جان' numeric
+@attribute 'رگوں خون مانند' numeric
+@attribute 'رگ ساری اداسی' numeric
+@attribute 'رگ رگ ساری' numeric
+@attribute 'رگ باطل نشتر' numeric
+@attribute 'رکھ لینا کام' numeric
+@attribute 'روک کرونا ڈیٹ' numeric
+@attribute 'رونقیں زہر لگنے' numeric
+@attribute 'رونا خاک اٹھے' numeric
+@attribute 'روس شہریوں گھر' numeric
+@attribute 'روزے دار خوشیاں' numeric
+@attribute 'روزہ دار خوشیاں' numeric
+@attribute 'روزگار کیلئے مقیم' numeric
+@attribute 'روز چلتی پہلو' numeric
+@attribute 'روحوں غم مسلط' numeric
+@attribute 'روح چین پیار' numeric
+@attribute 'روح پیاسی ورثے' numeric
+@attribute 'رمضان بابرکت مہینے' numeric
+@attribute 'رمضان المبارک بابرکت' numeric
+@attribute 'دکھ دور دیکھ' numeric
+@attribute 'دیکھتی لب آسکتا' numeric
+@attribute 'راجہ داہر ہیرو' numeric
+@attribute 'رات ہاتھجب مزدور' numeric
+@attribute 'رات ہاتھ مزدور' numeric
+@attribute 'رات تھک سو' numeric
+@attribute 'رات بہلا دل' numeric
+@attribute 'ذمہ دار عشق' numeric
+@attribute 'ذرا سا رات' numeric
+@attribute 'دیکھتے باتوں بات' numeric
+@attribute 'دیکھتی لب محو' numeric
+@attribute 'دیکھ ڈر چھت' numeric
+@attribute 'رمضان آمد خوشی' numeric
+@attribute 'دیکھ ڈر بولی' numeric
+@attribute 'دیکھ لگن دیکھتا' numeric
+@attribute 'دیکھ رستہ بدلتے' numeric
+@attribute 'دیکھ بڑھتا راستہ' numeric
+@attribute 'دیکھ اے شخص' numeric
+@attribute 'دیواروں ناصر اداسی' numeric
+@attribute 'دین دنیا می' numeric
+@attribute 'دکھ کھا گے' numeric
+@attribute 'دکھ کھا اداسی' numeric
+@attribute 'راز تا سر' numeric
+@attribute 'راستوں پہرا اداسی' numeric
+@attribute 'راستوں پہرہ اداسی' numeric
+@attribute 'راشن بٹ فوٹو' numeric
+@attribute 'رقص کناں دھن' numeric
+@attribute 'رفعتیں بلندی ناز' numeric
+@attribute 'رفتار اندازا لگایا' numeric
+@attribute 'رفاقت پریشاں ترے' numeric
+@attribute 'رغبت اجر ثواب' numeric
+@attribute 'رعایت گنجائش نفرت' numeric
+@attribute 'رضی اللہ عنہ' numeric
+@attribute 'رضی اللہ تعالی' numeric
+@attribute 'رشتے عداوتیں آنسو' numeric
+@attribute 'رشتے بنانے ڈر' numeric
+@attribute 'رسی موت جذبہ' numeric
+@attribute 'رسول اللہ فرمایا' numeric
+@attribute 'رسول اللہ صلی' numeric
+@attribute 'رسموں ڈر بغاوت' numeric
+@attribute 'رستہ بدلتے ڈر' numeric
+@attribute 'رستوں گھر نکلو' numeric
+@attribute 'رجوع کرلیا بندہ' numeric
+@attribute 'رب ملاقات وقت' numeric
+@attribute 'راور شہر فتح' numeric
+@attribute 'ریزہ ریزہ عکس' numeric
+@attribute 'ریزہ عکس حیرت' numeric
+@attribute 'رینجرز آرمی کراچی' numeric
+@attribute 'سندھی با شعور' numeric
+@attribute 'سو خوشی خوشی' numeric
+@attribute 'سو توبہ ٹوٹی' numeric
+@attribute 'سو برس پل' numeric
+@attribute 'سنگر سونو نگم' numeric
+@attribute 'سنگ دل سر' numeric
+@attribute 'سنورتی ہجر پوچھ' numeric
+@attribute 'سنو خلوص اللہ' numeric
+@attribute 'سنو ابن قاسم' numeric
+@attribute 'سندھی جواب تھک' numeric
+@attribute 'سندھ کورونا وائرس' numeric
+@attribute 'ریپ کیس رپورٹ' numeric
+@attribute 'سندھ کرپٹ لوگ' numeric
+@attribute 'سناو خیبر خندق' numeric
+@attribute 'سنا اے مجہے' numeric
+@attribute 'سن دروازے کھڑی' numeric
+@attribute 'سن حیدر دلوں' numeric
+@attribute 'سمندر گم دہوپ' numeric
+@attribute 'سمندر سمندر گم' numeric
+@attribute 'سمجھتے بادل بارش' numeric
+@attribute 'سمجھا ہؤا چین' numeric
+@attribute 'سو رہروان تمنا' numeric
+@attribute 'سو عمران خان' numeric
+@attribute 'سو نواز شریف' numeric
+@attribute 'سو چہرے زیادہ' numeric
+@attribute 'سوکہے گلاب جملے' numeric
+@attribute 'سوکھے گلاب جملے' numeric
+@attribute 'سوچوں قابض پتہ' numeric
+@attribute 'سوچوں قابض پتا' numeric
+@attribute 'سوچتی لوگ ہنسی' numeric
+@attribute 'سوچتا لوگ ہنسی' numeric
+@attribute 'سوچا پاگل مر' numeric
+@attribute 'سوچ ہوگے ڈر' numeric
+@attribute 'سونپ سورج اتر' numeric
+@attribute 'سونو نگم دبئی' numeric
+@attribute 'سوشل میڈیائی اک' numeric
+@attribute 'سوشل میڈیا مسلمانوں' numeric
+@attribute 'سوشل میڈیا بات' numeric
+@attribute 'سورۃ نمبر الشعراء' numeric
+@attribute 'سورج اتر پانی' numeric
+@attribute 'سوالوں جواب حیرت' numeric
+@attribute 'سوالات ڈر جیب' numeric
+@attribute 'سوئی تابش اک' numeric
+@attribute 'سو ڈر ریگولرائزیشن' numeric
+@attribute 'سلیکٹڈ زانی شرابی' numeric
+@attribute 'سرمستی حیرت سراپا' numeric
+@attribute 'سرمستی حیرت آگاہی' numeric
+@attribute 'ساری خدائی مخالف' numeric
+@attribute 'ساری اداسی اتر' numeric
+@attribute 'سارا نشہ اتر' numeric
+@attribute 'سارا دن گھر' numeric
+@attribute 'ساتھی قطعا دشمن' numeric
+@attribute 'سا رات گئ' numeric
+@attribute 'زیست نفرت اداسی' numeric
+@attribute 'زیادہ غصہ نواز' numeric
+@attribute 'زیادہ غصہ عمران' numeric
+@attribute 'زیادہ غصہ سو' numeric
+@attribute 'زیادہ جنت داخل' numeric
+@attribute 'زہر رگ رگ' numeric
+@attribute 'زہر بوتل نیند' numeric
+@attribute 'زندہ دیکھ ڈر' numeric
+@attribute 'زندگی زندگی کھویا' numeric
+@attribute 'زندگی خوشی تباہ' numeric
+@attribute 'زندگی جڑی خوشی' numeric
+@attribute 'زمین جعلی خبر' numeric
+@attribute 'زباں کہتے کہتے' numeric
+@attribute 'زانی شرابی جواری' numeric
+@attribute 'ساری تھکن لاد' numeric
+@attribute 'ساری دنیا وبا' numeric
+@attribute 'سراپا تاریک سرمستی' numeric
+@attribute 'سارے لفظ دیکھتے' numeric
+@attribute 'سر پا گلابوں' numeric
+@attribute 'سر ملے آنکھوں' numeric
+@attribute 'سر عرش انساں' numeric
+@attribute 'سدھر میڈیا دنوں' numeric
+@attribute 'سخت مشکل آقا' numeric
+@attribute 'سبب پوچھیں گے' numeric
+@attribute 'سبب پوچھنے اجمل' numeric
+@attribute 'سبب پوچھ چھوٹا' numeric
+@attribute 'سبب پوچھ بہانے' numeric
+@attribute 'سبب اداسی سبب' numeric
+@attribute 'سبب اداسی دل' numeric
+@attribute 'سانس لینے ہتھیار' numeric
+@attribute 'سانس دل دکھتا' numeric
+@attribute 'سانس حرام ہوگی' numeric
+@attribute 'سالہ شخص شادی' numeric
+@attribute 'سالہ خاتون انجام' numeric
+@attribute 'سالگرہ مبارک اللہ' numeric
+@attribute 'سال بڑا بھائی' numeric
+@attribute 'ساز اداروں حیرت' numeric
+@attribute 'دکھ سکھ خوشی' numeric
+@attribute 'دکھ درد صدیوں' numeric
+@attribute 'جیت کہنا ہارے' numeric
+@attribute 'خلاف نفرت پھیلائے' numeric
+@attribute 'خوش سکتی خوش' numeric
+@attribute 'خوش خوشی قرض' numeric
+@attribute 'خواب نیند خیال' numeric
+@attribute 'خندق قصے بچوں' numeric
+@attribute 'خمیر قوم خلاف' numeric
+@attribute 'خلیجی ممالک پہنچ' numeric
+@attribute 'خلیجی ممالک روزگار' numeric
+@attribute 'خلاف پھیلی نفرت' numeric
+@attribute 'خلاف نفرت پھیلانے' numeric
+@attribute 'خلاف نفرت بحران' numeric
+@attribute 'خاقان عباسی گرفتاری' numeric
+@attribute 'خلاف نفرت انگیز' numeric
+@attribute 'خلاف بےجا نفرت' numeric
+@attribute 'خراب گہروں الحمدللہ' numeric
+@attribute 'ختم نبوت قربان' numeric
+@attribute 'ختم نبوت زندہ' numeric
+@attribute 'خبر مصیبت مارے' numeric
+@attribute 'خبر حکومت پوائن' numeric
+@attribute 'خبر آج آزادی' numeric
+@attribute 'خاکی وردی آر' numeric
+@attribute 'خوشی افطار وقت' numeric
+@attribute 'خوشی اللہ پاک' numeric
+@attribute 'خوشی امی کہتی' numeric
+@attribute 'خوشی انتخاب نتیجہ' numeric
+@attribute 'خوشی غم عشق' numeric
+@attribute 'خوشی غم خوشی' numeric
+@attribute 'خوشی سکون زندگی' numeric
+@attribute 'خوشی رب ملاقات' numeric
+@attribute 'خوشی خوشی غم' numeric
+@attribute 'خوشی خوشی حال' numeric
+@attribute 'خوشی خوش دکھ' numeric
+@attribute 'خوشی حسین وارث' numeric
+@attribute 'خوشی حساب پوچھے' numeric
+@attribute 'خوشی حال دل' numeric
+@attribute 'خوشی حاصل اورجب' numeric
+@attribute 'خوشی جھوم اٹھے' numeric
+@attribute 'خوشی ترکی ترقی' numeric
+@attribute 'خوشی تباہ ھے' numeric
+@attribute 'خوشی بھائی فائرنگ' numeric
+@attribute 'خوشی بزم کام' numeric
+@attribute 'خوشی بات ھے' numeric
+@attribute 'خوشی بات اللہ' numeric
+@attribute 'خوشی بات اداس' numeric
+@attribute 'خاک اٹھے سو' numeric
+@attribute 'خاتون انجام پائی' numeric
+@attribute 'دکھ بات خوشی' numeric
+@attribute 'حال جینا مشکل' numeric
+@attribute 'حکم گاڑیاں لوٹ' numeric
+@attribute 'حقیقی بحران اصل' numeric
+@attribute 'حق سچ بات' numeric
+@attribute 'حضرات ڈر مارے' numeric
+@attribute 'حسین لڑکی چہرے' numeric
+@attribute 'حرامی راجہ داہر' numeric
+@attribute 'حرام ہوگی ہتھیار' numeric
+@attribute 'حالات خونی منظر' numeric
+@attribute 'حالات خراب گہروں' numeric
+@attribute 'حال جینا لازم' numeric
+@attribute 'حیرت ھوتی ھے' numeric
+@attribute 'جے پی بھارت' numeric
+@attribute 'جیو نیوز کھوتے' numeric
+@attribute 'جیو نیوز نفرت' numeric
+@attribute 'جینے ارمان جان' numeric
+@attribute 'جینے ارمان بس' numeric
+@attribute 'جینی اداسی لاکھ' numeric
+@attribute 'جینا مشکل دور' numeric
+@attribute 'جینا مشکل حال' numeric
+@attribute 'جینا لازم ھے' numeric
+@attribute 'حکمت بادشاہ لقمان' numeric
+@attribute 'حکومت بے غیرت' numeric
+@attribute 'حکومتی معاملات بتایا' numeric
+@attribute 'حیدر دلوں ڈر' numeric
+@attribute 'حیرت گرگٹ مات' numeric
+@attribute 'حیرت ڈال کمال' numeric
+@attribute 'حیرت مولانا طارق' numeric
+@attribute 'حیرت سراپا تاریک' numeric
+@attribute 'حیرت سارے لفظ' numeric
+@attribute 'حیرت تعلیم ترقی' numeric
+@attribute 'حیرت بے غیرتوں' numeric
+@attribute 'حیرت بات ھے' numeric
+@attribute 'حیرت بات مرشد' numeric
+@attribute 'حیرت بات رونا' numeric
+@attribute 'حیرت انگیز کمی' numeric
+@attribute 'حیرت انگیز فیصلہ' numeric
+@attribute 'حیرت انگیز فوائد' numeric
+@attribute 'حیرت انگیز فائدے' numeric
+@attribute 'حیرت انگیز خبر' numeric
+@attribute 'حیرت انگیز بات' numeric
+@attribute 'حیرت انگیز انکشاف' numeric
+@attribute 'حیرت آواز عرش' numeric
+@attribute 'حیرت آج بھول' numeric
+@attribute 'خوشی غم غم' numeric
+@attribute 'خوشی قرض اتار' numeric
+@attribute 'خوشی قیمتی وقت' numeric
+@attribute 'دن رات مصروف' numeric
+@attribute 'دنیا آنکھ آنکھ' numeric
+@attribute 'دنوں غصہ مشین' numeric
+@attribute 'دنوں طبیعت اداس' numeric
+@attribute 'دن چوتھی عمرہ' numeric
+@attribute 'دن منائیں گے' numeric
+@attribute 'دن منا رے' numeric
+@attribute 'دن لکھا تختی' numeric
+@attribute 'دن سا ھے' numeric
+@attribute 'دن زندگی گیڈر' numeric
+@attribute 'دن دوستی قبول' numeric
+@attribute 'خوشی لئےغم محفل' numeric
+@attribute 'دن دن دن' numeric
+@attribute 'دن خوش خوشی' numeric
+@attribute 'دن اک دوجے' numeric
+@attribute 'دم دبا بھاگنے' numeric
+@attribute 'دلوں ڈر نکلتے' numeric
+@attribute 'دل کشمیر بیٹا' numeric
+@attribute 'دل چاہت بھروسہ' numeric
+@attribute 'دل پھینک ٹی' numeric
+@attribute 'دل ذرا سا' numeric
+@attribute 'دنیا اک بے' numeric
+@attribute 'دنیا بدل اورکمزور' numeric
+@attribute 'دنیا بدل کمزور' numeric
+@attribute 'دنیا بچوں جتنا' numeric
+@attribute 'دوہری اذیت گرفتار' numeric
+@attribute 'دوکاندار رنگ گورا' numeric
+@attribute 'دونوں پڑوسی بھوکا' numeric
+@attribute 'دونوں قبیلے مان' numeric
+@attribute 'دوستی قبول نفرت' numeric
+@attribute 'دوزخ ڈر ابھارا' numeric
+@attribute 'دوزخ پھیلایا آج' numeric
+@attribute 'دور دیکھ بھلا' numeric
+@attribute 'دور جینا مشکل' numeric
+@attribute 'دور جینا لازم' numeric
+@attribute 'دور بات نفرت' numeric
+@attribute 'دودھ پیا کیلشیم' numeric
+@attribute 'دودھ پیا کیلشم' numeric
+@attribute 'دوجے لڑتے رات' numeric
+@attribute 'دوا ساز اداروں' numeric
+@attribute 'دنیا کرونا وائرس' numeric
+@attribute 'دنیا ڈر فیصلے' numeric
+@attribute 'دنیا پانچویں امیر' numeric
+@attribute 'دنیا حالات خراب' numeric
+@attribute 'دل خوشیوں پیغام' numeric
+@attribute 'دل حیرت بات' numeric
+@attribute 'دل جانا جلدی' numeric
+@attribute 'دار خوشیاں خوش' numeric
+@attribute 'داد شوق کمال' numeric
+@attribute 'داخل اللہ تعالی' numeric
+@attribute 'خیبر خندق قصے' numeric
+@attribute 'خیال حیرت انتظار' numeric
+@attribute 'خونی منظر دور' numeric
+@attribute 'خونی منظر حال' numeric
+@attribute 'خون مانند اترتی' numeric
+@attribute 'خوف کرونا پھیلایا' numeric
+@attribute 'خوف طوفان بجلیوں' numeric
+@attribute 'خوف دل آنکھوں' numeric
+@attribute 'خوف اتنی چاپلوسی' numeric
+@attribute 'خوشیوں پیغام رھا' numeric
+@attribute 'خوشیاں خوشی افطار' numeric
+@attribute 'خوشی پچھلے سبق' numeric
+@attribute 'خوشی ٹھہری غم' numeric
+@attribute 'خوشی وسیم بہائی' numeric
+@attribute 'خوشی مشکل وقت' numeric
+@attribute 'خوشی مر اعتبار' numeric
+@attribute 'خوشی لہر دوڑ' numeric
+@attribute 'دار انسان بھیک' numeric
+@attribute 'دار خوشیاں خوشی' numeric
+@attribute 'دل تیسرے دخل' numeric
+@attribute 'دار عمران خان' numeric
+@attribute 'دل بہی اداسی' numeric
+@attribute 'دل افسوس حیرت' numeric
+@attribute 'دل اداسی در' numeric
+@attribute 'دل اداسی بکھرتی' numeric
+@attribute 'دل اتر شخص' numeric
+@attribute 'دل آنکھوں دھڑکتا' numeric
+@attribute 'دشمن ڈر بھوک' numeric
+@attribute 'دروازہ کھولا نظر' numeric
+@attribute 'درد صدیوں تعلق' numeric
+@attribute 'درجے چہرے ہمیشہ' numeric
+@attribute 'در گئیں دین' numeric
+@attribute 'دبنگ صحافی عاصمہ' numeric
+@attribute 'دبا بھاگنے بھلائی' numeric
+@attribute 'دبئی پولیس گرفتاری' numeric
+@attribute 'داہر ہیرو مان' numeric
+@attribute 'دانش نورانی اک' numeric
+@attribute 'دانش برہانی دانش' numeric
+@attribute 'دانش برہانی حیرت' numeric
+@attribute 'دار قرار اسلام' numeric
+@attribute 'یونہی بس بول' numeric
+@data
+{5 1}
+{}
+{0 1,1 1}
+{4 1,5 1,1111 1}
+{5 1,620 1,621 1}
+{5 1,123 1,205 1}
+{4 1}
+{0 1}
+{0 1,4 1}
+{5 1}
+{0 1,4 1}
+{4 1}
+{4 1}
+{4 1}
+{0 1,527 1,544 1,669 1,705 1,828 1,1001 1,1066 1,1149 1,1159 1,1211 1,1379 1}
+{4 1}
+{0 1,1 1}
+{2 1,139 1,244 1}
+{3 1}
+{0 1}
+{136 1,781 1}
+{4 1}
+{3 1}
+{0 1,4 1}
+{}
+{0 1}
+{0 1,624 1,735 1}
+{5 1}
+{0 1}
+{3 1}
+{4 1}
+{5 1,147 1,791 1,816 1,1095 1,1349 1}
+{4 1}
+{5 1,604 1}
+{0 1}
+{0 1,1 1}
+{}
+{4 1}
+{4 1}
+{5 1}
+{0 1,5 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1}
+{2 1,5 1,464 1}
+{2 1,281 1,939 1}
+{5 1,210 1,352 1,523 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1,134 1,312 1,1239 1}
+{0 1,1 1}
+{0 1,1 1,307 1}
+{0 1,1 1,3 1}
+{3 1,4 1,1114 1,1354 1,1485 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1,293 1,499 1,945 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1,975 1}
+{4 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{0 1,3 1}
+{4 1,5 1}
+{3 1}
+{}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{}
+{3 1,4 1}
+{3 1,4 1,346 1,613 1}
+{1 1,3 1}
+{3 1,158 1,964 1,1187 1}
+{3 1}
+{3 1,4 1,1114 1}
+{1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{1 1,3 1,1069 1,1427 1}
+{3 1}
+{3 1,4 1}
+{4 1,820 1}
+{3 1}
+{2 1,5 1}
+{5 1}
+{3 1,4 1}
+{}
+{3 1}
+{0 1,3 1,4 1,1068 1}
+{0 1,3 1}
+{0 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,49 1}
+{0 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,124 1,126 1}
+{3 1,4 1}
+{3 1}
+{0 1}
+{0 1,1 1,3 1}
+{4 1}
+{}
+{0 1,1 1,180 1,441 1,446 1,648 1,989 1,1024 1,1267 1}
+{1 1,3 1,4 1}
+{1 1,3 1}
+{1 1,3 1}
+{}
+{0 1,1 1,20 1}
+{5 1}
+{5 1}
+{4 1}
+{1 1,3 1,4 1}
+{1 1,3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1,4 1}
+{0 1,1109 1}
+{1 1,3 1}
+{1 1}
+{3 1,134 1,312 1,1239 1}
+{3 1,4 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1,4 1,190 1,204 1,558 1,577 1,771 1,962 1}
+{1 1,3 1}
+{3 1}
+{3 1}
+{3 1,740 1}
+{1 1,3 1}
+{3 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{1 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{2 1}
+{2 1}
+{0 1,1 1}
+{0 1,1 1,3 1,975 1}
+{0 1}
+{3 1}
+{1 1,3 1,4 1}
+{4 1}
+{2 1}
+{1 1,3 1}
+{1 1,3 1}
+{3 1}
+{2 1}
+{2 1,140 1,604 1,848 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{}
+{4 1,5 1}
+{1 1,4 1}
+{3 1,5 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{2 1}
+{5 1,140 1,604 1,848 1}
+{5 1}
+{2 1}
+{1 1,3 1,4 1,135 1,329 1}
+{4 1,800 1}
+{5 1}
+{5 1}
+{3 1}
+{5 1}
+{4 1,5 1}
+{4 1}
+{5 1,622 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{5 1,618 1}
+{3 1,4 1,5 1}
+{3 1,4 1,5 1,14 1,295 1,397 1,439 1,483 1,550 1,1143 1,1194 1}
+{5 1,370 1,987 1}
+{5 1,616 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1,5 1}
+{5 1}
+{3 1,5 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1,3 1}
+{}
+{5 1,105 1,623 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1,5 1}
+{3 1,4 1,5 1,467 1}
+{3 1}
+{5 1,48 1,152 1,455 1,888 1,1097 1,1381 1}
+{4 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1,53 1}
+{4 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1,128 1,453 1,472 1,486 1,501 1,598 1,649 1,1145 1}
+{5 1}
+{4 1,5 1,377 1,1054 1,1141 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{5 1,148 1,500 1,650 1,791 1,817 1}
+{5 1}
+{5 1}
+{5 1}
+{5 1}
+{0 1}
+{3 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{5 1}
+{3 1,4 1,451 1,477 1,533 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{5 1}
+{0 1,4 1,291 1,713 1,1321 1}
+{}
+{3 1,82 1,233 1,763 1,997 1,1010 1,1484 1}
+{148 1,791 1,817 1}
+{159 1,337 1,485 1,1204 1,1482 1}
+{5 1}
+{4 1,5 1,156 1,430 1,693 1,694 1,765 1,770 1,1164 1}
+{5 1}
+{}
+{4 1,5 1}
+{3 1,4 1,5 1}
+{5 1}
+{0 1,1 1,4 1}
+{}
+{4 1,5 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{4 1,5 1}
+{4 1,5 1}
+{0 1,4 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{4 1,5 1}
+{5 1,125 1,1138 1}
+{4 1,5 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{}
+{4 1,572 1}
+{5 1,645 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1,451 1,477 1,533 1}
+{3 1,4 1}
+{4 1,5 1}
+{5 1}
+{5 1}
+{3 1,4 1,481 1}
+{3 1,4 1}
+{5 1}
+{5 1,105 1,623 1}
+{5 1,149 1,454 1,1172 1,1318 1}
+{5 1}
+{5 1}
+{0 1,1 1,1359 1}
+{5 1}
+{4 1}
+{0 1,1 1,480 1}
+{5 1}
+{3 1,4 1,1437 1}
+{0 1,1 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,101 1,264 1,461 1,780 1,789 1,841 1,1339 1,1438 1,1498 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{4 1,5 1,79 1,389 1,512 1,895 1,1257 1}
+{3 1,4 1,336 1,371 1,657 1,658 1,675 1,685 1,1208 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1,148 1,791 1,1169 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1,191 1,269 1,628 1,775 1}
+{2 1}
+{3 1,44 1,62 1,519 1,1323 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{3 1,1080 1}
+{}
+{3 1,38 1,88 1,899 1,1154 1,1489 1}
+{3 1,4 1}
+{3 1,4 1,91 1,574 1,1366 1,1453 1}
+{3 1,4 1,91 1,574 1,1366 1,1453 1}
+{3 1,736 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{3 1,324 1,539 1,917 1,921 1,1376 1,1487 1}
+{3 1,61 1}
+{3 1,360 1,626 1,637 1,639 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,85 1,302 1,526 1,586 1,588 1,681 1,1047 1,1203 1}
+{3 1,4 1}
+{3 1,73 1,701 1,825 1,1198 1,1252 1}
+{3 1,4 1,594 1,778 1}
+{3 1}
+{3 1,80 1,331 1,655 1}
+{4 1}
+{3 1}
+{3 1,313 1}
+{3 1,4 1}
+{3 1,336 1,371 1,657 1,658 1,675 1,685 1,1208 1}
+{3 1}
+{3 1}
+{3 1,94 1,981 1,983 1,1481 1}
+{3 1,87 1,892 1,1258 1}
+{3 1}
+{3 1,4 1,1391 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{3 1,248 1,369 1,605 1,674 1,680 1,1034 1,1126 1,1192 1,1432 1}
+{4 1,5 1}
+{3 1,4 1,643 1}
+{3 1,4 1,90 1,1364 1}
+{5 1}
+{3 1,4 1}
+{}
+{3 1}
+{3 1,4 1,310 1}
+{5 1,726 1}
+{4 1,5 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,36 1,66 1,166 1,1499 1}
+{4 1,77 1,1462 1}
+{4 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,65 1,234 1,561 1,571 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1,89 1,1156 1,1505 1}
+{3 1,4 1,594 1,778 1,1212 1}
+{3 1,80 1,173 1,272 1,331 1,954 1}
+{3 1,82 1,233 1,462 1,671 1,763 1,997 1,1010 1,1484 1}
+{4 1}
+{4 1}
+{4 1}
+{3 1,4 1,524 1,1153 1}
+{4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{4 1,5 1,416 1}
+{1 1,3 1,4 1}
+{4 1,5 1}
+{1 1,4 1}
+{4 1}
+{0 1,5 1}
+{0 1,4 1}
+{0 1,1 1,4 1}
+{4 1}
+{3 1,4 1,201 1,420 1,982 1,1014 1}
+{}
+{4 1,5 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1}
+{3 1,4 1,450 1,495 1,971 1,1125 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1,450 1,495 1,971 1,1125 1}
+{3 1,4 1}
+{814 1,1135 1}
+{4 1,405 1,859 1,904 1,936 1,1398 1}
+{4 1}
+{4 1}
+{3 1,638 1}
+{4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1,730 1}
+{3 1}
+{3 1,4 1,1422 1}
+{4 1}
+{4 1}
+{0 1,1 1,4 1,192 1,257 1,259 1,262 1,263 1,691 1,1251 1}
+{0 1,1 1,4 1,192 1,257 1,259 1,262 1,263 1,691 1,1251 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{1 1,3 1,4 1,186 1,195 1,569 1,959 1,1161 1,1330 1,1342 1}
+{1 1,3 1,4 1,14 1}
+{3 1}
+{3 1,4 1,29 1,584 1,898 1,968 1}
+{0 1,1 1,3 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1}
+{0 1,1 1,3 1,4 1}
+{4 1,320 1,806 1,845 1}
+{4 1,413 1}
+{1 1,3 1,4 1,54 1,417 1,554 1,690 1}
+{4 1}
+{0 1,1 1,4 1}
+{3 1,174 1,175 1,237 1,238 1,504 1,505 1,506 1,1119 1}
+{3 1,4 1}
+{3 1,4 1,325 1,335 1,423 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1,29 1,584 1,898 1,968 1}
+{3 1,4 1}
+{3 1,4 1,428 1,629 1,1407 1}
+{4 1}
+{3 1,4 1,168 1,196 1,419 1,432 1,652 1}
+{3 1,4 1,520 1}
+{1 1,3 1,4 1}
+{4 1}
+{0 1,1 1,4 1,1322 1}
+{1 1,3 1,4 1}
+{4 1,731 1}
+{3 1,4 1,638 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{4 1,731 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1,326 1,612 1}
+{1 1,3 1,4 1}
+{4 1,5 1}
+{0 1,1 1,3 1,1008 1}
+{1 1,3 1,4 1}
+{1 1,3 1,4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{4 1,975 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,4 1,413 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{3 1,4 1,326 1}
+{2 1}
+{2 1,4 1,1341 1}
+{2 1,4 1,582 1,1070 1}
+{2 1,141 1,146 1,148 1,376 1,497 1,603 1,676 1,791 1,817 1,849 1,1261 1}
+{2 1,3 1,300 1,563 1,758 1,963 1,1490 1}
+{0 1,1 1}
+{2 1}
+{2 1,3 1}
+{2 1,3 1,836 1,1296 1}
+{4 1}
+{2 1,3 1,183 1}
+{2 1,150 1,1273 1}
+{2 1,3 1,4 1}
+{2 1,4 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{2 1,306 1,977 1,978 1,1102 1,1283 1}
+{0 1,1 1,4 1}
+{2 1,3 1,120 1,489 1}
+{2 1,3 1}
+{}
+{2 1,3 1}
+{1 1,3 1,4 1,1020 1}
+{0 1,1 1}
+{2 1,3 1}
+{2 1}
+{2 1,773 1}
+{2 1,3 1}
+{2 1,150 1,185 1,1262 1,1273 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1,3 1,4 1,12 1,208 1,668 1,996 1,1382 1,1385 1,1386 1,1387 1,1434 1,1496 1}
+{2 1}
+{2 1,100 1,365 1,807 1,1021 1,1148 1,1158 1,1218 1,1264 1,1315 1,1316 1,1466 1,1467 1}
+{2 1,4 1}
+{1 1,3 1,553 1,1092 1,1130 1,1132 1,1182 1,1309 1,1328 1,1340 1,1341 1}
+{2 1,5 1}
+{2 1}
+{2 1,3 1,12 1,208 1,668 1,996 1,1382 1,1385 1,1386 1,1387 1,1434 1,1496 1}
+{2 1,4 1}
+{3 1,4 1,553 1,1092 1,1130 1,1132 1,1182 1,1309 1,1328 1,1340 1,1341 1}
+{2 1,3 1}
+{5 1}
+{2 1,3 1}
+{2 1,3 1}
+{5 1,785 1}
+{3 1}
+{2 1}
+{5 1}
+{2 1,3 1,271 1,528 1,1234 1}
+{1 1,4 1,119 1,634 1}
+{2 1,3 1,6 1,110 1,247 1,431 1,599 1,766 1,792 1,802 1,1272 1,1338 1,1395 1,1405 1,1471 1}
+{2 1,3 1}
+{4 1}
+{2 1,3 1}
+{1 1,3 1,4 1}
+{2 1,4 1}
+{3 1}
+{2 1,3 1}
+{2 1,150 1,185 1,1262 1,1273 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1}
+{5 1,708 1,1162 1,1416 1}
+{2 1,3 1}
+{4 1,5 1,651 1,1440 1}
+{1 1,3 1,4 1,750 1,893 1,914 1,1254 1,1488 1}
+{1 1,2 1,3 1,4 1}
+{5 1,236 1,246 1,759 1,760 1,896 1,1131 1,1227 1,1253 1,1294 1,1341 1,1356 1}
+{3 1,686 1}
+{3 1,99 1,568 1,1403 1}
+{2 1,3 1}
+{236 1,246 1,759 1,760 1,896 1,1131 1,1227 1,1253 1,1294 1,1341 1,1356 1}
+{0 1,1 1}
+{0 1,1 1}
+{2 1}
+{2 1,3 1,636 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{5 1,581 1,673 1,1279 1}
+{2 1,3 1,4 1}
+{5 1}
+{2 1,5 1,306 1,977 1,978 1,1102 1,1283 1}
+{5 1,552 1,866 1,909 1,912 1,1300 1,1335 1}
+{0 1,1 1,1006 1}
+{0 1,1 1}
+{3 1,4 1}
+{2 1,3 1,300 1,563 1,758 1,963 1,1490 1}
+{2 1,3 1,251 1,739 1,1117 1,1286 1}
+{0 1,1 1,1419 1}
+{3 1}
+{4 1}
+{4 1,176 1,339 1,532 1,555 1,589 1,737 1,916 1,1292 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{0 1,1 1,5 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{3 1,753 1,871 1,913 1,1188 1,1299 1,1311 1}
+{2 1,3 1,388 1,398 1,494 1,559 1,560 1,979 1,1000 1,1030 1,1288 1}
+{5 1,229 1,258 1,578 1,842 1,1298 1}
+{1 1,3 1}
+{3 1}
+{3 1,1250 1}
+{}
+{0 1,1 1}
+{5 1}
+{5 1,388 1,398 1,494 1,559 1,560 1,979 1,1000 1,1030 1,1288 1}
+{3 1}
+{1 1,3 1,4 1,7 1,23 1,402 1,434 1,540 1,777 1,786 1,787 1,938 1,1002 1,1026 1,1191 1,1305 1}
+{3 1}
+{5 1,150 1,1273 1}
+{2 1}
+{5 1,17 1,399 1,695 1,1036 1,1268 1,1271 1,1475 1,1494 1}
+{}
+{2 1,3 1}
+{3 1}
+{0 1,1 1,975 1}
+{5 1,17 1,399 1,695 1,1036 1,1268 1,1271 1,1475 1,1494 1}
+{0 1,1 1}
+{5 1,13 1,193 1,221 1,338 1,662 1,784 1,924 1,925 1,930 1,932 1,1031 1,1301 1}
+{3 1,752 1,870 1,913 1,1185 1,1299 1,1311 1}
+{3 1}
+{}
+{3 1}
+{3 1,35 1,121 1,1074 1,1201 1,1390 1,1399 1,1457 1,1459 1,1460 1}
+{}
+{0 1,1 1}
+{5 1,547 1,552 1,866 1,909 1,912 1,1300 1,1335 1}
+{3 1}
+{1 1,3 1,7 1,23 1,402 1,434 1,540 1,777 1,786 1,787 1,938 1,1002 1,1026 1,1191 1,1305 1}
+{5 1,387 1,395 1,396 1,398 1,493 1,979 1,999 1,1029 1,1288 1}
+{}
+{}
+{5 1,728 1,1325 1}
+{3 1,34 1,707 1,1022 1,1380 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,110 1,1272 1}
+{1 1,3 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{2 1,3 1,106 1,150 1,185 1,970 1,1262 1,1273 1}
+{3 1,31 1,120 1,489 1,516 1}
+{5 1,309 1,529 1,1351 1}
+{5 1}
+{3 1}
+{3 1,943 1}
+{0 1,1 1,3 1}
+{3 1,256 1,749 1,1313 1,1383 1}
+{5 1}
+{5 1,270 1,381 1,656 1,822 1,995 1,1480 1}
+{4 1,823 1}
+{2 1,106 1,150 1,185 1,970 1,1262 1,1273 1}
+{3 1}
+{3 1,139 1,244 1}
+{3 1}
+{0 1,1 1,3 1,874 1,1222 1}
+{3 1}
+{5 1,18 1,697 1,929 1,1036 1,1269 1,1271 1,1477 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{2 1,3 1,1277 1}
+{3 1,5 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{5 1,388 1,398 1,494 1,559 1,560 1,979 1,1000 1,1030 1,1288 1}
+{0 1,1 1}
+{5 1,148 1,791 1}
+{}
+{3 1}
+{5 1,34 1,437 1,707 1,1022 1,1380 1}
+{2 1}
+{0 1,1 1,245 1,382 1,435 1,788 1,831 1,1128 1,1193 1,1225 1,1237 1,1263 1,1428 1}
+{0 1,1 1}
+{3 1,600 1,1291 1,1442 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{5 1,221 1,338 1,883 1,931 1}
+{5 1,1039 1,1120 1,1295 1}
+{3 1}
+{1 1,4 1}
+{5 1,866 1,909 1,912 1,1335 1,1355 1}
+{0 1,1 1}
+{294 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1,386 1,388 1,398 1,494 1,559 1,560 1,1000 1,1030 1,1288 1}
+{3 1}
+{3 1}
+{}
+{3 1}
+{3 1}
+{3 1,5 1,1086 1,1091 1,1400 1}
+{5 1}
+{0 1,1 1}
+{5 1,306 1,977 1,1102 1,1282 1}
+{5 1,231 1}
+{0 1,1 1,3 1}
+{2 1,3 1,150 1,185 1,1262 1,1273 1}
+{3 1,565 1,602 1,884 1,940 1,1278 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1,167 1,375 1}
+{}
+{1 1,3 1}
+{5 1}
+{3 1}
+{5 1,1033 1,1467 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1}
+{1 1,3 1}
+{0 1,1 1}
+{}
+{3 1,580 1,1289 1}
+{3 1,208 1,996 1,1382 1,1385 1,1386 1,1387 1,1496 1}
+{5 1}
+{0 1,1 1,361 1}
+{5 1,255 1,409 1,449 1,496 1,530 1,717 1,720 1,889 1,1378 1}
+{0 1,1 1,3 1,1012 1}
+{4 1}
+{2 1}
+{}
+{0 1,1 1,3 1,1012 1}
+{3 1}
+{0 1,1 1,3 1,1012 1}
+{3 1}
+{0 1,1 1}
+{2 1,5 1,150 1,185 1,1262 1,1273 1}
+{5 1,687 1,1329 1}
+{2 1,3 1,177 1,590 1,1276 1,1472 1}
+{2 1}
+{2 1,3 1,177 1,253 1,590 1,1276 1,1317 1,1472 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{4 1,5 1}
+{3 1,5 1,388 1,398 1,494 1,559 1,560 1,979 1,1000 1,1030 1,1288 1}
+{0 1,1 1,284 1,323 1,341 1,542 1,1284 1,1336 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{3 1,686 1}
+{4 1,5 1}
+{2 1,3 1,254 1,590 1,1043 1,1290 1,1317 1,1472 1}
+{0 1,1 1,3 1}
+{0 1,1 1,114 1,819 1,1180 1}
+{3 1,5 1,388 1,398 1,494 1,559 1,560 1,979 1,1000 1,1030 1,1178 1,1288 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1,200 1,1076 1}
+{1 1}
+{2 1,3 1,254 1,1043 1,1290 1,1317 1}
+{4 1}
+{2 1,3 1,252 1,935 1,1303 1}
+{0 1,1 1,3 1,141 1}
+{2 1,3 1,252 1,935 1,1303 1}
+{2 1,3 1,254 1,591 1,1043 1,1317 1,1473 1}
+{2 1}
+{2 1,3 1,177 1,253 1,590 1,1276 1,1472 1}
+{2 1,3 1,177 1,253 1,590 1,1043 1,1276 1,1317 1,1472 1}
+{5 1}
+{2 1,3 1,253 1,986 1,1043 1,1317 1}
+{1 1,4 1}
+{2 1,3 1,178 1,253 1,591 1,1276 1,1473 1}
+{2 1,3 1,177 1,253 1,590 1,1043 1,1276 1,1317 1,1472 1}
+{}
+{2 1,3 1,1473 1}
+{2 1,3 1,177 1,253 1,590 1,1043 1,1276 1,1317 1,1472 1}
+{4 1,223 1,374 1,920 1,1009 1,1146 1,1229 1,1236 1,1248 1,1370 1,1384 1,1411 1}
+{0 1,2 1,22 1,189 1,235 1,992 1,993 1,1025 1,1098 1,1105 1,1352 1}
+{1 1,2 1,122 1,226 1,227 1,404 1,984 1,1361 1,1483 1}
+{0 1,858 1,1170 1,1326 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{5 1,624 1,677 1,734 1,818 1,827 1,1190 1,1397 1}
+{0 1,5 1}
+{0 1,1 1}
+{0 1,4 1}
+{4 1,5 1}
+{0 1,1 1,2 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1}
+{5 1}
+{4 1}
+{5 1,624 1,677 1,734 1,818 1,827 1,1190 1,1397 1}
+{0 1,5 1}
+{5 1,624 1,677 1,1190 1,1397 1}
+{5 1,624 1,677 1,734 1,818 1,827 1,1190 1,1397 1}
+{2 1}
+{4 1,5 1}
+{3 1}
+{0 1,3 1}
+{}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,2 1}
+{0 1,1 1}
+{1 1,3 1}
+{0 1,5 1}
+{0 1,3 1,1157 1}
+{5 1}
+{1 1,3 1}
+{0 1,1 1,2 1,3 1,443 1,744 1,989 1,1067 1,1150 1,1160 1,1265 1,1324 1}
+{0 1,1 1,2 1}
+{0 1,2 1,3 1,445 1,990 1,1110 1,1122 1,1210 1}
+{0 1,2 1,3 1,307 1}
+{3 1}
+{0 1,1 1,2 1,443 1,744 1,989 1,1067 1,1150 1,1160 1,1265 1}
+{0 1,2 1,3 1,989 1}
+{0 1,1 1}
+{846 1}
+{1 1}
+{1 1,3 1}
+{5 1,535 1,564 1,882 1,1113 1,1231 1}
+{0 1,1 1,2 1,115 1,161 1,218 1,447 1,994 1,1107 1}
+{5 1}
+{4 1}
+{0 1,3 1}
+{3 1,4 1}
+{}
+{0 1,3 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{0 1,4 1}
+{0 1,1 1}
+{0 1,1 1,2 1,20 1,307 1}
+{0 1,2 1,115 1,161 1,218 1,447 1,994 1,1107 1}
+{1 1,2 1,162 1,445 1,990 1,1110 1,1122 1,1210 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1,2 1,989 1}
+{1 1,2 1,3 1,1069 1}
+{1 1,3 1}
+{3 1}
+{0 1,3 1}
+{1 1,2 1,3 1}
+{0 1,1 1,2 1,3 1,265 1}
+{0 1,1 1,2 1}
+{0 1,1 1,2 1,3 1,444 1,989 1}
+{0 1,1 1}
+{}
+{5 1,881 1}
+{3 1,158 1,964 1,1187 1}
+{4 1,165 1,404 1,984 1,1360 1}
+{}
+{0 1,3 1}
+{3 1}
+{3 1}
+{0 1,2 1,373 1,795 1,1055 1,1232 1}
+{2 1}
+{0 1,1 1,2 1}
+{2 1,4 1,5 1}
+{2 1,4 1}
+{2 1,3 1,4 1}
+{1 1,2 1,3 1}
+{2 1,3 1}
+{2 1}
+{}
+{2 1,3 1}
+{4 1,5 1,946 1}
+{2 1}
+{0 1}
+{3 1}
+{2 1,3 1}
+{617 1,1468 1}
+{3 1}
+{}
+{3 1,4 1}
+{3 1}
+{3 1,159 1,485 1,1204 1,1482 1}
+{3 1}
+{0 1,3 1}
+{3 1}
+{3 1,484 1,1155 1,1409 1}
+{2 1,3 1}
+{3 1,5 1}
+{3 1}
+{3 1,5 1}
+{1 1,5 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{3 1,5 1}
+{5 1}
+{1343 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{5 1,480 1}
+{5 1}
+{2 1,3 1,4 1}
+{3 1,457 1,1017 1}
+{5 1}
+{5 1,149 1,1172 1}
+{0 1,1 1,3 1,4 1,5 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{1 1,3 1,4 1,5 1}
+{5 1}
+{2 1,5 1,481 1}
+{3 1,451 1,477 1,533 1}
+{5 1}
+{2 1,3 1}
+{2 1,3 1}
+{4 1}
+{5 1,377 1,1053 1,1141 1}
+{0 1,3 1}
+{3 1,4 1}
+{5 1}
+{5 1,1053 1}
+{3 1,833 1}
+{3 1}
+{}
+{3 1,646 1}
+{3 1,95 1,641 1,1486 1}
+{5 1}
+{3 1,85 1,303 1,588 1,1203 1}
+{3 1}
+{3 1,73 1,700 1,1197 1}
+{3 1,172 1,317 1,355 1,546 1,832 1,834 1}
+{3 1,561 1}
+{3 1,32 1,47 1,83 1,776 1,1028 1,1056 1,1255 1,1415 1}
+{3 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{3 1,861 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1,67 1,1230 1,1501 1}
+{3 1}
+{3 1,39 1,40 1,41 1,222 1,328 1,383 1,521 1,803 1,1046 1,1184 1,1319 1}
+{3 1,73 1,700 1,1197 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,70 1}
+{3 1,91 1,574 1,1366 1,1453 1}
+{3 1}
+{3 1,97 1,179 1,367 1,1035 1,1195 1}
+{3 1}
+{3 1}
+{3 1,69 1,368 1,642 1,653 1}
+{3 1}
+{3 1,91 1,574 1,1366 1,1453 1}
+{3 1,1450 1}
+{3 1,311 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1}
+{}
+{3 1}
+{3 1,58 1,230 1,826 1,985 1}
+{}
+{3 1}
+{3 1,84 1,696 1,873 1,915 1,1134 1}
+{3 1}
+{}
+{3 1,90 1,1364 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1}
+{3 1,84 1,696 1,873 1,915 1,1134 1}
+{3 1}
+{3 1}
+{3 1}
+{}
+{3 1}
+{3 1,64 1,93 1,522 1,757 1,790 1,1433 1,1464 1}
+{}
+{}
+{3 1,87 1,892 1,1258 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,892 1}
+{3 1,91 1,573 1,1363 1,1374 1}
+{3 1}
+{3 1}
+{3 1,332 1}
+{3 1}
+{3 1,5 1}
+{3 1}
+{3 1}
+{2 1,4 1}
+{3 1}
+{2 1,3 1,94 1,981 1,983 1,1481 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,233 1,671 1,764 1,997 1,1011 1,1484 1}
+{3 1,207 1,343 1}
+{4 1}
+{4 1}
+{4 1}
+{1 1,4 1}
+{1 1,4 1,5 1}
+{1 1,4 1}
+{4 1}
+{0 1,4 1,413 1}
+{0 1,4 1}
+{175 1,506 1,1119 1}
+{4 1}
+{4 1}
+{1 1,4 1}
+{4 1,201 1,420 1,982 1,1014 1}
+{0 1,1 1,4 1}
+{0 1,4 1,1178 1}
+{}
+{4 1}
+{4 1}
+{0 1,3 1}
+{3 1}
+{0 1}
+{4 1}
+{1 1,4 1}
+{1 1,4 1}
+{4 1,730 1}
+{0 1,4 1}
+{4 1,5 1}
+{5 1}
+{4 1}
+{1 1,4 1}
+{4 1}
+{0 1,4 1}
+{2 1}
+{4 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{}
+{4 1,630 1}
+{4 1,958 1}
+{812 1}
+{1 1,4 1}
+{1 1,4 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{2 1,4 1}
+{2 1,4 1,54 1,417 1,554 1,690 1}
+{1 1,3 1}
+{}
+{4 1,5 1}
+{2 1,4 1}
+{1 1,4 1}
+{1 1,4 1}
+{1 1,4 1,5 1}
+{}
+{4 1}
+{4 1,5 1}
+{1 1,4 1}
+{4 1}
+{4 1}
+{4 1}
+{2 1}
+{2 1,3 1}
+{2 1,3 1}
+{1 1,2 1,3 1,323 1,384 1,542 1,566 1,1284 1,1336 1}
+{2 1}
+{3 1}
+{2 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1,1217 1}
+{2 1,5 1,582 1,1070 1,1249 1,1310 1}
+{5 1}
+{3 1}
+{4 1,5 1,553 1,1341 1}
+{2 1}
+{2 1,5 1}
+{3 1,15 1,239 1,937 1,1099 1,1215 1,1246 1,1304 1}
+{2 1,5 1,13 1,193 1,221 1,338 1,662 1,784 1,924 1,930 1,932 1,1301 1}
+{2 1}
+{2 1}
+{3 1,12 1,208 1,668 1,996 1,1382 1,1385 1,1386 1,1387 1,1434 1,1496 1}
+{3 1}
+{2 1}
+{2 1}
+{2 1}
+{231 1,548 1,552 1,866 1,909 1,912 1,1300 1,1335 1,1355 1}
+{2 1}
+{5 1}
+{}
+{3 1,321 1,738 1,948 1,972 1}
+{3 1,4 1}
+{3 1,34 1,537 1,707 1,782 1,1022 1,1023 1,1306 1,1380 1}
+{}
+{5 1}
+{5 1}
+{2 1,5 1}
+{0 1,1 1,2 1}
+{2 1,3 1}
+{2 1,5 1,13 1,194 1,221 1,785 1,886 1,1121 1,1123 1,1447 1}
+{875 1}
+{2 1,5 1}
+{814 1}
+{2 1,3 1}
+{2 1,3 1,606 1}
+{1 1,3 1,7 1,23 1,402 1,434 1,540 1,777 1,786 1,787 1,938 1,1002 1,1026 1,1191 1,1305 1}
+{1 1,3 1}
+{2 1,3 1,5 1}
+{5 1,16 1,217 1,654 1,824 1,1228 1,1320 1,1345 1,1346 1,1347 1}
+{1 1,2 1}
+{4 1}
+{2 1,5 1,582 1,1070 1,1249 1,1310 1}
+{0 1}
+{2 1,3 1}
+{0 1,5 1,309 1,529 1,1351 1}
+{2 1,3 1}
+{2 1,5 1}
+{3 1,565 1,602 1,884 1,940 1,1278 1}
+{5 1}
+{0 1,1 1,5 1}
+{0 1,3 1}
+{3 1}
+{2 1,3 1}
+{2 1,5 1}
+{2 1,1302 1}
+{2 1,3 1,926 1}
+{2 1,3 1,5 1}
+{0 1}
+{2 1,5 1}
+{2 1,3 1}
+{0 1,277 1,748 1}
+{3 1}
+{2 1,5 1}
+{1 1,2 1,3 1}
+{3 1,4 1,5 1}
+{0 1,1 1,2 1}
+{5 1}

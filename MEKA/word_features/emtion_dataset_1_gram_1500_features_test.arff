@@ -1,0 +1,2733 @@
+@relation 'EMOTION: -C 6'
+@attribute anger_class {0,1}
+@attribute disgust_class {0,1}
+@attribute fear_class {0,1}
+@attribute sadness_class {0,1}
+@attribute surprise_class {0,1}
+@attribute happiness_class {0,1}
+@attribute 'دلانے' numeric
+@attribute 'پڑتا' numeric
+@attribute 'یقین' numeric
+@attribute 'کیلئے' numeric
+@attribute 'معاشرے' numeric
+@attribute 'مرنا' numeric
+@attribute 'بیماری' numeric
+@attribute 'تعلق' numeric
+@attribute 'آنسو' numeric
+@attribute 'اداسی' numeric
+@attribute 'معاملات' numeric
+@attribute 'معاف' numeric
+@attribute 'مسلمانو' numeric
+@attribute 'مسلمان' numeric
+@attribute 'مسلم' numeric
+@attribute 'مسلط' numeric
+@attribute 'مسلسل' numeric
+@attribute 'مسرت' numeric
+@attribute 'مسجد' numeric
+@attribute 'مسافر' numeric
+@attribute 'مساجد' numeric
+@attribute 'مسئلہ' numeric
+@attribute 'مزہ' numeric
+@attribute 'مزدوروں' numeric
+@attribute 'مزدور' numeric
+@attribute 'مزاج' numeric
+@attribute 'مریم' numeric
+@attribute 'مریضوں' numeric
+@attribute 'مریض' numeric
+@attribute 'مفتی' numeric
+@attribute 'مفت' numeric
+@attribute 'مسلمانوں' numeric
+@attribute 'مشین' numeric
+@attribute 'معاملے' numeric
+@attribute 'معذرت' numeric
+@attribute 'مظلوم' numeric
+@attribute 'معصوم' numeric
+@attribute 'مطلب' numeric
+@attribute 'مضبوط' numeric
+@attribute 'مصیبت' numeric
+@attribute 'مشہور' numeric
+@attribute 'مسلماں' numeric
+@attribute 'معلوم' numeric
+@attribute 'مشکل' numeric
+@attribute 'مشورہ' numeric
+@attribute 'مسکرایا' numeric
+@attribute 'معلومات' numeric
+@attribute 'مسکراہٹ' numeric
+@attribute 'مسکرانے' numeric
+@attribute 'مرنے' numeric
+@attribute '__' numeric
+@attribute 'مقصد' numeric
+@attribute 'متحدہ' numeric
+@attribute 'محسوس' numeric
+@attribute 'محسن' numeric
+@attribute 'محبوب' numeric
+@attribute 'محبت' numeric
+@attribute 'مجبور' numeric
+@attribute 'مج' numeric
+@attribute 'مثبت' numeric
+@attribute 'مثال' numeric
+@attribute 'متعلق' numeric
+@attribute 'مبتلا' numeric
+@attribute 'محفل' numeric
+@attribute 'مبارک' numeric
+@attribute 'مایوسی' numeric
+@attribute 'مایوس' numeric
+@attribute 'ماہ' numeric
+@attribute 'ماں' numeric
+@attribute 'مانگنے' numeric
+@attribute 'مانگتے' numeric
+@attribute 'مانگ' numeric
+@attribute 'مان' numeric
+@attribute 'محشر' numeric
+@attribute 'محفلسخن' numeric
+@attribute 'مرضی' numeric
+@attribute 'مذاق' numeric
+@attribute 'مرض' numeric
+@attribute 'مرشد' numeric
+@attribute 'مرد' numeric
+@attribute 'مرتد' numeric
+@attribute 'مرتبہ' numeric
+@attribute 'مراد' numeric
+@attribute 'مر' numeric
+@attribute 'مذہبی' numeric
+@attribute 'مذہب' numeric
+@attribute 'مدد' numeric
+@attribute 'محفوظ' numeric
+@attribute 'مدت' numeric
+@attribute 'مخلوق' numeric
+@attribute 'مختلف' numeric
+@attribute 'مختصر' numeric
+@attribute 'مخالفت' numeric
+@attribute 'مخالف' numeric
+@attribute 'محو' numeric
+@attribute 'محنت' numeric
+@attribute 'محمد' numeric
+@attribute 'مقام' numeric
+@attribute 'ملتی' numeric
+@attribute 'ملا' numeric
+@attribute 'نسل' numeric
+@attribute 'نفرت' numeric
+@attribute 'نظریے' numeric
+@attribute 'نظر' numeric
+@attribute 'نظام' numeric
+@attribute 'نصیب' numeric
+@attribute 'نشتر' numeric
+@attribute 'نشانی' numeric
+@attribute 'نشانہ' numeric
+@attribute 'نسلیں' numeric
+@attribute 'نتیجہ' numeric
+@attribute 'ملاقات' numeric
+@attribute 'نبی' numeric
+@attribute 'نبوت' numeric
+@attribute 'ناں' numeric
+@attribute 'نام' numeric
+@attribute 'نازک' numeric
+@attribute 'ناز' numeric
+@attribute 'ناراضگی' numeric
+@attribute 'نئے' numeric
+@attribute 'نئی' numeric
+@attribute 'نقصان' numeric
+@attribute 'نماز' numeric
+@attribute 'نمبر' numeric
+@attribute 'نمودعشق' numeric
+@attribute 'نیازی' numeric
+@attribute 'نیا' numeric
+@attribute 'نی' numeric
+@attribute 'نہی' numeric
+@attribute 'نہایت' numeric
+@attribute 'نھیں' numeric
+@attribute 'نگاہ' numeric
+@attribute 'نکلے' numeric
+@attribute 'نکلتے' numeric
+@attribute 'نکلتا' numeric
+@attribute 'نکلا' numeric
+@attribute 'نکل' numeric
+@attribute 'نکالا' numeric
+@attribute 'نکال' numeric
+@attribute 'نوٹ' numeric
+@attribute 'نورانی' numeric
+@attribute 'نواز' numeric
+@attribute 'ننھے' numeric
+@attribute 'نمی' numeric
+@attribute 'میک' numeric
+@attribute 'میڈیا' numeric
+@attribute 'میڈم' numeric
+@attribute 'منگول' numeric
+@attribute 'منظور' numeric
+@attribute 'منظر' numeric
+@attribute 'منزل' numeric
+@attribute 'منحوس' numeric
+@attribute 'منافقت' numeric
+@attribute 'منافق' numeric
+@attribute 'مناتے' numeric
+@attribute 'منا' numeric
+@attribute 'من' numeric
+@attribute 'ممکن' numeric
+@attribute 'ممالک' numeric
+@attribute 'ملے' numeric
+@attribute 'ملی' numeric
+@attribute 'ملک' numeric
+@attribute 'ملنے' numeric
+@attribute 'ملنا' numeric
+@attribute 'ملتے' numeric
+@attribute 'مال' numeric
+@attribute 'ملتا' numeric
+@attribute 'منفی' numeric
+@attribute 'منہ' numeric
+@attribute 'مین' numeric
+@attribute 'موبائل' numeric
+@attribute 'میر' numeric
+@attribute 'میاں' numeric
+@attribute 'می' numeric
+@attribute 'مہینے' numeric
+@attribute 'مہینہ' numeric
+@attribute 'مہمان' numeric
+@attribute 'مکمل' numeric
+@attribute 'مٹ' numeric
+@attribute 'مومن' numeric
+@attribute 'مولویوں' numeric
+@attribute 'مولوی' numeric
+@attribute 'مولانا' numeric
+@attribute 'موقع' numeric
+@attribute 'موسم' numeric
+@attribute 'مودی' numeric
+@attribute 'موجودہ' numeric
+@attribute 'موجودگی' numeric
+@attribute 'موجود' numeric
+@attribute 'موت' numeric
+@attribute 'مالک' numeric
+@attribute 'ماشاءاللہ' numeric
+@attribute 'مافیا' numeric
+@attribute 'غریب' numeric
+@attribute 'غور' numeric
+@attribute 'غمی' numeric
+@attribute 'غم' numeric
+@attribute 'غلطی' numeric
+@attribute 'غلط' numeric
+@attribute 'غلام' numeric
+@attribute 'غضب' numeric
+@attribute 'غصے' numeric
+@attribute 'غصہ' numeric
+@attribute 'غرور' numeric
+@attribute 'عوام' numeric
+@attribute 'غرق' numeric
+@attribute 'غربت' numeric
+@attribute 'غدار' numeric
+@attribute 'غالب' numeric
+@attribute 'غازی' numeric
+@attribute 'غائب' numeric
+@attribute 'عید' numeric
+@attribute 'عورتیں' numeric
+@attribute 'عورتوں' numeric
+@attribute 'غیر' numeric
+@attribute 'غیرت' numeric
+@attribute 'فائدہ' numeric
+@attribute 'فالو' numeric
+@attribute 'فوج' numeric
+@attribute 'فوت' numeric
+@attribute 'فقیر' numeric
+@attribute 'فطرت' numeric
+@attribute 'فضول' numeric
+@attribute 'فضل' numeric
+@attribute 'فضا' numeric
+@attribute 'فرمایا' numeric
+@attribute 'فرمان' numeric
+@attribute 'فرماتے' numeric
+@attribute 'فرمائے' numeric
+@attribute 'فرما' numeric
+@attribute 'فرقہ' numeric
+@attribute 'فرق' numeric
+@attribute 'فرصت' numeric
+@attribute 'فرشتوں' numeric
+@attribute 'فرحت' numeric
+@attribute 'فخر' numeric
+@attribute 'فتح' numeric
+@attribute 'عورت' numeric
+@attribute 'عنہ' numeric
+@attribute 'فون' numeric
+@attribute 'ظلم' numeric
+@attribute 'عبادت' numeric
+@attribute 'عام' numeric
+@attribute 'عالمی' numeric
+@attribute 'عالم' numeric
+@attribute 'عاشق' numeric
+@attribute 'عارف' numeric
+@attribute 'عارضی' numeric
+@attribute 'عادی' numeric
+@attribute 'عادت' numeric
+@attribute 'ظاہر' numeric
+@attribute 'عمل' numeric
+@attribute 'ظالم' numeric
+@attribute 'طے' numeric
+@attribute 'طوفان' numeric
+@attribute 'طلب' numeric
+@attribute 'طریقے' numeric
+@attribute 'طبیعت' numeric
+@attribute 'طاہر' numeric
+@attribute 'طاقتور' numeric
+@attribute 'طاقت' numeric
+@attribute 'عباسی' numeric
+@attribute 'عجب' numeric
+@attribute 'عجیب' numeric
+@attribute 'عذاب' numeric
+@attribute 'عمرہ' numeric
+@attribute 'عمران' numeric
+@attribute 'عمر' numeric
+@attribute 'علیہ' numeric
+@attribute 'علیکم' numeric
+@attribute 'علی' numeric
+@attribute 'علماء' numeric
+@attribute 'علم' numeric
+@attribute 'علامہ' numeric
+@attribute 'علاج' numeric
+@attribute 'عقیدہختمنبوتمحورایمان' numeric
+@attribute 'عقل' numeric
+@attribute 'عظیم' numeric
+@attribute 'عطا' numeric
+@attribute 'عشق' numeric
+@attribute 'عزت' numeric
+@attribute 'عروج' numeric
+@attribute 'عرش' numeric
+@attribute 'عرب' numeric
+@attribute 'فوجی' numeric
+@attribute 'فوٹو' numeric
+@attribute 'ماشااللہ' numeric
+@attribute 'لوں' numeric
+@attribute 'لکھی' numeric
+@attribute 'لکھتے' numeric
+@attribute 'لکھا' numeric
+@attribute 'لکھ' numeric
+@attribute 'لڑکے' numeric
+@attribute 'لڑکیوں' numeric
+@attribute 'لڑکی' numeric
+@attribute 'لڑکا' numeric
+@attribute 'لڑ' numeric
+@attribute 'لوگو' numeric
+@attribute 'لباس' numeric
+@attribute 'لوگ' numeric
+@attribute 'لوٹ' numeric
+@attribute 'لندن' numeric
+@attribute 'لمحہ' numeric
+@attribute 'لفظوں' numeric
+@attribute 'لفظ' numeric
+@attribute 'لفافے' numeric
+@attribute 'لعنت' numeric
+@attribute 'لسٹ' numeric
+@attribute 'لکھے' numeric
+@attribute 'لگانے' numeric
+@attribute 'لگایا' numeric
+@attribute 'لگتاہےکہیں' numeric
+@attribute 'نیند' numeric
+@attribute 'ماسک' numeric
+@attribute 'مارے' numeric
+@attribute 'مار' numeric
+@attribute 'ماحول' numeric
+@attribute 'مات' numeric
+@attribute 'لےکرنکلتا' numeric
+@attribute 'لےکرنکل' numeric
+@attribute 'لیگ' numeric
+@attribute 'لیکر' numeric
+@attribute 'لیڈر' numeric
+@attribute 'لینے' numeric
+@attribute 'لینا' numeric
+@attribute 'لیئے' numeric
+@attribute 'لہر' numeric
+@attribute 'لہجے' numeric
+@attribute 'لگنے' numeric
+@attribute 'لگن' numeric
+@attribute 'لگتے' numeric
+@attribute 'لبیک' numeric
+@attribute 'لب' numeric
+@attribute 'فکر' numeric
+@attribute 'قابل' numeric
+@attribute 'قتل' numeric
+@attribute 'قبیلے' numeric
+@attribute 'قبول' numeric
+@attribute 'قبر' numeric
+@attribute 'قانون' numeric
+@attribute 'قاسم' numeric
+@attribute 'قادیانیوں' numeric
+@attribute 'قادیانی' numeric
+@attribute 'قاتل' numeric
+@attribute 'قابض' numeric
+@attribute 'لاہور' numeric
+@attribute 'قائم' numeric
+@attribute 'فیملی' numeric
+@attribute 'فیض' numeric
+@attribute 'فیصلے' numeric
+@attribute 'فیصلہ' numeric
+@attribute 'فیصلوں' numeric
+@attribute 'فیصل' numeric
+@attribute 'فیس' numeric
+@attribute 'فہمی' numeric
+@attribute 'قدر' numeric
+@attribute 'قدرت' numeric
+@attribute 'قدم' numeric
+@attribute 'قرآن' numeric
+@attribute 'لاکھ' numeric
+@attribute 'لاک' numeric
+@attribute 'لالچ' numeric
+@attribute 'لازم' numeric
+@attribute 'لائن' numeric
+@attribute 'لا' numeric
+@attribute 'لئیے' numeric
+@attribute 'قیمت' numeric
+@attribute 'قید' numeric
+@attribute 'قیامت' numeric
+@attribute 'قہقہوں' numeric
+@attribute 'قوم' numeric
+@attribute 'قوت' numeric
+@attribute 'قصور' numeric
+@attribute 'قسم' numeric
+@attribute 'قریب' numeric
+@attribute 'قرض' numeric
+@attribute 'قربان' numeric
+@attribute 'قرار' numeric
+@attribute 'نیب' numeric
+@attribute 'واحد' numeric
+@attribute 'نیوز' numeric
+@attribute 'کہتی' numeric
+@attribute 'کیخلاف' numeric
+@attribute 'کیجیے' numeric
+@attribute 'کیجئے' numeric
+@attribute 'کہیے' numeric
+@attribute 'کہوں' numeric
+@attribute 'کہو' numeric
+@attribute 'کہنے' numeric
+@attribute 'کہنا' numeric
+@attribute 'کہتے' numeric
+@attribute 'کہتا' numeric
+@attribute 'کھوتے' numeric
+@attribute 'کہانیاں' numeric
+@attribute 'کہانی' numeric
+@attribute 'کھیلے' numeric
+@attribute 'کھیل' numeric
+@attribute 'کھڑے' numeric
+@attribute 'کھڑی' numeric
+@attribute 'کھڑا' numeric
+@attribute 'کھونے' numeric
+@attribute 'کھولنے' numeric
+@attribute 'کیس' numeric
+@attribute 'کیساتھ' numeric
+@attribute 'کیسی' numeric
+@attribute 'کیفیت' numeric
+@attribute 'گزرے' numeric
+@attribute 'گزر' numeric
+@attribute 'گزار' numeric
+@attribute 'گروپ' numeric
+@attribute 'گرفتاری' numeric
+@attribute 'گرفتار' numeric
+@attribute 'گردی' numeric
+@attribute 'گرد' numeric
+@attribute 'گرا' numeric
+@attribute 'گر' numeric
+@attribute 'گالیوں' numeric
+@attribute 'گالیاں' numeric
+@attribute 'گالی' numeric
+@attribute 'گاؤں' numeric
+@attribute 'گئیں' numeric
+@attribute 'گئ' numeric
+@attribute 'کےلئے' numeric
+@attribute 'کیو' numeric
+@attribute 'کیلیے' numeric
+@attribute 'کھول' numeric
+@attribute 'کھو' numeric
+@attribute 'نیگیٹو' numeric
+@attribute 'کرسکتا' numeric
+@attribute 'کرکے' numeric
+@attribute 'کرپٹعمرانجوابدو' numeric
+@attribute 'کرپٹ' numeric
+@attribute 'کرپشن' numeric
+@attribute 'کروں' numeric
+@attribute 'کروڑ' numeric
+@attribute 'کرونا' numeric
+@attribute 'کروا' numeric
+@attribute 'کرنی' numeric
+@attribute 'کردے' numeric
+@attribute 'کھلے' numeric
+@attribute 'کردیں' numeric
+@attribute 'کردیا' numeric
+@attribute 'کردی' numeric
+@attribute 'کردار' numeric
+@attribute 'کراچی' numeric
+@attribute 'کتے' numeric
+@attribute 'کتوں' numeric
+@attribute 'کتنے' numeric
+@attribute 'کتنی' numeric
+@attribute 'کریم' numeric
+@attribute 'کشمیر' numeric
+@attribute 'کشی' numeric
+@attribute 'کمال' numeric
+@attribute 'کھلتا' numeric
+@attribute 'کھل' numeric
+@attribute 'کھانے' numeric
+@attribute 'کھانا' numeric
+@attribute 'کھائے' numeric
+@attribute 'کھا' numeric
+@attribute 'کپڑے' numeric
+@attribute 'کپتان' numeric
+@attribute 'کوٸی' numeric
+@attribute 'کووڈ' numeric
+@attribute 'کوشش' numeric
+@attribute 'کورونا' numeric
+@attribute 'کوئ' numeric
+@attribute 'کنجر' numeric
+@attribute 'کنارے' numeric
+@attribute 'کمی' numeric
+@attribute 'کمنٹ' numeric
+@attribute 'کمزور' numeric
+@attribute 'کمرے' numeric
+@attribute 'گفتگو' numeric
+@attribute 'گل' numeric
+@attribute 'گلاب' numeric
+@attribute 'ہوئ' numeric
+@attribute 'ہوگئے' numeric
+@attribute 'ہوگئی' numeric
+@attribute 'ہوکر' numeric
+@attribute 'ہونٹوں' numeric
+@attribute 'ہوسکتا' numeric
+@attribute 'ہوس' numeric
+@attribute 'ہورہی' numeric
+@attribute 'ہوجاتی' numeric
+@attribute 'ہوجائے' numeric
+@attribute 'ہنسی' numeric
+@attribute 'گلی' numeric
+@attribute 'ہنسنے' numeric
+@attribute 'ہنستا' numeric
+@attribute 'ہنس' numeric
+@attribute 'ہنر' numeric
+@attribute 'ہندوستانی' numeric
+@attribute 'ہندوستان' numeric
+@attribute 'ہندوؤں' numeric
+@attribute 'ہندو' numeric
+@attribute 'ہمیشہ' numeric
+@attribute 'ہوگا' numeric
+@attribute 'ہوگی' numeric
+@attribute 'ہوگیا' numeric
+@attribute 'ہوے' numeric
+@attribute 'یہودی' numeric
+@attribute 'یوں' numeric
+@attribute 'یونیورسٹی' numeric
+@attribute 'یونہی' numeric
+@attribute 'یوم' numeric
+@attribute 'یوتھیوں' numeric
+@attribute 'یو' numeric
+@attribute 'یقیں' numeric
+@attribute 'یارو' numeric
+@attribute 'یار' numeric
+@attribute 'یاد' numeric
+@attribute 'ہےکہ' numeric
+@attribute 'ہےاور' numeric
+@attribute 'ہےاس' numeric
+@attribute 'ہے' numeric
+@attribute 'ہیں' numeric
+@attribute 'ہین' numeric
+@attribute 'ہیرو' numeric
+@attribute 'ہوۓ' numeric
+@attribute 'ہمت' numeric
+@attribute 'ہمارااقبال' numeric
+@attribute 'ہسپتال' numeric
+@attribute 'ھا' numeric
+@attribute 'گیڈر' numeric
+@attribute 'گیم' numeric
+@attribute 'گہری' numeric
+@attribute 'گھیر' numeric
+@attribute 'گھڑی' numeric
+@attribute 'گھٹیا' numeric
+@attribute 'گھوڑا' numeric
+@attribute 'گھروں' numeric
+@attribute 'گھر' numeric
+@attribute 'گولی' numeric
+@attribute 'گوشت' numeric
+@attribute 'گورنمنٹ' numeric
+@attribute 'گودی' numeric
+@attribute 'گواہ' numeric
+@attribute 'گندی' numeric
+@attribute 'گندم' numeric
+@attribute 'گناہ' numeric
+@attribute 'گم' numeric
+@attribute 'گلے' numeric
+@attribute 'گے' numeric
+@attribute 'ھر' numeric
+@attribute 'ہزاروں' numeric
+@attribute 'ھم' numeric
+@attribute 'ہجوم' numeric
+@attribute 'ہجر' numeric
+@attribute 'ہتھیار' numeric
+@attribute 'ہار' numeric
+@attribute 'ہاتھوں' numeric
+@attribute 'ہاتھ' numeric
+@attribute 'ہا' numeric
+@attribute 'ھے' numeric
+@attribute 'ھیں' numeric
+@attribute 'ھی' numeric
+@attribute 'ھوں' numeric
+@attribute 'ھونے' numeric
+@attribute 'ھوتی' numeric
+@attribute 'ھوتا' numeric
+@attribute 'ھوا' numeric
+@attribute 'ھوئی' numeric
+@attribute 'ھو' numeric
+@attribute 'ھمارے' numeric
+@attribute 'ھماری' numeric
+@attribute 'کتنا' numeric
+@attribute 'کتاب' numeric
+@attribute 'کبہی' numeric
+@attribute 'پریشان' numeric
+@attribute 'پورے' numeric
+@attribute 'پوری' numeric
+@attribute 'پورا' numeric
+@attribute 'پنجاب' numeric
+@attribute 'پناہ' numeric
+@attribute 'پل' numeric
+@attribute 'پشتون' numeric
+@attribute 'پسند' numeric
+@attribute 'پریشانی' numeric
+@attribute 'پری' numeric
+@attribute 'پھیلا' numeric
+@attribute 'پرہیز' numeric
+@attribute 'پروگرام' numeric
+@attribute 'پردہ' numeric
+@attribute 'پرآگے' numeric
+@attribute 'پتہ' numeric
+@attribute 'پتھر' numeric
+@attribute 'پتا' numeric
+@attribute 'پاگل' numeric
+@attribute 'پاکستانیوں' numeric
+@attribute 'پوسٹ' numeric
+@attribute 'پولیس' numeric
+@attribute 'پوچھ' numeric
+@attribute 'پوچھا' numeric
+@attribute 'پھول' numeric
+@attribute 'پھلوں' numeric
+@attribute 'پڑے' numeric
+@attribute 'پڑی' numeric
+@attribute 'پڑھے' numeric
+@attribute 'پڑھنے' numeric
+@attribute 'پڑھتے' numeric
+@attribute 'پڑھا' numeric
+@attribute 'پڑھ' numeric
+@attribute 'پڑوسی' numeric
+@attribute 'پڑا' numeric
+@attribute 'پڑ' numeric
+@attribute 'پچھلے' numeric
+@attribute 'پچھلی' numeric
+@attribute 'پٹواریوں' numeric
+@attribute 'پٹواری' numeric
+@attribute 'پوچھے' numeric
+@attribute 'پوچھنے' numeric
+@attribute 'پوچھتے' numeric
+@attribute 'پاکستانی' numeric
+@attribute 'پاکستان' numeric
+@attribute 'پاک' numeric
+@attribute 'ووٹ' numeric
+@attribute 'وفاقی' numeric
+@attribute 'وفاق' numeric
+@attribute 'وفات' numeric
+@attribute 'وفا' numeric
+@attribute 'وعدے' numeric
+@attribute 'وسلم' numeric
+@attribute 'وزیرستان' numeric
+@attribute 'وزیراعظم' numeric
+@attribute 'وزیر' numeric
+@attribute 'وردی' numeric
+@attribute 'وحشت' numeric
+@attribute 'وجود' numeric
+@attribute 'وبرکاتہ' numeric
+@attribute 'وبا' numeric
+@attribute 'واپس' numeric
+@attribute 'والد' numeric
+@attribute 'واقعات' numeric
+@attribute 'ضروری' numeric
+@attribute 'وائرس' numeric
+@attribute 'وقت' numeric
+@attribute 'وی' numeric
+@attribute 'پانی' numeric
+@attribute 'ویڈیو' numeric
+@attribute 'پانچ' numeric
+@attribute 'پارٹی' numeric
+@attribute 'پائے' numeric
+@attribute 'پا' numeric
+@attribute 'ٹیلی' numeric
+@attribute 'ٹیسٹ' numeric
+@attribute 'ٹی' numeric
+@attribute 'ٹھیک' numeric
+@attribute 'ٹویٹس' numeric
+@attribute 'ٹویٹر' numeric
+@attribute 'ٹویٹ' numeric
+@attribute 'ٹوٹا' numeric
+@attribute 'ٹوٹ' numeric
+@attribute 'ٹوئیٹ' numeric
+@attribute 'ٹوئٹ' numeric
+@attribute 'ٹرینڈ' numeric
+@attribute 'ٹرمپ' numeric
+@attribute 'ٹائم' numeric
+@attribute 'ویکسین' numeric
+@attribute 'پھیل' numeric
+@attribute 'پھیلاتے' numeric
+@attribute 'کاٹ' numeric
+@attribute 'چیختی' numeric
+@attribute 'ڈاؤن' numeric
+@attribute 'چیک' numeric
+@attribute 'چینی' numeric
+@attribute 'چینلز' numeric
+@attribute 'چینل' numeric
+@attribute 'چین' numeric
+@attribute 'چیف' numeric
+@attribute 'چیزیں' numeric
+@attribute 'چیز' numeric
+@attribute 'چہرے' numeric
+@attribute 'پھیلانے' numeric
+@attribute 'چہرہ' numeric
+@attribute 'چہروں' numeric
+@attribute 'چھین' numeric
+@attribute 'چھپ' numeric
+@attribute 'چھوڑ' numeric
+@attribute 'چھوٹے' numeric
+@attribute 'چھوٹی' numeric
+@attribute 'چھوٹا' numeric
+@attribute 'چھت' numeric
+@attribute 'ڈال' numeric
+@attribute 'ڈالا' numeric
+@attribute 'ڈالی' numeric
+@attribute 'ڈاون' numeric
+@attribute 'کامیابی' numeric
+@attribute 'کامیاب' numeric
+@attribute 'کامران' numeric
+@attribute 'کام' numeric
+@attribute 'کال' numeric
+@attribute 'کافی' numeric
+@attribute 'کاروبار' numeric
+@attribute 'کار' numeric
+@attribute 'کئی' numeric
+@attribute 'کئ' numeric
+@attribute 'ڈی' numeric
+@attribute 'ڈرنے' numeric
+@attribute 'ڈرتے' numeric
+@attribute 'ڈرتا' numeric
+@attribute 'ڈرامے' numeric
+@attribute 'ڈرامہ' numeric
+@attribute 'ڈر' numeric
+@attribute 'ڈاکٹرز' numeric
+@attribute 'ڈاکٹر' numeric
+@attribute 'چھائی' numeric
+@attribute 'چھا' numeric
+@attribute 'چکا' numeric
+@attribute 'پینے' numeric
+@attribute 'پیش' numeric
+@attribute 'پیسے' numeric
+@attribute 'پیسہ' numeric
+@attribute 'پیدا' numeric
+@attribute 'پیاسی' numeric
+@attribute 'پیاس' numeric
+@attribute 'پیاری' numeric
+@attribute 'پیارا' numeric
+@attribute 'پیار' numeric
+@attribute 'پیا' numeric
+@attribute 'پی' numeric
+@attribute 'پہچان' numeric
+@attribute 'پہنچے' numeric
+@attribute 'پہنچ' numeric
+@attribute 'پہن' numeric
+@attribute 'پہلو' numeric
+@attribute 'پہرہ' numeric
+@attribute 'پہرا' numeric
+@attribute 'پھیلایا' numeric
+@attribute 'پیغام' numeric
+@attribute 'پیٹ' numeric
+@attribute 'چپ' numeric
+@attribute 'پے' numeric
+@attribute 'چوہدری' numeric
+@attribute 'چور' numeric
+@attribute 'چوتھی' numeric
+@attribute 'چندہ' numeric
+@attribute 'چمن' numeric
+@attribute 'چلی' numeric
+@attribute 'چلتے' numeric
+@attribute 'چلتی' numeric
+@attribute 'چلتا' numeric
+@attribute 'چل' numeric
+@attribute 'چشم' numeric
+@attribute 'چاہیے' numeric
+@attribute 'چاہیں' numeric
+@attribute 'چاہتا' numeric
+@attribute 'چاہت' numeric
+@attribute 'چاہ' numeric
+@attribute 'چاند' numeric
+@attribute 'چار' numeric
+@attribute 'چائے' numeric
+@attribute 'طارق' numeric
+@attribute 'ضبط' numeric
+@attribute 'ضرورت' numeric
+@attribute 'بول' numeric
+@attribute 'بچپن' numeric
+@attribute 'بچوں' numeric
+@attribute 'بچا' numeric
+@attribute 'بٹ' numeric
+@attribute 'بولے' numeric
+@attribute 'بولی' numeric
+@attribute 'بولنے' numeric
+@attribute 'بولتے' numeric
+@attribute 'بولا' numeric
+@attribute 'بوجھ' numeric
+@attribute 'بنانے' numeric
+@attribute 'بو' numeric
+@attribute 'بنے' numeric
+@attribute 'بنی' numeric
+@attribute 'بننے' numeric
+@attribute 'بندے' numeric
+@attribute 'بندہ' numeric
+@attribute 'بنتے' numeric
+@attribute 'بنتی' numeric
+@attribute 'بنتا' numeric
+@attribute 'بچھڑ' numeric
+@attribute 'بچھڑنے' numeric
+@attribute 'بچہ' numeric
+@attribute 'بچے' numeric
+@attribute 'بھلا' numeric
+@attribute 'بھرے' numeric
+@attribute 'بھری' numeric
+@attribute 'بھرپور' numeric
+@attribute 'بھروسہ' numeric
+@attribute 'بھرا' numeric
+@attribute 'بھاگ' numeric
+@attribute 'بھارتی' numeric
+@attribute 'بھارت' numeric
+@attribute 'بھائیوں' numeric
+@attribute 'بھائی' numeric
+@attribute 'بھائ' numeric
+@attribute 'بھ' numeric
+@attribute 'بکھر' numeric
+@attribute 'بکری' numeric
+@attribute 'بک' numeric
+@attribute 'بڑے' numeric
+@attribute 'بڑھ' numeric
+@attribute 'بڑا' numeric
+@attribute 'بنایا' numeric
+@attribute 'بنانا' numeric
+@attribute 'بازگشت' numeric
+@attribute 'بتایا' numeric
+@attribute 'بدن' numeric
+@attribute 'بدلے' numeric
+@attribute 'بدلتے' numeric
+@attribute 'بدل' numeric
+@attribute 'بد' numeric
+@attribute 'بحران' numeric
+@attribute 'بجلیوں' numeric
+@attribute 'بجلی' numeric
+@attribute 'بجائے' numeric
+@attribute 'بتاتے' numeric
+@attribute 'بلیک' numeric
+@attribute 'بتا' numeric
+@attribute 'باپ' numeric
+@attribute 'بانٹ' numeric
+@attribute 'بال' numeric
+@attribute 'باقی' numeric
+@attribute 'باقاعدہ' numeric
+@attribute 'باغ' numeric
+@attribute 'باعث' numeric
+@attribute 'باطل' numeric
+@attribute 'برا' numeric
+@attribute 'برائی' numeric
+@attribute 'برابر' numeric
+@attribute 'برتن' numeric
+@attribute 'بلکل' numeric
+@attribute 'بلوچ' numeric
+@attribute 'بلند' numeric
+@attribute 'بلایا' numeric
+@attribute 'بلاک' numeric
+@attribute 'بلاول' numeric
+@attribute 'بلا' numeric
+@attribute 'بل' numeric
+@attribute 'بغض' numeric
+@attribute 'بس' numeric
+@attribute 'بزمشاعری' numeric
+@attribute 'بزرگ' numeric
+@attribute 'بزدل' numeric
+@attribute 'برے' numeric
+@attribute 'بری' numeric
+@attribute 'برہانی' numeric
+@attribute 'برکت' numeric
+@attribute 'برس' numeric
+@attribute 'برداشت' numeric
+@attribute 'بھول' numeric
+@attribute 'بھوک' numeric
+@attribute 'بھوکا' numeric
+@attribute 'توں' numeric
+@attribute 'تے' numeric
+@attribute 'تیل' numeric
+@attribute 'تیسرا' numeric
+@attribute 'تیار' numeric
+@attribute 'تھک' numeric
+@attribute 'تھوڑی' numeric
+@attribute 'تھوڑا' numeric
+@attribute 'تھون' numeric
+@attribute 'تکلیف' numeric
+@attribute 'توڑ' numeric
+@attribute 'بھٹو' numeric
+@attribute 'توبہ' numeric
+@attribute 'تنہائی' numeric
+@attribute 'تنقید' numeric
+@attribute 'تمھیں' numeric
+@attribute 'تمھارے' numeric
+@attribute 'تمھاری' numeric
+@attribute 'تمھارا' numeric
+@attribute 'تمنا' numeric
+@attribute 'تقسیم' numeric
+@attribute 'ثابت' numeric
+@attribute 'جاؤں' numeric
+@attribute 'جارہا' numeric
+@attribute 'جارہی' numeric
+@attribute 'جدا' numeric
+@attribute 'جتنے' numeric
+@attribute 'جتنی' numeric
+@attribute 'جتنا' numeric
+@attribute 'جبلاستقامتخادمحسینرضوی' numeric
+@attribute 'جبر' numeric
+@attribute 'جاۓ' numeric
+@attribute 'جاہل' numeric
+@attribute 'جاں' numeric
+@attribute 'جاوید' numeric
+@attribute 'جاو' numeric
+@attribute 'جانو' numeric
+@attribute 'جانتے' numeric
+@attribute 'جانتا' numeric
+@attribute 'جانب' numeric
+@attribute 'جاناں' numeric
+@attribute 'جانا' numeric
+@attribute 'جان' numeric
+@attribute 'جاری' numeric
+@attribute 'تعلیم' numeric
+@attribute 'تعریف' numeric
+@attribute 'تعداد' numeric
+@attribute 'بیٹی' numeric
+@attribute 'بیٹھی' numeric
+@attribute 'بیٹھا' numeric
+@attribute 'بیٹھ' numeric
+@attribute 'بیٹا' numeric
+@attribute 'بیوی' numeric
+@attribute 'بینک' numeric
+@attribute 'بیشک' numeric
+@attribute 'بیج' numeric
+@attribute 'بیان' numeric
+@attribute 'بی' numeric
+@attribute 'بہی' numeric
+@attribute 'بہن' numeric
+@attribute 'بہشت' numeric
+@attribute 'بہترین' numeric
+@attribute 'بہادر' numeric
+@attribute 'بہ' numeric
+@attribute 'بھیک' numeric
+@attribute 'بھیڑ' numeric
+@attribute 'بھیجتا' numeric
+@attribute 'بیٹھے' numeric
+@attribute 'بیچ' numeric
+@attribute 'تعالی' numeric
+@attribute 'بیک' numeric
+@attribute 'تصویر' numeric
+@attribute 'تشدد' numeric
+@attribute 'تسلیم' numeric
+@attribute 'ترے' numeric
+@attribute 'ترین' numeric
+@attribute 'ترقی' numeric
+@attribute 'تربیت' numeric
+@attribute 'تر' numeric
+@attribute 'تختی' numeric
+@attribute 'تحقیق' numeric
+@attribute 'تحریک' numeric
+@attribute 'تجوری' numeric
+@attribute 'تجربہ' numeric
+@attribute 'تبدیل' numeric
+@attribute 'تباہ' numeric
+@attribute 'تاریخ' numeric
+@attribute 'تابش' numeric
+@attribute 'تا' numeric
+@attribute 'بے' numeric
+@attribute 'بازی' numeric
+@attribute 'بازار' numeric
+@attribute 'جذبہ' numeric
+@attribute 'اجر' numeric
+@attribute 'ادا' numeric
+@attribute 'اخلاق' numeric
+@attribute 'اختیار' numeric
+@attribute 'اختلاف' numeric
+@attribute 'اخبار' numeric
+@attribute 'احمد' numeric
+@attribute 'احساس' numeric
+@attribute 'احترام' numeric
+@attribute 'اجڑ' numeric
+@attribute 'اجازت' numeric
+@attribute 'ابہی' numeric
+@attribute 'اج' numeric
+@attribute 'اثر' numeric
+@attribute 'اتنے' numeric
+@attribute 'اتنی' numeric
+@attribute 'اتنا' numeric
+@attribute 'اتفاق' numeric
+@attribute 'اترے' numeric
+@attribute 'اترتی' numeric
+@attribute 'اتر' numeric
+@attribute 'اداروں' numeric
+@attribute 'ادارہ' numeric
+@attribute 'ادارے' numeric
+@attribute 'اداس' numeric
+@attribute 'اشک' numeric
+@attribute 'اسکو' numeric
+@attribute 'اسلامی' numeric
+@attribute 'اسلاموفوبیا' numeric
+@attribute 'اسلام' numeric
+@attribute 'اسرائیل' numeric
+@attribute 'استقبال' numeric
+@attribute 'استعمال' numeric
+@attribute 'از' numeric
+@attribute 'ارمان' numeric
+@attribute 'ارطغرل' numeric
+@attribute 'ارشاد' numeric
+@attribute 'اردو' numeric
+@attribute 'ارتغل' numeric
+@attribute 'ارتغرل' numeric
+@attribute 'اذیت' numeric
+@attribute 'ادھوری' numeric
+@attribute 'ادھر' numeric
+@attribute 'ادبکاسفر' numeric
+@attribute 'اتار' numeric
+@attribute 'ابھارا' numeric
+@attribute 'باز' numeric
+@attribute 'آخری' numeric
+@attribute 'آزادی' numeric
+@attribute 'آزاد' numeric
+@attribute 'آرہے' numeric
+@attribute 'آرہی' numeric
+@attribute 'آرہا' numeric
+@attribute 'آرمی' numeric
+@attribute 'آرایس' numeric
+@attribute 'آر' numeric
+@attribute 'آدمی' numeric
+@attribute 'آخرت' numeric
+@attribute 'آۓ' numeric
+@attribute 'آخر' numeric
+@attribute 'آجکل' numeric
+@attribute 'آجائے' numeric
+@attribute 'آج' numeric
+@attribute 'آبادی' numeric
+@attribute 'آباد' numeric
+@attribute 'آب' numeric
+@attribute 'آئینہ' numeric
+@attribute 'آئین' numeric
+@attribute 'آسان' numeric
+@attribute 'آسمان' numeric
+@attribute 'آسکتا' numeric
+@attribute 'آغاز' numeric
+@attribute 'آیت' numeric
+@attribute 'آگیا' numeric
+@attribute 'آگ' numeric
+@attribute 'آپکے' numeric
+@attribute 'آپکی' numeric
+@attribute 'آپکو' numeric
+@attribute 'آپکا' numeric
+@attribute 'آپنے' numeric
+@attribute 'آٹا' numeric
+@attribute 'آور' numeric
+@attribute 'آواز' numeric
+@attribute 'آنگن' numeric
+@attribute 'آنکھیں' numeric
+@attribute 'آنکھوں' numeric
+@attribute 'آنکھ' numeric
+@attribute 'آن' numeric
+@attribute 'آمین' numeric
+@attribute 'آمد' numeric
+@attribute 'آقا' numeric
+@attribute 'اصل' numeric
+@attribute 'اطمینان' numeric
+@attribute 'اظہار' numeric
+@attribute 'اچانک' numeric
+@attribute 'اہل' numeric
+@attribute 'اکیلے' numeric
+@attribute 'اکیلا' numeric
+@attribute 'اکاؤنٹس' numeric
+@attribute 'اکاؤنٹ' numeric
+@attribute 'اک' numeric
+@attribute 'اچھے' numeric
+@attribute 'اچھی' numeric
+@attribute 'اچھا' numeric
+@attribute 'اپیل' numeric
+@attribute 'اعتبار' numeric
+@attribute 'اپوزیشن' numeric
+@attribute 'اٹھے' numeric
+@attribute 'اٹھانے' numeric
+@attribute 'اٹھا' numeric
+@attribute 'اٹھ' numeric
+@attribute 'اوڑھ' numeric
+@attribute 'اولاد' numeric
+@attribute 'اوقات' numeric
+@attribute 'او' numeric
+@attribute 'اہم' numeric
+@attribute 'اہمیت' numeric
+@attribute 'ای' numeric
+@attribute 'ایدھی' numeric
+@attribute 'باری' numeric
+@attribute 'بارش' numeric
+@attribute 'بادل' numeric
+@attribute 'بادشاہ' numeric
+@attribute 'باد' numeric
+@attribute 'باجوہ' numeric
+@attribute 'باتیں' numeric
+@attribute 'باتوں' numeric
+@attribute 'بات' numeric
+@attribute 'بابرکت' numeric
+@attribute 'بابا' numeric
+@attribute 'بائیک' numeric
+@attribute 'با' numeric
+@attribute 'اے' numeric
+@attribute 'اینکر' numeric
+@attribute 'این' numeric
+@attribute 'ایمان' numeric
+@attribute 'ایم' numeric
+@attribute 'ایس' numeric
+@attribute 'انگیز' numeric
+@attribute 'انکو' numeric
+@attribute 'انڈین' numeric
+@attribute 'الگ' numeric
+@attribute 'اللہ' numeric
+@attribute 'الفت' numeric
+@attribute 'الفاظ' numeric
+@attribute 'الطاف' numeric
+@attribute 'الزام' numeric
+@attribute 'الرحمن' numeric
+@attribute 'الحمدللہ' numeric
+@attribute 'الحمداللہ' numeric
+@attribute 'اقراء' numeric
+@attribute 'اقدامات' numeric
+@attribute 'اقبال' numeric
+@attribute 'افطاری' numeric
+@attribute 'افطار' numeric
+@attribute 'افسوس' numeric
+@attribute 'افراد' numeric
+@attribute 'اعمال' numeric
+@attribute 'اعلی' numeric
+@attribute 'اعلان' numeric
+@attribute 'اعظم' numeric
+@attribute 'المبارک' numeric
+@attribute 'الہی' numeric
+@attribute 'انڈیا' numeric
+@attribute 'امداد' numeric
+@attribute 'انصاف' numeric
+@attribute 'انشاءاللہ' numeric
+@attribute 'انشاء' numeric
+@attribute 'انسانیت' numeric
+@attribute 'انسانوں' numeric
+@attribute 'انسان' numeric
+@attribute 'اندھیرے' numeric
+@attribute 'انداز' numeric
+@attribute 'انجام' numeric
+@attribute 'انتہائی' numeric
+@attribute 'انتہا' numeric
+@attribute 'انتظار' numeric
+@attribute 'انتخاب' numeric
+@attribute 'انا' numeric
+@attribute 'امیر' numeric
+@attribute 'امید' numeric
+@attribute 'امن' numeric
+@attribute 'امریکی' numeric
+@attribute 'امریکہ' numeric
+@attribute 'جدائی' numeric
+@attribute 'جرم' numeric
+@attribute 'ضد' numeric
+@attribute 'ساری' numeric
+@attribute 'سامنا' numeric
+@attribute 'سامان' numeric
+@attribute 'سالے' numeric
+@attribute 'سالہ' numeric
+@attribute 'سالگرہ' numeric
+@attribute 'سالوں' numeric
+@attribute 'سال' numeric
+@attribute 'ساز' numeric
+@attribute 'سارے' numeric
+@attribute 'سارا' numeric
+@attribute 'زھرا' numeric
+@attribute 'سادگی' numeric
+@attribute 'ساتھی' numeric
+@attribute 'سات' numeric
+@attribute 'سائے' numeric
+@attribute 'سا' numeric
+@attribute 'زیست' numeric
+@attribute 'زیر' numeric
+@attribute 'زیادہ' numeric
+@attribute 'زہرا' numeric
+@attribute 'سانس' numeric
+@attribute 'سانپ' numeric
+@attribute 'سبب' numeric
+@attribute 'سبق' numeric
+@attribute 'سمجھے' numeric
+@attribute 'سمجھدار' numeric
+@attribute 'سمجھتے' numeric
+@attribute 'سمجھتی' numeric
+@attribute 'سمجھا' numeric
+@attribute 'سمجھ' numeric
+@attribute 'سلیم' numeric
+@attribute 'سلامت' numeric
+@attribute 'سفید' numeric
+@attribute 'سفر' numeric
+@attribute 'سعید' numeric
+@attribute 'سعودی' numeric
+@attribute 'سزا' numeric
+@attribute 'سرکار' numeric
+@attribute 'سر' numeric
+@attribute 'سدا' numeric
+@attribute 'سخت' numeric
+@attribute 'سحری' numeric
+@attribute 'ستم' numeric
+@attribute 'زہر' numeric
+@attribute 'زور' numeric
+@attribute 'رشتے' numeric
+@attribute 'روز' numeric
+@attribute 'روک' numeric
+@attribute 'روپے' numeric
+@attribute 'رونے' numeric
+@attribute 'رونقشاعری' numeric
+@attribute 'رونا' numeric
+@attribute 'روشنی' numeric
+@attribute 'روزے' numeric
+@attribute 'روزہ' numeric
+@attribute 'روزگار' numeric
+@attribute 'روح' numeric
+@attribute 'زندہ' numeric
+@attribute 'روایتی' numeric
+@attribute 'رو' numeric
+@attribute 'رنگوں' numeric
+@attribute 'رنگ' numeric
+@attribute 'رنج' numeric
+@attribute 'رمضانکریم' numeric
+@attribute 'رمضان' numeric
+@attribute 'رقص' numeric
+@attribute 'رضی' numeric
+@attribute 'رپورٹ' numeric
+@attribute 'رکھ' numeric
+@attribute 'رکھیں' numeric
+@attribute 'رگ' numeric
+@attribute 'زندگی' numeric
+@attribute 'زمین' numeric
+@attribute 'زمانے' numeric
+@attribute 'زرداری' numeric
+@attribute 'زرد' numeric
+@attribute 'زرا' numeric
+@attribute 'زدہ' numeric
+@attribute 'زخم' numeric
+@attribute 'زباں' numeric
+@attribute 'زبان' numeric
+@attribute 'رے' numeric
+@attribute 'ریپ' numeric
+@attribute 'ریاستی' numeric
+@attribute 'ریاست' numeric
+@attribute 'رہنما' numeric
+@attribute 'رھے' numeric
+@attribute 'رھی' numeric
+@attribute 'رھا' numeric
+@attribute 'رگوں' numeric
+@attribute 'سمندر' numeric
+@attribute 'سن' numeric
+@attribute 'سنا' numeric
+@attribute 'شک' numeric
+@attribute 'شہر' numeric
+@attribute 'شہباز' numeric
+@attribute 'شہادت' numeric
+@attribute 'شکیل' numeric
+@attribute 'شکوہ' numeric
+@attribute 'شکل' numeric
+@attribute 'شکست' numeric
+@attribute 'شکر' numeric
+@attribute 'شکار' numeric
+@attribute 'شوہر' numeric
+@attribute 'سنانے' numeric
+@attribute 'شوق' numeric
+@attribute 'شور' numeric
+@attribute 'شعور' numeric
+@attribute 'شعر' numeric
+@attribute 'شریف' numeric
+@attribute 'شروع' numeric
+@attribute 'شرم' numeric
+@attribute 'شراب' numeric
+@attribute 'شدید' numeric
+@attribute 'شہری' numeric
+@attribute 'شہریوں' numeric
+@attribute 'شہید' numeric
+@attribute 'شیخ' numeric
+@attribute 'آؤ' numeric
+@attribute 'صورتحال' numeric
+@attribute 'صورت' numeric
+@attribute 'صلی' numeric
+@attribute 'صدیوں' numeric
+@attribute 'صدر' numeric
+@attribute 'صدا' numeric
+@attribute 'صحیح' numeric
+@attribute 'صحرا' numeric
+@attribute 'صحت' numeric
+@attribute 'صحافیوں' numeric
+@attribute 'صحافی' numeric
+@attribute 'صحافت' numeric
+@attribute 'صبر' numeric
+@attribute 'صبح' numeric
+@attribute 'صاف' numeric
+@attribute 'صاب' numeric
+@attribute 'شیطان' numeric
+@attribute 'شیر' numeric
+@attribute 'شدت' numeric
+@attribute 'شخصیت' numeric
+@attribute 'شخص' numeric
+@attribute 'سچ' numeric
+@attribute 'سوچیں' numeric
+@attribute 'سوچکاسفر' numeric
+@attribute 'سوچوں' numeric
+@attribute 'سوچتے' numeric
+@attribute 'سوچتا' numeric
+@attribute 'سوچا' numeric
+@attribute 'سوچ' numeric
+@attribute 'سونے' numeric
+@attribute 'سوشل' numeric
+@attribute 'سورج' numeric
+@attribute 'سوالات' numeric
+@attribute 'سوال' numeric
+@attribute 'سو' numeric
+@attribute 'سنو' numeric
+@attribute 'سننے' numeric
+@attribute 'سنسان' numeric
+@attribute 'سندہ' numeric
+@attribute 'سندھی' numeric
+@attribute 'سندھ' numeric
+@attribute 'سپورٹ' numeric
+@attribute 'سچا' numeric
+@attribute 'شباب' numeric
+@attribute 'سچی' numeric
+@attribute 'شب' numeric
+@attribute 'شاہد' numeric
+@attribute 'شاہ' numeric
+@attribute 'شامل' numeric
+@attribute 'شاعری' numeric
+@attribute 'شادی' numeric
+@attribute 'سیکھا' numeric
+@attribute 'سیکھ' numeric
+@attribute 'سینے' numeric
+@attribute 'سید' numeric
+@attribute 'سیاسی' numeric
+@attribute 'سیاستدان' numeric
+@attribute 'سیاست' numeric
+@attribute 'سگریٹ' numeric
+@attribute 'سکے' numeric
+@attribute 'سکھائی' numeric
+@attribute 'سکھ' numeric
+@attribute 'سکون' numeric
+@attribute 'سکتی' numeric
+@attribute 'رضا' numeric
+@attribute 'رشتہ' numeric
+@attribute 'جرمنی' numeric
+@attribute 'حوصلہ' numeric
+@attribute 'حیرت' numeric
+@attribute 'حیران' numeric
+@attribute 'حیا' numeric
+@attribute 'حکومتی' numeric
+@attribute 'حکومت' numeric
+@attribute 'حکمرانوں' numeric
+@attribute 'حکمران' numeric
+@attribute 'حکمت' numeric
+@attribute 'حکم' numeric
+@attribute 'حوالے' numeric
+@attribute 'حسین' numeric
+@attribute 'حملہ' numeric
+@attribute 'حل' numeric
+@attribute 'حقیقی' numeric
+@attribute 'حقیقت' numeric
+@attribute 'حقوق' numeric
+@attribute 'حق' numeric
+@attribute 'حضور' numeric
+@attribute 'حضرات' numeric
+@attribute 'حصے' numeric
+@attribute 'خاتون' numeric
+@attribute 'خاص' numeric
+@attribute 'خاقان' numeric
+@attribute 'خاموش' numeric
+@attribute 'خوشی' numeric
+@attribute 'خوشبو' numeric
+@attribute 'خوش' numeric
+@attribute 'خوبصورت' numeric
+@attribute 'خواہش' numeric
+@attribute 'خواتین' numeric
+@attribute 'خواب' numeric
+@attribute 'خو' numeric
+@attribute 'خلیل' numeric
+@attribute 'خلیجی' numeric
+@attribute 'خلاف' numeric
+@attribute 'خطرناک' numeric
+@attribute 'خراب' numeric
+@attribute 'ختم' numeric
+@attribute 'خبر' numeric
+@attribute 'خاک' numeric
+@attribute 'خاندان' numeric
+@attribute 'خان' numeric
+@attribute 'خاموشی' numeric
+@attribute 'حشر' numeric
+@attribute 'حسن' numeric
+@attribute 'رشتوں' numeric
+@attribute 'جملے' numeric
+@attribute 'جوانی' numeric
+@attribute 'جوان' numeric
+@attribute 'جواب' numeric
+@attribute 'جنگ' numeric
+@attribute 'جنوبی' numeric
+@attribute 'جنم' numeric
+@attribute 'جنرل' numeric
+@attribute 'جنت' numeric
+@attribute 'جمیل' numeric
+@attribute 'جمع' numeric
+@attribute 'حسد' numeric
+@attribute 'جماعت' numeric
+@attribute 'جلن' numeric
+@attribute 'جلدی' numeric
+@attribute 'جلد' numeric
+@attribute 'جلا' numeric
+@attribute 'جعلی' numeric
+@attribute 'جسکی' numeric
+@attribute 'جسٹس' numeric
+@attribute 'جسم' numeric
+@attribute 'جگہ' numeric
+@attribute 'جھوٹ' numeric
+@attribute 'جھوٹا' numeric
+@attribute 'جھوٹی' numeric
+@attribute 'حساب' numeric
+@attribute 'حس' numeric
+@attribute 'حرام' numeric
+@attribute 'حد' numeric
+@attribute 'حامد' numeric
+@attribute 'حالت' numeric
+@attribute 'حالات' numeric
+@attribute 'حال' numeric
+@attribute 'حافظ' numeric
+@attribute 'حاصل' numeric
+@attribute 'جے' numeric
+@attribute 'جیو' numeric
+@attribute 'جینے' numeric
+@attribute 'جینا' numeric
+@attribute 'جیل' numeric
+@attribute 'جیت' numeric
+@attribute 'جیب' numeric
+@attribute 'جہنم' numeric
+@attribute 'جہالت' numeric
+@attribute 'خوشیاں' numeric
+@attribute 'خوشیوں' numeric
+@attribute 'خوف' numeric
+@attribute 'دیکھتا' numeric
+@attribute 'ذاتی' numeric
+@attribute 'ذات' numeric
+@attribute 'دیکھے' numeric
+@attribute 'دیکھیں' numeric
+@attribute 'دیکھی' numeric
+@attribute 'دیکھنے' numeric
+@attribute 'دیکھنا' numeric
+@attribute 'دیکھتے' numeric
+@attribute 'دیکھتی' numeric
+@attribute 'دیکھا' numeric
+@attribute 'خون' numeric
+@attribute 'دیکھ' numeric
+@attribute 'دیوار' numeric
+@attribute 'دین' numeric
+@attribute 'دیش' numeric
+@attribute 'دیجئے' numeric
+@attribute 'دہلی' numeric
+@attribute 'دہشت' numeric
+@attribute 'دھوپ' numeric
+@attribute 'دھن' numeric
+@attribute 'ذرا' numeric
+@attribute 'ذمہ' numeric
+@attribute 'ذکر' numeric
+@attribute 'ذہن' numeric
+@attribute 'رسی' numeric
+@attribute 'رسول' numeric
+@attribute 'رستہ' numeric
+@attribute 'رستوں' numeric
+@attribute 'رخصت' numeric
+@attribute 'رحمتوںکامہینہرمضان' numeric
+@attribute 'رحمت' numeric
+@attribute 'رحم' numeric
+@attribute 'رب' numeric
+@attribute 'راہ' numeric
+@attribute 'راشن' numeric
+@attribute 'راستے' numeric
+@attribute 'راستہ' numeric
+@attribute 'راستوں' numeric
+@attribute 'راز' numeric
+@attribute 'راجہ' numeric
+@attribute 'رات' numeric
+@attribute 'رائے' numeric
+@attribute 'ذہنی' numeric
+@attribute 'دکھائی' numeric
+@attribute 'دکھ' numeric
+@attribute 'دوکاندار' numeric
+@attribute 'دعا' numeric
+@attribute 'دس' numeric
+@attribute 'دریا' numeric
+@attribute 'دروازے' numeric
+@attribute 'دروازہ' numeric
+@attribute 'درست' numeric
+@attribute 'درد' numeric
+@attribute 'درجے' numeric
+@attribute 'دراصل' numeric
+@attribute 'در' numeric
+@attribute 'دبئی' numeric
+@attribute 'داہر' numeric
+@attribute 'دانش' numeric
+@attribute 'دامن' numeric
+@attribute 'داری' numeric
+@attribute 'دار' numeric
+@attribute 'داخل' numeric
+@attribute 'خیر' numeric
+@attribute 'خیال' numeric
+@attribute 'خونی' numeric
+@attribute 'دشمن' numeric
+@attribute 'دفتر' numeric
+@attribute 'دوڑ' numeric
+@attribute 'دفعہ' numeric
+@attribute 'دونوں' numeric
+@attribute 'دوسرے' numeric
+@attribute 'دوستی' numeric
+@attribute 'دوستوں' numeric
+@attribute 'دوست' numeric
+@attribute 'دوزخ' numeric
+@attribute 'دور' numeric
+@attribute 'دودھ' numeric
+@attribute 'دوبارہ' numeric
+@attribute 'دوا' numeric
+@attribute 'دنیا' numeric
+@attribute 'دنوں' numeric
+@attribute 'دن' numeric
+@attribute 'دماغ' numeric
+@attribute 'دم' numeric
+@attribute 'دلی' numeric
+@attribute 'دلکش' numeric
+@attribute 'دلوں' numeric
+@attribute 'دل' numeric
+@attribute 'یے' numeric
+@data
+{5 1,122 1,248 1,315 1,724 1,1105 1,1417 1}
+{212 1,304 1,406 1,500 1,946 1,1105 1,1257 1,1337 1}
+{0 1,1 1,136 1,142 1,279 1,454 1,778 1,865 1,959 1,1105 1}
+{4 1,5 1,78 1,140 1,142 1,536 1,900 1,1105 1,1122 1,1200 1,1444 1,1449 1}
+{5 1,429 1,503 1,551 1,576 1,692 1}
+{5 1,101 1,184 1,1016 1,1105 1,1226 1,1280 1}
+{4 1,650 1,819 1}
+{0 1,576 1,622 1,718 1,819 1,1400 1}
+{0 1,4 1,510 1,631 1,819 1,886 1,1070 1,1186 1}
+{5 1,120 1,184 1,274 1,568 1,999 1}
+{0 1,4 1,169 1,1425 1}
+{4 1,47 1,50 1,260 1,597 1,819 1,905 1,1451 1}
+{4 1,138 1,819 1,1411 1}
+{4 1,184 1,708 1,819 1,1310 1,1313 1}
+{0 1,389 1,461 1,503 1,511 1,615 1,819 1,1021 1,1084 1,1154 1,1168 1,1251 1,1376 1}
+{4 1,60 1,819 1}
+{0 1,1 1,312 1,704 1,819 1,998 1}
+{2 1,95 1,117 1,122 1,319 1,799 1,841 1,878 1,895 1}
+{3 1,84 1,743 1,910 1,958 1,1029 1,1152 1,1312 1,1330 1}
+{0 1,186 1,642 1,819 1,1080 1,1237 1}
+{13 1,553 1,588 1,737 1,756 1,763 1,765 1,819 1,973 1,1297 1}
+{4 1,46 1,151 1,164 1,221 1,503 1,562 1,711 1,965 1,1319 1,1320 1,1321 1}
+{3 1,819 1}
+{0 1,4 1,104 1,150 1,276 1,321 1,952 1,1143 1,1261 1,1450 1}
+{819 1}
+{0 1,184 1,788 1,807 1,819 1,950 1,1425 1}
+{0 1,576 1,674 1,718 1,819 1,1112 1,1187 1,1400 1}
+{5 1,174 1,175 1,819 1,910 1,1180 1,1467 1}
+{0 1,407 1,665 1,819 1,1206 1,1207 1}
+{3 1,52 1,186 1,403 1,819 1,870 1,1024 1,1331 1,1447 1,1449 1}
+{4 1,436 1,613 1,798 1,819 1,1312 1}
+{5 1,122 1,711 1,753 1,800 1,819 1,843 1,1094 1,1146 1,1235 1,1340 1}
+{4 1,60 1,819 1}
+{5 1,49 1,122 1,568 1,819 1,820 1,843 1,973 1,1175 1,1257 1,1297 1,1449 1}
+{0 1,718 1,732 1,819 1,1391 1}
+{0 1,1 1,605 1,740 1,819 1,1045 1}
+{747 1,819 1,1106 1}
+{4 1,456 1,591 1,819 1,883 1}
+{4 1,819 1,824 1,918 1}
+{5 1,281 1,308 1,819 1,1031 1,1238 1,1319 1}
+{0 1,5 1,98 1,276 1,819 1,941 1}
+{4 1,819 1}
+{4 1,364 1,819 1}
+{0 1,1 1,230 1,458 1,572 1,819 1,1115 1,1245 1,1284 1}
+{5 1,62 1,473 1,819 1,1047 1,1157 1,1239 1}
+{0 1,1 1,364 1,947 1,1277 1}
+{0 1,1 1,298 1,458 1,802 1,819 1,950 1,1084 1,1091 1,1206 1,1265 1,1275 1}
+{4 1,819 1}
+{0 1,1 1,94 1,387 1,659 1,733 1,924 1,1177 1,1286 1}
+{2 1,5 1,122 1,157 1,475 1,817 1,819 1}
+{2 1,288 1,473 1,478 1,743 1,1106 1,1221 1,1434 1}
+{5 1,140 1,185 1,365 1,392 1,468 1,503 1,581 1,741 1,819 1,1099 1,1275 1}
+{0 1,1 1,3 1,109 1,251 1,315 1,328 1,399 1,829 1,1177 1}
+{0 1,1 1,369 1,632 1,867 1,1013 1,1112 1,1378 1,1382 1}
+{0 1,1 1,622 1,691 1,1105 1,1125 1}
+{3 1,4 1,112 1,215 1,315 1,425 1,496 1,561 1,910 1,965 1,1105 1,1259 1,1262 1}
+{0 1,1 1,18 1,616 1,631 1,801 1,886 1,1010 1,1105 1,1277 1}
+{0 1,1 1,300 1,418 1,1105 1,1235 1}
+{0 1,1 1,3 1,184 1,397 1,425 1,690 1,760 1,955 1,1105 1}
+{3 1,4 1,540 1,1103 1,1105 1,1343 1,1466 1}
+{3 1,70 1,706 1,965 1,1105 1,1237 1,1417 1,1446 1}
+{0 1,1 1,72 1,687 1,1105 1,1300 1}
+{3 1,4 1,140 1,173 1,293 1,458 1,484 1,788 1,802 1,1191 1}
+{0 1,1 1,3 1,535 1,681 1,744 1,745 1,746 1,883 1,968 1,1091 1,1105 1}
+{0 1,1 1,728 1,910 1,1105 1}
+{0 1,1 1,208 1,329 1,707 1,738 1,798 1,987 1,1105 1,1288 1,1394 1}
+{4 1,159 1,402 1,499 1,1094 1,1215 1}
+{0 1,1 1,3 1,151 1,230 1,542 1,859 1,1105 1,1131 1,1154 1,1168 1,1289 1}
+{0 1,3 1,122 1,307 1,334 1,739 1,842 1}
+{5 1,63 1,81 1,915 1,965 1,999 1,1105 1}
+{3 1,4 1,403 1,818 1,910 1,1105 1,1237 1}
+{3 1,4 1,16 1,316 1,508 1,711 1,965 1,1105 1}
+{0 1,1 1,141 1,281 1,891 1,985 1,1061 1,1063 1,1105 1,1160 1}
+{0 1,1 1,3 1,164 1,239 1,315 1,521 1,714 1,749 1,788 1,1152 1}
+{3 1,4 1,120 1,213 1,711 1,965 1,1105 1}
+{0 1,3 1,712 1,714 1,965 1,1105 1,1237 1}
+{4 1,5 1,102 1,436 1,910 1,1105 1,1237 1,1450 1}
+{3 1,296 1,478 1,1105 1,1242 1,1454 1}
+{300 1,461 1}
+{3 1,4 1,276 1,1297 1,1378 1}
+{0 1,1 1,3 1,131 1,394 1,845 1,984 1,1070 1,1091 1}
+{0 1,1 1,909 1,941 1,1125 1}
+{3 1,15 1,109 1,910 1,1054 1,1105 1}
+{3 1,4 1,965 1,1105 1}
+{122 1,140 1,302 1,368 1,522 1,570 1,749 1,823 1,1105 1,1176 1,1234 1}
+{3 1,4 1,337 1,343 1,344 1,1105 1,1331 1}
+{3 1,4 1,209 1,588 1,924 1,1016 1,1105 1,1320 1}
+{1 1,3 1,430 1,829 1,1013 1,1105 1,1245 1}
+{3 1,140 1,503 1,965 1,1105 1,1183 1}
+{3 1,47 1,184 1,823 1,1105 1}
+{3 1,4 1,81 1,540 1,1103 1,1105 1,1343 1,1466 1}
+{1 1,3 1,495 1,787 1,965 1,1084 1,1105 1,1361 1}
+{0 1,1 1,493 1,717 1,1105 1,1248 1}
+{3 1,163 1,277 1,1031 1,1054 1,1136 1}
+{3 1,142 1,339 1,699 1,703 1,854 1,1105 1,1108 1,1173 1,1496 1}
+{1 1,3 1,129 1,252 1,302 1,313 1,462 1,1010 1,1045 1,1084 1,1105 1,1191 1,1462 1,1464 1}
+{3 1,132 1,217 1,409 1,616 1,680 1,978 1,1105 1}
+{3 1,4 1,754 1,1105 1}
+{4 1,448 1,458 1,509 1,659 1,802 1,936 1,1105 1,1449 1}
+{3 1,38 1,540 1,1019 1,1032 1,1105 1}
+{2 1,5 1,34 1,122 1,125 1,320 1,505 1,820 1,839 1,965 1,1064 1,1088 1,1105 1}
+{5 1,281 1,720 1,1105 1,1164 1}
+{3 1,4 1,281 1,649 1,1105 1,1164 1}
+{338 1,644 1,797 1,965 1,984 1,1105 1,1210 1,1364 1}
+{3 1,423 1,535 1,1105 1}
+{0 1,3 1,4 1,208 1,982 1,1084 1,1105 1,1125 1,1226 1,1401 1}
+{0 1,3 1,221 1,230 1,514 1,965 1,1482 1}
+{0 1,119 1,231 1,399 1,431 1}
+{5 1,185 1,926 1,1031 1,1105 1,1236 1,1451 1}
+{3 1,4 1,333 1,1105 1,1331 1}
+{0 1,1 1,61 1,379 1,459 1,613 1,718 1,1105 1}
+{0 1,95 1,1012 1,1105 1,1449 1}
+{0 1,1 1,301 1,465 1,741 1,1105 1,1177 1}
+{3 1,4 1,337 1,343 1,344 1,1105 1,1331 1}
+{3 1,4 1,1105 1,1237 1}
+{3 1,4 1,268 1,342 1,375 1,965 1,1105 1,1417 1,1481 1}
+{0 1,1 1,102 1,104 1,360 1,386 1,986 1,1105 1,1133 1,1143 1,1327 1,1351 1}
+{3 1,4 1,508 1,520 1,664 1,680 1,1105 1,1254 1,1449 1}
+{3 1,286 1,344 1,510 1,674 1,772 1,1105 1,1130 1,1461 1}
+{0 1,491 1,910 1,1105 1,1393 1}
+{0 1,1 1,3 1,278 1,622 1,716 1,1045 1,1084 1,1105 1,1421 1}
+{4 1,13 1,184 1,285 1,323 1,865 1,940 1,1105 1}
+{384 1,651 1,1105 1,1257 1}
+{0 1,1 1,149 1,166 1,465 1,466 1,585 1,1013 1,1048 1,1105 1,1291 1,1391 1}
+{1 1,3 1,4 1,428 1,599 1,615 1,617 1,649 1,711 1,850 1,950 1,1058 1,1105 1,1177 1}
+{1 1,3 1,108 1,196 1,464 1,622 1,992 1,1045 1,1084 1,1105 1,1133 1,1333 1}
+{1 1,3 1,49 1,253 1,510 1,553 1,1084 1,1105 1,1225 1,1464 1}
+{28 1,102 1,124 1,296 1,440 1}
+{0 1,1 1,20 1,174 1,512 1,529 1,1140 1,1404 1}
+{5 1,61 1,1105 1,1481 1}
+{5 1,482 1,1105 1}
+{4 1,391 1,516 1,823 1,855 1,1048 1,1287 1,1290 1,1434 1}
+{1 1,3 1,4 1,84 1,668 1,755 1,1169 1,1307 1}
+{1 1,3 1,357 1,1044 1,1105 1,1377 1}
+{0 1,1 1,3 1,142 1,201 1,384 1,1011 1,1031 1,1105 1}
+{0 1,1 1,379 1,802 1,1105 1,1128 1,1504 1}
+{0 1,1 1,3 1,174 1,184 1,441 1,1001 1,1235 1,1341 1}
+{5 1,11 1,142 1,208 1,503 1,965 1,1105 1}
+{3 1,4 1,304 1,328 1,613 1,910 1,1105 1,1177 1,1376 1,1434 1}
+{0 1,302 1,414 1,531 1,614 1,1010 1,1105 1,1462 1}
+{1 1,3 1,247 1,339 1,1312 1}
+{1 1,448 1,1152 1,1159 1}
+{3 1,112 1,172 1,215 1,315 1,425 1,496 1,561 1,910 1,965 1,1105 1,1259 1,1262 1}
+{3 1,4 1,47 1,184 1,616 1,631 1,931 1,1018 1,1105 1,1167 1,1177 1,1243 1,1310 1,1408 1,1449 1}
+{3 1,4 1,302 1,353 1,1105 1}
+{1 1,3 1,278 1,482 1,804 1,1084 1,1105 1,1421 1}
+{3 1,4 1,179 1,184 1,516 1,525 1,535 1,711 1,965 1,1105 1}
+{1 1,3 1,217 1,286 1,407 1,711 1,897 1,1105 1}
+{3 1,281 1,337 1,348 1,965 1,1075 1,1105 1,1277 1}
+{3 1,350 1,493 1,512 1,643 1,692 1,965 1,1105 1}
+{3 1,158 1,164 1,178 1,403 1,452 1,650 1,1131 1,1277 1,1288 1}
+{1 1,3 1,1105 1,1464 1}
+{3 1,432 1,510 1,872 1,965 1,1105 1}
+{0 1,184 1,448 1,1105 1,1235 1}
+{0 1,1 1,184 1,248 1,728 1,806 1,1105 1}
+{3 1,84 1,590 1,1105 1}
+{1 1,176 1,294 1,408 1,927 1,974 1,1105 1,1312 1}
+{3 1,498 1,718 1,732 1,954 1,1129 1,1136 1,1251 1}
+{3 1,4 1,13 1,255 1,1181 1,1426 1}
+{5 1,217 1,315 1,318 1,1091 1,1177 1,1388 1,1420 1,1496 1}
+{5 1,431 1,478 1,503 1,847 1}
+{2 1,150 1,205 1,276 1,478 1}
+{2 1,478 1}
+{0 1,1 1,122 1,334 1,615 1,1144 1,1177 1,1333 1}
+{0 1,1 1,3 1,201 1,425 1,484 1,548 1,707 1,716 1,744 1,798 1,987 1}
+{0 1,478 1,738 1,908 1,1333 1,1378 1}
+{3 1,67 1,503 1,510 1,549 1,632 1,674 1,825 1,1074 1}
+{1 1,3 1,4 1,458 1,535 1,593 1,1319 1}
+{4 1,459 1,680 1,854 1,1177 1,1196 1,1277 1,1402 1,1442 1,1447 1,1449 1}
+{2 1,140 1,295 1,478 1,806 1}
+{1 1,3 1,60 1,293 1,379 1,478 1,947 1,1047 1}
+{1 1,3 1,72 1,122 1,184 1,478 1,777 1,797 1}
+{3 1,184 1,622 1,1284 1}
+{2 1,122 1,478 1}
+{2 1,122 1,334 1,478 1,549 1,564 1,568 1,711 1,843 1}
+{3 1,4 1,81 1,478 1,531 1,895 1,969 1}
+{5 1,122 1,334 1,478 1,665 1,724 1,825 1}
+{2 1,3 1,478 1,508 1,896 1,1292 1}
+{92 1,478 1,905 1}
+{4 1,5 1,335 1,896 1,1296 1,1457 1}
+{1 1,4 1,276 1,331 1,369 1,407 1,438 1,478 1,1037 1,1133 1,1160 1,1333 1}
+{3 1,5 1,41 1,589 1,965 1,1331 1,1374 1}
+{5 1,359 1,478 1,823 1,860 1}
+{0 1,1 1,136 1,248 1,329 1,374 1,458 1,896 1,1030 1,1292 1}
+{3 1,4 1,122 1,276 1,318 1,478 1,792 1,1214 1,1312 1}
+{3 1,4 1,13 1,478 1,622 1,777 1,1174 1}
+{5 1,27 1,318 1,478 1,708 1,885 1,886 1,1056 1,1063 1,1391 1,1478 1}
+{2 1,478 1,494 1}
+{5 1,36 1,38 1,122 1,334 1,478 1,549 1,568 1,711 1,843 1}
+{5 1,478 1,563 1,576 1,717 1,790 1}
+{2 1,31 1,127 1,137 1,283 1,478 1,683 1,979 1,1287 1,1490 1}
+{1 1,3 1,4 1,222 1,278 1,332 1,478 1,634 1,1391 1}
+{4 1,357 1,448 1,478 1,592 1,778 1,1177 1,1259 1,1449 1}
+{5 1,93 1,122 1,129 1,285 1,475 1,503 1,576 1,954 1}
+{5 1,398 1,471 1,674 1,877 1,957 1,1197 1,1251 1}
+{3 1,475 1,816 1,852 1,932 1,1326 1,1333 1}
+{5 1,184 1,318 1,475 1}
+{4 1,5 1,62 1,475 1,831 1,1125 1}
+{4 1,13 1,184 1,500 1,518 1,1091 1,1333 1}
+{5 1,473 1,475 1,481 1,576 1,957 1,1011 1,1434 1}
+{4 1,5 1,337 1,473 1,475 1,516 1,521 1,522 1,622 1,825 1,1183 1,1189 1,1312 1}
+{3 1,140 1,203 1,270 1,475 1,493 1,658 1,663 1,680 1,833 1}
+{5 1,406 1,454 1,475 1,779 1,1180 1}
+{5 1,79 1,122 1,123 1,161 1,315 1,475 1,576 1,724 1,1152 1}
+{3 1,4 1,5 1,475 1,586 1,622 1}
+{3 1,4 1,5 1,13 1,116 1,422 1,463 1,475 1,512 1,1197 1}
+{5 1,385 1,475 1,930 1,1004 1,1367 1}
+{5 1,33 1,307 1,475 1,576 1,757 1,798 1,1274 1}
+{5 1,475 1,962 1,982 1,1037 1,1165 1,1312 1}
+{5 1,370 1,475 1,482 1,695 1,1152 1,1164 1,1166 1,1214 1}
+{5 1,475 1,708 1,917 1,1211 1,1284 1}
+{5 1,475 1,502 1}
+{5 1,475 1,589 1,801 1,1449 1}
+{4 1,5 1,13 1,364 1,436 1,473 1,697 1,1164 1,1310 1}
+{5 1,184 1,475 1,654 1,1484 1}
+{3 1,5 1,475 1,648 1,774 1,825 1,1091 1,1491 1}
+{3 1,436 1,475 1,484 1,1088 1,1481 1}
+{5 1,475 1,804 1,1434 1}
+{5 1,124 1,184 1,276 1,298 1,436 1,475 1,1256 1}
+{0 1,3 1,161 1,407 1,472 1,965 1,1185 1,1295 1}
+{74 1,88 1,150 1,315 1,435 1,445 1,724 1,843 1,845 1,1176 1,1496 1}
+{5 1,93 1,136 1,454 1,475 1,576 1,796 1,834 1,1011 1,1284 1,1392 1}
+{3 1,230 1,422 1,475 1,964 1}
+{3 1,164 1,230 1,414 1,475 1,891 1,1316 1}
+{5 1,475 1,996 1,1167 1,1297 1}
+{5 1,458 1,475 1,503 1,507 1,712 1,802 1,1496 1}
+{3 1,475 1,622 1,1055 1}
+{5 1,140 1,475 1,520 1,571 1,825 1,907 1,1352 1,1493 1}
+{5 1,247 1,475 1,1449 1,1468 1}
+{3 1,4 1,5 1,475 1,823 1,855 1,1047 1,1125 1,1237 1}
+{3 1,4 1,5 1,428 1,475 1,1205 1}
+{3 1,61 1,475 1,622 1,941 1,965 1,1294 1}
+{5 1,61 1,306 1,475 1,883 1,1377 1}
+{4 1,184 1,375 1,475 1,500 1,825 1,872 1}
+{5 1,116 1,162 1,475 1,493 1,649 1,724 1}
+{5 1,371 1,475 1,1432 1,1453 1}
+{5 1,475 1,547 1}
+{5 1,69 1,351 1,434 1,475 1,535 1,745 1,992 1,1144 1,1170 1,1289 1}
+{4 1,61 1,184 1,351 1,473 1,475 1,810 1,1008 1,1170 1,1259 1}
+{5 1,122 1,475 1,535 1,999 1}
+{5 1,318 1,351 1,475 1,507 1,535 1,1170 1}
+{4 1,184 1,308 1,475 1,584 1,697 1,979 1}
+{5 1,110 1,475 1,476 1,484 1,561 1,586 1,1039 1,1152 1}
+{5 1,13 1,178 1,256 1,465 1,521 1,632 1,806 1,1045 1,1154 1,1168 1,1177 1,1178 1,1289 1}
+{4 1,5 1,401 1,458 1,475 1,575 1,1068 1,1133 1,1145 1,1351 1,1458 1}
+{5 1,461 1,475 1,586 1,652 1,785 1,959 1,1131 1,1481 1}
+{5 1,122 1,143 1,475 1,503 1,1493 1}
+{5 1,461 1,475 1,494 1,1047 1}
+{5 1,364 1,475 1,503 1,595 1,616 1,948 1,1117 1,1451 1}
+{3 1,4 1,315 1,405 1,421 1,475 1,710 1,991 1,1068 1}
+{5 1,122 1,473 1,476 1,484 1,586 1,587 1,753 1,800 1,843 1,1094 1,1146 1}
+{5 1,110 1,419 1,475 1,476 1,484 1,564 1,586 1,954 1,1391 1}
+{5 1,500 1,558 1}
+{5 1,364 1,475 1,649 1}
+{5 1,60 1,348 1,475 1,477 1,496 1,1252 1,1310 1,1366 1}
+{0 1,155 1,164 1,392 1,674 1,721 1,1206 1,1219 1,1222 1,1267 1,1344 1,1414 1,1425 1}
+{3 1,475 1,493 1,510 1,1251 1}
+{4 1,5 1,475 1,510 1}
+{3 1,13 1,473 1,475 1,535 1,616 1,986 1}
+{5 1,175 1,365 1,475 1,535 1,584 1,882 1,898 1,1057 1,1107 1,1391 1}
+{5 1,122 1,184 1,475 1,1040 1}
+{3 1,122 1,334 1,358 1,365 1,475 1,499 1,510 1,972 1,986 1,1138 1,1392 1}
+{4 1,5 1,41 1,475 1,616 1,1065 1,1190 1}
+{5 1,122 1,326 1,790 1,840 1,1176 1}
+{3 1,4 1,55 1,473 1,475 1,510 1,621 1,881 1}
+{5 1,247 1,468 1,1247 1,1277 1,1360 1}
+{5 1,475 1,584 1,1047 1}
+{4 1,475 1}
+{5 1,475 1,503 1,561 1,1042 1}
+{5 1,34 1,122 1,475 1,658 1,665 1,790 1,804 1,878 1,945 1,1176 1,1217 1,1471 1}
+{0 1,4 1,12 1,44 1,292 1,659 1,886 1,1179 1,1277 1,1287 1}
+{1482 1}
+{3 1,80 1,215 1,475 1,616 1,703 1,1015 1,1034 1,1466 1}
+{7 1,88 1,122 1,179 1,184 1,435 1,514 1,535 1,753 1,800 1,843 1,882 1,1146 1}
+{140 1,287 1,350 1,475 1,619 1,644 1,742 1,799 1,1209 1,1461 1}
+{5 1,48 1,162 1,213 1,475 1,516 1,563 1,747 1,825 1,1436 1}
+{4 1,5 1,137 1,268 1,307 1,453 1,634 1,637 1,652 1,704 1,711 1,785 1}
+{5 1,51 1,301 1,561 1,677 1,743 1,1378 1}
+{20 1,184 1,205 1,392 1,535 1,555 1,1168 1,1350 1,1407 1}
+{4 1,5 1,370 1,475 1,1310 1}
+{3 1,4 1,5 1,475 1,616 1,799 1,1393 1}
+{5 1,577 1,1004 1,1245 1}
+{0 1,1 1,4 1,179 1,321 1,374 1,475 1,600 1,1179 1,1333 1,1440 1,1449 1}
+{61 1,379 1,475 1,921 1,1041 1,1101 1}
+{4 1,5 1,13 1,454 1,475 1,1046 1}
+{4 1,357 1,768 1,778 1,890 1,1171 1,1347 1}
+{5 1,475 1}
+{3 1,4 1,306 1,475 1,481 1,522 1,535 1,876 1,1058 1,1470 1}
+{5 1,475 1,1195 1,1200 1}
+{4 1,5 1,475 1,476 1,616 1,907 1,1449 1}
+{4 1,5 1,184 1,783 1,1073 1}
+{0 1,4 1,13 1,475 1,831 1,1181 1,1260 1}
+{3 1,4 1,184 1,475 1,503 1,692 1}
+{5 1,10 1,184 1,207 1,355 1,475 1,1133 1,1156 1,1171 1,1287 1,1320 1,1333 1}
+{5 1,163 1,179 1,230 1,364 1,475 1,518 1,520 1,616 1,1188 1}
+{3 1,4 1,79 1,365 1,475 1,514 1,536 1,1057 1,1369 1}
+{4 1,5 1,401 1,458 1,475 1,575 1,582 1,747 1,996 1,1031 1,1134 1,1145 1,1351 1}
+{5 1,102 1,104 1,458 1,751 1,802 1,1132 1,1143 1,1158 1,1169 1,1351 1}
+{4 1,5 1,102 1,357 1,458 1,475 1,653 1,802 1,852 1,987 1,1450 1}
+{5 1,475 1,658 1,910 1,1041 1}
+{5 1,13 1,461 1,475 1,910 1,1021 1}
+{3 1,4 1,130 1,475 1,476 1,525 1,875 1,955 1,1364 1}
+{348 1,780 1,984 1,985 1}
+{4 1,13 1,60 1,475 1,525 1,693 1,884 1,1461 1}
+{5 1,583 1,1237 1,1287 1}
+{4 1,5 1,14 1,184 1,402 1,413 1,475 1,616 1,1133 1,1333 1}
+{3 1,510 1,525 1,693 1,719 1,905 1,907 1,1077 1,1081 1,1103 1,1251 1}
+{5 1,59 1,122 1,364 1,475 1,990 1}
+{3 1,7 1,475 1,825 1}
+{4 1,637 1,651 1,692 1,828 1,1040 1,1300 1,1387 1,1481 1}
+{4 1,5 1,364 1,475 1,658 1,932 1,1435 1}
+{3 1,4 1,55 1,473 1,475 1,510 1,881 1}
+{3 1,4 1,140 1,313 1,961 1,1180 1}
+{4 1,5 1,13 1,209 1,232 1,1078 1}
+{5 1,46 1,122 1,167 1,217 1,631 1,957 1,1277 1}
+{5 1,276 1,475 1,957 1,1284 1}
+{3 1,4 1,103 1,330 1,364 1,365 1,407 1,475 1,986 1,1147 1}
+{3 1,4 1,61 1,69 1,475 1,535 1,819 1,1167 1}
+{5 1,77 1,400 1,475 1,503 1,510 1,616 1,1245 1,1461 1}
+{5 1,93 1,454 1,576 1,796 1,1011 1,1284 1,1392 1}
+{5 1,122 1,163 1,436 1,473 1,475 1,476 1,636 1,957 1,1101 1,1176 1,1461 1}
+{5 1,424 1,448 1,473 1,475 1,484 1,548 1,1081 1}
+{5 1,475 1}
+{0 1,1 1,177 1,179 1,475 1,774 1,962 1,1059 1,1128 1,1169 1,1305 1,1351 1,1355 1,1499 1}
+{5 1,413 1,475 1,622 1,1297 1}
+{4 1,101 1,475 1,512 1,691 1,1284 1,1308 1}
+{0 1,1 1,50 1,475 1,511 1,523 1,930 1,1059 1,1128 1,1169 1,1480 1,1499 1}
+{5 1,475 1}
+{3 1,4 1,43 1,220 1,262 1,354 1,1425 1}
+{0 1,1 1,184 1,475 1,908 1,1483 1}
+{4 1,5 1,175 1,306 1,425 1,723 1,1180 1,1305 1}
+{3 1,4 1,515 1,1152 1,1177 1}
+{3 1,4 1,403 1,475 1,584 1,866 1,969 1}
+{5 1,342 1,500 1,560 1,616 1,742 1,1193 1}
+{3 1,4 1,276 1,475 1,649 1,734 1,747 1,1333 1,1424 1,1425 1}
+{5 1,157 1,630 1,648 1,909 1}
+{4 1,80 1,184 1}
+{3 1,315 1,330 1,493 1,503 1,536 1,1103 1,1253 1,1455 1}
+{3 1,4 1,80 1,649 1,733 1,1017 1,1449 1}
+{4 1,5 1,80 1,421 1,492 1,616 1,897 1,1016 1,1082 1,1282 1,1461 1}
+{3 1,4 1,56 1,80 1,386 1,597 1,620 1,631 1,1224 1}
+{3 1,9 1,38 1,80 1,380 1,456 1,503 1,583 1,899 1,1214 1,1241 1,1320 1}
+{3 1,4 1,80 1,457 1}
+{3 1,4 1,80 1,350 1,510 1,514 1,825 1}
+{5 1,80 1,122 1,435 1,462 1,753 1,800 1,1146 1,1176 1,1214 1}
+{3 1,4 1,38 1,39 1,287 1,360 1,472 1,536 1,1282 1}
+{4 1,61 1,80 1}
+{3 1,4 1,15 1,80 1,179 1,349 1,463 1,579 1,711 1}
+{2 1,179 1,525 1,615 1,693 1,948 1,1255 1}
+{3 1,38 1,58 1,80 1,366 1,490 1,503 1,719 1,1307 1}
+{3 1,80 1,260 1}
+{3 1,80 1,191 1,967 1,1449 1}
+{3 1,4 1,13 1,37 1,56 1,65 1,80 1,503 1}
+{3 1,4 1,38 1,80 1,579 1,1282 1,1395 1}
+{4 1,60 1,80 1,630 1,632 1,1238 1}
+{3 1,80 1,315 1,861 1}
+{3 1,4 1,80 1,251 1,311 1,315 1,333 1,956 1,1148 1,1440 1}
+{3 1,4 1,41 1,47 1,159 1,212 1,315 1,359 1,750 1}
+{3 1,80 1,330 1,509 1,583 1,721 1,1241 1,1302 1,1368 1}
+{4 1,80 1,1164 1,1168 1}
+{3 1,4 1,80 1,631 1,643 1}
+{3 1,56 1,80 1,114 1,164 1,597 1,828 1,899 1,1091 1,1249 1}
+{80 1,140 1,462 1,477 1,493 1,887 1,1352 1}
+{3 1,80 1,709 1}
+{3 1,4 1,783 1,1183 1,1449 1}
+{3 1,4 1,80 1,525 1,995 1,1357 1,1370 1,1434 1}
+{3 1,4 1,80 1,525 1,995 1,1357 1,1370 1,1434 1}
+{3 1,79 1,80 1,382 1,622 1,674 1,1281 1,1282 1}
+{3 1,84 1,364 1,512 1,621 1,825 1,1258 1}
+{3 1,80 1,87 1,579 1,1282 1}
+{3 1,4 1,153 1,354 1,641 1,919 1,1005 1,1379 1}
+{4 1,80 1}
+{3 1,80 1,98 1,325 1,510 1,914 1,919 1,1357 1,1468 1}
+{3 1,80 1,433 1,619 1,1017 1}
+{3 1,80 1,135 1,233 1,315 1,373 1,493 1,578 1,581 1,597 1,714 1}
+{3 1,308 1,346 1,421 1,503 1,616 1,966 1,1409 1}
+{3 1,56 1,315 1,503 1,583 1,649 1,1091 1,1271 1}
+{3 1,80 1,595 1,940 1,1198 1,1413 1}
+{3 1,13 1,80 1,308 1,516 1,553 1,1039 1,1434 1}
+{3 1,80 1,81 1,503 1,547 1,553 1,625 1,1064 1,1208 1,1395 1}
+{3 1,4 1,13 1,80 1,510 1}
+{3 1,80 1,643 1,666 1,685 1,815 1,1201 1,1251 1,1274 1}
+{3 1,4 1,24 1,80 1,556 1,733 1,1228 1,1489 1}
+{3 1,62 1,80 1,164 1,590 1,1091 1}
+{3 1,80 1,284 1,333 1,595 1,932 1,956 1,1312 1}
+{4 1,80 1,161 1,579 1,1007 1,1141 1,1319 1,1455 1,1494 1}
+{3 1,80 1,263 1,284 1,332 1,801 1}
+{3 1,80 1,315 1,583 1,643 1,783 1,879 1,1068 1}
+{3 1,4 1,36 1,80 1,503 1,536 1,777 1,1282 1}
+{3 1,56 1,80 1,386 1,597 1,620 1,631 1,1224 1}
+{3 1,80 1,1152 1}
+{3 1,80 1,81 1,643 1,701 1,1205 1}
+{3 1,80 1,535 1,991 1,1299 1}
+{3 1,80 1,493 1,887 1,979 1,1283 1}
+{3 1,80 1,643 1,701 1,1205 1}
+{3 1,4 1,80 1,794 1,1382 1}
+{5 1,34 1,46 1,80 1,473 1,500 1,525 1,616 1,648 1,656 1,825 1,1410 1,1449 1}
+{4 1,80 1,233 1,537 1,953 1,1425 1,1451 1}
+{3 1,4 1,80 1,706 1}
+{3 1,80 1,383 1,569 1,620 1,624 1,1063 1,1105 1,1130 1,1424 1}
+{4 1,5 1,80 1,164 1,324 1,392 1,1242 1,1473 1}
+{3 1,4 1,80 1,212 1,286 1,583 1,649 1,1241 1}
+{3 1,4 1,80 1,506 1,710 1,1357 1}
+{5 1,80 1,346 1,674 1,719 1,1272 1}
+{3 1,4 1,80 1,266 1,490 1,1046 1,1152 1,1299 1,1372 1}
+{80 1,184 1,462 1,1352 1,1384 1}
+{3 1,773 1,1488 1}
+{3 1,4 1,80 1,315 1}
+{5 1,122 1,303 1,468 1,561 1,673 1,1196 1}
+{4 1,5 1,19 1,50 1,79 1,518 1,519 1,1376 1}
+{4 1,80 1}
+{3 1,80 1,503 1,633 1}
+{3 1,4 1,80 1,476 1,503 1}
+{3 1,4 1,40 1,80 1,155 1,390 1,595 1,1493 1}
+{4 1,80 1,1391 1,1442 1}
+{4 1,80 1,353 1,440 1}
+{4 1,80 1,457 1,578 1,691 1,825 1,988 1}
+{3 1,38 1,80 1,535 1,664 1,932 1}
+{3 1,315 1,619 1,677 1,1175 1,1290 1}
+{3 1,4 1,80 1,854 1,1003 1}
+{3 1,80 1,510 1,709 1,1109 1}
+{3 1,4 1,80 1,286 1,516 1,525 1,535 1,1313 1}
+{3 1,80 1,1431 1,1494 1}
+{3 1,285 1,503 1,528 1,1087 1,1378 1,1425 1,1493 1}
+{3 1,4 1,80 1,783 1}
+{3 1,80 1,186 1,503 1,665 1,1269 1,1379 1,1467 1}
+{3 1,80 1,230 1,254 1,1061 1,1167 1,1501 1}
+{3 1,4 1,80 1,556 1,558 1,685 1,733 1,1228 1}
+{3 1,80 1,81 1,164 1,284 1,333 1,595 1,932 1,956 1,1312 1}
+{3 1,80 1,215 1,319 1,475 1,616 1,703 1,1015 1,1034 1,1449 1,1466 1}
+{4 1,184 1,452 1,541 1,1035 1,1252 1}
+{4 1,452 1,807 1}
+{4 1,184 1,296 1,447 1,448 1,452 1,632 1,1120 1,1493 1}
+{3 1,4 1,16 1,81 1,184 1,452 1,503 1,801 1,1163 1}
+{4 1,452 1}
+{4 1,452 1,458 1,1312 1,1313 1}
+{4 1,179 1,364 1,497 1,1176 1,1258 1}
+{3 1,4 1,184 1,448 1,516 1,1177 1,1357 1}
+{4 1,5 1,92 1,149 1,452 1,1391 1}
+{1 1,3 1,4 1,184 1,452 1,732 1,1195 1,1297 1,1324 1,1412 1}
+{4 1,5 1,9 1,452 1,536 1,707 1,973 1,991 1,1109 1}
+{1 1,4 1,120 1,184 1,452 1,1245 1,1284 1}
+{4 1,149 1,452 1}
+{0 1,5 1,141 1,367 1}
+{0 1,4 1,1235 1,1432 1}
+{0 1,1 1,4 1,60 1,268 1,452 1,536 1,1440 1,1449 1}
+{4 1,16 1,205 1,298 1,452 1,531 1,714 1,777 1,1202 1}
+{3 1,4 1,79 1,184 1,284 1,405 1,452 1,619 1,914 1,991 1,1036 1,1489 1}
+{140 1,276 1,634 1,1277 1,1480 1}
+{4 1,5 1,120 1,184 1,446 1,452 1,785 1,1007 1,1013 1,1048 1,1341 1,1386 1}
+{4 1,47 1,61 1,452 1,470 1,535 1,622 1,853 1}
+{4 1,9 1,452 1}
+{4 1,149 1,276 1,452 1,801 1,1175 1}
+{4 1,452 1,1196 1,1214 1}
+{4 1,13 1,149 1,208 1,452 1,721 1,1065 1}
+{3 1,4 1,134 1,452 1,469 1,481 1,981 1,1130 1}
+{4 1,452 1,797 1,1018 1,1502 1}
+{3 1,4 1,184 1,304 1,452 1}
+{3 1,4 1,134 1,452 1,469 1,481 1,737 1,981 1,1130 1}
+{3 1,4 1}
+{122 1,536 1,799 1,1045 1,1139 1}
+{4 1,200 1,375 1,444 1,508 1,909 1,941 1,947 1,1137 1,1189 1}
+{4 1,239 1,276 1,452 1,456 1,678 1,1084 1}
+{4 1,452 1,536 1}
+{3 1,452 1,623 1,789 1,794 1,1052 1}
+{4 1,15 1,65 1,108 1,184 1,622 1,634 1,783 1,801 1,1312 1}
+{4 1,45 1,658 1,1125 1}
+{4 1,13 1,61 1,162 1,184 1,452 1,458 1,465 1,802 1,1326 1,1380 1,1449 1}
+{3 1,4 1,184 1,256 1,452 1,1399 1,1419 1}
+{3 1,12 1,222 1,452 1,461 1,639 1,674 1,1063 1,1193 1}
+{3 1,164 1,311 1,452 1,539 1,1363 1}
+{3 1,4 1,184 1,452 1,1416 1}
+{4 1,16 1,452 1,453 1,555 1,616 1,745 1,933 1,1202 1}
+{4 1,452 1}
+{0 1,1 1,4 1,19 1,131 1,180 1,268 1,270 1,276 1,634 1,1206 1,1274 1}
+{0 1,1 1,4 1,19 1,131 1,180 1,268 1,270 1,276 1,634 1,1274 1}
+{3 1,4 1,308 1,452 1,649 1,835 1,1417 1}
+{4 1,896 1,1049 1,1393 1}
+{0 1,1 1,151 1,510 1,630 1,1168 1,1206 1,1235 1,1354 1,1365 1}
+{4 1,452 1,1047 1,1102 1,1284 1}
+{4 1,634 1,1004 1,1107 1,1108 1,1367 1}
+{184 1,452 1,962 1,1038 1,1169 1,1351 1}
+{4 1,5 1,452 1,779 1,817 1}
+{3 1,4 1,452 1,610 1,616 1}
+{4 1,16 1,77 1,78 1,173 1,758 1}
+{4 1,318 1,452 1,494 1,1471 1}
+{3 1,4 1,71 1,109 1,367 1,452 1,622 1,1131 1}
+{4 1,452 1}
+{4 1,452 1}
+{4 1,5 1,13 1,452 1,525 1,536 1,634 1,781 1,1196 1}
+{3 1,4 1,452 1,875 1,876 1}
+{4 1,184 1,658 1,1144 1,1494 1}
+{4 1,442 1,452 1,604 1,737 1,1215 1}
+{3 1,4 1,109 1,249 1,452 1,886 1,1036 1,1181 1,1333 1}
+{3 1,4 1,310 1,452 1,955 1}
+{1 1,3 1,4 1,173 1,184 1,475 1,525 1,857 1,962 1,1169 1,1310 1,1333 1}
+{1 1,3 1,4 1,13 1,41 1,142 1,237 1,362 1,437 1,452 1,512 1,1091 1,1197 1}
+{3 1,13 1,171 1,232 1,526 1,537 1,771 1,1013 1,1104 1,1464 1}
+{3 1,4 1,37 1,452 1,512 1,538 1,899 1,975 1}
+{0 1,1 1,3 1,22 1,453 1,605 1}
+{4 1,149 1,324 1,452 1,741 1,759 1,1133 1,1221 1,1333 1}
+{4 1,452 1,885 1,1459 1}
+{4 1,13 1,452 1,510 1,1144 1}
+{4 1,452 1,936 1,977 1,1343 1}
+{4 1,112 1,301 1,878 1,1176 1,1352 1}
+{0 1,1 1,3 1,4 1,452 1,613 1,717 1,758 1,1112 1,1267 1,1270 1,1312 1}
+{4 1,41 1,316 1,403 1,452 1,555 1,649 1,729 1,786 1,835 1,1362 1}
+{4 1,26 1,95 1,149 1,184 1,452 1}
+{1 1,3 1,4 1,76 1,149 1,201 1,452 1,513 1,633 1,859 1}
+{4 1,452 1,886 1,1242 1,1459 1}
+{0 1,1 1,4 1,184 1,452 1,1268 1,1399 1,1499 1}
+{3 1,112 1,164 1,224 1,452 1,487 1,795 1,1113 1,1149 1,1500 1}
+{3 1,4 1,164 1,330 1,452 1,733 1}
+{3 1,4 1,31 1,328 1,338 1,452 1,886 1}
+{3 1,4 1,232 1,517 1,569 1,614 1,632 1,789 1,1091 1,1105 1,1140 1,1175 1}
+{3 1,4 1,271 1,452 1,521 1,622 1,856 1,1103 1,1115 1,1125 1,1399 1}
+{3 1,4 1,37 1,452 1,512 1,538 1,899 1,975 1,1472 1}
+{3 1,4 1,103 1,452 1,1385 1,1481 1,1489 1}
+{3 1,4 1,452 1,579 1,847 1,939 1}
+{4 1,98 1,276 1,452 1,851 1}
+{3 1,4 1,157 1,184 1,452 1,460 1,589 1,619 1,674 1}
+{3 1,4 1,109 1,452 1,503 1}
+{1 1,3 1,4 1,387 1,402 1,452 1,465 1,510 1,668 1,913 1,1150 1,1286 1}
+{4 1,173 1,184 1,442 1,452 1,565 1,592 1,897 1,1265 1}
+{0 1,1 1,4 1,201 1,452 1,458 1,910 1,1153 1,1211 1,1334 1}
+{1 1,3 1,4 1,452 1,745 1,788 1,936 1,1153 1}
+{4 1,347 1,452 1,674 1}
+{3 1,4 1,452 1,623 1,789 1,794 1,1052 1}
+{0 1,1 1,4 1,106 1,457 1,1002 1,1075 1,1172 1,1307 1,1494 1}
+{3 1,4 1,452 1,1052 1}
+{4 1,347 1,452 1,674 1}
+{4 1,452 1,586 1,1394 1}
+{4 1,5 1,128 1,452 1,827 1}
+{3 1,4 1,330 1,452 1,1109 1}
+{1 1,3 1,4 1,448 1,452 1,668 1,698 1}
+{4 1,5 1,266 1,299 1,452 1}
+{0 1,1 1,3 1,897 1,1031 1}
+{1 1,3 1,4 1,39 1,402 1,451 1,633 1}
+{1 1,3 1,4 1,61 1,184 1,452 1,668 1,680 1,1275 1}
+{1 1,3 1,4 1,145 1,323 1,452 1,536 1,687 1,1181 1}
+{4 1,165 1,184 1,368 1,452 1,786 1,910 1,1019 1,1260 1}
+{3 1,4 1,60 1,76 1,268 1,452 1,983 1,1045 1,1144 1,1177 1}
+{4 1,452 1,707 1,798 1,958 1,982 1,987 1,1245 1}
+{3 1,4 1,452 1,1036 1,1369 1}
+{3 1,4 1,452 1,1036 1,1369 1}
+{3 1,4 1,184 1,452 1,604 1,780 1,972 1,985 1,1045 1}
+{0 1,1 1,4 1,149 1,184 1,452 1,465 1,778 1,1128 1,1308 1}
+{0 1,1 1,4 1,149 1,465 1,778 1,802 1,886 1,1128 1,1133 1,1138 1,1333 1}
+{3 1,4 1,364 1,452 1,535 1,1277 1}
+{3 1,4 1,452 1,609 1,1389 1}
+{3 1,4 1,149 1,452 1,503 1,1162 1,1321 1}
+{0 1,1 1,4 1,122 1,161 1,452 1,632 1,936 1,1191 1}
+{3 1,4 1,649 1,688 1,708 1}
+{2 1,303 1,1299 1}
+{2 1,4 1,448 1,670 1,1133 1,1151 1,1299 1,1333 1}
+{2 1,4 1,154 1,355 1,404 1,535 1,1085 1,1273 1,1299 1}
+{2 1,122 1,334 1,398 1,483 1,568 1,622 1,753 1,799 1,800 1,843 1,1146 1,1284 1,1299 1}
+{2 1,3 1,53 1,297 1,517 1,694 1,965 1,1299 1,1475 1}
+{0 1,1 1,122 1,447 1,666 1,896 1}
+{2 1,122 1,334 1,422 1,454 1,790 1,1019 1,1415 1}
+{2 1,3 1,37 1,1038 1,1138 1,1299 1,1451 1}
+{2 1,3 1,60 1,616 1,709 1,825 1,910 1,986 1,1262 1,1299 1,1409 1,1425 1}
+{4 1,301 1,315 1,326 1,438 1,478 1,798 1,973 1,985 1,1299 1}
+{2 1,3 1,169 1,212 1,251 1,535 1,790 1}
+{2 1,122 1,171 1,490 1,616 1,1285 1,1299 1}
+{2 1,3 1,4 1,406 1,1064 1,1299 1,1304 1,1417 1}
+{2 1,4 1,500 1,503 1,688 1,1210 1,1299 1,1449 1}
+{2 1,3 1,264 1,365 1,1299 1}
+{2 1,51 1,122 1,503 1,549 1,910 1,1299 1}
+{2 1,3 1,258 1,1194 1,1299 1}
+{2 1,298 1,990 1,1101 1,1299 1,1373 1}
+{0 1,1 1,4 1,293 1,512 1,516 1,761 1,952 1,1133 1,1299 1}
+{2 1,3 1,38 1,56 1,99 1,478 1,503 1,701 1,1299 1}
+{2 1,3 1,36 1,37 1,547 1,658 1,680 1,1299 1}
+{72 1,102 1,184 1,254 1,257 1,918 1,1440 1}
+{2 1,3 1,311 1,373 1,629 1,1299 1,1320 1}
+{1 1,3 1,4 1,512 1,896 1,973 1,1045 1,1134 1,1144 1,1296 1,1299 1,1376 1}
+{0 1,1 1,250 1,444 1,455 1,708 1,718 1,732 1,802 1,1128 1,1405 1}
+{2 1,3 1,265 1,619 1,686 1,1299 1}
+{2 1,579 1,690 1,1175 1,1294 1,1299 1}
+{2 1,309 1,721 1,1299 1}
+{2 1,3 1,169 1,238 1,348 1,1063 1,1299 1,1341 1,1425 1}
+{2 1,122 1,170 1,490 1,711 1,1101 1,1285 1,1299 1,1314 1,1440 1}
+{2 1,1299 1,1368 1}
+{2 1,39 1,535 1,671 1,685 1,739 1,1299 1,1481 1}
+{2 1,1167 1,1299 1,1481 1}
+{2 1,3 1,4 1,13 1,184 1,230 1,608 1,1014 1,1378 1,1497 1}
+{2 1,50 1,416 1,507 1,565 1,616 1,617 1,1068 1,1087 1,1152 1,1299 1}
+{2 1,86 1,379 1,788 1,1046 1,1154 1,1168 1,1235 1,1288 1,1299 1,1301 1,1449 1}
+{2 1,4 1,255 1,407 1,1299 1,1417 1}
+{1 1,3 1,512 1,717 1,1091 1,1133 1,1179 1,1299 1,1309 1,1333 1}
+{2 1,5 1,337 1,512 1,819 1,1299 1,1344 1,1469 1}
+{2 1,184 1,240 1,770 1,1200 1,1267 1,1299 1}
+{2 1,3 1,13 1,184 1,230 1,608 1,1014 1,1378 1,1497 1}
+{2 1,4 1,177 1,594 1,696 1,735 1,897 1,1277 1,1299 1,1351 1}
+{3 1,4 1,512 1,717 1,1091 1,1133 1,1179 1,1299 1,1309 1,1333 1}
+{2 1,3 1,131 1,288 1,304 1,585 1,818 1,995 1,1299 1,1351 1}
+{5 1,316 1,358 1,1299 1}
+{2 1,3 1,586 1,587 1,819 1,942 1,1011 1,1162 1,1247 1,1299 1,1360 1,1492 1}
+{2 1,3 1,1299 1,1350 1,1451 1,1484 1}
+{5 1,89 1,181 1,541 1,646 1,742 1,812 1,873 1,968 1,1117 1,1119 1}
+{3 1,164 1,386 1,617 1,1299 1,1425 1}
+{2 1,227 1,731 1,738 1}
+{5 1,13 1,181 1,935 1,1118 1,1425 1}
+{2 1,3 1,264 1,282 1,503 1,1254 1,1299 1}
+{1 1,4 1,254 1,806 1,896 1,1292 1,1299 1,1380 1,1449 1}
+{2 1,3 1,11 1,95 1,247 1,455 1,708 1,781 1,1129 1,1299 1,1376 1,1392 1,1406 1}
+{2 1,3 1,81 1,330 1,430 1,1299 1}
+{4 1,278 1,530 1,559 1,715 1,933 1,1361 1}
+{2 1,3 1,52 1,375 1,560 1,779 1,789 1,1091 1,1299 1}
+{1 1,3 1,4 1,247 1,770 1,1063 1,1297 1,1443 1,1448 1,1449 1}
+{2 1,4 1,13 1,60 1,658 1,1130 1,1299 1}
+{3 1,238 1,510 1,698 1,745 1,874 1,941 1,1145 1,1192 1}
+{2 1,3 1,375 1,381 1,468 1,500 1,632 1,1299 1}
+{2 1,122 1,170 1,490 1,1285 1,1299 1}
+{2 1,3 1,359 1,364 1,631 1,755 1,757 1,1297 1,1299 1,1326 1,1458 1}
+{5 1,74 1,85 1,95 1,106 1,703 1,872 1,1325 1}
+{3 1,4 1,478 1,512 1,806 1,1299 1,1333 1}
+{2 1,3 1,375 1,381 1,473 1,500 1,632 1,1299 1}
+{2 1,107 1,122 1,640 1,888 1,1063 1,1299 1}
+{5 1,649 1,1171 1,1299 1}
+{2 1,3 1,658 1,758 1,1163 1,1299 1}
+{4 1,5 1,662 1,735 1,738 1,818 1,1045 1,1144 1,1277 1,1425 1}
+{1 1,3 1,4 1,253 1,682 1,910 1,1050 1,1279 1,1470 1}
+{1 1,2 1,3 1,4 1,41 1,184 1,301 1,758 1,806 1,1299 1,1361 1}
+{5 1,242 1,696 1,714 1,897 1,1106 1,1133 1,1277 1,1299 1,1333 1}
+{3 1,62 1,553 1,631 1,801 1,986 1,1425 1,1467 1}
+{3 1,82 1,84 1,364 1,1005 1,1405 1}
+{2 1,3 1,112 1,125 1,360 1,825 1,889 1,986 1,1299 1}
+{242 1,696 1,714 1,897 1,1106 1,1133 1,1277 1,1299 1,1333 1}
+{0 1,1 1,249 1,280 1,523 1,746 1,908 1,1129 1,1144 1,1351 1,1380 1}
+{0 1,1 1,484 1,738 1,1245 1,1299 1,1333 1,1415 1}
+{2 1,179 1,243 1,364 1,522 1,561 1,911 1,990 1,1242 1}
+{2 1,3 1,579 1,580 1,1299 1}
+{2 1,3 1,230 1,1299 1,1449 1,1503 1}
+{2 1,3 1,273 1,460 1,671 1,733 1,1299 1,1503 1}
+{2 1,3 1,70 1,264 1,282 1,503 1,1299 1,1449 1}
+{5 1,122 1,255 1,258 1,535 1,617 1,1299 1}
+{2 1,3 1,4 1,139 1,209 1,232 1,537 1,588 1,685 1,1274 1,1299 1}
+{5 1,111 1,220 1,242 1,1299 1}
+{2 1,5 1,298 1,990 1,1101 1,1299 1,1373 1}
+{5 1,213 1,512 1,858 1,860 1,910 1,1299 1,1314 1}
+{0 1,1 1,238 1,499 1,922 1,1218 1,1299 1}
+{0 1,1 1,1086 1,1144 1,1299 1}
+{3 1,4 1,369 1,387 1,389 1,635 1,842 1,1242 1,1286 1,1401 1}
+{2 1,3 1,53 1,297 1,517 1,694 1,965 1,1299 1,1475 1}
+{2 1,3 1,262 1,412 1,676 1,1111 1,1299 1,1425 1}
+{0 1,1 1,320 1,557 1,711 1,807 1,1299 1,1414 1}
+{3 1,13 1,219 1,921 1,968 1}
+{4 1,19 1,536 1,1202 1,1299 1}
+{4 1,164 1,354 1,510 1,553 1,674 1,1299 1}
+{0 1,1 1,3 1,154 1,771 1,874 1,1045 1,1204 1}
+{0 1,1 1,122 1,505 1,622 1,910 1,1299 1}
+{0 1,1 1,5 1,20 1,75 1,179 1,413 1,718 1,1112 1,1177 1,1299 1,1449 1}
+{5 1,179 1,303 1,1094 1,1299 1}
+{4 1,658 1,794 1,1185 1,1255 1,1298 1,1299 1,1333 1}
+{5 1,162 1,321 1,353 1,1125 1,1299 1}
+{0 1,1 1,33 1,708 1,886 1,985 1,1299 1}
+{5 1,85 1,184 1,230 1,251 1,375 1,631 1,1050 1,1299 1,1370 1}
+{3 1,11 1,266 1,373 1,1136 1,1324 1,1412 1}
+{3 1,207 1,621 1,684 1,849 1,864 1,910 1,1183 1,1299 1}
+{2 1,3 1,415 1,422 1,480 1,516 1,894 1,990 1,1019 1,1057 1,1299 1}
+{5 1,443 1,535 1,557 1,1056 1,1299 1}
+{1 1,3 1,458 1,802 1}
+{3 1,256 1,438 1,584 1,654 1,1282 1,1299 1,1452 1}
+{3 1,583 1,875 1,999 1,1090 1,1188 1,1299 1}
+{503 1,509 1,1425 1,1430 1,1473 1}
+{0 1,1 1,158 1,458 1,510 1,553 1,802 1,946 1,1220 1,1299 1}
+{5 1,170 1,296 1,602 1,749 1,755 1,1191 1,1299 1,1378 1}
+{5 1,415 1,422 1,480 1,516 1,894 1,990 1,1019 1,1057 1,1299 1}
+{3 1,416 1,503 1,616 1,617 1,1299 1}
+{1 1,3 1,4 1,13 1,27 1,434 1,461 1,510 1,606 1,731 1,744 1,745 1,942 1,1025 1,1051 1,1192 1,1299 1,1449 1}
+{3 1,265 1,686 1,1299 1}
+{5 1,122 1,490 1,616 1,621 1,706 1,1299 1}
+{2 1,560 1,626 1,1299 1}
+{5 1,18 1,89 1,426 1,641 1,812 1,1063 1,1293 1,1299 1,1454 1,1482 1}
+{1257 1,1299 1,1312 1,1333 1}
+{2 1,3 1,503 1,561 1,1000 1,1138 1,1152 1,1299 1}
+{3 1,140 1,627 1,632 1,915 1,1182 1,1379 1}
+{0 1,1 1,448 1,592 1,707 1,798 1,902 1,987 1,1047 1,1299 1,1333 1}
+{5 1,18 1,89 1,426 1,641 1,812 1,1063 1,1293 1,1299 1,1454 1,1482 1}
+{0 1,1 1,256 1,502 1,1108 1,1304 1}
+{5 1,13 1,181 1,200 1,352 1,441 1,742 1,925 1,937 1,938 1,1060 1,1299 1,1328 1}
+{3 1,207 1,684 1,849 1,864 1,910 1,1181 1,1299 1}
+{3 1,899 1,965 1,1279 1,1299 1,1470 1}
+{14 1,180 1,947 1,953 1,1063 1,1152 1,1277 1}
+{3 1,654 1,1299 1}
+{3 1,38 1,99 1,1147 1,1279 1,1381 1,1401 1,1434 1}
+{38 1,791 1,1299 1,1325 1,1374 1}
+{0 1,1 1,18 1,376 1,802 1,823 1,1011 1,1094 1,1128 1,1355 1,1379 1}
+{5 1,213 1,512 1,858 1,860 1,910 1,1299 1,1314 1}
+{3 1,135 1,910 1,1299 1}
+{1 1,3 1,13 1,27 1,434 1,461 1,510 1,606 1,731 1,744 1,745 1,942 1,1025 1,1051 1,1192 1,1299 1,1449 1}
+{5 1,415 1,421 1,422 1,480 1,894 1,905 1,990 1,1019 1,1057 1,1192 1,1299 1}
+{26 1,105 1,240 1,1305 1,1341 1}
+{463 1,510 1,711 1,742 1,948 1,1130 1}
+{5 1,503 1,649 1,654 1,695 1,706 1,1074 1,1103 1}
+{3 1,38 1,649 1,1047 1,1299 1,1376 1}
+{3 1,4 1,274 1,338 1,622 1,916 1,949 1,1037 1,1177 1,1299 1,1484 1}
+{3 1,4 1,776 1,1299 1,1451 1,1472 1}
+{0 1,1 1,68 1,92 1,123 1,327 1,543 1,576 1,607 1,1419 1,1425 1}
+{4 1,230 1,991 1,1299 1}
+{0 1,1 1,11 1,95 1,1299 1,1333 1}
+{1 1,3 1,91 1,137 1,306 1,535 1,775 1,823 1,1103 1,1143 1,1299 1,1310 1}
+{5 1,358 1,473 1,1087 1,1299 1,1303 1}
+{0 1,1 1,3 1,13 1,26 1,60 1,172 1,184 1,257 1,407 1,1084 1,1249 1,1492 1}
+{3 1,4 1,61 1,225 1,1299 1,1333 1}
+{3 1,29 1,1425 1}
+{5 1,122 1,179 1,364 1,753 1,777 1,877 1,1299 1,1382 1,1425 1}
+{2 1,3 1,122 1,170 1,490 1,978 1,1285 1,1299 1}
+{3 1,38 1,56 1,99 1,478 1,503 1,701 1,1299 1}
+{5 1,307 1,503 1,625 1,1105 1,1299 1,1341 1}
+{5 1,81 1,789 1,1299 1}
+{3 1,122 1,407 1,503 1,688 1,1176 1,1299 1}
+{3 1,37 1,56 1,60 1,503 1,516 1,825 1,1152 1,1409 1}
+{0 1,1 1,3 1,503 1,637 1,822 1,917 1,1200 1,1210 1,1299 1}
+{3 1,553 1,681 1,986 1,1180 1,1299 1,1378 1}
+{5 1,223 1,247 1,632 1,667 1,878 1,1299 1}
+{5 1,9 1,197 1,597 1,804 1,885 1,1014 1,1100 1}
+{4 1,14 1,777 1,807 1,966 1,990 1,1191 1,1299 1}
+{2 1,122 1,170 1,490 1,978 1,1285 1,1299 1}
+{3 1,36 1,38 1,425 1,535 1,733 1,1299 1,1409 1}
+{3 1,117 1,122 1,140 1,739 1,961 1,1376 1}
+{3 1,504 1,784 1,842 1,1299 1}
+{0 1,1 1,3 1,156 1,459 1,798 1,866 1,1143 1,1299 1}
+{3 1,790 1,965 1,1299 1,1368 1}
+{5 1,18 1,89 1,426 1,641 1,933 1,1063 1,1293 1,1299 1,1454 1}
+{5 1,813 1,1299 1}
+{0 1,1 1,146 1,411 1,461 1,942 1,1299 1,1326 1,1480 1,1498 1}
+{0 1,1 1,886 1,994 1,1299 1,1486 1}
+{2 1,3 1,122 1,230 1,1299 1,1368 1}
+{3 1,5 1,79 1,122 1,286 1,1299 1}
+{5 1,122 1,462 1,1299 1}
+{2 1,3 1,41 1,122 1,581 1,622 1,1299 1}
+{5 1,122 1,197 1,247 1,377 1,436 1,1073 1,1299 1,1302 1}
+{5 1,415 1,422 1,480 1,516 1,894 1,990 1,1019 1,1057 1,1299 1}
+{0 1,1 1,448 1,634 1,718 1,1002 1,1063 1,1112 1,1137 1,1174 1,1323 1,1327 1}
+{5 1,122 1,383 1,462 1,561 1,753 1,800 1,883 1,990 1,1093 1,1113 1,1146 1,1282 1}
+{122 1,186 1,516 1,556 1,883 1,1176 1,1409 1}
+{3 1,730 1,742 1,1086 1,1103 1,1233 1,1299 1}
+{5 1,11 1,38 1,462 1,617 1,649 1,793 1,1047 1,1093 1,1299 1,1376 1}
+{2 1,1299 1}
+{0 1,1 1,240 1,409 1,448 1,461 1,745 1,823 1,1131 1,1257 1,1288 1}
+{0 1,1 1,448 1,478 1,535 1,806 1,1183 1,1299 1,1498 1}
+{3 1,365 1,566 1,584 1,1299 1,1425 1,1434 1}
+{5 1,95 1,120 1,406 1,616 1,813 1,956 1,1011 1,1299 1}
+{3 1,4 1,184 1,227 1,465 1,584 1,1067 1,1087 1,1255 1}
+{0 1,1 1,140 1,179 1,311 1,448 1,535 1,568 1,658 1,776 1,802 1,910 1,1053 1,1128 1}
+{5 1,13 1,181 1,200 1,352 1,441 1,873 1,925 1,937 1,938 1,1299 1,1328 1}
+{5 1,752 1,910 1,994 1,1063 1,1094 1,1116 1,1299 1,1434 1}
+{3 1,330 1,560 1,625 1,645 1,649 1,789 1,1036 1,1299 1}
+{1 1,4 1,179 1,449 1,1171 1,1299 1,1453 1,1494 1}
+{5 1,213 1,512 1,858 1,910 1,1299 1,1314 1,1345 1}
+{0 1,1 1,11 1,188 1,316 1,594 1,617 1,850 1,1176 1,1179 1}
+{294 1,337 1,495 1,503 1,622 1,736 1,770 1,798 1,886 1,898 1,922 1,1218 1}
+{5 1,521 1,526 1,553 1,1091 1}
+{3 1,13 1,268 1,416 1,436 1,771 1,1279 1,1299 1}
+{3 1,62 1,163 1,184 1,205 1,497 1,926 1,1299 1}
+{5 1,415 1,422 1,480 1,516 1,894 1,1019 1,1057 1,1299 1,1449 1}
+{3 1,503 1,510 1,889 1,1008 1,1138 1,1259 1,1299 1,1451 1}
+{3 1,36 1,38 1,46 1,168 1,217 1,311 1,346 1,1152 1,1299 1,1401 1}
+{184 1,314 1,674 1,831 1,1164 1,1312 1}
+{3 1,124 1,164 1,1277 1,1299 1}
+{3 1,527 1,733 1,949 1,1299 1}
+{3 1,5 1,196 1,545 1,776 1,789 1,1091 1,1148 1,1201 1,1401 1}
+{5 1,121 1,286 1,794 1,798 1,992 1,1299 1}
+{0 1,1 1,262 1,942 1,1045 1,1080 1,1137 1,1257 1,1277 1,1299 1}
+{5 1,298 1,788 1,990 1,1101 1,1299 1}
+{5 1,213 1,295 1,422 1,858 1,860 1,910 1,1299 1,1345 1}
+{0 1,1 1,3 1,315 1,376 1,384 1,431 1,604 1,874 1,1045 1,1299 1}
+{2 1,3 1,122 1,170 1,490 1,1285 1,1299 1}
+{3 1,522 1,695 1,873 1,949 1,1299 1}
+{3 1,4 1,13 1,309 1,836 1,995 1,1299 1,1376 1}
+{5 1,1062 1,1299 1}
+{0 1,1 1,3 1,156 1,459 1,866 1,1299 1}
+{189 1,270 1,274 1,595 1,897 1,948 1,1299 1}
+{1 1,3 1,512 1,599 1,778 1,1152 1,1177 1,1197 1,1259 1,1299 1,1449 1}
+{5 1,1299 1,1346 1}
+{3 1,230 1,381 1,789 1,965 1,976 1,1299 1}
+{5 1,179 1,192 1,365 1,436 1,607 1,617 1,1063 1,1299 1,1379 1,1449 1}
+{3 1,13 1,109 1,184 1,204 1,312 1,315 1,539 1}
+{3 1,563 1,584 1,651 1,750 1,1299 1,1482 1}
+{0 1,1 1,3 1,179 1,300 1,485 1,548 1,585 1,668 1,1063 1,1299 1}
+{5 1,122 1,445 1,568 1,813 1,1299 1}
+{1 1,3 1,251 1,278 1,423 1,641 1,932 1,1013 1,1019 1,1177 1}
+{0 1,1 1,176 1,462 1,687 1,868 1,1093 1,1299 1,1449 1}
+{561 1,667 1,886 1,1099 1,1299 1,1378 1,1393 1}
+{3 1,535 1,537 1,927 1,1299 1}
+{3 1,13 1,184 1,230 1,607 1,1014 1,1378 1,1497 1}
+{5 1,51 1,654 1,1108 1,1417 1}
+{0 1,1 1,307 1,318 1,448 1,658 1,1071 1,1299 1}
+{5 1,262 1,505 1,665 1,1120 1,1299 1,1374 1}
+{0 1,1 1,3 1,60 1,122 1,237 1,384 1,414 1,1035 1,1294 1}
+{4 1,14 1,807 1,990 1,1191 1,1299 1,1436 1,1440 1,1449 1}
+{2 1,190 1,191 1,209 1,1299 1}
+{741 1,1299 1,1498 1}
+{0 1,1 1,3 1,122 1,389 1,448 1,462 1,1035 1,1093 1,1183 1,1299 1}
+{3 1,436 1,500 1,1299 1}
+{0 1,1 1,3 1,60 1,122 1,406 1,449 1,1035 1,1047 1,1121 1,1299 1,1322 1}
+{3 1,13 1,103 1,508 1,1148 1,1175 1,1299 1}
+{0 1,1 1,95 1,158 1,622 1,977 1,1143 1,1299 1}
+{2 1,5 1,122 1,170 1,490 1,1285 1,1299 1}
+{5 1,432 1,631 1,976 1,1299 1,1310 1}
+{2 1,3 1,164 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{2 1,503 1,509 1,1299 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{0 1,1 1,148 1,204 1,234 1,374 1,525 1}
+{4 1,13 1,428 1,744 1,1084 1}
+{0 1,1 1,3 1,333 1,424 1,910 1,990 1,1011 1,1081 1,1131 1,1246 1,1288 1,1391 1}
+{3 1,276 1,1078 1,1299 1,1333 1}
+{5 1,557 1,877 1,1299 1}
+{4 1,5 1,19 1,536 1,642 1,1360 1,1483 1}
+{3 1,5 1,415 1,422 1,480 1,516 1,894 1,990 1,1019 1,1057 1,1299 1}
+{0 1,1 1,13 1,289 1,322 1,356 1,412 1,510 1,522 1,803 1,1266 1,1299 1,1319 1}
+{0 1,1 1,3 1,100 1,775 1,798 1,1143 1,1299 1}
+{3 1,522 1,631 1,823 1,855 1,965 1,1451 1}
+{5 1,122 1,965 1,1299 1}
+{3 1,151 1,285 1,553 1,631 1,733 1,801 1,875 1,986 1}
+{4 1,5 1,176 1,329 1,499 1,535 1,769 1,1060 1,1152 1}
+{2 1,3 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{0 1,1 1,3 1,448 1,1091 1,1173 1}
+{0 1,1 1,95 1,336 1,458 1,533 1,777 1,802 1,1178 1,1206 1,1277 1,1299 1,1462 1}
+{3 1,5 1,415 1,422 1,480 1,516 1,894 1,936 1,990 1,1010 1,1019 1,1057 1,1177 1,1299 1}
+{5 1,336 1,339 1,458 1,559 1,708 1,804 1,818 1,865 1,1233 1}
+{0 1,1 1,3 1,122 1,1299 1}
+{3 1,184 1,342 1,658 1,949 1,964 1,966 1,1088 1,1299 1}
+{1 1,100 1,165 1,235 1,521 1,831 1,846 1,1299 1}
+{2 1,3 1,262 1,553 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{4 1,524 1,759 1,1200 1,1285 1,1299 1,1351 1,1366 1,1449 1}
+{2 1,3 1,262 1,288 1,941 1,974 1,986 1,1299 1}
+{0 1,1 1,3 1,122 1,136 1,193 1,334 1,584 1,697 1,888 1,910 1,1267 1,1299 1}
+{2 1,3 1,262 1,288 1,941 1,974 1,986 1,1240 1,1299 1}
+{2 1,3 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1}
+{2 1,349 1,819 1,1299 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{5 1,689 1,831 1,910 1,934 1,1225 1,1299 1}
+{2 1,3 1,164 1,262 1,584 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{1 1,4 1,806 1,941 1,996 1,1299 1,1438 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1425 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{269 1,1056 1,1091 1,1451 1}
+{2 1,3 1,164 1,974 1,1000 1,1063 1,1109 1,1299 1,1302 1,1425 1}
+{2 1,3 1,164 1,262 1,553 1,1000 1,1063 1,1299 1,1302 1,1425 1,1451 1}
+{4 1,63 1,202 1,916 1,1152 1,1257 1,1273 1,1299 1,1366 1,1378 1}
+{0 1,2 1,21 1,174 1,269 1,278 1,1013 1,1096 1,1104 1,1184 1,1342 1}
+{1 1,2 1,100 1,211 1,288 1,439 1,992 1,1105 1,1353 1,1464 1}
+{0 1,8 1,184 1,239 1,850 1,1045 1,1105 1,1176 1,1309 1}
+{0 1,1 1,819 1,952 1,1045 1,1323 1,1350 1,1357 1,1423 1}
+{5 1,819 1,1442 1}
+{4 1,60 1,819 1,1267 1}
+{5 1,291 1,458 1,576 1,622 1,674 1,802 1,819 1,1187 1,1400 1}
+{0 1,5 1,486 1,510 1,1176 1,1202 1}
+{0 1,1 1,599 1,665 1,714 1,819 1,1178 1,1449 1}
+{0 1,4 1,11 1,61 1,95 1,270 1,512 1,658 1,924 1,1275 1,1286 1}
+{4 1,5 1,60 1,61 1,162 1,276 1,819 1,1088 1,1125 1,1444 1}
+{0 1,1 1,2 1,23 1,311 1,535 1,647 1,819 1}
+{5 1,819 1,820 1,1237 1}
+{3 1,4 1,276 1,819 1,1482 1}
+{0 1,1 1,19 1,60 1,204 1,536 1,607 1,611 1,616 1,953 1,1125 1,1323 1}
+{0 1,508 1,618 1,745 1}
+{5 1,244 1,525 1,535 1,718 1,732 1,819 1,825 1,1451 1}
+{4 1,184 1,276 1,298 1,819 1,1319 1}
+{5 1,291 1,458 1,576 1,622 1,674 1,802 1,819 1,1187 1,1400 1}
+{0 1,5 1,436 1,818 1,819 1}
+{5 1,291 1,576 1,622 1,642 1,674 1,819 1,1080 1,1187 1,1400 1}
+{5 1,291 1,458 1,576 1,622 1,674 1,802 1,819 1,1187 1,1400 1}
+{2 1,910 1,1028 1,1106 1,1177 1,1503 1}
+{4 1,5 1,185 1,217 1,452 1,519 1,910 1,1052 1,1449 1}
+{3 1,474 1,965 1,1103 1,1105 1,1222 1,1413 1,1434 1}
+{0 1,3 1,148 1,268 1,350 1,615 1,1053 1,1444 1,1449 1}
+{122 1,407 1,1094 1,1105 1}
+{3 1,4 1,1105 1}
+{0 1,1 1,201 1,458 1,631 1,802 1,886 1,1024 1,1380 1}
+{0 1,2 1,159 1,466 1,652 1,777 1,1020 1,1048 1,1312 1,1463 1}
+{0 1,1 1,647 1,1105 1}
+{1 1,3 1,140 1,1105 1,1134 1,1432 1,1446 1}
+{0 1,5 1,61 1,221 1,233 1,406 1,1090 1,1105 1,1330 1}
+{0 1,3 1,178 1,278 1,1105 1,1154 1,1168 1,1226 1}
+{5 1,724 1,1192 1}
+{1 1,3 1,1105 1}
+{0 1,1 1,2 1,3 1,63 1,278 1,465 1,678 1,1013 1,1084 1,1105 1,1154 1,1168 1,1307 1,1397 1}
+{0 1,1 1,2 1,174 1,184 1,262 1,529 1,910 1,1276 1,1404 1}
+{0 1,2 1,3 1,146 1,465 1,466 1,1013 1,1105 1,1117 1,1133 1,1231 1,1351 1}
+{0 1,2 1,3 1,300 1,418 1,779 1,1006 1,1107 1,1217 1,1235 1,1363 1,1372 1}
+{3 1,965 1,1105 1}
+{0 1,1 1,2 1,63 1,465 1,678 1,1013 1,1084 1,1105 1,1154 1,1168 1,1307 1}
+{0 1,2 1,3 1,448 1,465 1,512 1,536 1,741 1,1013 1,1105 1}
+{0 1,1 1,95 1,697 1,699 1,711 1,714 1,1105 1,1173 1}
+{95 1,122 1,737 1,799 1,841 1,965 1}
+{1 1,1105 1}
+{1 1,3 1,75 1,250 1,448 1,485 1,548 1,806 1,1084 1,1105 1,1331 1}
+{5 1,432 1,510 1,520 1,872 1,1105 1,1237 1,1251 1}
+{0 1,1 1,2 1,87 1,96 1,146 1,195 1,466 1,1013 1,1048 1,1105 1,1232 1}
+{5 1,13 1,44 1,45 1,95 1,403 1,765 1,799 1,1131 1}
+{4 1,49 1,421 1,458 1,1105 1,1152 1}
+{0 1,3 1,1105 1}
+{3 1,4 1,622 1,761 1,965 1,1105 1}
+{140 1,1105 1,1449 1}
+{0 1,3 1,622 1,1105 1,1181 1}
+{0 1,1 1,3 1,772 1,1105 1}
+{3 1,82 1,109 1,544 1,1287 1,1357 1}
+{5 1,75 1,421 1,680 1,1105 1,1237 1}
+{0 1,1 1,61 1,613 1,862 1,1105 1}
+{0 1,4 1,466 1,1048 1,1105 1}
+{0 1,1 1,534 1,886 1,1105 1,1338 1,1365 1,1440 1,1449 1}
+{0 1,1 1,2 1,20 1,174 1,300 1,418 1,603 1,1009 1,1013 1,1235 1,1465 1}
+{0 1,2 1,87 1,96 1,146 1,195 1,466 1,1013 1,1048 1,1105 1,1232 1}
+{1 1,2 1,146 1,465 1,466 1,785 1,1013 1,1105 1,1117 1,1232 1}
+{0 1,1 1,204 1,599 1,1128 1,1244 1,1290 1,1442 1,1449 1}
+{0 1,1 1,219 1,674 1,1105 1,1449 1}
+{3 1,107 1,140 1,226 1,1105 1}
+{0 1,1 1,2 1,409 1,465 1,650 1,678 1,804 1,1013 1,1067 1,1084 1,1105 1,1341 1}
+{1 1,2 1,3 1,362 1,1010 1,1084 1,1091 1,1105 1,1131 1,1288 1,1462 1,1465 1}
+{1 1,3 1,469 1,516 1,536 1,1084 1,1405 1,1496 1}
+{3 1,315 1,724 1,1105 1}
+{0 1,3 1,221 1,802 1,934 1,966 1,1105 1,1128 1}
+{1 1,2 1,3 1,465 1,984 1,1013 1,1105 1}
+{0 1,1 1,2 1,3 1,149 1,198 1,278 1,279 1,332 1,465 1,1013 1,1084 1,1105 1}
+{0 1,1 1,2 1,302 1,353 1,802 1,1105 1,1220 1}
+{0 1,1 1,2 1,3 1,92 1,278 1,431 1,465 1,467 1,700 1,1013 1,1105 1,1133 1,1226 1,1351 1,1391 1}
+{0 1,1 1,1054 1,1105 1}
+{436 1}
+{5 1,337 1,872 1,1105 1,1384 1}
+{3 1,140 1,503 1,965 1,1105 1,1183 1}
+{4 1,100 1,211 1,278 1,439 1,552 1,992 1,1353 1}
+{34 1,59 1,122 1,231 1,503 1,521 1,799 1,840 1,1101 1,1105 1,1176 1}
+{0 1,3 1,13 1,47 1,59 1,184 1,649 1,717 1,1075 1}
+{3 1,140 1,231 1,393 1,472 1,491 1,910 1,1105 1,1183 1}
+{3 1,383 1,407 1,512 1,965 1,1105 1}
+{0 1,2 1,61 1,162 1,397 1,458 1,478 1,712 1,760 1,802 1,1070 1}
+{2 1,26 1,140 1,478 1,616 1,907 1,1299 1}
+{0 1,1 1,2 1,140 1,478 1}
+{2 1,4 1,5 1,112 1,335 1,478 1,808 1,1177 1,1334 1,1449 1}
+{2 1,4 1,60 1,378 1,478 1,622 1,910 1,958 1,1133 1,1227 1,1333 1}
+{2 1,3 1,4 1,140 1,478 1}
+{1 1,2 1,3 1,193 1,257 1,407 1,478 1,1099 1}
+{2 1,3 1,478 1,886 1}
+{2 1,122 1,394 1,478 1,563 1,634 1,800 1,948 1,1006 1,1107 1}
+{140 1,261 1,478 1,1460 1}
+{2 1,3 1,208 1,304 1,478 1,498 1,1333 1}
+{4 1,5 1,478 1,516 1,716 1,953 1,1062 1,1131 1,1183 1,1190 1,1282 1,1405 1}
+{2 1,216 1,269 1,465 1,510 1,647 1,711 1,932 1,1257 1}
+{0 1,13 1,38 1,458 1,535 1,595 1,659 1,886 1}
+{3 1,30 1,369 1,761 1,1063 1,1133 1,1152 1,1197 1,1434 1}
+{2 1,3 1,747 1,796 1,886 1,993 1,1440 1,1448 1,1449 1}
+{123 1,183 1,223 1,462 1,500 1,561 1,576 1,717 1,1077 1,1078 1,1133 1,1138 1,1333 1,1440 1,1445 1,1449 1}
+{3 1,384 1,982 1,1102 1}
+{171 1,239 1,327 1,478 1,622 1,837 1,863 1,870 1}
+{3 1,4 1,17 1,107 1,287 1,315 1,427 1,478 1,503 1,883 1,910 1,1117 1}
+{3 1,153 1,475 1,503 1,674 1,829 1,965 1,1105 1}
+{3 1,140 1,287 1,350 1,475 1,644 1,1209 1,1461 1,1489 1}
+{3 1,461 1,475 1}
+{0 1,3 1,475 1,510 1,769 1}
+{3 1,132 1,475 1,570 1,1275 1}
+{3 1,151 1,282 1,475 1,516 1,547 1,595 1,825 1,1409 1}
+{2 1,3 1,247 1,456 1,876 1,1269 1}
+{3 1,5 1,13 1,389 1,475 1,658 1,665 1,988 1,1200 1,1434 1}
+{3 1,13 1,475 1,941 1,953 1}
+{3 1,5 1,58 1,287 1,475 1,1196 1,1434 1}
+{1 1,5 1,448 1,475 1,806 1,1084 1}
+{0 1,3 1,232 1,315 1,516 1,535 1,1482 1}
+{3 1,179 1,475 1,503 1,654 1,825 1,883 1}
+{3 1,60 1,433 1,475 1,825 1,1434 1,1496 1}
+{3 1,5 1,413 1,475 1}
+{5 1,292 1,475 1,535 1,622 1}
+{102 1,475 1,522 1,653 1,987 1,1039 1,1059 1,1128 1,1169 1,1333 1}
+{5 1,213 1,510 1,553 1,1438 1,1449 1}
+{3 1,184 1,475 1}
+{3 1,475 1}
+{5 1,130 1,475 1,718 1,742 1,988 1,998 1,1112 1,1164 1,1257 1}
+{5 1,60 1,136 1,140 1,403 1,475 1,749 1}
+{5 1,158 1,339 1,363 1,458 1,475 1,523 1,802 1,930 1,988 1,1029 1,1079 1,1395 1}
+{5 1,475 1,1482 1}
+{2 1,3 1,4 1,321 1,475 1,659 1,891 1,1177 1,1237 1}
+{3 1,79 1,184 1,475 1,1043 1,1488 1}
+{5 1,475 1,544 1,853 1}
+{5 1,34 1,122 1,473 1,512 1,656 1,1176 1,1461 1}
+{0 1,1 1,3 1,4 1,5 1,115 1,184 1,458 1,475 1,500 1,802 1,910 1,1051 1,1059 1,1169 1,1389 1}
+{3 1,4 1,162 1,245 1,472 1,475 1,728 1,789 1,792 1,1183 1}
+{3 1,475 1,825 1}
+{5 1,60 1,230 1,342 1,364 1,512 1,520 1,906 1,919 1,1091 1,1238 1}
+{1 1,3 1,4 1,5 1,173 1,475 1,857 1,879 1,1207 1,1429 1}
+{5 1,122 1,263 1,410 1,516 1,779 1,1152 1,1310 1}
+{2 1,5 1,103 1,475 1,986 1}
+{3 1,55 1,473 1,475 1,510 1,881 1}
+{5 1,163 1,238 1,276 1,314 1,831 1,1047 1}
+{2 1,3 1,250 1,315 1,473 1,475 1,512 1,777 1,834 1,1148 1}
+{2 1,3 1,438 1,475 1,691 1,1277 1}
+{4 1,61 1,475 1,855 1}
+{5 1,102 1,401 1,458 1,475 1,575 1,582 1,727 1,1068 1,1133 1,1145 1,1333 1,1339 1}
+{0 1,3 1,475 1}
+{3 1,4 1,473 1,475 1,695 1,910 1,993 1,1434 1}
+{5 1,13 1,161 1,446 1,475 1,649 1,675 1,806 1,910 1,928 1,1487 1}
+{5 1,401 1,458 1,582 1,1068 1,1133 1,1145 1,1333 1,1425 1,1458 1}
+{3 1,130 1,475 1,590 1,614 1,825 1,1172 1,1409 1}
+{3 1,87 1,658 1,792 1,950 1,1345 1,1449 1,1505 1}
+{47 1,475 1,477 1,691 1,890 1,1016 1,1275 1}
+{3 1,80 1,825 1,1009 1,1280 1}
+{3 1,80 1,354 1,583 1,971 1,1467 1}
+{5 1,80 1,116 1,122 1,616 1,712 1,790 1,883 1}
+{3 1,80 1,503 1,553 1,611 1,621 1,625 1,1066 1,1208 1,1396 1}
+{3 1,80 1,500 1,510 1,511 1,1117 1,1344 1}
+{3 1,80 1,242 1,643 1,1201 1}
+{3 1,80 1,164 1,315 1,366 1,512 1,825 1,1091 1}
+{3 1,80 1,286 1,349 1,516 1,525 1,535 1,1255 1,1446 1}
+{3 1,38 1,61 1,80 1,315 1,579 1,1055 1,1280 1,1413 1}
+{3 1,80 1,284 1,1467 1,1469 1}
+{4 1,80 1,315 1}
+{3 1,75 1,80 1,643 1,801 1,875 1,1044 1,1152 1,1362 1,1431 1}
+{3 1,80 1,583 1}
+{3 1,4 1,80 1,421 1,452 1,643 1,783 1,1493 1}
+{3 1,80 1,315 1,423 1,783 1}
+{3 1,80 1,286 1,386 1,583 1,590 1,596 1,691 1,1357 1}
+{3 1,13 1,80 1,268 1,503 1,648 1,854 1}
+{3 1,80 1,315 1,1308 1}
+{3 1,4 1,80 1}
+{3 1,80 1,535 1,627 1,1252 1}
+{3 1,80 1,365 1,542 1,1043 1,1397 1,1494 1}
+{3 1,80 1,1051 1,1415 1}
+{3 1,54 1,80 1,121 1,201 1,299 1,503 1,777 1,782 1}
+{3 1,80 1,242 1,643 1,1201 1}
+{3 1,80 1,616 1,1189 1,1347 1,1495 1}
+{3 1,80 1,583 1}
+{3 1,261 1,782 1,965 1,991 1,1395 1}
+{3 1,80 1,583 1,590 1}
+{3 1,80 1,525 1,995 1,1357 1,1370 1,1434 1}
+{3 1,80 1,500 1,848 1}
+{3 1,80 1,83 1,164 1,382 1,1063 1,1075 1,1197 1,1379 1}
+{3 1,38 1,184 1,512 1,591 1,910 1,1303 1,1395 1,1401 1,1494 1}
+{3 1,80 1,692 1}
+{3 1,80 1,583 1,620 1,928 1}
+{3 1,80 1,364 1,1449 1}
+{3 1,80 1,525 1,995 1,1357 1,1370 1,1434 1}
+{3 1,80 1,456 1,1269 1,1344 1,1429 1,1449 1}
+{3 1,80 1,230 1,315 1,422 1,547 1,643 1,1205 1,1501 1}
+{3 1,654 1,674 1,1103 1,1202 1,1251 1,1252 1,1382 1}
+{3 1,253 1,265 1,825 1}
+{3 1,80 1,609 1,897 1,1030 1}
+{3 1,80 1,179 1,674 1,711 1,1447 1,1449 1}
+{80 1,122 1,516 1,1176 1}
+{3 1,13 1,80 1,276 1,1092 1,1168 1}
+{3 1,80 1,212 1,621 1,630 1,817 1,884 1,999 1}
+{14 1,80 1,105 1,315 1,462 1,541 1,672 1,1290 1,1301 1}
+{3 1,18 1,80 1,425 1,772 1,825 1,1049 1,1503 1}
+{3 1,80 1,503 1,590 1,641 1,912 1,1141 1}
+{3 1,80 1,1042 1,1431 1}
+{80 1,296 1,348 1}
+{3 1,80 1,506 1,710 1,1357 1}
+{3 1,4 1,19 1,80 1,215 1,375 1,503 1,578 1,1049 1,1210 1}
+{3 1,18 1,80 1}
+{3 1,80 1,503 1,931 1,1237 1}
+{5 1,80 1,772 1,1061 1}
+{3 1,80 1,386 1,583 1,625 1,1271 1,1431 1}
+{3 1,80 1,503 1,641 1,912 1,1141 1}
+{3 1,80 1,83 1,965 1,1242 1}
+{3 1,330 1,503 1,612 1,625 1,631 1,1181 1,1261 1}
+{3 1,80 1,81 1,469 1,553 1,709 1}
+{80 1,140 1,177 1,304 1,551 1,643 1,725 1,987 1,1324 1}
+{3 1,80 1,261 1}
+{3 1,80 1,503 1,513 1,750 1,1261 1,1449 1}
+{62 1,80 1,525 1,542 1,628 1,802 1,1128 1,1149 1}
+{80 1,140 1,163 1,405 1,658 1,1409 1}
+{3 1,80 1,493 1,887 1,979 1,1109 1,1283 1}
+{3 1,80 1,184 1,475 1,733 1,818 1,825 1,897 1,1101 1,1310 1,1425 1}
+{3 1,80 1,889 1}
+{3 1,641 1,926 1,933 1,968 1,993 1,1347 1,1503 1}
+{3 1,80 1,469 1,666 1}
+{3 1,80 1,493 1,887 1,979 1,1283 1,1449 1}
+{3 1,80 1,525 1,995 1,1357 1,1358 1,1370 1}
+{3 1,80 1,1240 1,1468 1}
+{3 1,40 1,80 1,503 1,550 1,1141 1,1152 1,1272 1}
+{3 1,80 1,333 1,542 1,1235 1,1282 1,1305 1}
+{3 1,79 1,80 1,348 1,365 1,409 1,696 1,715 1,1231 1,1277 1,1470 1}
+{3 1,5 1,61 1,80 1,191 1,1068 1,1251 1,1252 1}
+{3 1,80 1,1370 1}
+{3 1,80 1,191 1,544 1,626 1,1103 1,1109 1}
+{2 1,4 1,13 1,80 1,329 1,714 1,956 1,1068 1}
+{3 1,80 1,641 1,711 1,887 1,965 1,986 1}
+{2 1,3 1,80 1,535 1,991 1,1299 1}
+{3 1,80 1,254 1,1201 1,1211 1,1269 1}
+{3 1,184 1,185 1,186 1,346 1,512 1,709 1,1039 1,1117 1,1449 1}
+{3 1,553 1,1130 1,1374 1,1425 1}
+{3 1,215 1,319 1,475 1,616 1,1015 1,1034 1,1466 1}
+{3 1,80 1,184 1,590 1,789 1}
+{4 1,122 1,452 1,473 1,606 1,622 1,717 1,855 1}
+{4 1,718 1,1023 1,1112 1,1436 1,1449 1,1467 1}
+{4 1,184 1,391 1,403 1,452 1,1032 1,1091 1}
+{1 1,4 1,279 1,452 1,960 1}
+{1 1,4 1,5 1,13 1,184 1,417 1,452 1,510 1,535 1,1288 1}
+{1 1,4 1,149 1,367 1,452 1,592 1,622 1,1058 1,1235 1,1334 1}
+{4 1,184 1,239 1,452 1,687 1,749 1}
+{0 1,4 1,149 1,184 1,452 1,668 1,1173 1,1177 1,1198 1}
+{0 1,4 1,106 1,363 1,452 1,1143 1,1334 1,1449 1}
+{164 1,487 1,1113 1}
+{4 1,13 1,184 1,452 1,725 1}
+{4 1,149 1,302 1,452 1,948 1}
+{1 1,4 1,299 1,345 1,452 1,649 1,670 1,1195 1,1235 1}
+{4 1,79 1,184 1,284 1,405 1,452 1,914 1,991 1,1036 1}
+{0 1,1 1,4 1,49 1,452 1,923 1,1034 1,1349 1}
+{0 1,4 1,113 1,149 1,452 1,896 1,936 1,1010 1,1177 1,1292 1,1298 1,1324 1,1333 1}
+{14 1,109 1,184 1,187 1,1003 1,1004 1,1350 1}
+{4 1,149 1,452 1,503 1,1162 1,1321 1,1378 1}
+{4 1,61 1,100 1,186 1,452 1}
+{0 1,3 1,184 1,313 1,438 1,452 1,1154 1,1168 1,1288 1,1375 1}
+{3 1,37 1,395 1,452 1,503 1,525 1,553 1,614 1,825 1,1494 1}
+{0 1,169 1,255 1,311 1,388 1,512 1,536 1,711 1,796 1,1214 1,1232 1,1252 1}
+{4 1,424 1,452 1,543 1,725 1,986 1,1333 1}
+{1 1,4 1,13 1,95 1,452 1,456 1,910 1,965 1}
+{1 1,4 1,17 1,452 1,535 1,784 1,910 1,1333 1,1496 1,1500 1}
+{4 1,12 1,222 1,452 1,461 1,639 1,674 1,1063 1,1193 1}
+{0 1,4 1,452 1,783 1,807 1,818 1,1091 1,1284 1}
+{4 1,5 1,59 1,452 1,541 1}
+{5 1,9 1,121 1,452 1,595 1,1293 1,1343 1,1449 1}
+{4 1,173 1,189 1,452 1,557 1,857 1,1205 1}
+{1 1,4 1,149 1,452 1,1097 1,1465 1}
+{4 1,233 1,452 1,541 1,617 1,1081 1,1424 1}
+{0 1,4 1,310 1,448 1}
+{2 1,122 1,452 1,458 1,482 1,502 1,536 1,802 1,943 1}
+{4 1,149 1,452 1,484 1}
+{4 1,184 1,263 1,448 1,452 1,510 1,778 1,890 1}
+{4 1,452 1,674 1,899 1,975 1,1089 1}
+{4 1,5 1,270 1,290 1,452 1,1470 1}
+{311 1,452 1,777 1,918 1,1038 1}
+{4 1,452 1,493 1,579 1,1457 1,1459 1}
+{4 1,149 1,452 1,543 1,960 1,1133 1,1155 1,1333 1}
+{112 1,795 1,843 1,1045 1,1202 1,1297 1}
+{1 1,4 1,452 1,1449 1}
+{1 1,4 1,175 1,177 1,201 1,345 1,448 1,452 1,936 1,1010 1,1284 1}
+{4 1,149 1,263 1,452 1,503 1,583 1,692 1}
+{4 1,61 1,140 1,398 1,422 1,516 1,634 1,658 1,674 1,680 1}
+{4 1,5 1,61 1,452 1,472 1}
+{2 1,4 1,61 1,127 1,184 1,452 1,622 1,652 1,785 1,1181 1,1287 1,1372 1,1432 1}
+{2 1,4 1,76 1,149 1,452 1,513 1,633 1,859 1,1242 1}
+{1 1,3 1,13 1,290 1,312 1,452 1,617 1,1091 1,1173 1,1357 1}
+{77 1,128 1,363 1,594 1,634 1,747 1,935 1}
+{4 1,5 1,122 1,143 1,184 1,213 1,452 1,458 1,469 1,802 1,1177 1,1196 1,1198 1,1320 1,1481 1}
+{2 1,4 1,184 1,452 1,462 1}
+{1 1,4 1,76 1,790 1,1045 1,1075 1,1178 1}
+{1 1,4 1,117 1,452 1,688 1,814 1}
+{1 1,4 1,5 1,184 1,452 1}
+{185 1,306 1,458 1,487 1,1038 1,1297 1,1380 1,1447 1,1448 1}
+{4 1,452 1,782 1}
+{4 1,5 1,70 1,364 1,452 1,727 1,794 1,958 1,1297 1,1351 1}
+{1 1,4 1,13 1,452 1,512 1,634 1,822 1,1011 1,1013 1,1102 1}
+{4 1,239 1,452 1,516 1,678 1,1084 1,1481 1}
+{4 1,135 1,192 1,452 1,639 1,1244 1,1396 1,1425 1}
+{4 1,228 1,452 1,510 1,780 1,1063 1,1449 1}
+{2 1,38 1,49 1,536 1,539 1,630 1,748 1,789 1,986 1,1175 1,1281 1,1299 1,1450 1}
+{2 1,3 1,1299 1,1357 1,1423 1}
+{2 1,3 1,60 1,140 1,227 1,469 1,561 1,1299 1,1302 1}
+{1 1,2 1,3 1,289 1,322 1,412 1,510 1,522 1,803 1,1213 1,1266 1,1299 1,1319 1}
+{2 1,61 1,160 1,259 1,353 1,553 1,557 1,909 1,929 1,1137 1,1425 1}
+{3 1,13 1,616 1,715 1,931 1,1063 1,1299 1,1369 1,1483 1}
+{2 1,272 1,1082 1,1299 1,1377 1,1449 1}
+{3 1,668 1,896 1,1006 1,1422 1,1498 1}
+{3 1,36 1,168 1,438 1,614 1,632 1,1015 1,1299 1}
+{3 1,132 1,184 1,375 1,491 1,538 1,807 1,823 1,1079 1,1378 1}
+{0 1,175 1,519 1,995 1,1168 1,1200 1,1235 1,1299 1,1303 1,1405 1,1493 1}
+{2 1,5 1,154 1,355 1,404 1,535 1,986 1,1085 1,1273 1,1299 1,1402 1}
+{5 1,607 1,965 1,1299 1}
+{3 1,241 1,1277 1,1299 1,1425 1}
+{4 1,5 1,512 1,631 1,922 1,943 1,1133 1,1178 1,1231 1,1299 1,1333 1}
+{2 1,622 1,1299 1,1333 1}
+{2 1,5 1,187 1,217 1,399 1,421 1,942 1,1299 1,1467 1}
+{3 1,13 1,942 1,1097 1,1231 1,1299 1}
+{2 1,5 1,13 1,181 1,200 1,352 1,742 1,925 1,937 1,938 1,1060 1,1299 1}
+{2 1,813 1,1299 1}
+{2 1,403 1,478 1,610 1,1045 1,1199 1,1327 1}
+{3 1,13 1,184 1,230 1,608 1,1014 1,1378 1,1497 1}
+{3 1,1299 1}
+{2 1,184 1,365 1,478 1,1297 1,1299 1,1458 1}
+{2 1,139 1,190 1,191 1,643 1,1063 1,1299 1}
+{2 1,784 1,842 1,1299 1}
+{213 1,512 1,858 1,860 1,910 1,1299 1,1314 1,1345 1}
+{2 1,1251 1,1299 1,1494 1}
+{5 1,308 1,616 1,910 1,1299 1,1435 1}
+{38 1,237 1,443 1,791 1,1299 1,1374 1,1473 1}
+{3 1,164 1,317 1,953 1,981 1,1299 1}
+{3 1,4 1,452 1,503 1,1299 1}
+{3 1,38 1,510 1,616 1,649 1,738 1,1047 1,1299 1,1376 1,1433 1}
+{425 1,437 1,462 1,616 1,717 1,771 1,894 1,931 1,990 1,1299 1,1352 1,1409 1,1443 1,1444 1,1449 1}
+{5 1,13 1,116 1,176 1,184 1,1011 1,1038 1,1246 1,1299 1,1505 1}
+{5 1,186 1,306 1,309 1,913 1,1299 1,1333 1}
+{2 1,5 1,148 1,499 1,622 1,1018 1,1269 1,1299 1,1494 1}
+{0 1,1 1,2 1,122 1,216 1,510 1,516 1,657 1,802 1,839 1,992 1,1260 1,1299 1}
+{2 1,3 1,201 1,350 1,419 1,1299 1,1417 1}
+{2 1,5 1,13 1,181 1,200 1,352 1,742 1,873 1,1117 1,1119 1,1299 1,1427 1}
+{184 1,866 1,1299 1}
+{2 1,5 1,61 1,204 1,392 1,1207 1,1267 1,1299 1,1351 1,1354 1}
+{122 1,568 1,711 1,799 1}
+{2 1,3 1,375 1,593 1,1299 1}
+{2 1,3 1,242 1,572 1,1299 1}
+{1 1,3 1,13 1,27 1,434 1,461 1,510 1,606 1,731 1,744 1,745 1,942 1,1025 1,1051 1,1192 1,1299 1,1449 1}
+{1 1,3 1,45 1,77 1,508 1,942 1,1299 1}
+{2 1,3 1,5 1,666 1,916 1,1299 1,1448 1,1449 1}
+{5 1,14 1,194 1,593 1,808 1,1333 1,1339 1}
+{1 1,2 1,177 1,512 1,725 1,1133 1,1299 1,1432 1,1474 1,1498 1}
+{4 1,1299 1}
+{2 1,5 1,535 1,986 1,1085 1,1273 1,1299 1,1402 1}
+{0 1,184 1,422 1,986 1,1299 1,1378 1}
+{2 1,3 1,569 1,875 1,1219 1,1299 1,1441 1,1449 1}
+{0 1,5 1,307 1,503 1,1105 1,1299 1,1341 1}
+{2 1,3 1,132 1,184 1,276 1,441 1,461 1,553 1,1299 1,1490 1}
+{2 1,5 1,55 1,1299 1,1448 1}
+{3 1,522 1,695 1,873 1,949 1,1299 1}
+{5 1,133 1,1047 1,1299 1}
+{0 1,1 1,5 1,653 1,980 1,1173 1,1242 1,1297 1,1299 1,1376 1}
+{0 1,3 1,26 1,254 1,734 1,822 1,918 1,1299 1,1464 1,1496 1}
+{3 1,41 1,155 1,312 1,910 1,1259 1,1299 1,1305 1,1451 1,1494 1}
+{2 1,3 1,13 1,685 1,1277 1,1299 1}
+{2 1,5 1,60 1,658 1,1299 1,1350 1}
+{2 1,928 1,965 1,1299 1}
+{2 1,3 1,422 1,928 1,929 1,1135 1,1299 1}
+{2 1,3 1,5 1,184 1,622 1,933 1,1118 1,1299 1}
+{0 1,481 1,596 1,910 1,1299 1,1304 1,1436 1,1437 1,1493 1}
+{2 1,5 1,163 1,251 1,463 1,622 1,655 1,681 1,926 1,1299 1}
+{2 1,3 1,722 1,1047 1,1109 1,1299 1,1368 1}
+{0 1,47 1,287 1,680 1,1293 1,1299 1,1304 1,1434 1,1437 1}
+{3 1,61 1,285 1,481 1,535 1,537 1,671 1,733 1,1103 1,1481 1}
+{2 1,5 1,62 1,220 1,704 1,811 1,1299 1}
+{1 1,2 1,3 1,122 1,421 1,562 1,840 1,932 1,1277 1,1299 1,1417 1}
+{3 1,4 1,5 1,111 1,500 1,634 1,952 1,1157 1,1268 1,1299 1,1449 1}
+{0 1,1 1,2 1,201 1,449 1,867 1,886 1,1167 1,1299 1,1492 1}
+{5 1,420 1,482 1,586 1,679 1,941 1,1027 1,1299 1,1493 1}

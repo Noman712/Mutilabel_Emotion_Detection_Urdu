@@ -1,0 +1,5826 @@
+@relation 'EMOTION: -C 6'
+@attribute anger_class {0,1}
+@attribute disgust_class {0,1}
+@attribute fear_class {0,1}
+@attribute sadness_class {0,1}
+@attribute surprise_class {0,1}
+@attribute happiness_class {0,1}
+@attribute 'یقین دلانے کیلئے' numeric
+@attribute 'بیماری یقین دلانے' numeric
+@attribute 'آج آزادی صحافت' numeric
+@attribute 'ملے شیر دن' numeric
+@attribute 'منظر حال جینا' numeric
+@attribute 'مناظر موجودگی عبادات' numeric
+@attribute 'منا رے ھے' numeric
+@attribute 'ممکنہ نسل کشی' numeric
+@attribute 'ممالک روزگار کیلئے' numeric
+@attribute 'ملی ھے ڈر' numeric
+@attribute 'ملے آنکھوں ڈر' numeric
+@attribute 'منگول حملہ کردیں' numeric
+@attribute 'ملنے پیارا مہمان' numeric
+@attribute 'ملنا مکمل جدائی' numeric
+@attribute 'ملنا خوشی بات' numeric
+@attribute 'ملا حیرت پوچھا' numeric
+@attribute 'منظر دور جینا' numeric
+@attribute 'موت اتنا ڈر' numeric
+@attribute 'مفتی کفایت اللہ' numeric
+@attribute 'موت اے آصف' numeric
+@attribute 'موت جذبہ زیست' numeric
+@attribute 'موت پوری کہنا' numeric
+@attribute 'موت ڈر آخری' numeric
+@attribute 'موت ڈر جینے' numeric
+@attribute 'موت ڈر زوق' numeric
+@attribute 'موت ڈر سینوں' numeric
+@attribute 'موت ڈر علی' numeric
+@attribute 'موت ڈر موت' numeric
+@attribute 'موت ڈرتا بچوں' numeric
+@attribute 'موجزن ابہی پت' numeric
+@attribute 'موجود اداسی پچھلی' numeric
+@attribute 'مقام حیرت بات' numeric
+@attribute 'مفت سیکھااداسی مسکرانے' numeric
+@attribute 'مودی اتفاق اتحاد' numeric
+@attribute 'مسلمانوں خلاف پھیلی' numeric
+@attribute 'مرتا بس اک' numeric
+@attribute 'مرد بہن نصیب' numeric
+@attribute 'مرد مرد بہن' numeric
+@attribute 'مرد ڈر حالات' numeric
+@attribute 'مررہے لوگ اللہ' numeric
+@attribute 'مرشد اداسی ہمسفر' numeric
+@attribute 'مرشد بھری جوانی' numeric
+@attribute 'مرشد دیکھ ڈر' numeric
+@attribute 'مرض حقیقی بحران' numeric
+@attribute 'مزدور ہاتھ گھر' numeric
+@attribute 'مساجد مئی کھولنے' numeric
+@attribute 'مسلح جتھوں خمیر' numeric
+@attribute 'مسلمانوں خلاف نفرت' numeric
+@attribute 'مسلمانوں خوشی لہردوڑ' numeric
+@attribute 'مفت سیکھا اداسی' numeric
+@attribute 'مسلمانوں ممکنہ نسل' numeric
+@attribute 'مسلمانوں نسل کشی' numeric
+@attribute 'مسلمانوں نفرت بازگشت' numeric
+@attribute 'مسلماں رگ باطل' numeric
+@attribute 'مسلماں کہتے کہتے' numeric
+@attribute 'مسکرانے ہنر بدلے' numeric
+@attribute 'مشکل آقا گر' numeric
+@attribute 'مشکل حال جینا' numeric
+@attribute 'مشکل دور جینا' numeric
+@attribute 'مشین کہتا دل' numeric
+@attribute 'مظلوم پشتون شہادت' numeric
+@attribute 'معاملات بتایا حکمران' numeric
+@attribute 'مغرب وقت لڑکیوں' numeric
+@attribute 'موجودگی عبادات منہ' numeric
+@attribute 'مودی ڈر مودی' numeric
+@attribute 'مر راشن بٹ' numeric
+@attribute 'نفرت واجب گے' numeric
+@attribute 'نفرت ھے آج' numeric
+@attribute 'نمی بکری دودھ' numeric
+@attribute 'ننھے بچوں سوالات' numeric
+@attribute 'نواز شریف بھیجتا' numeric
+@attribute 'نورانی اک دانش' numeric
+@attribute 'نکالا موت ڈر' numeric
+@attribute 'نکل باقاعدہ تھوڑا' numeric
+@attribute 'نکل خلیجی ملکوں' numeric
+@attribute 'نکلتا قبیلے گھوڑا' numeric
+@attribute 'نکلتا گھوڑا قبیلے' numeric
+@attribute 'نیند خیال حیرت' numeric
+@attribute 'نیند گولی پنکھا' numeric
+@attribute 'نیوز نفرت ھے' numeric
+@attribute 'نیوز چینل بلیک' numeric
+@attribute 'نیوز کھوتے بھیک' numeric
+@attribute 'وائرس نام کاروبار' numeric
+@attribute 'وائرس ڈر سگریٹ' numeric
+@attribute 'وائرس ڈر پاکستانیوں' numeric
+@attribute 'واجب گے محبت' numeric
+@attribute 'ورحمۃ اللہ وبرکاتہ' numeric
+@attribute 'وزیر اعظم عمران' numeric
+@attribute 'وزیراعظم عمران خان' numeric
+@attribute 'وزیراعظم کرونا ٹیسٹ' numeric
+@attribute 'وزیرستان موسم خان' numeric
+@attribute 'وسوسوں گھیر ہنس' numeric
+@attribute 'وسیم بہائی آج' numeric
+@attribute 'وفائی عذابوں آشنا' numeric
+@attribute 'نفرت کمال ہنر' numeric
+@attribute 'نفرت نگاہ دیکھا' numeric
+@attribute 'موسم خان کرونا' numeric
+@attribute 'نفرت نکل خلیجی' numeric
+@attribute 'مولانا طارق جمیل' numeric
+@attribute 'مٹتی اتنی بے' numeric
+@attribute 'مکمل جدائی ادھوری' numeric
+@attribute 'مکمل ملنا مکمل' numeric
+@attribute 'مہمان رھا ھے' numeric
+@attribute 'میاں نواز شریف' numeric
+@attribute 'میڈیا جتنا خوف' numeric
+@attribute 'میڈیا دنوں غصہ' numeric
+@attribute 'میڈیا مسلمانوں خلاف' numeric
+@attribute 'میک دیکھ ڈر' numeric
+@attribute 'ناداں کہو پچھتائیں' numeric
+@attribute 'نام کاروبار شروع' numeric
+@attribute 'نبوت قربان عقیدہختمنبوتمحورایمان' numeric
+@attribute 'نبی کریم صلی' numeric
+@attribute 'نتیجہ چیز خوش' numeric
+@attribute 'نخرے بیوی دکھانا' numeric
+@attribute 'نسل کشی نظریے' numeric
+@attribute 'نسلیں ظالموں کانپیں' numeric
+@attribute 'نصیب لکھنے اللہ' numeric
+@attribute 'نصیب ڈر بہن' numeric
+@attribute 'نظر چہرے جگہ' numeric
+@attribute 'نظر کھڑے حیرت' numeric
+@attribute 'نظریے پرآگے بڑھ' numeric
+@attribute 'نفرت انگیز ٹوئیٹ' numeric
+@attribute 'نفرت بازگشت خلیجی' numeric
+@attribute 'نفرت بحران ہےاس' numeric
+@attribute 'نفرت بیج بونے' numeric
+@attribute 'مراد علی شاہ' numeric
+@attribute 'مدتوں محو یاس' numeric
+@attribute 'وقت لڑکیوں بال' numeric
+@attribute 'فائرنگ گولی سر' numeric
+@attribute 'غرور سارا قصور' numeric
+@attribute 'غصہ سو عمران' numeric
+@attribute 'غصہ مشین کہتا' numeric
+@attribute 'غصہ نواز شریفبھیجتا' numeric
+@attribute 'غلط بات غصہ' numeric
+@attribute 'غلط پیشن گوئی' numeric
+@attribute 'غم جاناں غم' numeric
+@attribute 'غم خوشی امید' numeric
+@attribute 'غم دنیا اک' numeric
+@attribute 'غیرت حکومت بے' numeric
+@attribute 'غیرت سلیکٹڈ زانی' numeric
+@attribute 'غیرتوں جوابھی بے' numeric
+@attribute 'غیروں ڈر ڈر' numeric
+@attribute 'فاصلہ دیکھ بڑھتا' numeric
+@attribute 'مدت ماں سوئی' numeric
+@attribute 'فاقوں مر راشن' numeric
+@attribute 'فتح راور شہر' numeric
+@attribute 'فرشتوں حیرت آواز' numeric
+@attribute 'فرمایا چیز زیادہ' numeric
+@attribute 'فضائے دل اداسی' numeric
+@attribute 'فقیر طلب اداسی' numeric
+@attribute 'فیصل ایدھی کرونا' numeric
+@attribute 'فیصلوں دنیا بدل' numeric
+@attribute 'فیصلہ مسلمانوں خوشی' numeric
+@attribute 'قابض پتا لوگ' numeric
+@attribute 'قابض پتہ لوگ' numeric
+@attribute 'قابو اداسی وحشت' numeric
+@attribute 'قاسم کیخلاف بھونک' numeric
+@attribute 'غربت اداسی سبب' numeric
+@attribute 'عورتوں بازار روک' numeric
+@attribute 'عورت ڈر مرد' numeric
+@attribute 'عمل جوہر بھروسا' numeric
+@attribute 'صحت یاب گھر' numeric
+@attribute 'صدا اداسی ھے' numeric
+@attribute 'صلی اللہ علیہ' numeric
+@attribute 'ضمانت کیلیے رجوع' numeric
+@attribute 'طارق جمیل اختیار' numeric
+@attribute 'طارق جمیل حکومتی' numeric
+@attribute 'طارق جمیل خوف' numeric
+@attribute 'طوفان بجلیوں ڈر' numeric
+@attribute 'عالمی منڈی تیل' numeric
+@attribute 'عبادات منہ مار' numeric
+@attribute 'عباسی گرفتاری ڈر' numeric
+@attribute 'عجب عالم دل' numeric
+@attribute 'عذابوں آشنا اداسی' numeric
+@attribute 'عرش انساں تگ' numeric
+@attribute 'عرش کھلتا راز' numeric
+@attribute 'عزت ملی ھے' numeric
+@attribute 'عشق بازی چاہو' numeric
+@attribute 'عشق فقیر طلب' numeric
+@attribute 'عطا فرمائے آمین' numeric
+@attribute 'عقل انتہا جواب' numeric
+@attribute 'علیکم ورحمۃ اللہ' numeric
+@attribute 'علیہ وآلہ وسلم' numeric
+@attribute 'علیہ وسلم فرمایا' numeric
+@attribute 'عمران خان بھیجتا' numeric
+@attribute 'عمران خان تعریف' numeric
+@attribute 'عمران خان نفرت' numeric
+@attribute 'عمرہ حبیب جالب' numeric
+@attribute 'قبول تعلق نفرت' numeric
+@attribute 'قبیلے سےگھوڑا لےکرنکل' numeric
+@attribute 'قبیلے مان رسموں' numeric
+@attribute 'لینے ہتھیار ڈال' numeric
+@attribute 'لےکرنکلتا لگتاہے قبیلے' numeric
+@attribute 'لےکرنکلتا لگتاہےقبیلےسےگھوڑا لےکرنکل' numeric
+@attribute 'مئی کھولنے فیصلہ' numeric
+@attribute 'ماتھے اداسی شکن' numeric
+@attribute 'مار بچوں مر' numeric
+@attribute 'مار مال واپس' numeric
+@attribute 'مارے بزدلی چوڑیاں' numeric
+@attribute 'مارے مظلوم پشتون' numeric
+@attribute 'مالوں جانوں پھلوں' numeric
+@attribute 'مان رسموں ڈر' numeric
+@attribute 'مان محمد قاسم' numeric
+@attribute 'مانند اترتی نقصان' numeric
+@attribute 'مانگتے دیکھیں گے' numeric
+@attribute 'ماں سوئی تابش' numeric
+@attribute 'مایوسی بھری اک' numeric
+@attribute 'مثبت کافی دکھ' numeric
+@attribute 'مجذوب اداسی گم' numeric
+@attribute 'محبت بے وفائی' numeric
+@attribute 'محبت سکھائی ہوس' numeric
+@attribute 'محبت پتہ انسان' numeric
+@attribute 'محسوس ہنسا رات' numeric
+@attribute 'محمد اذان خلاف' numeric
+@attribute 'محمد قاسم کیخلاف' numeric
+@attribute 'محو حیرت دنیا' numeric
+@attribute 'محو یاس ملنا' numeric
+@attribute 'مختصر اسر چیزیں' numeric
+@attribute 'مدت خواب نیند' numeric
+@attribute 'لےکرنکل رہاہوں باقاعدہ' numeric
+@attribute 'لگتاہےکہیں منگول حملہ' numeric
+@attribute 'قبیلے نکلا ڈر' numeric
+@attribute 'لگتاہےقبیلےسےگھوڑا لےکرنکل رہاہوں' numeric
+@attribute 'قبیلے گھوڑا نکل' numeric
+@attribute 'قتل فوج دم' numeric
+@attribute 'قسم اتنی خوشی' numeric
+@attribute 'قصے بچوں کہانی' numeric
+@attribute 'قوم آغاز اقراء' numeric
+@attribute 'قوم خلاف بےجا' numeric
+@attribute 'قہقہوں درد مختلف' numeric
+@attribute 'قہقہے من بوجھ' numeric
+@attribute 'لب آسکتا محو' numeric
+@attribute 'لب محو حیرت' numeric
+@attribute 'لفظ دیکھتے باتوں' numeric
+@attribute 'لقمان حیرت عشق' numeric
+@attribute 'لوٹ مار مال' numeric
+@attribute 'لوگ بھوکوں مررہے' numeric
+@attribute 'لوگ بے اداسی' numeric
+@attribute 'لوگ جلدی ٹر' numeric
+@attribute 'لوگ دنیا ڈر' numeric
+@attribute 'لوگ رغبت اجر' numeric
+@attribute 'لوگ عمران خان' numeric
+@attribute 'لوگ فیصلوں دنیا' numeric
+@attribute 'لوگ ڈر ڈر' numeric
+@attribute 'لوگ ہنسی چھین' numeric
+@attribute 'لڑتے رات تھک' numeric
+@attribute 'لڑکا دن لکھا' numeric
+@attribute 'لڑکی چہرے محبت' numeric
+@attribute 'لکھا تختی اداسی' numeric
+@attribute 'لکھنے اللہ دنیا' numeric
+@attribute 'وقت خوشی رب' numeric
+@attribute 'وقت نمازی ھوتا' numeric
+@attribute 'صحافی حضرات ڈر' numeric
+@attribute 'کہتے کہتے بات' numeric
+@attribute 'کھا گے اداسی' numeric
+@attribute 'کھلتا راز تا' numeric
+@attribute 'کھوتے بھیک مانگتے' numeric
+@attribute 'کھونے زندگی زندگی' numeric
+@attribute 'کھڑی مرنے کھائے' numeric
+@attribute 'کھیلتا لڑکا دن' numeric
+@attribute 'کہانی سن حیدر' numeric
+@attribute 'کہتا دل پھینک' numeric
+@attribute 'کہتا سر ملے' numeric
+@attribute 'کہتی نخرے بیوی' numeric
+@attribute 'کہتے بات یقیں' numeric
+@attribute 'کہتے بچھڑے سوچا' numeric
+@attribute 'کہتے مغرب وقت' numeric
+@attribute 'کہتے کہتے ہچکچا' numeric
+@attribute 'وی جتنی عزت' numeric
+@attribute 'کہتے ہچکچا مسلماں' numeric
+@attribute 'کہنا مکمل ملنا' numeric
+@attribute 'کہنا ہارے بازی' numeric
+@attribute 'کہو پچھتائیں گے' numeric
+@attribute 'کہوں علاج اداسی' numeric
+@attribute 'کیخلاف بھونک آرائیوں' numeric
+@attribute 'کیلشم کمی چیز' numeric
+@attribute 'کیلشیم کمی چیز' numeric
+@attribute 'کیلیے رجوع کرلیا' numeric
+@attribute 'گئیں دین دنیا' numeric
+@attribute 'گالیوں پرہیز زیادہ' numeric
+@attribute 'گاڑیاں لوٹ مار' numeric
+@attribute 'گر آنکھوں گے' numeric
+@attribute 'کھا شباب دلکش' numeric
+@attribute 'کھا اداسی کھڑی' numeric
+@attribute 'کووڈ مرض حقیقی' numeric
+@attribute 'کووڈ انیس مرض' numeric
+@attribute 'ڈر ھے چینل' numeric
+@attribute 'ڈرامے پی ٹی' numeric
+@attribute 'ڈرتا بچوں ڈر' numeric
+@attribute 'ڈیرے ابہی تسنیم' numeric
+@attribute 'کاروبار شروع دئیے' numeric
+@attribute 'کافی دکھ بات' numeric
+@attribute 'کامیاب لوگ فیصلوں' numeric
+@attribute 'کتنا ڈر تجوری' numeric
+@attribute 'کردار نظر چہرے' numeric
+@attribute 'کرلیا بندہ کہتا' numeric
+@attribute 'کرونا صحت یاب' numeric
+@attribute 'کرونا وائرس نام' numeric
+@attribute 'کرونا وائرس ڈر' numeric
+@attribute 'کرونا ٹیسٹ مثبت' numeric
+@attribute 'کرونا ٹیسٹ منفی' numeric
+@attribute 'کرونا پھیلایا اتنا' numeric
+@attribute 'کرونا پیو آجائے' numeric
+@attribute 'کرونا ڈیٹ کرکے' numeric
+@attribute 'کرونا کرونا پیو' numeric
+@attribute 'کرپٹ لوگ بھوکوں' numeric
+@attribute 'کریم صلی اللہ' numeric
+@attribute 'کشی نظریے پرآگے' numeric
+@attribute 'کمزور لوگ دنیا' numeric
+@attribute 'کمپنیوں شدید نقصان' numeric
+@attribute 'کمی چیز ذمہ' numeric
+@attribute 'کنارے کناروں نمی' numeric
+@attribute 'کورونا ٹیسٹ منفی' numeric
+@attribute 'گر بازی عشق' numeric
+@attribute 'گر جیت کہنا' numeric
+@attribute 'گر گے خبر' numeric
+@attribute 'ھے گالیوں پرہیز' numeric
+@attribute 'ہائیکورٹ ضمانت کیلیے' numeric
+@attribute 'ہاتھ مزدور گھر' numeric
+@attribute 'ہاتھجب مزدور گھر' numeric
+@attribute 'ہارے بازی مات' numeric
+@attribute 'ہتھیار ڈال ارطغرل' numeric
+@attribute 'ہتھیار ڈال ارطغرلغازی' numeric
+@attribute 'ہتھیار ڈال سانس' numeric
+@attribute 'ہجر بھرا عشق' numeric
+@attribute 'ہجوم دیکھ رستہ' numeric
+@attribute 'ہستی عمل جوہر' numeric
+@attribute 'ہمسفر مرشد دیکھ' numeric
+@attribute 'ہمیشہ تکلیف سیکھتا' numeric
+@attribute 'ہندوستان کووڈ مرض' numeric
+@attribute 'ہنر بدلے زندگی' numeric
+@attribute 'ہنر دیکھنا نظر' numeric
+@attribute 'ہنس ہنس تھک' numeric
+@attribute 'ہنستا کھیلتا لڑکا' numeric
+@attribute 'ہنسی چھین قہقہے' numeric
+@attribute 'ہوس بہشت دوزخ' numeric
+@attribute 'ہونٹوں اداسی آنکھوں' numeric
+@attribute 'ہوگی ہتھیار ڈال' numeric
+@attribute 'ہچکچا مسلماں کہتے' numeric
+@attribute 'ہیرو مان محمد' numeric
+@attribute 'یادوں بے چینی' numeric
+@attribute 'یار پیڑوں اداسی' numeric
+@attribute 'یاس ملنا خوشی' numeric
+@attribute 'یوتھیوں جیو نیوز' numeric
+@attribute 'ھے ھم ملنے' numeric
+@attribute 'ھے کرونا وائرس' numeric
+@attribute 'گرفتاری ڈر اسلام' numeric
+@attribute 'ھے ڈر ھے' numeric
+@attribute 'گرفتاری ڈر بھارتی' numeric
+@attribute 'گرگٹ مات فطرت' numeric
+@attribute 'گزرنا چاہیے جنات' numeric
+@attribute 'گلاب منحوس اداسی' numeric
+@attribute 'گلے پڑ ضدی' numeric
+@attribute 'گم سمندر سمندر' numeric
+@attribute 'گونجی صدا اداسی' numeric
+@attribute 'گونگی آج زباں' numeric
+@attribute 'گھر بائیک نکلتا' numeric
+@attribute 'گھر خوشی بھائی' numeric
+@attribute 'گھر دیواروں ناصر' numeric
+@attribute 'گھر نکلتا گھوڑا' numeric
+@attribute 'گھر نکلو گے' numeric
+@attribute 'گھوڑا نکل باقاعدہ' numeric
+@attribute 'گے اداسی سبب' numeric
+@attribute 'گے اداسی کھڑی' numeric
+@attribute 'گے خبر مصیبت' numeric
+@attribute 'گے دشمن ڈر' numeric
+@attribute 'گے محبت جاۓ' numeric
+@attribute 'گے گر آنکھوں' numeric
+@attribute 'گے گے چھین' numeric
+@attribute 'ھم ملنے پیارا' numeric
+@attribute 'ھوا اداسی شاٹس' numeric
+@attribute 'ھے آج جیو' numeric
+@attribute 'ھے اداسی دوا' numeric
+@attribute 'ھے حیرت ھے' numeric
+@attribute 'ھے چینل قومے' numeric
+@attribute 'ڈر گر جیت' numeric
+@attribute 'ڈر کہتے بچھڑے' numeric
+@attribute 'ڈر کھونے زندگی' numeric
+@attribute 'پچھلی رات بہلا' numeric
+@attribute 'پڑ ضدی اداسی' numeric
+@attribute 'پڑوسی بھوکا تیسرا' numeric
+@attribute 'پھیلا جسم تنہائیوں' numeric
+@attribute 'پھینک ٹی وی' numeric
+@attribute 'پہرا اداسی راستے' numeric
+@attribute 'پہرہ اداسی راستے' numeric
+@attribute 'پہن نسلیں ظالموں' numeric
+@attribute 'پی ٹی ایم' numeric
+@attribute 'پی ٹی وی' numeric
+@attribute 'پیا کیلشم کمی' numeric
+@attribute 'پیا کیلشیم کمی' numeric
+@attribute 'پیارا مہمان رھا' numeric
+@attribute 'پیاروں جنازے اٹھانے' numeric
+@attribute 'پیاس مال جان' numeric
+@attribute 'پیشن گوئی جھوٹی' numeric
+@attribute 'پیغام رھا ھے' numeric
+@attribute 'پینا چھوڑ سگریٹ' numeric
+@attribute 'پیو آجائے عورتوں' numeric
+@attribute 'پیڑ گزرنا چاہیے' numeric
+@attribute 'پیڑوں اداسی دیکھی' numeric
+@attribute 'چار دن دوستی' numeric
+@attribute 'چاپلوسی اچھی شخصیت' numeric
+@attribute 'چاہت بھروسہ بچھڑ' numeric
+@attribute 'چاہو ڈر گر' numeric
+@attribute 'چاہیے جنات اثر' numeric
+@attribute 'چاہیے صحافی غلط' numeric
+@attribute 'چلتی پہلو گلے' numeric
+@attribute 'پچھلے سبق بھول' numeric
+@attribute 'پچھتائیں گے گر' numeric
+@attribute 'چوتھی عمرہ حبیب' numeric
+@attribute 'پوچھ چھوٹا چار' numeric
+@attribute 'وی زمین جعلی' numeric
+@attribute 'وی چینلوں سوشل' numeric
+@attribute 'ٹوئٹ حیرت پچھلے' numeric
+@attribute 'ٹوئیٹ دبئی پولیس' numeric
+@attribute 'ٹوٹا دل حیرت' numeric
+@attribute 'ٹھیک اداسی کلیجہ' numeric
+@attribute 'ٹی وی اینکر' numeric
+@attribute 'ٹی وی جتنی' numeric
+@attribute 'ٹی وی زمین' numeric
+@attribute 'ٹی وی چینلوں' numeric
+@attribute 'ٹیسٹ مثبت کافی' numeric
+@attribute 'پانچ وقت نمازی' numeric
+@attribute 'پانچویں امیر ترین' numeric
+@attribute 'پاکستان عمران خان' numeric
+@attribute 'پاکستان مسلم لیگ' numeric
+@attribute 'پاکستانیوں کرونا وائرس' numeric
+@attribute 'پت جہڑ ڈیرے' numeric
+@attribute 'پتا لوگ ڈر' numeric
+@attribute 'پتہ انسان نفرت' numeric
+@attribute 'پتہ لوگ ڈر' numeric
+@attribute 'پرآگے بڑھ مسلمانوں' numeric
+@attribute 'پرہیز زیادہ غصہ' numeric
+@attribute 'پشتون شہادت خبر' numeric
+@attribute 'پنکھا رسی موت' numeric
+@attribute 'پوائنٹس چاہیے صحافی' numeric
+@attribute 'پوری دنیا حالات' numeric
+@attribute 'پوری کہنا اداسی' numeric
+@attribute 'چن مدتوں محو' numeric
+@attribute 'چوڑیاں پہن نسلیں' numeric
+@attribute 'ڈر ڈر فوت' numeric
+@attribute 'ڈر بہن عزت' numeric
+@attribute 'ڈر تجوری جیب' numeric
+@attribute 'ڈر تقاضا بدلتے' numeric
+@attribute 'ڈر جیب گھر' numeric
+@attribute 'ڈر جینے ارمان' numeric
+@attribute 'ڈر حالات خونی' numeric
+@attribute 'ڈر دیکھ لگن' numeric
+@attribute 'ڈر رات ہاتھ' numeric
+@attribute 'ڈر رستوں گھر' numeric
+@attribute 'ڈر ریگولرائزیشن سمری' numeric
+@attribute 'ڈر سخت مشکل' numeric
+@attribute 'ڈر سگریٹ پینا' numeric
+@attribute 'ڈر سینوں نبی' numeric
+@attribute 'ڈر شب گزر' numeric
+@attribute 'ڈر علی چھوڑ' numeric
+@attribute 'ڈر فاصلہ دیکھ' numeric
+@attribute 'ڈر فوت بتایا' numeric
+@attribute 'ڈر فیصلے بدل' numeric
+@attribute 'ڈر لگتاہےکہیں منگول' numeric
+@attribute 'ڈر لگنے محبت' numeric
+@attribute 'ڈر مار بچوں' numeric
+@attribute 'ڈر مارے بزدلی' numeric
+@attribute 'ڈر مارے مظلوم' numeric
+@attribute 'ڈر ملے شیر' numeric
+@attribute 'ڈر مناظر موجودگی' numeric
+@attribute 'ڈر مودی ڈر' numeric
+@attribute 'ڈر پاکستانیوں کرونا' numeric
+@attribute 'ڈر چھت گرا' numeric
+@attribute 'ڈر بہن کھیلے' numeric
+@attribute 'ڈر بھوک پیاس' numeric
+@attribute 'چھا بارش خیالوں' numeric
+@attribute 'ڈر بھارتی سنگر' numeric
+@attribute 'چھت پیڑ گزرنا' numeric
+@attribute 'چھت گرا مر' numeric
+@attribute 'چھم چھم ڈر' numeric
+@attribute 'چھوٹا بھائی سال' numeric
+@attribute 'چھوٹا چار سنا' numeric
+@attribute 'چھوڑ سگریٹ بنانے' numeric
+@attribute 'چھین قہقہے من' numeric
+@attribute 'چہروں گلاب منحوس' numeric
+@attribute 'چہرے محبت بے' numeric
+@attribute 'چیختی قہقہوں درد' numeric
+@attribute 'چیز زیادہ جنت' numeric
+@attribute 'چیزیں اہم اللہ' numeric
+@attribute 'چینل قومے جائے' numeric
+@attribute 'چینلوں سوشل میڈیا' numeric
+@attribute 'چینی سونپ سورج' numeric
+@attribute 'چیک خلیجی ممالک' numeric
+@attribute 'ڈال ارطغرل غازی' numeric
+@attribute 'ڈال سانس حرام' numeric
+@attribute 'ڈر آخری سانس' numeric
+@attribute 'ڈر اسلام آباد' numeric
+@attribute 'ڈر اللہ در' numeric
+@attribute 'ڈر اچھا اخلاق' numeric
+@attribute 'ڈر اچھے اخلاق' numeric
+@attribute 'ڈر اک رات' numeric
+@attribute 'ڈر بس اللہ' numeric
+@attribute 'ڈر بغاوت سکے' numeric
+@attribute 'ڈر بولی اللہ' numeric
+@attribute 'صحافی غلط پیشن' numeric
+@attribute 'صحافت دن منا' numeric
+@attribute 'آج اچانک مودی' numeric
+@attribute 'بڑا بھائی بڑے' numeric
+@attribute 'برہانی دانش برہانی' numeric
+@attribute 'بزدلی چوڑیاں پہن' numeric
+@attribute 'بس جان ختم' numeric
+@attribute 'بسم اللہ الرحمن' numeric
+@attribute 'بلیک پوائنٹس چاہیے' numeric
+@attribute 'بنانے کمپنیوں شدید' numeric
+@attribute 'بوتل نیند گولی' numeric
+@attribute 'بول طبیعت ٹھیک' numeric
+@attribute 'بٹ فوٹو ڈر' numeric
+@attribute 'بچوں سوالات ڈر' numeric
+@attribute 'بچوں ڈر اک' numeric
+@attribute 'بچوں ڈر رات' numeric
+@attribute 'بچھڑے سوچا پاگل' numeric
+@attribute 'بڑھتا راستہ دیکھ' numeric
+@attribute 'ایس مسلح جتھوں' numeric
+@attribute 'بڑے با امیر' numeric
+@attribute 'بکری دودھ پیا' numeric
+@attribute 'بکھرتی فسردگی جاں' numeric
+@attribute 'بھائی بڑے با' numeric
+@attribute 'بھائی سال بڑا' numeric
+@attribute 'بھائی فائرنگ گولی' numeric
+@attribute 'بھارت مسلمانوں خلاف' numeric
+@attribute 'بھرا عشق فقیر' numeric
+@attribute 'بھرتے شخص اداسی' numeric
+@attribute 'بھلائی فتح راور' numeric
+@attribute 'بھونک آرائیوں پیاز' numeric
+@attribute 'بھوک مالوں جانوں' numeric
+@attribute 'بھوکا تیسرا دن' numeric
+@attribute 'برہانی حیرت فراوانی' numeric
+@attribute 'برطانیہ لاکھ کرونا' numeric
+@attribute 'برادری مسلمانوں ممکنہ' numeric
+@attribute 'بذات اداسی دکھ' numeric
+@attribute 'اے شخص محبت' numeric
+@attribute 'اے شگوفوں رنگ' numeric
+@attribute 'با امیر آدمی' numeric
+@attribute 'بائیک لےکرنکلتا لگتاہےقبیلےسےگھوڑا' numeric
+@attribute 'بائیک نکلتا قبیلے' numeric
+@attribute 'بات خوشی فیصل' numeric
+@attribute 'بات رونا خاک' numeric
+@attribute 'بات مرشد بھری' numeric
+@attribute 'بات نفرت دکھ' numeric
+@attribute 'بات نکلے دور' numeric
+@attribute 'بات یقیں بس' numeric
+@attribute 'باتوں بات بدل' numeric
+@attribute 'بازار روک کرونا' numeric
+@attribute 'بازگشت خلیجی ممالک' numeric
+@attribute 'بازی عشق بازی' numeric
+@attribute 'بازی چاہو ڈر' numeric
+@attribute 'باقاعدہ تھوڑا ڈر' numeric
+@attribute 'بتایا حکمران کہانیاں' numeric
+@attribute 'بجلیوں ڈر سخت' numeric
+@attribute 'بحران اصل بحران' numeric
+@attribute 'بحران نفرت بھوک' numeric
+@attribute 'بحران ہےاس دہلی' numeric
+@attribute 'بخود منزل حوصلہ' numeric
+@attribute 'بد مزاج غرور' numeric
+@attribute 'بدل کمزور لوگ' numeric
+@attribute 'بدلتے ڈر تقاضا' numeric
+@attribute 'بدلے زندگی خوشی' numeric
+@attribute 'بھیجتا بات ختم' numeric
+@attribute 'بھیک مانگتے دیکھیں' numeric
+@attribute 'بہائی آج پوری' numeric
+@attribute 'تیسرا دن چوتھی' numeric
+@attribute 'جان بس ختم' numeric
+@attribute 'جان ختم نبوت' numeric
+@attribute 'جاناں غم دنیا' numeric
+@attribute 'جتنا خوف کرونا' numeric
+@attribute 'جتھوں خمیر قوم' numeric
+@attribute 'جدائی ادھوری اک' numeric
+@attribute 'جرمنی مساجد مئی' numeric
+@attribute 'جسم تنہائیوں زہر' numeric
+@attribute 'جمیل حکومتی معاملات' numeric
+@attribute 'جمیل خوف اتنی' numeric
+@attribute 'جنات اثر ڈر' numeric
+@attribute 'جنازے اٹھانے خاندان' numeric
+@attribute 'جنت داخل اللہ' numeric
+@attribute 'جنوبی وزیرستان موسم' numeric
+@attribute 'جواب ملا حیرت' numeric
+@attribute 'جوابھی بے غیرت' numeric
+@attribute 'جواری زکوتہ چندہ' numeric
+@attribute 'جوہر بھروسا قوت' numeric
+@attribute 'جھوٹی خبر حکومت' numeric
+@attribute 'جہڑ ڈیرے ابہی' numeric
+@attribute 'جیب دونوں پڑوسی' numeric
+@attribute 'جیت کہنا ہارے' numeric
+@attribute 'جینا لازم ھے' numeric
+@attribute 'جینا مشکل حال' numeric
+@attribute 'جینا مشکل دور' numeric
+@attribute 'جینی اداسی لاکھ' numeric
+@attribute 'جینے ارمان بس' numeric
+@attribute 'ثواب لالچ عبادت' numeric
+@attribute 'تھکان اتارنے وقفہ' numeric
+@attribute 'بہشت دوزخ ڈر' numeric
+@attribute 'تھک سو ڈر' numeric
+@attribute 'بہلا دل ذرا' numeric
+@attribute 'بہن نصیب ڈر' numeric
+@attribute 'بی جے پی' numeric
+@attribute 'بیٹا غلامی نفرت' numeric
+@attribute 'بے اداسی بے' numeric
+@attribute 'بے اداسی سبب' numeric
+@attribute 'بے حد نفرت' numeric
+@attribute 'بے سبب اداسی' numeric
+@attribute 'بے غیرت حکومت' numeric
+@attribute 'بے غیرت سلیکٹڈ' numeric
+@attribute 'بے غیرتوں جوابھی' numeric
+@attribute 'بے نام اداسی' numeric
+@attribute 'بے وفائی عذابوں' numeric
+@attribute 'تا سر عرش' numeric
+@attribute 'تابش اک ڈر' numeric
+@attribute 'تاریک سرمستی حیرت' numeric
+@attribute 'تجوری جیب دونوں' numeric
+@attribute 'تختی اداسی کھا' numeric
+@attribute 'ترقی قوم آغاز' numeric
+@attribute 'ترک رفاقت پریشاں' numeric
+@attribute 'ترین آدمی فون' numeric
+@attribute 'تسنیم باقی ابہی' numeric
+@attribute 'تصویر رکھ لینا' numeric
+@attribute 'تعلیم ترقی قوم' numeric
+@attribute 'تنہائیوں زہر رگ' numeric
+@attribute 'تکلیف سیکھتا خوشی' numeric
+@attribute 'تھوڑا ڈر لگتاہےکہیں' numeric
+@attribute 'ایس مسلمانوں نسل' numeric
+@attribute 'ایس ایس مسلح' numeric
+@attribute 'جیو نیوز نفرت' numeric
+@attribute 'اداسی بد مزاج' numeric
+@attribute 'اتفاق اتحاد ٹوئٹ' numeric
+@attribute 'اتنا دوزخ پھیلایا' numeric
+@attribute 'اتنی بے رنگ' numeric
+@attribute 'اتنی خوشی امی' numeric
+@attribute 'اتنی نفرت جتنی' numeric
+@attribute 'اتنی چاپلوسی اچھی' numeric
+@attribute 'اجر ثواب لالچ' numeric
+@attribute 'اجمل گے اداسی' numeric
+@attribute 'احساس ٹیلی تھون' numeric
+@attribute 'اداروں حیرت انگیز' numeric
+@attribute 'اداسی آنکھ نمی' numeric
+@attribute 'اداسی آنکھوں نمی' numeric
+@attribute 'اداسی بال کھولے' numeric
+@attribute 'اداسی بکھرتی فسردگی' numeric
+@attribute 'ایدھی کرونا ٹیسٹ' numeric
+@attribute 'اداسی بے انتہا' numeric
+@attribute 'اداسی حصے مسکرایا' numeric
+@attribute 'اداسی در بام' numeric
+@attribute 'اداسی دل ملال' numeric
+@attribute 'اداسی دوا اداسی' numeric
+@attribute 'اداسی دکھ دور' numeric
+@attribute 'اداسی دھواں طاقوں' numeric
+@attribute 'اداسی راستے آرہی' numeric
+@attribute 'اداسی رگوں خون' numeric
+@attribute 'اداسی سبب بتلایا' numeric
+@attribute 'اداسی سبب پوچھ' numeric
+@attribute 'اداسی سبب پوچھتے' numeric
+@attribute 'اداسی سبب پوچھنے' numeric
+@attribute 'اترے دل اداسی' numeric
+@attribute 'اتر شخص فیصلہ' numeric
+@attribute 'اتحاد ٹوئٹ حیرت' numeric
+@attribute 'ابہی پت جہڑ' numeric
+@attribute 'آج بھول پڑے' numeric
+@attribute 'آج جیو نیوز' numeric
+@attribute 'آج حیرت مولانا' numeric
+@attribute 'آج زباں کہتے' numeric
+@attribute 'آج صبح بائیک' numeric
+@attribute 'آج پوری دنیا' numeric
+@attribute 'آج ڈر مارے' numeric
+@attribute 'آجائے عورتوں بازار' numeric
+@attribute 'آخری سانس حرام' numeric
+@attribute 'آخری سانس لینے' numeric
+@attribute 'آدمی فون ڈر' numeric
+@attribute 'آر ایس ایس' numeric
+@attribute 'آرائیوں پیاز پیتل' numeric
+@attribute 'آرایس ایس مسلمانوں' numeric
+@attribute 'آزادی صحافت دن' numeric
+@attribute 'آزمائش گے دشمن' numeric
+@attribute 'آزمائیں گے ڈر' numeric
+@attribute 'آسکتا محو حیرت' numeric
+@attribute 'آشنا اداسی استعارہ' numeric
+@attribute 'آنکھ دیکھتی لب' numeric
+@attribute 'آنکھوں اداسی سبب' numeric
+@attribute 'آنکھوں نمی بکری' numeric
+@attribute 'آنکھوں ڈر ملے' numeric
+@attribute 'آواز عرش کھلتا' numeric
+@attribute 'آہوں ٹھنڈی ہوائیں' numeric
+@attribute 'ابہی تسنیم باقی' numeric
+@attribute 'ابہی دربار الفت' numeric
+@attribute 'اداسی مایوسی بھری' numeric
+@attribute 'اداسی محسوس ہنسا' numeric
+@attribute 'اداسی مسکرانے ہنر' numeric
+@attribute 'اللہ علیہ وآلہ' numeric
+@attribute 'اللہ پاک ہمیشہ' numeric
+@attribute 'اللہ ڈر اللہ' numeric
+@attribute 'اللہ ڈر اچھے' numeric
+@attribute 'امی کہتی نخرے' numeric
+@attribute 'امیر ترین آدمی' numeric
+@attribute 'انتخاب نتیجہ چیز' numeric
+@attribute 'انتہا جواب ملا' numeric
+@attribute 'انجام پائی دولہا' numeric
+@attribute 'انسان ہمیشہ تکلیف' numeric
+@attribute 'انڈیا آرایس ایس' numeric
+@attribute 'انڈیا اسلاموفوبیا مسلمانوں' numeric
+@attribute 'انڈیا مسلمانوں خلاف' numeric
+@attribute 'انگیز ٹوئیٹ دبئی' numeric
+@attribute 'انیس مرض حقیقی' numeric
+@attribute 'اٹھا یاد آنگن' numeric
+@attribute 'اٹھانے خاندان ڈر' numeric
+@attribute 'اٹھے سو خاک' numeric
+@attribute 'اچانک مودی اتفاق' numeric
+@attribute 'اک بے نام' numeric
+@attribute 'اک دانش برہانی' numeric
+@attribute 'اک دانش نورانی' numeric
+@attribute 'اک دوجے لڑتے' numeric
+@attribute 'اک رات ہاتھ' numeric
+@attribute 'اک رات ہاتھجب' numeric
+@attribute 'اک موت پوری' numeric
+@attribute 'اکاؤنٹس چیک خلیجی' numeric
+@attribute 'اہم اللہ ڈر' numeric
+@attribute 'اللہ علیہ وسلم' numeric
+@attribute 'اللہ صلی اللہ' numeric
+@attribute 'اداسی مٹتی اتنی' numeric
+@attribute 'اللہ راہ خرچ' numeric
+@attribute 'اداسی وحشت لوں' numeric
+@attribute 'اداسی پچھلی رات' numeric
+@attribute 'اداسی چھا بارش' numeric
+@attribute 'اداسی چیختی قہقہوں' numeric
+@attribute 'اداسی ڈوبی گھٹائیں' numeric
+@attribute 'اداسی کلیجہ منہ' numeric
+@attribute 'اداسی کھا شباب' numeric
+@attribute 'اداسی کھڑی مرنے' numeric
+@attribute 'اداسی گم سمندر' numeric
+@attribute 'اداسی ھے اداسی' numeric
+@attribute 'اداسی ہمسفر مرشد' numeric
+@attribute 'اداسی ہنس ہنس' numeric
+@attribute 'ادھوری اک موت' numeric
+@attribute 'ارمان بس جان' numeric
+@attribute 'اسر چیزیں اہم' numeric
+@attribute 'اسلام آباد ہائیکورٹ' numeric
+@attribute 'اسلاموفوبیا مسلمانوں نفرت' numeric
+@attribute 'اشک ناداں کہو' numeric
+@attribute 'اصل بحران نفرت' numeric
+@attribute 'اعظم عمران خان' numeric
+@attribute 'افطار وقت خوشی' numeric
+@attribute 'اللہ الرحمن الرحیم' numeric
+@attribute 'اللہ تعالی ذکر' numeric
+@attribute 'اللہ تعالی ڈر' numeric
+@attribute 'اللہ خوف عاری' numeric
+@attribute 'اللہ در گئیں' numeric
+@attribute 'اللہ دنیا ڈر' numeric
+@attribute 'جینے ارمان جان' numeric
+@attribute 'جیو نیوز کھوتے' numeric
+@attribute 'صبح بائیک نکلتا' numeric
+@attribute 'رونا خاک اٹھے' numeric
+@attribute 'رمضان گالیوں پرہیز' numeric
+@attribute 'رمضان ھے گالیوں' numeric
+@attribute 'رنگ بھرتے شخص' numeric
+@attribute 'رنگ حیرت گرگٹ' numeric
+@attribute 'رنگ گورا کریم' numeric
+@attribute 'روح اداسی ہنس' numeric
+@attribute 'روح جذب رونقیں' numeric
+@attribute 'روح پیاسی اداسی' numeric
+@attribute 'روز چلتی پہلو' numeric
+@attribute 'روزگار کیلئے مقیم' numeric
+@attribute 'روزہ دار خوشیاں' numeric
+@attribute 'روزے دار خوشیاں' numeric
+@attribute 'روس شہریوں گھر' numeric
+@attribute 'رونقیں زہر لگنے' numeric
+@attribute 'دکھ کھا اداسی' numeric
+@attribute 'روک کرونا ڈیٹ' numeric
+@attribute 'رکھ لینا کام' numeric
+@attribute 'رگ باطل نشتر' numeric
+@attribute 'رگ رگ ساری' numeric
+@attribute 'رگ ساری اداسی' numeric
+@attribute 'رگوں خون مانند' numeric
+@attribute 'رھا ھے جان' numeric
+@attribute 'رھا ھے ھم' numeric
+@attribute 'رہاہوں باقاعدہ تھوڑا' numeric
+@attribute 'زانی شرابی جواری' numeric
+@attribute 'زباں کہتے کہتے' numeric
+@attribute 'زندگی خوشی تباہ' numeric
+@attribute 'زندگی زندگی کھویا' numeric
+@attribute 'رمضان المبارک خوشی' numeric
+@attribute 'رغبت اجر ثواب' numeric
+@attribute 'رضی اللہ عنہ' numeric
+@attribute 'رضی اللہ تعالی' numeric
+@attribute 'دیکھ اے شخص' numeric
+@attribute 'دیکھ بڑھتا راستہ' numeric
+@attribute 'دیکھ رستہ بدلتے' numeric
+@attribute 'دیکھ لگن دیکھتا' numeric
+@attribute 'دیکھ ڈر بولی' numeric
+@attribute 'دیکھ ڈر چھت' numeric
+@attribute 'دیکھتی لب آسکتا' numeric
+@attribute 'دیکھتی لب محو' numeric
+@attribute 'دیکھتے باتوں بات' numeric
+@attribute 'ذرا سا رات' numeric
+@attribute 'ذمہ دار عشق' numeric
+@attribute 'رات بہلا دل' numeric
+@attribute 'رات تھک سو' numeric
+@attribute 'رات ہاتھ مزدور' numeric
+@attribute 'رات ہاتھجب مزدور' numeric
+@attribute 'راجہ داہر ہیرو' numeric
+@attribute 'راز تا سر' numeric
+@attribute 'راستوں پہرا اداسی' numeric
+@attribute 'راستوں پہرہ اداسی' numeric
+@attribute 'راشن بٹ فوٹو' numeric
+@attribute 'راور شہر فتح' numeric
+@attribute 'رب ملاقات وقت' numeric
+@attribute 'رستوں گھر نکلو' numeric
+@attribute 'رستہ بدلتے ڈر' numeric
+@attribute 'رسموں ڈر بغاوت' numeric
+@attribute 'رسول اللہ صلی' numeric
+@attribute 'رسول اللہ فرمایا' numeric
+@attribute 'زندہ دیکھ ڈر' numeric
+@attribute 'زہر رگ رگ' numeric
+@attribute 'زیادہ جنت داخل' numeric
+@attribute 'سونپ سورج اتر' numeric
+@attribute 'سوچتا لوگ ہنسی' numeric
+@attribute 'سوچوں قابض پتہ' numeric
+@attribute 'سکتی خوش چاہیں' numeric
+@attribute 'سکوت گونجی صدا' numeric
+@attribute 'سکھائی ہوس بہشت' numeric
+@attribute 'سگریٹ بنانے کمپنیوں' numeric
+@attribute 'سگریٹ پینا چھوڑ' numeric
+@attribute 'سیکھا اداسی مسکرانے' numeric
+@attribute 'سیکھااداسی مسکرانے ہنر' numeric
+@attribute 'شادی سالہ خاتون' numeric
+@attribute 'شاہد خاقان عباسی' numeric
+@attribute 'شب روز چلتی' numeric
+@attribute 'شب گفتگو ڈر' numeric
+@attribute 'شخص اداسی حل' numeric
+@attribute 'شخص شادی سالہ' numeric
+@attribute 'شخص محبت دور' numeric
+@attribute 'شرابی جواری زکوتہ' numeric
+@attribute 'شور ڈر بیٹھا' numeric
+@attribute 'شکن ہنسانے چلی' numeric
+@attribute 'شگوفوں رنگ بھرتے' numeric
+@attribute 'شگوفے چہروں گلاب' numeric
+@attribute 'شہادت خبر آج' numeric
+@attribute 'شہر راستوں پہرا' numeric
+@attribute 'شہر راستوں پہرہ' numeric
+@attribute 'شہری کرونا صحت' numeric
+@attribute 'شیخ الاسلام ڈاکٹر' numeric
+@attribute 'صبح بائیک لےکرنکلتا' numeric
+@attribute 'سوچا پاگل مر' numeric
+@attribute 'سوشل میڈیا مسلمانوں' numeric
+@attribute 'زیادہ غصہ سو' numeric
+@attribute 'سورج اتر پانی' numeric
+@attribute 'زیادہ غصہ عمران' numeric
+@attribute 'زیادہ غصہ نواز' numeric
+@attribute 'زیست نفرت اداسی' numeric
+@attribute 'ساری اداسی اتر' numeric
+@attribute 'سانس لینے ہتھیار' numeric
+@attribute 'سبب اداسی دل' numeric
+@attribute 'سبب اداسی سبب' numeric
+@attribute 'سبب پوچھ بہانے' numeric
+@attribute 'سبب پوچھ چھوٹا' numeric
+@attribute 'سبب پوچھنے اجمل' numeric
+@attribute 'سبب پوچھیں گے' numeric
+@attribute 'سخت مشکل آقا' numeric
+@attribute 'سدھر میڈیا دنوں' numeric
+@attribute 'سر عرش انساں' numeric
+@attribute 'سر ملے آنکھوں' numeric
+@attribute 'سراپا تاریک سرمستی' numeric
+@attribute 'سرمستی حیرت آگاہی' numeric
+@attribute 'سرمستی حیرت سراپا' numeric
+@attribute 'سلیکٹڈ زانی شرابی' numeric
+@attribute 'سمندر سمندر گم' numeric
+@attribute 'سن حیدر دلوں' numeric
+@attribute 'سندھ کرپٹ لوگ' numeric
+@attribute 'سو خوشی خوشی' numeric
+@attribute 'سو عمران خان' numeric
+@attribute 'سو ڈر ریگولرائزیشن' numeric
+@attribute 'سوئی تابش اک' numeric
+@attribute 'سوالات ڈر جیب' numeric
+@attribute 'دکھ کھا گے' numeric
+@attribute 'دوہری اذیت گرفتار' numeric
+@attribute 'جے پی بھارت' numeric
+@attribute 'خواب نیند خیال' numeric
+@attribute 'ختم نبوت زندہ' numeric
+@attribute 'ختم نبوت قربان' numeric
+@attribute 'خراب گہروں الحمدللہ' numeric
+@attribute 'خلاف بےجا نفرت' numeric
+@attribute 'خلاف نفرت انگیز' numeric
+@attribute 'خلاف نفرت بحران' numeric
+@attribute 'خلاف نفرت پھیلائے' numeric
+@attribute 'خلاف نفرت پھیلانے' numeric
+@attribute 'خلاف پھیلی نفرت' numeric
+@attribute 'خلیجی ممالک روزگار' numeric
+@attribute 'خلیجی ممالک پہنچ' numeric
+@attribute 'خمیر قوم خلاف' numeric
+@attribute 'خندق قصے بچوں' numeric
+@attribute 'خوش خوشی قرض' numeric
+@attribute 'دوکاندار رنگ گورا' numeric
+@attribute 'خوش سکتی خوش' numeric
+@attribute 'خوشی اللہ پاک' numeric
+@attribute 'خوشی بات اداس' numeric
+@attribute 'خوشی بات اللہ' numeric
+@attribute 'خوشی بات ھے' numeric
+@attribute 'خوشی حال دل' numeric
+@attribute 'خوشی حساب پوچھے' numeric
+@attribute 'خوشی خوشی حال' numeric
+@attribute 'خوشی غم خوشی' numeric
+@attribute 'خوشی قرض اتار' numeric
+@attribute 'خوشی لہر دوڑ' numeric
+@attribute 'خوشی مر اعتبار' numeric
+@attribute 'خوشی وسیم بہائی' numeric
+@attribute 'خبر مصیبت مارے' numeric
+@attribute 'خبر حکومت پوائن' numeric
+@attribute 'خبر آج آزادی' numeric
+@attribute 'خاکی وردی آر' numeric
+@attribute 'حال جینا لازم' numeric
+@attribute 'حال جینا مشکل' numeric
+@attribute 'حالات خراب گہروں' numeric
+@attribute 'حالات خونی منظر' numeric
+@attribute 'حرام ہوگی ہتھیار' numeric
+@attribute 'حسین لڑکی چہرے' numeric
+@attribute 'حضرات ڈر مارے' numeric
+@attribute 'حق سچ بات' numeric
+@attribute 'حقیقی بحران اصل' numeric
+@attribute 'حکم گاڑیاں لوٹ' numeric
+@attribute 'حکمت بادشاہ لقمان' numeric
+@attribute 'حکومت بے غیرت' numeric
+@attribute 'حکومتی معاملات بتایا' numeric
+@attribute 'حیدر دلوں ڈر' numeric
+@attribute 'حیرت آواز عرش' numeric
+@attribute 'حیرت انگیز بات' numeric
+@attribute 'حیرت انگیز خبر' numeric
+@attribute 'حیرت انگیز کمی' numeric
+@attribute 'حیرت بات ھے' numeric
+@attribute 'حیرت بے غیرتوں' numeric
+@attribute 'حیرت تعلیم ترقی' numeric
+@attribute 'حیرت سارے لفظ' numeric
+@attribute 'حیرت سراپا تاریک' numeric
+@attribute 'حیرت مولانا طارق' numeric
+@attribute 'حیرت ڈال کمال' numeric
+@attribute 'خاقان عباسی گرفتاری' numeric
+@attribute 'خاک اٹھے سو' numeric
+@attribute 'خوشی ٹھہری غم' numeric
+@attribute 'خوشی پچھلے سبق' numeric
+@attribute 'خوشیاں خوشی افطار' numeric
+@attribute 'دلوں ڈر نکلتے' numeric
+@attribute 'دن اک دوجے' numeric
+@attribute 'دن خوش خوشی' numeric
+@attribute 'دن دن دن' numeric
+@attribute 'دن دوستی قبول' numeric
+@attribute 'دن زندگی گیڈر' numeric
+@attribute 'دن لکھا تختی' numeric
+@attribute 'دن منا رے' numeric
+@attribute 'دن چوتھی عمرہ' numeric
+@attribute 'دنوں غصہ مشین' numeric
+@attribute 'دنیا اک بے' numeric
+@attribute 'دنیا بدل کمزور' numeric
+@attribute 'دنیا حالات خراب' numeric
+@attribute 'دنیا پانچویں امیر' numeric
+@attribute 'دنیا ڈر فیصلے' numeric
+@attribute 'دنیا کرونا وائرس' numeric
+@attribute 'دوجے لڑتے رات' numeric
+@attribute 'دودھ پیا کیلشم' numeric
+@attribute 'دودھ پیا کیلشیم' numeric
+@attribute 'دور بات نفرت' numeric
+@attribute 'دور جینا لازم' numeric
+@attribute 'دور جینا مشکل' numeric
+@attribute 'دور دیکھ بھلا' numeric
+@attribute 'دوزخ پھیلایا آج' numeric
+@attribute 'دوزخ ڈر ابھارا' numeric
+@attribute 'دوستی قبول نفرت' numeric
+@attribute 'دونوں قبیلے مان' numeric
+@attribute 'دونوں پڑوسی بھوکا' numeric
+@attribute 'دم دبا بھاگنے' numeric
+@attribute 'دل کشمیر بیٹا' numeric
+@attribute 'خوشیوں پیغام رھا' numeric
+@attribute 'دل چاہت بھروسہ' numeric
+@attribute 'خوف اتنی چاپلوسی' numeric
+@attribute 'خوف دل آنکھوں' numeric
+@attribute 'خوف طوفان بجلیوں' numeric
+@attribute 'خوف کرونا پھیلایا' numeric
+@attribute 'خون مانند اترتی' numeric
+@attribute 'خونی منظر حال' numeric
+@attribute 'خونی منظر دور' numeric
+@attribute 'خیبر خندق قصے' numeric
+@attribute 'داخل اللہ تعالی' numeric
+@attribute 'دار خوشیاں خوش' numeric
+@attribute 'دانش برہانی حیرت' numeric
+@attribute 'دانش برہانی دانش' numeric
+@attribute 'دانش نورانی اک' numeric
+@attribute 'داہر ہیرو مان' numeric
+@attribute 'دبئی پولیس گرفتاری' numeric
+@attribute 'دبا بھاگنے بھلائی' numeric
+@attribute 'در گئیں دین' numeric
+@attribute 'درجے چہرے ہمیشہ' numeric
+@attribute 'درد صدیوں تعلق' numeric
+@attribute 'دروازہ کھولا نظر' numeric
+@attribute 'دل آنکھوں دھڑکتا' numeric
+@attribute 'دل اتر شخص' numeric
+@attribute 'دل اداسی بکھرتی' numeric
+@attribute 'دل اداسی در' numeric
+@attribute 'دل افسوس حیرت' numeric
+@attribute 'دل خوشیوں پیغام' numeric
+@attribute 'دل پھینک ٹی' numeric
+@attribute 'یونہی بس بول' numeric
+@data
+{3 1,199 1,1003 1}
+{3 1,5 1}
+{3 1}
+{4 1}
+{2 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,4 1}
+{3 1,5 1}
+{3 1,4 1,5 1}
+{3 1,4 1,79 1,466 1,619 1,951 1}
+{3 1,5 1,147 1,942 1,980 1}
+{}
+{0 1,1 1,3 1}
+{3 1,4 1,215 1,220 1,279 1}
+{0 1,3 1}
+{94 1,240 1,330 1,410 1,445 1,558 1,831 1,842 1}
+{0 1,1 1,2 1,3 1,19 1}
+{4 1}
+{3 1,382 1,912 1}
+{1 1,3 1,4 1}
+{}
+{2 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{4 1,276 1}
+{5 1,309 1}
+{3 1}
+{4 1}
+{3 1,442 1,880 1,917 1}
+{4 1}
+{4 1}
+{}
+{0 1}
+{3 1}
+{4 1}
+{5 1}
+{2 1,5 1}
+{5 1,12 1,149 1,504 1,572 1,603 1,734 1,959 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1,697 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{}
+{3 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,5 1}
+{3 1,62 1,326 1,435 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{4 1,212 1,281 1,462 1,463 1,464 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1}
+{4 1}
+{3 1,5 1,627 1,631 1,667 1,817 1,1002 1}
+{5 1}
+{3 1}
+{3 1}
+{2 1,3 1,174 1,690 1,844 1,885 1}
+{3 1}
+{2 1,103 1,128 1,832 1,841 1}
+{2 1}
+{5 1}
+{4 1,5 1}
+{4 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1}
+{5 1}
+{3 1}
+{1 1,4 1}
+{2 1}
+{3 1,38 1,56 1,345 1}
+{}
+{3 1,5 1}
+{3 1}
+{0 1}
+{3 1,4 1,77 1,913 1}
+{5 1,29 1,50 1,180 1,370 1,729 1,996 1}
+{4 1,275 1,517 1}
+{3 1,4 1}
+{5 1}
+{3 1,214 1,358 1,597 1}
+{4 1,18 1,106 1,217 1,365 1,771 1}
+{2 1}
+{0 1,1 1,2 1,19 1,130 1,131 1,232 1,293 1,301 1,577 1,645 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,3 1}
+{0 1,1 1}
+{3 1,5 1,251 1,259 1,260 1,262 1,327 1,637 1,656 1,677 1,856 1}
+{2 1,3 1,175 1,397 1,858 1,978 1}
+{5 1}
+{3 1,4 1,201 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1,252 1,262 1,328 1,372 1,373 1,637 1,657 1,678 1,856 1}
+{3 1}
+{4 1,5 1}
+{3 1,4 1}
+{5 1}
+{}
+{3 1}
+{2 1,5 1,12 1,149 1,223 1,438 1,504 1,602 1}
+{3 1,406 1,859 1,958 1}
+{4 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{3 1,204 1,452 1}
+{3 1}
+{}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,5 1}
+{1 1,3 1}
+{1 1,3 1}
+{4 1}
+{4 1,276 1}
+{3 1}
+{3 1,5 1}
+{3 1,55 1}
+{4 1,5 1}
+{4 1,5 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{5 1}
+{4 1}
+{0 1,1 1,315 1}
+{5 1}
+{0 1,2 1,3 1,113 1,646 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1}
+{}
+{2 1,3 1,123 1,224 1,353 1,368 1,396 1,471 1,594 1,860 1}
+{5 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{5 1,308 1}
+{3 1,4 1}
+{}
+{23 1,803 1,849 1,963 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{1 1,4 1}
+{5 1}
+{5 1}
+{4 1,5 1}
+{}
+{4 1}
+{3 1}
+{2 1}
+{3 1,134 1,491 1}
+{}
+{3 1}
+{5 1,241 1,751 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,2 1,3 1}
+{5 1}
+{3 1}
+{3 1,4 1,31 1,273 1,557 1}
+{0 1,1 1,646 1}
+{2 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{1 1,3 1}
+{0 1,1 1,3 1}
+{1 1,3 1}
+{5 1,272 1,302 1,329 1,351 1,467 1,920 1}
+{2 1,4 1}
+{0 1,3 1,534 1,749 1}
+{2 1,3 1}
+{1 1}
+{3 1}
+{5 1}
+{5 1}
+{2 1,3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,5 1}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{}
+{5 1}
+{3 1,170 1,449 1,682 1,739 1,782 1}
+{4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1,67 1,219 1,431 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{2 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1,297 1,646 1}
+{3 1}
+{4 1}
+{3 1}
+{0 1,1 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{2 1,3 1}
+{2 1}
+{4 1}
+{}
+{4 1,5 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{2 1,3 1,482 1,621 1}
+{1 1,4 1}
+{0 1,1 1,4 1}
+{5 1}
+{2 1,3 1,124 1,397 1,844 1,978 1}
+{3 1,5 1}
+{5 1}
+{3 1}
+{0 1,1 1,295 1,646 1}
+{3 1}
+{3 1,4 1}
+{}
+{2 1}
+{3 1}
+{2 1,103 1,128 1,841 1}
+{3 1,51 1,956 1}
+{2 1,3 1}
+{2 1,3 1}
+{530 1}
+{0 1,1 1}
+{0 1,297 1}
+{1 1,4 1}
+{5 1}
+{3 1,38 1,56 1,345 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,4 1,283 1}
+{3 1,4 1}
+{4 1}
+{0 1,3 1}
+{3 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{1 1,3 1}
+{3 1,4 1,547 1}
+{3 1}
+{3 1}
+{0 1,3 1}
+{3 1,4 1}
+{3 1,5 1}
+{3 1}
+{2 1,676 1,693 1,875 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{3 1,4 1,8 1,341 1,718 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1,5 1}
+{51 1}
+{3 1}
+{5 1,158 1,386 1,407 1,853 1,985 1}
+{4 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{3 1,5 1,251 1,259 1,260 1,262 1,327 1,637 1,656 1,677 1,856 1}
+{4 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1}
+{1 1,4 1}
+{0 1,1 1,198 1}
+{3 1,4 1}
+{0 1,1 1,19 1,130 1,131 1,232 1,286 1,645 1}
+{2 1}
+{0 1,1 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1,71 1,566 1}
+{4 1,5 1}
+{0 1}
+{1 1,3 1}
+{4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{3 1,28 1,908 1}
+{5 1,387 1,857 1}
+{2 1,3 1}
+{0 1,1 1,4 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{5 1}
+{1 1,4 1}
+{5 1,16 1,684 1,839 1}
+{3 1,5 1}
+{0 1,3 1}
+{}
+{0 1,1 1}
+{}
+{3 1,78 1,382 1,912 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{5 1}
+{2 1,3 1}
+{3 1,4 1}
+{1 1,4 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{1 1}
+{4 1}
+{4 1}
+{0 1}
+{0 1,3 1}
+{4 1}
+{5 1}
+{0 1,2 1,87 1,112 1,146 1,300 1,651 1,721 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{0 1,3 1,5 1}
+{4 1,90 1,748 1}
+{3 1}
+{}
+{0 1,1 1,3 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{2 1,3 1,861 1}
+{0 1,1 1,3 1}
+{5 1}
+{2 1}
+{4 1}
+{4 1,5 1}
+{5 1}
+{3 1,307 1,667 1}
+{0 1,2 1,3 1}
+{0 1}
+{3 1,4 1}
+{5 1,137 1,736 1,954 1}
+{2 1,3 1}
+{2 1,4 1}
+{4 1,5 1}
+{3 1}
+{2 1}
+{99 1,101 1,104 1,240 1,409 1,445 1,511 1,531 1,558 1,831 1,843 1}
+{2 1,3 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{0 1}
+{4 1,5 1}
+{0 1,1 1,4 1}
+{5 1}
+{}
+{0 1,3 1,4 1}
+{5 1}
+{3 1}
+{4 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{150 1,236 1,271 1,514 1,660 1,697 1}
+{0 1,1 1}
+{3 1,4 1,346 1}
+{5 1}
+{4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,78 1,914 1,961 1}
+{1 1,3 1,4 1}
+{4 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,3 1,4 1}
+{3 1}
+{0 1,1 1,284 1,488 1,519 1}
+{0 1,1 1}
+{1 1}
+{3 1}
+{0 1,1 1,3 1}
+{}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{1 1,4 1}
+{4 1,5 1,971 1}
+{0 1,5 1}
+{3 1,4 1,581 1,626 1}
+{4 1}
+{4 1,198 1}
+{3 1,159 1,441 1,486 1,663 1}
+{5 1,234 1,563 1,605 1,644 1,648 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1}
+{}
+{4 1}
+{0 1,1 1,3 1}
+{5 1}
+{0 1,4 1}
+{1 1,3 1,4 1}
+{5 1}
+{4 1}
+{3 1,680 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{3 1}
+{3 1,909 1}
+{3 1,4 1}
+{3 1,4 1,142 1,202 1,457 1,586 1}
+{0 1,348 1,361 1,459 1,542 1,658 1,704 1,759 1,767 1,793 1,921 1}
+{0 1,1 1,4 1}
+{3 1,74 1,578 1,830 1}
+{2 1}
+{5 1,98 1}
+{3 1,4 1}
+{}
+{3 1}
+{3 1,4 1,55 1}
+{3 1}
+{3 1}
+{2 1,4 1}
+{4 1}
+{}
+{3 1,82 1,420 1,992 1}
+{3 1,4 1}
+{3 1,37 1,343 1,349 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{3 1,4 1,216 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,24 1,190 1,611 1}
+{3 1,5 1,688 1,865 1}
+{3 1,4 1}
+{3 1}
+{5 1,228 1,255 1,291 1,685 1,709 1,855 1}
+{0 1,1 1,3 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,4 1,118 1,139 1,285 1,428 1}
+{2 1,3 1}
+{}
+{5 1,495 1}
+{4 1}
+{5 1}
+{}
+{3 1}
+{3 1}
+{0 1,4 1}
+{0 1,1 1,3 1,117 1,239 1,802 1}
+{1 1,3 1}
+{}
+{3 1,77 1,913 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{3 1,4 1,422 1}
+{0 1,1 1}
+{2 1,3 1}
+{238 1,661 1,756 1,808 1,814 1,821 1,926 1,948 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1,616 1,630 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,2 1,21 1,111 1,132 1,650 1,713 1,719 1,779 1,904 1}
+{3 1,4 1,27 1,391 1,581 1,626 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{0 1,2 1}
+{3 1}
+{0 1,1 1,4 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1}
+{5 1,147 1,148 1,249 1,525 1,813 1,882 1,931 1,942 1,943 1,980 1}
+{4 1}
+{2 1}
+{3 1,58 1,481 1,952 1}
+{3 1,4 1,170 1,449 1,682 1,739 1,782 1}
+{0 1,1 1,4 1}
+{3 1}
+{4 1,5 1,544 1}
+{3 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{3 1,176 1,477 1,881 1,925 1}
+{5 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{0 1,1 1}
+{4 1,5 1}
+{}
+{3 1}
+{2 1,5 1,151 1,289 1,324 1,458 1,516 1,655 1,861 1,944 1,962 1}
+{3 1}
+{0 1}
+{}
+{0 1,2 1,893 1}
+{3 1,4 1,199 1}
+{2 1,3 1}
+{0 1,2 1}
+{2 1}
+{503 1}
+{3 1}
+{2 1}
+{3 1}
+{3 1,76 1,171 1,764 1,1005 1}
+{5 1}
+{4 1}
+{4 1,7 1,36 1,39 1,119 1,694 1}
+{5 1,151 1,289 1,324 1,458 1,516 1,861 1,962 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{5 1,251 1,260 1,262 1,637 1,656 1,856 1}
+{0 1,1 1,3 1}
+{5 1}
+{4 1}
+{3 1,423 1,489 1,790 1,816 1,950 1}
+{0 1}
+{4 1,5 1}
+{0 1,2 1,87 1,112 1,146 1,300 1,651 1,721 1}
+{0 1,1 1}
+{0 1,3 1}
+{0 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{3 1,313 1}
+{3 1,421 1,429 1}
+{3 1}
+{}
+{4 1}
+{4 1,5 1}
+{4 1}
+{2 1,3 1}
+{3 1,4 1,382 1,912 1}
+{3 1}
+{3 1,717 1,891 1}
+{3 1,4 1}
+{3 1,5 1,251 1,260 1,262 1,327 1,637 1,656 1,677 1,856 1}
+{2 1}
+{2 1}
+{5 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1,933 1}
+{2 1,3 1}
+{2 1,5 1}
+{3 1}
+{2 1,323 1,342 1}
+{0 1,3 1}
+{3 1}
+{}
+{3 1,28 1,65 1,908 1}
+{150 1,236 1,271 1,514 1,660 1,697 1}
+{4 1}
+{5 1}
+{3 1,697 1}
+{1 1,3 1,725 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1,1 1,2 1,3 1,21 1,111 1,132 1,650 1,713 1,719 1,779 1,904 1}
+{2 1,3 1}
+{3 1,4 1,78 1,382 1,912 1,918 1}
+{0 1,3 1}
+{1 1,4 1}
+{0 1,1 1,4 1}
+{3 1}
+{2 1,3 1,125 1,174 1,398 1,690 1,844 1,885 1}
+{}
+{5 1}
+{0 1}
+{5 1}
+{0 1,1 1}
+{3 1,59 1,160 1,374 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1}
+{5 1,90 1,358 1,595 1,748 1,919 1,993 1}
+{0 1,1 1}
+{3 1,4 1,402 1,795 1}
+{5 1,24 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,2 1,21 1,132 1,161 1,649 1,650 1,674 1,713 1,719 1,904 1}
+{3 1}
+{2 1,3 1}
+{3 1,184 1,502 1,509 1,553 1,893 1,955 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{3 1,41 1,70 1,498 1,698 1,828 1,949 1}
+{2 1,3 1,870 1}
+{4 1,5 1}
+{5 1}
+{3 1,4 1,73 1,820 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,40 1,231 1,325 1,375 1,703 1,757 1,770 1,898 1}
+{3 1}
+{3 1}
+{3 1,67 1,219 1,431 1,617 1}
+{3 1,4 1}
+{0 1,1 1,86 1,94 1}
+{0 1,1 1}
+{5 1}
+{2 1,3 1}
+{1 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{4 1}
+{3 1}
+{1 1,4 1}
+{5 1}
+{2 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{0 1,4 1,646 1}
+{2 1,3 1,175 1,397 1,690 1,858 1,885 1,978 1}
+{2 1,4 1,162 1,169 1,483 1,484 1,744 1,806 1,826 1,862 1,895 1,906 1}
+{3 1,4 1,283 1}
+{0 1,1 1}
+{0 1,3 1}
+{4 1}
+{3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{}
+{3 1,4 1}
+{2 1,3 1}
+{2 1,3 1,4 1}
+{2 1}
+{2 1,5 1}
+{4 1}
+{2 1,5 1}
+{0 1,1 1,3 1}
+{2 1,3 1,65 1}
+{2 1,3 1}
+{3 1}
+{4 1}
+{3 1,26 1,209 1,264 1,521 1,596 1,620 1,754 1,829 1}
+{0 1,1 1}
+{4 1,5 1}
+{5 1}
+{3 1}
+{}
+{5 1,30 1,461 1,671 1,922 1}
+{4 1}
+{4 1}
+{2 1}
+{3 1,4 1}
+{4 1,5 1}
+{0 1,4 1}
+{4 1}
+{3 1,725 1}
+{4 1,5 1}
+{5 1}
+{5 1,30 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,401 1,500 1,794 1}
+{4 1,101 1,511 1,903 1}
+{3 1,172 1,403 1,555 1,632 1}
+{3 1,442 1,880 1,917 1}
+{1 1,3 1}
+{3 1,4 1,401 1,500 1,794 1}
+{0 1,1 1,399 1}
+{0 1,1 1}
+{3 1}
+{2 1}
+{3 1}
+{0 1,4 1}
+{3 1,4 1}
+{1 1,4 1}
+{3 1,4 1}
+{151 1,289 1,324 1,458 1,516 1,655 1,861 1}
+{}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{4 1}
+{3 1}
+{0 1,1 1,3 1}
+{4 1}
+{3 1,204 1}
+{}
+{2 1}
+{1 1,3 1,697 1}
+{5 1,98 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{0 1,3 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{}
+{}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{4 1}
+{1 1,3 1,4 1}
+{0 1,3 1}
+{4 1,5 1}
+{0 1}
+{0 1,1 1,3 1}
+{}
+{3 1,4 1,26 1,209 1,264 1,521 1,596 1,620 1,754 1,829 1}
+{4 1}
+{2 1}
+{3 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1,142 1,202 1,457 1,586 1}
+{}
+{3 1,4 1,576 1}
+{}
+{4 1,5 1}
+{0 1,1 1,3 1,765 1}
+{3 1,4 1,78 1,914 1,961 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{1 1,4 1}
+{1 1}
+{118 1,139 1,285 1,428 1}
+{0 1,4 1}
+{2 1}
+{3 1}
+{1 1,3 1,4 1}
+{2 1,3 1,191 1,213 1,226 1,248 1,360 1,379 1,535 1,791 1,818 1,852 1,890 1}
+{0 1,1 1,4 1}
+{1 1,4 1}
+{5 1}
+{0 1}
+{1 1,4 1}
+{4 1,7 1,36 1,39 1,119 1,694 1,761 1}
+{3 1,4 1}
+{45 1,227 1,413 1,589 1}
+{4 1,5 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{2 1,5 1,12 1,137 1,149 1,505 1,572 1,734 1,736 1,959 1}
+{1 1}
+{3 1}
+{5 1,331 1,426 1}
+{3 1,4 1}
+{3 1,5 1}
+{1 1}
+{}
+{4 1,7 1,36 1,39 1,119 1,694 1,761 1}
+{5 1}
+{4 1}
+{5 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,3 1,191 1,213 1,226 1,248 1,360 1,379 1,791 1,852 1,890 1}
+{3 1,4 1}
+{4 1}
+{1 1,3 1,4 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1}
+{4 1,5 1,590 1}
+{4 1}
+{2 1}
+{0 1,1 1,4 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1,191 1,213 1,226 1,248 1,360 1,379 1,535 1,791 1,818 1,852 1,890 1}
+{5 1,415 1,448 1,543 1,780 1,939 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{2 1}
+{4 1}
+{3 1}
+{4 1}
+{3 1}
+{2 1,123 1,353 1,368 1}
+{1 1,3 1}
+{2 1,3 1}
+{}
+{0 1,1 1,2 1,3 1}
+{2 1}
+{3 1}
+{}
+{5 1,234 1,563 1,605 1,644 1,648 1}
+{}
+{5 1}
+{1 1,3 1,4 1}
+{3 1}
+{4 1}
+{2 1,3 1,5 1}
+{}
+{}
+{4 1,5 1}
+{4 1,5 1,313 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1,31 1,273 1,523 1,557 1,915 1}
+{2 1,3 1}
+{4 1,5 1}
+{3 1}
+{0 1,3 1}
+{3 1}
+{}
+{3 1,4 1,422 1}
+{5 1}
+{4 1,418 1,947 1}
+{}
+{2 1,5 1}
+{5 1,151 1,289 1,324 1,458 1,516 1,655 1,861 1,944 1,962 1}
+{5 1,228 1,255 1,290 1,291 1,685 1,855 1}
+{4 1}
+{3 1}
+{4 1}
+{4 1}
+{4 1,268 1,584 1,608 1,940 1}
+{3 1}
+{0 1,4 1,5 1}
+{4 1}
+{3 1}
+{3 1,4 1,82 1,420 1,992 1}
+{4 1}
+{3 1,4 1}
+{0 1}
+{0 1,1 1,4 1}
+{3 1,5 1}
+{4 1}
+{}
+{5 1,388 1,443 1,847 1}
+{2 1,3 1}
+{5 1,306 1}
+{}
+{0 1,3 1,4 1,697 1}
+{3 1}
+{3 1}
+{5 1,17 1,451 1,601 1,684 1,838 1,839 1,983 1}
+{3 1}
+{4 1}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{}
+{2 1,5 1,137 1,149 1,572 1,734 1,736 1,959 1}
+{0 1,1 1}
+{3 1,4 1}
+{}
+{2 1}
+{1 1,4 1}
+{1 1,3 1}
+{4 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{}
+{}
+{1 1,3 1}
+{4 1}
+{2 1,3 1,124 1,397 1,844 1,978 1}
+{5 1}
+{5 1}
+{1 1,2 1}
+{4 1}
+{0 1}
+{3 1,4 1}
+{1 1,3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1,5 1}
+{2 1,4 1}
+{3 1}
+{3 1}
+{3 1,186 1,526 1,560 1,984 1}
+{3 1,5 1}
+{0 1,1 1}
+{4 1,7 1,36 1,39 1,119 1,694 1,761 1}
+{0 1,2 1,3 1,44 1,237 1,322 1,515 1,697 1,811 1}
+{5 1}
+{3 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{}
+{3 1,55 1}
+{}
+{}
+{5 1}
+{}
+{0 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{1 1,3 1,161 1,649 1,674 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{3 1,4 1,5 1}
+{4 1,5 1}
+{5 1}
+{3 1}
+{}
+{3 1,4 1,5 1}
+{1 1,2 1,89 1,153 1}
+{2 1,490 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,43 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{3 1,78 1,383 1,914 1,918 1,961 1}
+{2 1,4 1}
+{2 1}
+{4 1}
+{4 1}
+{0 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{}
+{1 1,2 1,3 1,760 1,768 1,834 1}
+{2 1,4 1}
+{104 1,409 1,412 1,843 1}
+{5 1}
+{2 1,3 1,175 1,690 1,885 1}
+{3 1,197 1,635 1,716 1,850 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,4 1}
+{5 1}
+{5 1}
+{4 1}
+{4 1}
+{5 1}
+{4 1}
+{0 1,4 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{1 1,3 1,725 1}
+{1 1,3 1,4 1}
+{4 1,5 1}
+{197 1,635 1,716 1,851 1}
+{4 1,5 1}
+{5 1}
+{5 1}
+{3 1}
+{5 1}
+{1 1,3 1,4 1}
+{0 1,3 1}
+{0 1,1 1}
+{1 1,3 1}
+{3 1,33 1,34 1,35 1,218 1,247 1,520 1,691 1,775 1,886 1}
+{2 1}
+{0 1,1 1,2 1,3 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{4 1,18 1,106 1,217 1,365 1,771 1}
+{4 1}
+{5 1}
+{1 1,4 1}
+{4 1}
+{3 1}
+{0 1,3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{}
+{2 1,3 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{0 1,5 1}
+{2 1,3 1}
+{0 1,1 1,2 1,3 1}
+{3 1,4 1,402 1,501 1,795 1}
+{4 1}
+{3 1,4 1}
+{5 1,823 1}
+{5 1,702 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{3 1}
+{5 1,687 1,733 1}
+{3 1,151 1,324 1,458 1,516 1,861 1}
+{4 1,108 1,242 1,528 1,666 1}
+{0 1,1 1}
+{2 1,3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{1 1,3 1}
+{5 1}
+{5 1,188 1,337 1,352 1,404 1,556 1,573 1}
+{5 1}
+{3 1,4 1,5 1}
+{}
+{3 1}
+{5 1}
+{0 1,4 1}
+{0 1,1 1,19 1}
+{5 1}
+{0 1,1 1}
+{5 1,416 1,447 1,780 1,939 1,975 1}
+{5 1,320 1,405 1}
+{4 1,5 1}
+{3 1,4 1,64 1}
+{4 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{4 1,697 1}
+{2 1,4 1}
+{0 1,1 1,20 1,189 1,335 1,399 1,567 1,613 1,625 1,934 1,999 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1,773 1}
+{3 1}
+{2 1,5 1,380 1,419 1}
+{2 1}
+{3 1}
+{}
+{4 1,5 1}
+{5 1}
+{3 1}
+{5 1,234 1,563 1,605 1,644 1,648 1}
+{3 1}
+{3 1,4 1,77 1,913 1}
+{0 1,5 1}
+{0 1,101 1,511 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1}
+{3 1,83 1,126 1,233 1,683 1,699 1,785 1}
+{3 1,4 1}
+{3 1,4 1,28 1,65 1,908 1}
+{3 1}
+{2 1,882 1,980 1}
+{2 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{3 1,5 1}
+{}
+{3 1,4 1}
+{}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,422 1}
+{3 1,67 1,219 1,431 1,617 1}
+{0 1,1 1,3 1,4 1}
+{5 1}
+{0 1}
+{0 1,1 1}
+{412 1}
+{3 1,129 1,138 1,561 1,618 1,769 1,888 1,896 1}
+{}
+{5 1}
+{0 1}
+{4 1}
+{4 1}
+{0 1,3 1,4 1}
+{0 1,2 1,3 1,4 1}
+{3 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{4 1,968 1}
+{5 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1}
+{4 1,5 1}
+{0 1,5 1}
+{0 1}
+{3 1,4 1}
+{110 1,222 1,319 1,789 1,988 1}
+{}
+{2 1}
+{5 1,250 1,259 1,260 1,262 1,327 1,637 1,677 1,856 1}
+{3 1,4 1}
+{1 1,3 1}
+{0 1,3 1}
+{3 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,2 1,3 1,154 1,185 1,295 1,646 1,722 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{3 1,346 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{2 1}
+{3 1}
+{2 1}
+{4 1}
+{3 1,864 1}
+{5 1}
+{5 1}
+{3 1,4 1,69 1,159 1,441 1,485 1,654 1,662 1,990 1}
+{3 1,5 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{2 1,4 1}
+{0 1,1 1,2 1}
+{3 1}
+{0 1,1 1}
+{3 1,479 1,565 1,592 1,778 1,867 1,879 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1}
+{0 1,3 1}
+{}
+{0 1,3 1,4 1}
+{1 1,3 1,4 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{552 1}
+{3 1}
+{5 1,686 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,5 1,252 1,262 1,328 1,372 1,373 1,637 1,657 1,678 1,856 1}
+{3 1,62 1,326 1,435 1,614 1}
+{2 1,3 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1,3 1}
+{253 1,339 1}
+{5 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{}
+{}
+{1 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1,95 1,468 1,585 1,638 1,902 1}
+{5 1}
+{3 1}
+{3 1,5 1}
+{5 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{0 1,1 1,2 1,3 1}
+{2 1}
+{3 1,4 1}
+{3 1,5 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1,4 1,266 1}
+{0 1,1 1}
+{3 1}
+{3 1,55 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{0 1}
+{3 1,4 1,310 1,312 1,469 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{2 1,5 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{5 1,684 1,839 1,982 1}
+{3 1,103 1}
+{3 1}
+{4 1,5 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{3 1,5 1,30 1,461 1,671 1,922 1}
+{3 1,4 1}
+{3 1,83 1,126 1,233 1,668 1,699 1,700 1,930 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{4 1,5 1}
+{3 1}
+{2 1,3 1,174 1,690 1,885 1}
+{1 1,2 1}
+{3 1,4 1,727 1}
+{5 1}
+{}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,2 1,21 1,111 1,132 1,649 1,650 1,674 1,713 1,719 1,779 1,904 1}
+{5 1}
+{5 1}
+{412 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{2 1}
+{3 1,307 1,667 1}
+{4 1}
+{2 1}
+{3 1,77 1,913 1}
+{0 1,4 1}
+{5 1}
+{0 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{0 1}
+{4 1}
+{1 1}
+{3 1}
+{3 1}
+{0 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{0 1,3 1}
+{4 1}
+{101 1,511 1,531 1}
+{2 1}
+{3 1}
+{4 1}
+{3 1,89 1,115 1,152 1,153 1,267 1,642 1,910 1}
+{3 1,142 1}
+{4 1,5 1,197 1,635 1,636 1,716 1,851 1}
+{0 1}
+{2 1,3 1,4 1,295 1,642 1,646 1,911 1,989 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1,58 1,80 1,481 1,510 1,952 1,970 1}
+{5 1}
+{3 1}
+{3 1,421 1,429 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1}
+{3 1,4 1}
+{4 1,626 1}
+{3 1,123 1,224 1,353 1,368 1,396 1,471 1,594 1,860 1}
+{3 1}
+{5 1}
+{}
+{5 1}
+{4 1}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,3 1,147 1,148 1,525 1,813 1,882 1,942 1,943 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{}
+{3 1,4 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{2 1,3 1,174 1,643 1,690 1,844 1,885 1}
+{3 1,204 1,453 1}
+{5 1}
+{5 1}
+{3 1}
+{0 1,3 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{2 1,3 1,752 1}
+{3 1}
+{3 1,5 1}
+{3 1}
+{1 1,3 1}
+{1 1,3 1,4 1}
+{0 1,1 1,749 1}
+{3 1}
+{3 1,175 1,397 1,690 1,858 1,885 1,978 1}
+{3 1,4 1}
+{0 1,1 1,43 1}
+{1 1,3 1,4 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1}
+{2 1,511 1,710 1,903 1}
+{0 1,1 1}
+{0 1,4 1}
+{3 1,4 1}
+{3 1,4 1,83 1,126 1,233 1,668 1,683 1,699 1,700 1,785 1,930 1}
+{4 1}
+{4 1,5 1}
+{5 1}
+{4 1}
+{4 1}
+{0 1}
+{3 1,4 1}
+{2 1}
+{3 1,5 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{0 1,2 1,296 1,475 1,646 1,705 1,760 1,768 1,834 1}
+{1 1,2 1,3 1,154 1,185 1,198 1,258 1,295 1,646 1,722 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{3 1,340 1}
+{3 1}
+{3 1,4 1,61 1,401 1,500 1,794 1}
+{0 1,723 1}
+{0 1,4 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{1 1}
+{}
+{2 1,3 1,495 1}
+{3 1,4 1}
+{5 1}
+{0 1}
+{4 1}
+{0 1,4 1}
+{0 1,1 1}
+{3 1,186 1,526 1,560 1,984 1}
+{1 1,2 1,3 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{5 1}
+{}
+{0 1,1 1}
+{3 1,4 1,201 1}
+{4 1}
+{3 1,4 1,576 1}
+{0 1,5 1}
+{4 1}
+{1 1,4 1,48 1}
+{1 1,3 1}
+{3 1,4 1,110 1,222 1,988 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,622 1,777 1}
+{3 1}
+{2 1,5 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{2 1,5 1,587 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1,17 1,451 1,601 1,684 1,839 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{0 1,4 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1,726 1,746 1,964 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{}
+{2 1}
+{0 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1}
+{0 1}
+{5 1}
+{}
+{3 1}
+{5 1}
+{0 1,1 1,3 1}
+{2 1,5 1}
+{2 1,3 1}
+{1 1,2 1,3 1,650 1}
+{0 1,1 1,2 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{3 1,16 1,684 1,839 1}
+{5 1,84 1,166 1,229 1,254 1,290 1,291 1,685 1,855 1}
+{3 1,4 1,453 1}
+{3 1}
+{0 1,3 1,95 1,468 1,585 1,638 1,902 1}
+{3 1,4 1,28 1,908 1}
+{5 1}
+{2 1}
+{1 1,4 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1}
+{3 1,4 1}
+{0 1,1 1,3 1,295 1,646 1}
+{5 1}
+{4 1,144 1,280 1,392 1,582 1}
+{3 1}
+{3 1,53 1,181 1,344 1,559 1}
+{3 1,4 1}
+{5 1,84 1,166 1,229 1,254 1,291 1,685 1,855 1}
+{4 1}
+{0 1,1 1}
+{529 1,747 1}
+{5 1,689 1}
+{2 1}
+{1 1,4 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{4 1}
+{0 1,1 1}
+{2 1,5 1}
+{0 1}
+{0 1,5 1}
+{0 1,4 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1}
+{5 1}
+{16 1,684 1,839 1,982 1}
+{4 1,5 1,245 1,432 1,536 1,652 1,986 1}
+{0 1}
+{1 1,3 1}
+{3 1}
+{}
+{0 1,1 1,3 1}
+{2 1,5 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1,61 1,795 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{5 1,49 1,369 1,394 1,799 1,907 1,935 1}
+{1 1,2 1,3 1,47 1}
+{5 1}
+{3 1}
+{3 1,134 1,187 1,417 1,497 1}
+{}
+{3 1,4 1}
+{0 1,5 1,9 1,193 1,256 1,257 1,615 1,728 1,740 1,742 1,916 1,969 1,1004 1}
+{3 1,120 1,208 1,230 1,546 1}
+{3 1}
+{3 1,4 1}
+{2 1}
+{5 1}
+{3 1,4 1,144 1,280 1,392 1,582 1}
+{3 1,4 1,31 1,210 1,273 1,400 1,460 1,522 1,523 1,557 1,915 1}
+{5 1}
+{3 1,78 1,382 1,912 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1,129 1,138 1,561 1,618 1,769 1,896 1}
+{3 1,474 1,476 1,835 1,1000 1}
+{5 1,331 1,426 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{}
+{3 1}
+{0 1,1 1,4 1}
+{4 1}
+{3 1}
+{5 1}
+{0 1}
+{}
+{3 1,4 1}
+{4 1}
+{3 1,45 1,227 1,413 1,589 1}
+{0 1,1 1}
+{0 1,1 1,2 1}
+{2 1,3 1}
+{3 1,5 1}
+{4 1}
+{0 1,1 1,3 1}
+{4 1,31 1,210 1,273 1,400 1,460 1,522 1,523 1,557 1,915 1}
+{3 1}
+{3 1}
+{3 1}
+{4 1,642 1,911 1,989 1}
+{5 1}
+{3 1}
+{1 1,4 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1,124 1,397 1,690 1,844 1,978 1}
+{3 1,5 1}
+{4 1,238 1,661 1,756 1,808 1,814 1,821 1,926 1,948 1}
+{3 1}
+{0 1,4 1}
+{3 1,4 1,5 1}
+{3 1,4 1}
+{3 1,214 1,358 1,597 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{0 1,4 1}
+{2 1}
+{3 1,933 1}
+{}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,3 1,6 1,22 1,265 1,287 1,359 1,499 1,506 1,507 1,610 1,659 1,675 1,781 1,873 1}
+{3 1}
+{3 1}
+{0 1,3 1,4 1}
+{5 1}
+{5 1}
+{3 1}
+{2 1}
+{3 1,4 1,215 1,220 1,279 1,576 1}
+{409 1,529 1,747 1}
+{0 1}
+{1 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{2 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1,107 1,305 1,480 1,711 1}
+{2 1,3 1}
+{3 1,4 1}
+{5 1}
+{3 1,57 1,452 1}
+{4 1}
+{3 1,4 1}
+{0 1,3 1}
+{4 1}
+{}
+{0 1,3 1}
+{4 1,275 1}
+{5 1}
+{0 1,4 1}
+{0 1,1 1,9 1,193 1,256 1,257 1,615 1,728 1,740 1,742 1,916 1,969 1,1004 1}
+{3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{2 1,3 1}
+{2 1}
+{0 1,1 1}
+{3 1,4 1,367 1,708 1,743 1,745 1,774 1,877 1,887 1,894 1,895 1}
+{5 1}
+{}
+{4 1}
+{3 1,5 1}
+{3 1,4 1}
+{5 1}
+{5 1,50 1,996 1}
+{3 1}
+{5 1}
+{4 1}
+{5 1,45 1,227 1,413 1,589 1}
+{1 1,3 1}
+{0 1}
+{5 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,697 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{3 1}
+{2 1,3 1,607 1,871 1}
+{3 1,46 1,63 1,66 1,456 1,960 1}
+{3 1}
+{3 1,4 1,31 1,210 1,273 1,400 1,460 1,522 1,523 1,557 1,915 1}
+{3 1}
+{3 1}
+{2 1,211 1,472 1,616 1,630 1}
+{0 1,1 1,3 1,191 1,213 1,248 1,379 1,791 1,852 1,890 1}
+{4 1}
+{3 1}
+{3 1}
+{1 1,3 1,4 1}
+{0 1,1 1,4 1,86 1,284 1,488 1,512 1,519 1,840 1,892 1,937 1,945 1,977 1}
+{}
+{0 1,4 1}
+{5 1}
+{2 1,3 1,552 1}
+{3 1,4 1}
+{3 1}
+{2 1}
+{2 1,4 1,268 1,584 1,608 1,940 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1}
+{}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,5 1,252 1,262 1,328 1,372 1,373 1,637 1,657 1,678 1,856 1}
+{3 1,4 1}
+{0 1,1 1}
+{1 1}
+{3 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{3 1}
+{0 1,3 1,4 1}
+{0 1}
+{3 1}
+{}
+{1 1,3 1}
+{3 1,4 1}
+{3 1}
+{5 1,306 1,527 1}
+{5 1}
+{3 1,4 1,269 1,583 1}
+{2 1,3 1,14 1,796 1,819 1,872 1}
+{5 1,49 1,369 1,394 1,799 1,907 1,935 1}
+{0 1,1 1}
+{4 1}
+{}
+{3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{1 1,4 1}
+{3 1}
+{3 1,4 1,5 1,100 1,511 1,530 1}
+{3 1,4 1}
+{3 1,82 1,420 1,992 1}
+{3 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{5 1}
+{4 1}
+{3 1,4 1,809 1,1001 1}
+{2 1,3 1,378 1,408 1,570 1,612 1,846 1}
+{3 1,195 1,376 1,482 1,621 1,995 1}
+{0 1,4 1}
+{3 1}
+{}
+{2 1,3 1}
+{}
+{5 1}
+{0 1}
+{5 1,192 1,446 1,731 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{5 1,726 1,746 1,964 1}
+{3 1,4 1}
+{2 1,3 1,680 1}
+{3 1,4 1}
+{4 1,5 1}
+{}
+{1 1,3 1,4 1}
+{0 1}
+{2 1,5 1}
+{1 1,3 1,765 1}
+{30 1,357 1,461 1,671 1,672 1,874 1,922 1}
+{4 1}
+{3 1}
+{3 1}
+{2 1,3 1,5 1}
+{5 1}
+{0 1,1 1,3 1,203 1}
+{4 1}
+{3 1}
+{}
+{1 1,3 1}
+{3 1}
+{1 1,3 1}
+{0 1,1 1}
+{4 1}
+{3 1,4 1}
+{4 1,5 1}
+{3 1,28 1}
+{5 1}
+{2 1,3 1,172 1,403 1,555 1,632 1}
+{5 1}
+{}
+{5 1}
+{0 1,3 1}
+{1 1,3 1,4 1}
+{3 1}
+{3 1}
+{4 1}
+{3 1,340 1}
+{}
+{4 1,5 1}
+{5 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1,4 1,406 1,859 1,958 1}
+{4 1,274 1}
+{3 1}
+{4 1,5 1}
+{0 1,2 1}
+{0 1,3 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{3 1,4 1,55 1}
+{4 1,5 1,274 1}
+{0 1,1 1}
+{4 1}
+{2 1,3 1}
+{4 1}
+{5 1}
+{0 1,4 1}
+{2 1,5 1}
+{0 1,1 1,4 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,191 1,213 1,226 1,248 1,360 1,379 1,791 1,852 1,890 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{3 1,225 1}
+{2 1,197 1,635 1,716 1,850 1}
+{3 1,4 1,159 1,441 1,486 1,654 1,663 1,990 1}
+{0 1,1 1,19 1,90 1,748 1}
+{4 1,5 1}
+{0 1,1 1}
+{3 1}
+{3 1,263 1,684 1,839 1,997 1}
+{1 1,3 1,4 1,10 1,282 1,513 1,697 1}
+{4 1}
+{0 1,2 1,3 1,44 1,237 1,322 1,515 1,697 1,811 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{3 1}
+{1 1,3 1}
+{3 1}
+{}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1,114 1,294 1,336 1,624 1,720 1,762 1,848 1,946 1}
+{3 1,4 1}
+{5 1,42 1,105 1,574 1,712 1,923 1}
+{0 1,1 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{2 1,3 1,103 1,128 1,832 1,841 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{}
+{5 1}
+{0 1,1 1,2 1}
+{5 1,47 1}
+{0 1}
+{3 1}
+{0 1,3 1}
+{}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,3 1,44 1,322 1,811 1}
+{3 1,4 1}
+{4 1,5 1,909 1}
+{2 1,3 1,174 1,643 1,690 1,844 1,885 1}
+{2 1,3 1}
+{4 1}
+{3 1,4 1,52 1,156 1,540 1}
+{2 1}
+{}
+{3 1}
+{0 1,3 1}
+{3 1}
+{1 1,3 1}
+{3 1}
+{2 1,3 1,552 1}
+{1 1,3 1}
+{0 1,1 1,723 1}
+{2 1,414 1}
+{1 1,2 1,3 1}
+{3 1}
+{5 1}
+{5 1}
+{3 1,4 1}
+{2 1,99 1,101 1,409 1,511 1}
+{3 1,199 1,1003 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{0 1,1 1,3 1}
+{1 1,4 1}
+{0 1,1 1}
+{3 1}
+{}
+{4 1}
+{5 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{4 1}
+{5 1}
+{0 1}
+{3 1,4 1}
+{2 1,3 1}
+{1 1,2 1,87 1,146 1,651 1,721 1}
+{4 1}
+{}
+{3 1,5 1}
+{3 1,4 1}
+{}
+{4 1,5 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{2 1,3 1,518 1,676 1,693 1,875 1}
+{0 1,5 1}
+{4 1}
+{0 1,2 1}
+{}
+{3 1}
+{3 1}
+{1 1,3 1}
+{2 1,5 1,12 1,136 1,149 1,223 1,438 1,504 1,599 1,600 1,602 1,604 1,679 1,869 1}
+{5 1,84 1,166 1,229 1,254 1,291 1,685 1,709 1,855 1}
+{5 1}
+{3 1}
+{3 1,4 1,64 1,455 1,539 1,786 1,825 1}
+{2 1,3 1,62 1,326 1,435 1,614 1}
+{4 1}
+{0 1,3 1,4 1}
+{2 1,3 1}
+{2 1,195 1,376 1,482 1,621 1,995 1}
+{5 1}
+{4 1}
+{0 1,1 1,19 1,130 1,131 1,232 1,286 1,293 1,301 1,577 1,645 1}
+{3 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1}
+{0 1,1 1,797 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1}
+{4 1,5 1,109 1,487 1,492 1}
+{4 1}
+{2 1,3 1,174 1,690 1,844 1,885 1}
+{3 1,5 1,59 1,160 1,374 1}
+{0 1,2 1,4 1,590 1}
+{0 1,1 1}
+{0 1,5 1,9 1,193 1,257 1,615 1,728 1,742 1,916 1,969 1}
+{0 1,1 1}
+{5 1,197 1,635 1,636 1,716 1,851 1}
+{3 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{4 1,537 1}
+{16 1,839 1,982 1}
+{3 1}
+{2 1}
+{3 1,4 1}
+{3 1}
+{5 1}
+{0 1,1 1,3 1,4 1,702 1}
+{}
+{5 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1,186 1,526 1,560 1,984 1}
+{0 1}
+{3 1}
+{0 1,1 1,4 1}
+{5 1,627 1,631 1,817 1,1002 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{4 1,5 1,992 1}
+{3 1}
+{5 1}
+{4 1}
+{4 1,5 1}
+{1 1,3 1,4 1,129 1,618 1,769 1,888 1,896 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{4 1,277 1}
+{5 1}
+{3 1}
+{3 1,204 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{3 1,4 1,717 1,891 1}
+{5 1}
+{0 1,1 1}
+{1 1,4 1}
+{3 1}
+{4 1}
+{5 1,511 1,710 1,903 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1,358 1,595 1,597 1,919 1,993 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{0 1,4 1}
+{5 1}
+{4 1,277 1}
+{4 1}
+{}
+{2 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{1 1,2 1,4 1}
+{4 1}
+{5 1,308 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{5 1}
+{4 1}
+{1 1,3 1,4 1}
+{3 1,117 1,239 1,802 1}
+{2 1,3 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1,29 1,50 1,180 1,729 1,996 1}
+{4 1}
+{3 1,4 1}
+{}
+{5 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{}
+{4 1}
+{5 1,569 1}
+{3 1}
+{2 1,3 1,44 1,237 1,322 1,515 1,697 1,811 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{1 1,3 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{}
+{2 1}
+{0 1,1 1}
+{2 1,3 1}
+{2 1}
+{}
+{2 1,3 1,342 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{5 1,84 1,166 1,229 1,254 1,291 1,685 1,709 1,855 1}
+{}
+{}
+{2 1}
+{5 1}
+{3 1}
+{3 1,4 1,120 1,208 1,230 1,362 1,546 1,548 1}
+{4 1,5 1}
+{5 1}
+{3 1}
+{3 1,5 1}
+{3 1}
+{5 1}
+{0 1,5 1}
+{5 1}
+{2 1}
+{1 1}
+{4 1}
+{4 1}
+{4 1,5 1}
+{3 1,134 1,187 1,417 1,491 1,497 1}
+{5 1}
+{2 1,3 1}
+{3 1,32 1,75 1}
+{4 1}
+{3 1,4 1}
+{1 1,3 1,14 1,165 1,609 1,714 1,872 1}
+{0 1,3 1}
+{0 1,1 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1}
+{0 1,2 1,3 1}
+{3 1,4 1,5 1}
+{4 1}
+{4 1}
+{3 1}
+{3 1,61 1,795 1}
+{3 1}
+{5 1}
+{3 1,4 1,64 1,455 1,539 1,786 1,825 1}
+{5 1}
+{0 1,1 1,533 1}
+{3 1}
+{2 1,4 1}
+{1 1,3 1}
+{3 1,4 1}
+{3 1,4 1,579 1,593 1,827 1,994 1}
+{3 1,4 1,277 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{}
+{5 1}
+{3 1}
+{}
+{3 1,4 1}
+{5 1,29 1,50 1,180 1,370 1,729 1,800 1}
+{2 1,3 1}
+{}
+{3 1}
+{5 1}
+{3 1,4 1,108 1,242 1,666 1}
+{4 1}
+{0 1,4 1}
+{4 1}
+{4 1,5 1}
+{2 1}
+{0 1,1 1}
+{2 1,4 1}
+{3 1,5 1}
+{4 1}
+{4 1,5 1,276 1}
+{0 1,4 1}
+{3 1,4 1}
+{3 1,680 1}
+{3 1,88 1,707 1,787 1,932 1,941 1,965 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{4 1}
+{0 1,1 1,3 1,213 1,248 1,379 1,535 1,818 1,852 1,890 1}
+{4 1,5 1}
+{3 1,41 1,70 1,498 1,698 1,828 1,949 1}
+{1 1,3 1,4 1}
+{3 1}
+{4 1}
+{3 1}
+{3 1,442 1,880 1,917 1}
+{}
+{0 1,1 1,19 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{3 1,474 1,476 1,835 1,1000 1}
+{0 1,3 1}
+{2 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1,316 1}
+{1 1}
+{5 1,387 1,857 1}
+{4 1,5 1}
+{4 1}
+{0 1,1 1,4 1}
+{4 1}
+{0 1,1 1}
+{1 1,3 1}
+{0 1,1 1,2 1,4 1,515 1,697 1}
+{5 1}
+{0 1,534 1}
+{5 1}
+{5 1}
+{}
+{4 1}
+{1 1,4 1}
+{0 1}
+{5 1,24 1,190 1,611 1}
+{0 1,1 1}
+{2 1,3 1,158 1,386 1,407 1,853 1,985 1}
+{0 1,1 1}
+{2 1,845 1}
+{4 1}
+{5 1}
+{3 1,4 1,54 1}
+{2 1,3 1}
+{2 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{1 1,4 1,772 1}
+{5 1}
+{}
+{5 1}
+{}
+{0 1,1 1,3 1}
+{3 1}
+{4 1,5 1}
+{5 1}
+{5 1,197 1,635 1,716 1,851 1}
+{4 1}
+{3 1}
+{4 1,971 1}
+{0 1}
+{3 1}
+{4 1}
+{}
+{2 1}
+{2 1,3 1}
+{4 1,212 1,281 1,462 1,463 1,464 1}
+{0 1,1 1}
+{0 1}
+{3 1,474 1,476 1,835 1,1000 1}
+{4 1}
+{3 1}
+{4 1}
+{4 1}
+{3 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{101 1,511 1,531 1,710 1,903 1}
+{0 1,416 1,939 1,975 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1}
+{2 1,85 1,103 1,128 1,628 1,832 1,841 1}
+{3 1,4 1,726 1,746 1}
+{4 1}
+{}
+{3 1,4 1}
+{5 1}
+{0 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{0 1,3 1,4 1}
+{1 1,3 1}
+{4 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{3 1,4 1}
+{4 1,27 1,391 1,581 1,626 1}
+{2 1,3 1,151 1,289 1,324 1,458 1,516 1,655 1,861 1,944 1,962 1}
+{5 1}
+{5 1}
+{0 1,4 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{2 1,3 1}
+{4 1}
+{845 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1}
+{2 1,5 1,679 1}
+{3 1,191 1,226 1,248 1,360 1,379 1,791 1}
+{3 1}
+{2 1,3 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,184 1,502 1,509 1,553 1,893 1,955 1}
+{3 1}
+{3 1,4 1}
+{5 1,380 1,419 1}
+{3 1,5 1,490 1}
+{0 1}
+{5 1,49 1,369 1,394 1,799 1,907 1,935 1}
+{3 1}
+{4 1,893 1}
+{2 1,3 1}
+{4 1}
+{0 1,3 1,4 1}
+{}
+{3 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,578 1}
+{0 1,1 1,3 1}
+{}
+{4 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1,82 1,420 1,992 1}
+{3 1,4 1,26 1,209 1,264 1,521 1,596 1,620 1,754 1,829 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{5 1}
+{4 1,5 1}
+{2 1,5 1,524 1,670 1,758 1,766 1,798 1,833 1,883 1,884 1,972 1,973 1}
+{2 1,4 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{3 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1}
+{4 1}
+{0 1}
+{5 1}
+{0 1,1 1,3 1}
+{5 1}
+{2 1,5 1,103 1,128 1,832 1,841 1}
+{}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{}
+{634 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1}
+{3 1,172 1,403 1,555 1,632 1}
+{5 1}
+{5 1}
+{2 1}
+{3 1}
+{2 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{5 1,157 1,363 1,366 1,562 1,588 1,591 1,868 1,889 1,905 1}
+{3 1}
+{0 1,3 1}
+{0 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{4 1}
+{0 1,3 1}
+{5 1}
+{1 1,3 1}
+{4 1}
+{3 1}
+{2 1,3 1}
+{}
+{3 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1,4 1}
+{0 1,5 1}
+{3 1,4 1}
+{3 1,4 1,763 1}
+{4 1}
+{3 1}
+{2 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{5 1,12 1,136 1,149 1,223 1,438 1,504 1,599 1,600 1,602 1,604 1,679 1,869 1}
+{2 1,3 1,89 1,115 1,152 1,153 1,267 1,642 1,910 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,568 1}
+{}
+{3 1}
+{5 1,42 1,105 1,574 1,712 1,923 1}
+{}
+{3 1}
+{0 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{3 1,78 1,383 1,914 1,918 1,961 1}
+{3 1}
+{0 1,1 1}
+{4 1,283 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1}
+{1 1,3 1,650 1}
+{0 1,1 1,2 1,19 1}
+{5 1}
+{3 1}
+{4 1,5 1,122 1,334 1,732 1}
+{3 1,4 1}
+{1 1,4 1}
+{0 1,1 1}
+{3 1}
+{2 1,3 1}
+{99 1,101 1,409 1,511 1}
+{5 1,14 1,165 1,609 1,714 1,796 1,819 1,872 1}
+{3 1,77 1,913 1}
+{3 1}
+{5 1,686 1}
+{0 1,1 1}
+{5 1}
+{0 1,4 1}
+{1 1,3 1}
+{3 1,4 1,96 1,103 1,128 1,338 1,832 1,841 1,938 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{3 1}
+{3 1,4 1,727 1,991 1}
+{0 1,1 1,5 1}
+{0 1,3 1,4 1}
+{3 1,423 1,489 1,790 1,816 1,950 1}
+{5 1}
+{0 1,1 1,4 1}
+{0 1,3 1,4 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,3 1,4 1}
+{0 1,3 1}
+{2 1,3 1}
+{1 1,2 1,3 1}
+{0 1,1 1,3 1,4 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,67 1,219 1}
+{1 1,3 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{}
+{0 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{3 1}
+{3 1,4 1,401 1,500 1,794 1}
+{5 1,388 1,443 1,847 1}
+{3 1,4 1}
+{3 1,4 1,60 1,116 1}
+{3 1}
+{}
+{2 1,3 1,175 1,397 1,690 1,858 1,885 1,978 1}
+{0 1,1 1}
+{}
+{3 1,4 1,55 1}
+{3 1,763 1}
+{0 1,1 1,2 1,87 1,112 1,146 1,300 1,651 1,721 1}
+{0 1,1 1}
+{0 1}
+{3 1}
+{0 1,1 1}
+{3 1,5 1,251 1,259 1,260 1,262 1,327 1,637 1,656 1,677 1,856 1}
+{3 1}
+{3 1}
+{3 1,4 1,283 1}
+{1 1,5 1,534 1}
+{1 1,3 1,4 1}
+{2 1}
+{0 1}
+{0 1,1 1,5 1}
+{0 1,4 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{0 1}
+{0 1,3 1}
+{5 1}
+{4 1}
+{3 1,225 1}
+{3 1}
+{0 1,1 1,4 1}
+{0 1,114 1,294 1,336 1,624 1,720 1,762 1,848 1,946 1}
+{0 1,1 1}
+{4 1,63 1,66 1,960 1}
+{3 1}
+{0 1,1 1}
+{3 1,495 1}
+{2 1,3 1}
+{0 1,1 1,5 1}
+{4 1}
+{3 1,4 1}
+{0 1,415 1,448 1,543 1,780 1,939 1}
+{0 1,1 1}
+{5 1}
+{1 1,3 1}
+{1 1,3 1}
+{3 1,4 1}
+{0 1,5 1}
+{2 1,3 1,76 1,171 1,764 1,1005 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{0 1,4 1}
+{0 1,1 1}
+{}
+{0 1,3 1,4 1}
+{0 1,4 1}
+{}
+{3 1,4 1}
+{0 1,3 1,4 1}
+{3 1,4 1,215 1,220 1,279 1,576 1}
+{1 1,3 1}
+{5 1}
+{3 1}
+{1 1}
+{3 1,55 1}
+{4 1}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1}
+{3 1,5 1}
+{4 1}
+{3 1,4 1}
+{1 1,3 1}
+{4 1}
+{2 1,103 1,128 1,832 1,841 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,5 1,147 1,148 1,249 1,525 1,813 1,882 1,931 1,942 1,943 1,980 1}
+{5 1}
+{1 1,3 1,4 1}
+{2 1,3 1,870 1}
+{3 1,4 1,269 1,583 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1,5 1}
+{412 1}
+{3 1,4 1,422 1}
+{0 1,1 1}
+{5 1}
+{4 1,642 1,911 1,989 1}
+{5 1}
+{0 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1}
+{2 1,3 1,172 1,403 1,555 1,632 1}
+{0 1,1 1}
+{0 1,1 1}
+{0 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{3 1,4 1,544 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1}
+{}
+{3 1,4 1}
+{4 1,18 1,106 1,217 1,365 1,771 1}
+{1 1,3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{0 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{}
+{3 1}
+{0 1,1 1}
+{5 1,687 1,733 1,863 1}
+{4 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{0 1,348 1,361 1,459 1,542 1,658 1,704 1,759 1,767 1,793 1,921 1}
+{4 1}
+{0 1,4 1}
+{}
+{0 1,1 1,897 1}
+{0 1,1 1,2 1,3 1,198 1,646 1}
+{5 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1,69 1,159 1,441 1,485 1,654 1,662 1,990 1}
+{3 1,4 1}
+{}
+{3 1}
+{4 1}
+{0 1,1 1,4 1}
+{3 1,406 1,859 1,958 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,37 1,343 1,381 1}
+{3 1}
+{2 1,3 1,518 1,676 1,693 1,875 1}
+{0 1,1 1}
+{3 1,4 1}
+{5 1}
+{5 1,188 1,337 1,352 1,404 1,556 1,573 1}
+{5 1,272 1,302 1,329 1,351 1,467 1,575 1,920 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{1 1,2 1}
+{2 1,3 1,11 1,143 1,440 1,653 1,924 1,927 1,928 1,929 1,953 1,998 1}
+{5 1}
+{4 1,8 1,341 1,718 1}
+{5 1}
+{3 1}
+{4 1,5 1,15 1,145 1,430 1,538 1,807 1,899 1,900 1,901 1}
+{2 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{0 1,3 1,4 1}
+{4 1}
+{2 1,3 1,103 1,128 1,832 1,841 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,5 1}
+{3 1,4 1}
+{5 1}
+{3 1,823 1}
+{3 1,4 1}
+{2 1,5 1,686 1}
+{4 1,5 1}
+{2 1,93 1}
+{3 1}
+{3 1}
+{}
+{4 1}
+{0 1,3 1}
+{2 1}
+{4 1,749 1}
+{0 1,1 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{3 1,73 1,820 1}
+{1 1,3 1}
+{0 1,3 1,4 1,10 1,282 1,513 1,697 1}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{5 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1,67 1,219 1,431 1}
+{}
+{5 1,367 1,708 1,743 1,745 1,774 1,877 1,887 1,894 1,895 1}
+{4 1}
+{2 1}
+{2 1}
+{}
+{3 1}
+{3 1,4 1,418 1,947 1}
+{3 1}
+{0 1,1 1,3 1,191 1,213 1,226 1,248 1,360 1,379 1,535 1,791 1,818 1,852 1,890 1}
+{3 1,195 1,376 1,482 1,621 1,995 1}
+{5 1,689 1}
+{2 1,4 1,389 1,706 1,822 1,878 1}
+{3 1,4 1}
+{0 1,2 1,3 1,185 1}
+{}
+{4 1}
+{3 1,4 1}
+{}
+{5 1}
+{0 1,1 1}
+{2 1}
+{5 1}
+{4 1}
+{5 1,571 1,737 1,957 1}
+{3 1}
+{5 1}
+{2 1,3 1}
+{3 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,4 1}
+{1 1,3 1}
+{2 1,3 1}
+{5 1,503 1}
+{0 1,4 1,697 1}
+{4 1}
+{}
+{5 1}
+{0 1,1 1}
+{5 1}
+{2 1}
+{3 1}
+{2 1,3 1,40 1,231 1,325 1,375 1,703 1,757 1,770 1,898 1}
+{3 1}
+{0 1,1 1,3 1}
+{0 1,1 1}
+{3 1}
+{3 1}
+{3 1,310 1,312 1,469 1}
+{0 1,4 1}
+{1 1,3 1,4 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{5 1,308 1,527 1}
+{5 1,695 1,876 1}
+{3 1,79 1,466 1,619 1,951 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1,27 1,391 1,581 1,626 1}
+{3 1,4 1}
+{3 1}
+{0 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{411 1,544 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1}
+{4 1}
+{2 1}
+{5 1}
+{4 1,5 1}
+{1 1,3 1,4 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1}
+{3 1,266 1}
+{4 1}
+{0 1,3 1}
+{0 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{2 1,3 1}
+{3 1}
+{}
+{3 1,4 1}
+{3 1,4 1}
+{2 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,54 1}
+{4 1,5 1}
+{5 1,749 1}
+{0 1,1 1,4 1}
+{5 1,687 1,733 1,863 1}
+{5 1}
+{}
+{4 1}
+{0 1,1 1}
+{4 1}
+{3 1,60 1,116 1}
+{2 1,3 1}
+{2 1,3 1,482 1,621 1}
+{3 1,4 1}
+{1 1}
+{4 1,283 1}
+{}
+{4 1}
+{3 1}
+{2 1,157 1,363 1,366 1,562 1,588 1,591 1,868 1,889 1,905 1}
+{5 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,81 1,639 1,641 1,987 1}
+{0 1,1 1,4 1}
+{2 1,3 1}
+{0 1,1 1}
+{}
+{0 1,4 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,37 1,343 1,381 1}
+{1 1,3 1,4 1}
+{5 1}
+{0 1,3 1,4 1}
+{4 1,5 1}
+{3 1,4 1}
+{5 1}
+{1 1,4 1}
+{4 1}
+{5 1}
+{2 1,3 1,195 1,376 1,995 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1,294 1,646 1}
+{0 1,1 1,5 1,20 1,189 1,335 1,399 1,567 1,613 1,625 1,934 1,999 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{4 1}
+{3 1,595 1,919 1,993 1}
+{5 1}
+{4 1,5 1}
+{5 1}
+{3 1,202 1,457 1,586 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,2 1}
+{4 1}
+{1 1,3 1,4 1}
+{5 1}
+{3 1}
+{3 1}
+{0 1,4 1}
+{3 1}
+{5 1}
+{3 1}
+{1 1,3 1}
+{5 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{}
+{}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1,191 1,213 1,226 1,248 1,360 1,379 1,791 1,852 1,890 1}
+{3 1,4 1}
+{2 1,5 1,103 1,128 1,841 1}
+{4 1}
+{3 1,307 1,667 1}
+{3 1}
+{4 1,5 1}
+{1 1,3 1}
+{5 1}
+{2 1,3 1,752 1}
+{1 1,4 1}
+{4 1}
+{0 1,3 1}
+{4 1,108 1,242 1,528 1,666 1}
+{3 1}
+{5 1}
+{2 1,349 1,812 1}
+{3 1}
+{5 1}
+{4 1,5 1}
+{3 1,4 1}
+{3 1}
+{4 1,5 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{4 1,5 1,968 1}
+{3 1,4 1}
+{2 1,4 1}
+{3 1,88 1,707 1,787 1,932 1,941 1,965 1}
+{0 1}
+{2 1}
+{3 1}
+{5 1}
+{3 1}
+{2 1}
+{2 1}
+{5 1}
+{4 1,27 1,391 1,581 1,626 1}
+{3 1}
+{3 1}
+{2 1,5 1,533 1}
+{4 1}
+{3 1}
+{3 1,4 1,478 1,593 1}
+{0 1,4 1}
+{2 1,3 1,175 1,690 1,858 1,885 1}
+{3 1,64 1,455 1,539 1,786 1,825 1}
+{4 1,5 1}
+{5 1,315 1}
+{4 1}
+{3 1,4 1}
+{0 1,3 1,4 1}
+{4 1}
+{4 1}
+{3 1,134 1,187 1,417 1,491 1,497 1}
+{0 1,1 1,427 1}
+{4 1,5 1}
+{366 1,562 1,588 1,591 1,868 1,889 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1}
+{3 1,5 1}
+{5 1}
+{4 1,5 1,78 1,383 1,914 1,961 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1}
+{1 1,4 1}
+{5 1}
+{2 1,3 1}
+{3 1,310 1,312 1,469 1}
+{3 1,4 1}
+{0 1,4 1}
+{3 1,4 1}
+{2 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{2 1,5 1,702 1}
+{3 1}
+{2 1}
+{1 1}
+{3 1}
+{5 1}
+{}
+{2 1,3 1}
+{4 1}
+{3 1,72 1,196 1,393 1,395 1,692 1,788 1}
+{5 1}
+{3 1,310 1,312 1,469 1}
+{1 1,4 1,702 1}
+{4 1}
+{5 1}
+{5 1,30 1,357 1,461 1,671 1,672 1,874 1,922 1}
+{1 1,4 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1,97 1,598 1,715 1}
+{4 1}
+{2 1,3 1,175 1,690 1,885 1}
+{}
+{2 1}
+{5 1}
+{}
+{3 1,4 1}
+{0 1,1 1}
+{695 1,876 1}
+{1 1,4 1}
+{0 1}
+{0 1,1 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1}
+{0 1,3 1,133 1,141 1,371 1,384 1,493 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{0 1,1 1,3 1,14 1,165 1,609 1,714 1,796 1,819 1,872 1}
+{}
+{3 1,4 1,5 1}
+{0 1,1 1}
+{2 1,3 1,643 1,690 1,885 1}
+{1 1,3 1,4 1,798 1}
+{5 1,29 1,50 1,180 1,370 1,729 1,800 1,936 1,996 1}
+{3 1}
+{1 1,3 1}
+{4 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{}
+{4 1}
+{}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{4 1}
+{5 1,234 1,605 1,644 1}
+{3 1,4 1,220 1,279 1}
+{2 1}
+{5 1,321 1,347 1,436 1,437 1,669 1,701 1,801 1,805 1,967 1,976 1}
+{3 1}
+{4 1}
+{4 1}
+{3 1}
+{5 1}
+{3 1}
+{}
+{4 1}
+{0 1,3 1}
+{}
+{5 1,97 1,598 1,715 1}
+{5 1}
+{3 1}
+{3 1}
+{1 1,4 1}
+{2 1,3 1}
+{3 1}
+{3 1}
+{5 1,158 1,386 1,407 1,853 1,985 1}
+{3 1}
+{3 1}
+{0 1,1 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{3 1,69 1,485 1,654 1,662 1,990 1}
+{5 1,100 1,511 1,530 1}
+{3 1}
+{3 1,4 1}
+{2 1,5 1,389 1,706 1,878 1}
+{0 1,348 1,361 1,459 1,542 1,658 1,704 1,759 1,767 1,793 1,921 1}
+{0 1,415 1,731 1}
+{3 1}
+{3 1,4 1}
+{4 1,5 1,311 1}
+{0 1,1 1}
+{2 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{1 1,3 1}
+{0 1,192 1,415 1,447 1,532 1,780 1,939 1}
+{3 1}
+{0 1,1 1,4 1}
+{}
+{3 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{5 1}
+{3 1,252 1,262 1,328 1,372 1,373 1,637 1,657 1,678 1,856 1}
+{2 1}
+{0 1,1 1,2 1}
+{2 1,3 1,197 1,635 1}
+{0 1}
+{2 1,5 1,103 1,128 1,832 1,841 1}
+{3 1}
+{3 1,4 1}
+{3 1,159 1,441 1,486 1,654 1,663 1,990 1}
+{4 1,5 1,121 1,122 1,163 1,164 1,332 1,333 1,334 1,732 1}
+{0 1,1 1}
+{0 1,4 1}
+{3 1,4 1,5 1}
+{3 1}
+{4 1}
+{0 1,3 1}
+{4 1}
+{797 1}
+{}
+{1 1,3 1,4 1}
+{3 1}
+{3 1}
+{}
+{3 1,176 1,477 1,881 1,925 1}
+{5 1}
+{3 1}
+{3 1,726 1,746 1}
+{}
+{5 1,306 1}
+{3 1}
+{3 1}
+{3 1}
+{4 1}
+{5 1,684 1,839 1}
+{4 1}
+{5 1}
+{3 1}
+{4 1}
+{4 1}
+{0 1,1 1,5 1}
+{0 1,1 1,3 1,4 1}
+{1 1,2 1,3 1}
+{5 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{3 1,74 1,578 1,830 1}
+{3 1}
+{3 1,65 1}
+{3 1,4 1,727 1,991 1}
+{3 1}
+{}
+{2 1,5 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{1 1,3 1}
+{}
+{2 1,5 1,572 1}
+{3 1,4 1,126 1,700 1,930 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{4 1}
+{2 1,3 1,349 1,812 1}
+{3 1}
+{4 1}
+{4 1}
+{5 1}
+{1 1}
+{}
+{3 1}
+{3 1}
+{3 1}
+{3 1,356 1,377 1,810 1}
+{4 1,5 1}
+{3 1}
+{0 1,1 1}
+{5 1}
+{4 1}
+{3 1,627 1,631 1,667 1,817 1,1002 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{2 1,3 1,797 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,64 1,454 1}
+{2 1,3 1,96 1,103 1,128 1,338 1,832 1,841 1,938 1}
+{2 1,5 1,98 1}
+{3 1,4 1}
+{0 1}
+{5 1}
+{3 1}
+{0 1,3 1,4 1}
+{5 1}
+{5 1}
+{3 1,74 1}
+{5 1,414 1}
+{5 1}
+{3 1,82 1,420 1,992 1}
+{4 1}
+{4 1,5 1}
+{1 1,3 1}
+{3 1,4 1}
+{0 1,1 1}
+{2 1,838 1}
+{0 1}
+{0 1,1 1}
+{1 1,3 1}
+{1 1,3 1}
+{5 1}
+{4 1,5 1}
+{0 1,1 1,4 1}
+{3 1}
+{2 1,3 1,76 1,171 1,764 1,1005 1}
+{}
+{3 1,4 1}
+{0 1,1 1}
+{4 1}
+{3 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1}
+{4 1,5 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,3 1,4 1}
+{0 1,697 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1,32 1,75 1}
+{3 1}
+{5 1,104 1,412 1,843 1}
+{5 1}
+{1 1,3 1}
+{4 1,5 1}
+{3 1,4 1}
+{2 1,197 1,635 1,636 1,716 1,851 1}
+{3 1,4 1,402 1,501 1,795 1}
+{3 1}
+{3 1}
+{5 1}
+{0 1,3 1}
+{5 1}
+{3 1}
+{2 1,411 1}
+{3 1}
+{4 1}
+{4 1}
+{3 1}
+{0 1}
+{4 1}
+{}
+{1 1,3 1,4 1}
+{5 1}
+{1 1,3 1,4 1}
+{3 1}
+{3 1,4 1,304 1,314 1,354 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{4 1,5 1}
+{2 1,3 1,4 1}
+{5 1}
+{4 1}
+{4 1,274 1}
+{411 1}
+{}
+{3 1,4 1}
+{}
+{2 1,5 1,387 1,857 1}
+{3 1,4 1}
+{3 1,4 1,971 1}
+{3 1,4 1}
+{3 1,67 1,219 1,431 1,617 1}
+{5 1,91 1,405 1,425 1,755 1}
+{0 1,1 1}
+{4 1,150 1,236 1,271 1,514 1,660 1,697 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1,646 1}
+{1 1,4 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,211 1,472 1,616 1,630 1}
+{4 1}
+{3 1}
+{4 1}
+{0 1,4 1}
+{2 1,3 1,124 1,397 1,844 1,978 1}
+{3 1,4 1}
+{3 1}
+{100 1,511 1,530 1}
+{1 1}
+{4 1}
+{4 1}
+{544 1}
+{1 1,3 1,4 1}
+{5 1}
+{0 1,2 1,3 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{3 1,4 1,640 1,665 1}
+{5 1}
+{3 1}
+{3 1}
+{3 1,5 1,147 1,148 1,249 1,525 1,813 1,882 1,931 1,942 1,943 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{5 1,415 1,448 1,543 1,780 1,939 1}
+{}
+{0 1,697 1}
+{3 1,4 1,579 1,593 1,827 1,994 1}
+{0 1}
+{3 1}
+{3 1,356 1,377 1,810 1}
+{3 1}
+{5 1,688 1,865 1}
+{4 1}
+{3 1}
+{3 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{4 1,5 1,750 1,897 1}
+{4 1,5 1}
+{0 1,2 1,973 1}
+{3 1,4 1}
+{5 1}
+{0 1,1 1,4 1}
+{5 1}
+{4 1}
+{0 1}
+{}
+{}
+{3 1,961 1}
+{2 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{}
+{1 1,2 1,3 1,154 1,185 1,198 1,258 1,295 1,646 1,722 1}
+{2 1,4 1}
+{}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1,2 1}
+{5 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{}
+{3 1,4 1}
+{2 1,3 1}
+{3 1}
+{3 1,5 1,479 1,565 1,592 1,778 1,867 1,879 1}
+{1 1,3 1,4 1}
+{5 1,16 1,684 1,839 1}
+{5 1}
+{1 1,3 1}
+{0 1,1 1}
+{1 1,4 1}
+{5 1,726 1,746 1,964 1}
+{0 1,2 1,5 1}
+{3 1}
+{0 1,3 1}
+{5 1}
+{5 1,100 1,511 1,530 1}
+{2 1}
+{4 1,5 1}
+{2 1,5 1,149 1,223 1,569 1,600 1,603 1,679 1,869 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1}
+{}
+{0 1,1 1,3 1}
+{0 1,3 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{3 1,4 1,5 1}
+{0 1,2 1}
+{4 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{2 1,4 1}
+{1 1,3 1,4 1}
+{3 1}
+{4 1,275 1}
+{5 1,347 1,669 1,967 1}
+{5 1,16 1,684 1,839 1}
+{2 1,5 1,250 1,259 1,260 1,262 1,327 1,637 1,677 1,856 1}
+{4 1,27 1,391 1,581 1,626 1}
+{4 1}
+{5 1}
+{2 1,3 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{1 1,4 1}
+{3 1}
+{4 1,26 1,209 1,264 1,521 1,596 1,620 1,754 1,829 1}
+{3 1,4 1}
+{3 1,4 1,304 1,314 1,354 1}
+{4 1}
+{2 1,3 1}
+{3 1,641 1}
+{3 1,4 1}
+{3 1,4 1,10 1,282 1,513 1,697 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{0 1,3 1}
+{1 1,4 1}
+{0 1,1 1,4 1,274 1}
+{0 1,1 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1}
+{1 1,3 1,4 1}
+{3 1,5 1}
+{3 1,4 1}
+{5 1}
+{4 1,5 1}
+{0 1,3 1}
+{3 1}
+{5 1}
+{1 1,3 1}
+{}
+{0 1,1 1,3 1}
+{634 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1,568 1}
+{0 1,1 1,3 1}
+{5 1,321 1,347 1,436 1,437 1,669 1,701 1,801 1,805 1,967 1,976 1}
+{5 1}
+{4 1,212 1,281 1,462 1,463 1,464 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{}
+{1 1}
+{0 1,2 1}
+{0 1}
+{4 1,5 1}
+{3 1,4 1}
+{0 1,4 1}
+{4 1}
+{5 1}
+{1 1,3 1}
+{3 1,5 1,13 1,194 1,261 1,292 1,317 1,364 1,753 1,784 1}
+{3 1}
+{3 1,51 1,956 1}
+{4 1,5 1}
+{5 1,30 1,461 1,671 1,922 1}
+{5 1,155 1,178 1,385 1,554 1,866 1}
+{3 1,4 1}
+{3 1,809 1,1001 1}
+{4 1}
+{2 1,3 1,124 1,174 1,397 1,690 1,844 1,885 1,978 1}
+{4 1}
+{0 1,3 1}
+{1 1}
+{4 1,5 1}
+{}
+{5 1,253 1,339 1}
+{4 1}
+{5 1}
+{0 1,1 1,4 1,205 1,206 1,207 1,243 1,244 1,270 1,278 1,439 1,465 1,494 1,549 1,550 1,551 1}
+{4 1}
+{3 1}
+{0 1,1 1,109 1,487 1,492 1}
+{2 1,5 1,389 1,822 1,878 1}
+{0 1,1 1,3 1}
+{2 1}
+{5 1}
+{3 1}
+{}
+{3 1,4 1,318 1}
+{3 1,4 1}
+{5 1,17 1,451 1,601 1,684 1,839 1}
+{0 1,1 1,797 1}
+{2 1,3 1}
+{3 1,4 1}
+{637 1}
+{3 1}
+{5 1}
+{4 1}
+{2 1,3 1,437 1}
+{5 1}
+{0 1,4 1}
+{5 1}
+{4 1,5 1}
+{0 1}
+{5 1,797 1}
+{0 1,3 1,4 1}
+{1 1,3 1,4 1}
+{3 1,5 1,547 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{3 1}
+{0 1,4 1,749 1}
+{1 1,3 1}
+{0 1,5 1,9 1,256 1,615 1,1004 1}
+{3 1,4 1,73 1,820 1}
+{4 1}
+{3 1,107 1,305 1,480 1,711 1}
+{0 1,1 1,4 1,135 1,177 1,179 1,182 1,183 1,824 1}
+{3 1,4 1}
+{5 1}
+{2 1,3 1}
+{5 1}
+{3 1,5 1}
+{0 1,1 1,4 1}
+{0 1,86 1,284 1,488 1,512 1,519 1,840 1,892 1,937 1,945 1,977 1}
+{3 1,4 1,144 1,280 1,392 1,582 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{4 1}
+{5 1}
+{4 1}
+{2 1,3 1,174 1,690 1,844 1,885 1}
+{3 1,4 1,79 1,466 1,619 1,951 1}
+{4 1}
+{0 1,1 1}
+{}
+{4 1}
+{4 1}
+{3 1,4 1}
+{1 1}
+{1 1,3 1,89 1,153 1,185 1,198 1,258 1,295 1,646 1,722 1}
+{0 1,1 1}
+{4 1,5 1}
+{0 1,4 1}
+{}
+{2 1,3 1,125 1,174 1,398 1,690 1,844 1,885 1,979 1}
+{3 1,4 1}
+{0 1,3 1}
+{3 1,72 1,395 1,692 1,788 1}
+{1 1,3 1}
+{3 1}
+{5 1}
+{1 1,4 1}
+{0 1,1 1,681 1}
+{5 1}
+{4 1}
+{3 1}
+{5 1,192 1,416 1,447 1,780 1,939 1,975 1}
+{5 1}
+{5 1,250 1,372 1,373 1}
+{3 1}
+{2 1,3 1}
+{}
+{}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1}
+{0 1,1 1,4 1}
+{3 1}
+{0 1,4 1}
+{5 1}
+{0 1,1 1,3 1}
+{1 1,4 1}
+{0 1,2 1,3 1}
+{3 1}
+{3 1}
+{0 1,3 1}
+{}
+{2 1,3 1}
+{5 1}
+{2 1,3 1}
+{2 1,103 1,128 1,832 1,841 1}
+{4 1}
+{4 1}
+{5 1}
+{0 1,297 1}
+{2 1,3 1}
+{4 1}
+{3 1}
+{2 1}
+{3 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{2 1}
+{0 1,1 1}
+{5 1,772 1}
+{5 1,571 1,737 1,957 1}
+{3 1}
+{3 1}
+{4 1}
+{3 1}
+{0 1,4 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,3 1}
+{3 1,4 1,186 1,526 1,560 1,984 1}
+{3 1,4 1,496 1,606 1}
+{4 1}
+{2 1,3 1}
+{4 1,5 1,15 1,145 1,430 1,538 1,807 1,899 1,900 1,901 1}
+{5 1}
+{3 1,4 1,616 1,630 1}
+{3 1}
+{2 1}
+{5 1,380 1,419 1}
+{5 1}
+{5 1}
+{5 1}
+{}
+{0 1,2 1}
+{3 1}
+{2 1,3 1,175 1,397 1,690 1,858 1,885 1,978 1}
+{3 1,5 1}
+{3 1}
+{3 1}
+{1 1,3 1,4 1}
+{0 1}
+{5 1,200 1,350 1}
+{1 1,3 1}
+{4 1}
+{4 1}
+{}
+{4 1}
+{3 1,4 1}
+{5 1,688 1,865 1}
+{3 1,4 1}
+{0 1,1 1,297 1,646 1}
+{3 1,4 1}
+{0 1,3 1}
+{0 1,1 1,3 1}
+{4 1,5 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,4 1}
+{}
+{2 1,3 1}
+{5 1}
+{3 1,590 1}
+{5 1}
+{5 1}
+{0 1}
+{4 1}
+{}
+{0 1,1 1,3 1,198 1}
+{3 1}
+{}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1}
+{2 1}
+{4 1}
+{5 1,158 1,386 1,407 1,853 1,985 1}
+{3 1,55 1}
+{5 1}
+{4 1}
+{2 1,94 1,240 1,330 1,410 1,445 1,558 1,831 1,842 1}
+{511 1}
+{3 1,4 1}
+{1 1,3 1}
+{1 1}
+{3 1,4 1}
+{5 1}
+{4 1}
+{2 1,3 1}
+{5 1}
+{4 1,5 1}
+{4 1,108 1,242 1,528 1,666 1}
+{3 1,4 1}
+{0 1,2 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{2 1,3 1,689 1}
+{0 1,1 1,3 1}
+{5 1}
+{4 1,5 1}
+{3 1}
+{0 1,1 1,5 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1,3 1,4 1}
+{5 1}
+{4 1,5 1}
+{2 1,3 1}
+{5 1}
+{3 1}
+{5 1}
+{3 1,82 1,420 1,992 1}
+{3 1}
+{}
+{0 1,1 1}
+{1 1,3 1}
+{0 1,1 1,4 1}
+{3 1,4 1}
+{0 1,1 1,5 1}
+{3 1,4 1}
+{0 1,1 1,213 1,248 1,360 1,379 1,852 1,890 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{1 1,3 1,4 1}
+{2 1,3 1}
+{2 1,3 1}
+{2 1}
+{1 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{}
+{0 1,1 1}
+{1 1,3 1,4 1}
+{3 1,382 1,912 1}
+{2 1,96 1,103 1,128 1,338 1,832 1,841 1,938 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{4 1,215 1,220 1,279 1,576 1}
+{3 1,4 1}
+{5 1,414 1}
+{3 1,5 1,251 1,260 1,262 1,327 1,656 1,677 1}
+{3 1,4 1}
+{3 1,496 1,606 1}
+{3 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{2 1,3 1}
+{3 1,956 1}
+{0 1,1 1}
+{4 1}
+{3 1}
+{0 1,1 1}
+{}
+{3 1}
+{5 1}
+{2 1,5 1,749 1}
+{}
+{5 1}
+{3 1}
+{1 1,3 1}
+{4 1}
+{1 1,3 1,95 1,468 1,585 1,638 1,902 1}
+{0 1,1 1}
+{}
+{3 1,4 1}
+{3 1,221 1,235 1,433 1,434 1,444 1,450 1,792 1}
+{}
+{1 1,2 1}
+{5 1,470 1}
+{3 1}
+{0 1,1 1,2 1}
+{0 1,1 1,2 1,3 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1}
+{1 1,3 1,21 1,111 1,132 1,650 1,713 1,719 1,904 1}
+{4 1,5 1}
+{0 1,1 1}
+{4 1,144 1,392 1,582 1}
+{0 1}
+{4 1}
+{}
+{3 1,4 1}
+{2 1}
+{1 1,3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1,3 1}
+{0 1,1 1,3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{}
+{5 1}
+{3 1,67 1,219 1,431 1,617 1}
+{0 1,1 1,3 1}
+{3 1,4 1}
+{2 1,3 1,88 1,707 1,787 1,932 1,941 1,965 1,966 1}
+{3 1}
+{5 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{4 1,46 1,63 1,66 1,456 1,960 1}
+{3 1}
+{4 1,5 1}
+{4 1,5 1,490 1}
+{5 1}
+{3 1}
+{0 1,1 1,213 1,248 1,379 1,852 1,890 1}
+{4 1}
+{5 1}
+{5 1,687 1,863 1}
+{4 1}
+{0 1,416 1,731 1}
+{4 1}
+{5 1}
+{2 1,5 1,272 1,302 1,329 1,351 1,467 1,575 1,920 1}
+{1 1,3 1,4 1}
+{0 1,4 1,974 1}
+{5 1,309 1}
+{5 1}
+{2 1,3 1}
+{4 1}
+{2 1,5 1,571 1,737 1,957 1}
+{3 1,54 1}
+{4 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1}
+{2 1,5 1}
+{4 1,5 1}
+{2 1,94 1}
+{5 1}
+{3 1}
+{5 1}
+{3 1}
+{0 1,1 1}
+{3 1,4 1,62 1,326 1,435 1,614 1}
+{225 1}
+{3 1,4 1}
+{4 1}
+{5 1,17 1,451 1,601 1,684 1,838 1,839 1,983 1}
+{4 1}
+{4 1}
+{2 1,3 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{3 1,4 1}
+{3 1,52 1,156 1,540 1}
+{0 1,3 1}
+{}
+{0 1,1 1,2 1}
+{3 1}
+{0 1,1 1,2 1,3 1}
+{3 1,4 1}
+{3 1,4 1,188 1,337 1,352 1,404 1,556 1,573 1}
+{0 1,3 1,4 1}
+{3 1,83 1,126 1,233 1,668 1,683 1,699 1,700 1,785 1,930 1}
+{4 1}
+{5 1}
+{4 1}
+{3 1,4 1,479 1,565 1,592 1,778 1,867 1,879 1}
+{4 1}
+{0 1}
+{3 1,4 1,311 1}
+{0 1}
+{}
+{2 1,5 1,832 1}
+{4 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1}
+{5 1}
+{2 1,5 1}
+{0 1,1 1}
+{0 1}
+{4 1,561 1}
+{3 1}
+{4 1}
+{3 1}
+{2 1,3 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1}
+{2 1}
+{4 1}
+{2 1}
+{3 1,4 1}
+{3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,750 1}
+{3 1}
+{228 1,255 1,685 1,855 1}
+{5 1}
+{527 1}
+{101 1,511 1,531 1}
+{4 1,5 1}
+{}
+{3 1}
+{2 1,3 1}
+{3 1}
+{0 1,4 1}
+{2 1,3 1}
+{2 1,4 1}
+{3 1,4 1}
+{3 1,5 1}
+{5 1}
+{3 1}
+{0 1}
+{2 1,537 1}
+{0 1,1 1,2 1,4 1}
+{2 1,3 1,124 1,174 1,397 1,844 1,978 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1}
+{0 1,1 1,3 1}
+{1 1,3 1}
+{3 1,697 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1,340 1}
+{4 1,367 1,774 1,894 1,895 1}
+{3 1}
+{2 1}
+{1 1,3 1}
+{4 1}
+{3 1}
+{}
+{5 1,229 1,255 1,291 1,685 1,709 1,855 1}
+{5 1}
+{3 1}
+{747 1}
+{5 1}
+{5 1}
+{}
+{0 1,2 1}
+{}
+{3 1,387 1,857 1}
+{3 1}
+{0 1,4 1}
+{0 1,1 1,3 1}
+{1 1,3 1}
+{5 1,245 1,432 1,536 1,652 1,986 1}
+{4 1,5 1,696 1}
+{1 1,3 1}
+{}
+{0 1}
+{3 1}
+{4 1,127 1,299 1,424 1,673 1,836 1}
+{3 1}
+{4 1,5 1}
+{2 1,4 1}
+{5 1,527 1}
+{3 1,4 1,25 1,580 1,626 1}
+{3 1}
+{0 1,1 1,4 1}
+{0 1,1 1,4 1,205 1,206 1,207 1,243 1,244 1,270 1,278 1,439 1,465 1,494 1,549 1,550 1,551 1}
+{2 1,4 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1}
+{2 1,3 1}
+{2 1,3 1,125 1,174 1,398 1,690 1,844 1,885 1,979 1}
+{2 1,3 1}
+{3 1,4 1}
+{0 1}
+{1 1,3 1,4 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1}
+{3 1}
+{5 1,321 1,347 1,436 1,437 1,669 1,701 1,801 1,805 1,967 1,976 1}
+{0 1,1 1,191 1,213 1,226 1,248 1,360 1,379 1,791 1,852 1,890 1}
+{4 1}
+{3 1,4 1}
+{}
+{1 1,4 1}
+{4 1}
+{2 1,3 1,175 1,690 1,885 1,978 1}
+{3 1}
+{0 1,1 1,4 1}
+{4 1}
+{4 1,5 1}
+{5 1}
+{3 1,752 1}
+{3 1}
+{3 1}
+{4 1}
+{0 1,1 1,4 1}
+{5 1}
+{4 1}
+{3 1,634 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1,5 1}
+{1 1,3 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{2 1}
+{97 1,598 1,715 1}
+{3 1,4 1}
+{3 1}
+{2 1,12 1,137 1,149 1,505 1,572 1,734 1,736 1,959 1}
+{4 1}
+{3 1,57 1,452 1}
+{5 1,252 1,262 1,328 1,372 1,373 1,637 1,657 1,678 1,856 1}
+{4 1}
+{5 1,251 1,260 1,262 1,327 1,637 1,656 1,677 1,856 1}
+{0 1,2 1,3 1}
+{3 1,4 1,202 1}
+{2 1,5 1}
+{4 1,5 1}
+{3 1}
+{3 1,4 1,422 1}
+{2 1,3 1}
+{2 1}
+{0 1,1 1,3 1,4 1}
+{3 1,4 1}
+{0 1,1 1,4 1}
+{5 1}
+{4 1,5 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{2 1,3 1,123 1,224 1,353 1,368 1,396 1,471 1,594 1,860 1}
+{5 1}
+{0 1,1 1,19 1}
+{0 1}
+{5 1}
+{2 1,3 1,175 1,397 1,690 1,858 1,885 1,978 1}
+{3 1,82 1,420 1,992 1}
+{2 1,5 1,94 1,240 1,330 1,445 1,558 1,831 1,842 1}
+{3 1}
+{3 1,5 1}
+{0 1,3 1,4 1,43 1}
+{5 1}
+{4 1,46 1,63 1,66 1,456 1,960 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1,168 1,246 1,288 1,508 1,545 1,741 1,783 1,804 1,815 1}
+{5 1}
+{5 1}
+{3 1}
+{3 1}
+{0 1,1 1,3 1,681 1}
+{}
+{3 1}
+{2 1,5 1}
+{2 1}
+{3 1,4 1}
+{0 1,1 1}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{4 1}
+{5 1}
+{3 1}
+{2 1}
+{4 1,5 1}
+{0 1,2 1,3 1}
+{5 1}
+{4 1}
+{2 1,3 1}
+{0 1,1 1,19 1,130 1,131 1,232 1,286 1,293 1,301 1,577 1,645 1}
+{5 1}
+{0 1,1 1}
+{3 1}
+{2 1}
+{}
+{4 1,5 1}
+{4 1,25 1,580 1}
+{0 1,1 1}
+{}
+{3 1}
+{0 1,1 1}
+{3 1}
+{5 1}
+{3 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{3 1}
+{5 1}
+{2 1,5 1}
+{3 1}
+{}
+{4 1}
+{3 1}
+{3 1,4 1}
+{1 1}
+{0 1,1 1}
+{2 1}
+{3 1,4 1}
+{2 1}
+{0 1,3 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,208 1}
+{0 1}
+{1 1,3 1,4 1}
+{5 1}
+{2 1,3 1,4 1}
+{3 1,304 1,314 1,354 1}
+{4 1}
+{3 1}
+{3 1,79 1,619 1}
+{5 1,309 1}
+{}
+{5 1}
+{5 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{0 1,1 1,127 1,299 1,424 1,673 1,836 1}
+{3 1,4 1}
+{3 1,53 1,181 1,344 1,559 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{0 1,1 1}
+{0 1,5 1,9 1,193 1,256 1,257 1,615 1,728 1,740 1,742 1,916 1,969 1,1004 1}
+{5 1}
+{1 1,3 1}
+{4 1}
+{2 1,3 1}
+{2 1,3 1}
+{0 1,294 1,646 1}
+{0 1,3 1,4 1}
+{4 1}
+{3 1}
+{3 1,4 1}
+{1 1,2 1,4 1}
+{2 1}
+{1 1,3 1,534 1}
+{3 1}
+{5 1}
+{2 1}
+{}
+{0 1,1 1}
+{2 1,4 1}
+{}
+{4 1}
+{0 1,4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{3 1}
+{0 1,2 1,3 1}
+{2 1,3 1,378 1,408 1,570 1,612 1,846 1}
+{5 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1}
+{4 1}
+{0 1,3 1}
+{5 1,29 1,50 1,180 1,370 1,729 1,800 1,936 1,996 1}
+{0 1,2 1,21 1,111 1,132 1,650 1,713 1,719 1,779 1,904 1}
+{3 1,4 1}
+{}
+{3 1}
+{4 1,121 1,122 1,163 1,164 1,332 1,333 1,334 1,732 1}
+{}
+{3 1}
+{5 1}
+{5 1}
+{0 1,1 1,3 1,4 1}
+{4 1,5 1,198 1}
+{4 1}
+{3 1,318 1}
+{2 1,3 1}
+{3 1}
+{0 1,1 1,4 1}
+{3 1}
+{5 1}
+{4 1,5 1}
+{3 1,4 1,500 1}
+{0 1,1 1,19 1}
+{3 1,4 1}
+{3 1}
+{0 1,1 1,3 1}
+{5 1}
+{5 1}
+{0 1,1 1}
+{646 1}
+{5 1}
+{3 1}
+{2 1,4 1}
+{5 1,91 1,320 1,425 1,755 1}
+{4 1,5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{0 1,1 1}
+{}
+{5 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{3 1,5 1}
+{0 1,4 1}
+{3 1,4 1,8 1,341 1,718 1}
+{5 1,974 1}
+{4 1}
+{3 1,4 1,794 1}
+{0 1}
+{5 1,587 1}
+{0 1,1 1}
+{4 1}
+{4 1}
+{3 1,4 1}
+{5 1}
+{5 1}
+{5 1}
+{4 1,236 1,271 1,514 1,660 1,697 1}
+{5 1}
+{3 1}
+{3 1}
+{2 1,5 1,12 1,572 1,736 1}
+{5 1}
+{0 1,1 1,4 1}
+{3 1,383 1,914 1,961 1}
+{2 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{0 1,1 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{3 1,53 1,181 1,344 1,559 1}
+{3 1,4 1}
+{4 1}
+{5 1}
+{3 1,4 1,564 1,592 1,776 1,867 1,879 1}
+{3 1,4 1,313 1}
+{3 1,4 1}
+{2 1}
+{4 1,5 1}
+{5 1}
+{0 1,1 1}
+{4 1}
+{3 1,78 1}
+{5 1}
+{4 1}
+{4 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1,198 1}
+{2 1,3 1,587 1}
+{4 1}
+{0 1,3 1}
+{2 1,3 1,942 1}
+{}
+{5 1,211 1,472 1,616 1,630 1}
+{5 1}
+{3 1}
+{2 1,3 1}
+{0 1,4 1}
+{3 1}
+{0 1,1 1}
+{4 1}
+{5 1,197 1,635 1,716 1,851 1}
+{3 1}
+{3 1,13 1,194 1,261 1,292 1,317 1,364 1,753 1,784 1}
+{4 1}
+{0 1,2 1,4 1}
+{0 1,1 1,399 1}
+{}
+{}
+{5 1}
+{1 1,3 1}
+{5 1}
+{1 1,3 1,4 1}
+{}
+{0 1,1 1,2 1,3 1,113 1,646 1,768 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1}
+{0 1,4 1}
+{3 1}
+{4 1,5 1}
+{3 1,5 1,262 1,328 1,372 1,637 1,657 1,856 1}
+{0 1,3 1}
+{0 1,1 1,3 1}
+{3 1,68 1,623 1}
+{5 1}
+{4 1}
+{5 1}
+{4 1}
+{4 1,5 1}
+{2 1,3 1}
+{2 1}
+{5 1}
+{2 1,524 1,670 1,758 1,766 1,798 1,833 1,883 1,884 1,972 1,973 1}
+{2 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{4 1}
+{0 1,1 1}
+{5 1}
+{3 1}
+{0 1,1 1,3 1,4 1}
+{3 1}
+{2 1,5 1}
+{2 1}
+{2 1}
+{0 1,2 1,3 1}
+{5 1,97 1,598 1,715 1}
+{0 1,3 1}
+{4 1,5 1,121 1,122 1,163 1,164 1,332 1,333 1,334 1,732 1}
+{5 1}
+{5 1}
+{5 1}
+{0 1}
+{5 1}
+{3 1,442 1,880 1,917 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,69 1,159 1,441 1,485 1,654 1,662 1,990 1}
+{4 1}
+{3 1,5 1,133 1,141 1,371 1,384 1,493 1}
+{3 1,4 1}
+{}
+{5 1,137 1,954 1}
+{4 1}
+{4 1}
+{1 1,4 1}
+{4 1}
+{3 1,4 1,25 1,27 1,390 1,580 1,626 1}
+{0 1,1 1,3 1,5 1,20 1,189 1,335 1,399 1,567 1,613 1,625 1,934 1,999 1}
+{}
+{5 1,687 1,733 1}
+{0 1,1 1}
+{}
+{3 1}
+{3 1}
+{2 1,3 1,717 1,891 1}
+{3 1}
+{0 1,1 1,4 1}
+{5 1}
+{3 1,4 1,401 1,500 1}
+{3 1}
+{2 1}
+{2 1}
+{2 1,4 1}
+{0 1,2 1,4 1}
+{4 1,749 1}
+{5 1}
+{0 1,2 1,87 1,112 1,146 1,300 1,651 1,721 1}
+{4 1}
+{4 1,5 1}
+{0 1,1 1}
+{5 1}
+{5 1}
+{4 1}
+{3 1}
+{3 1}
+{}
+{0 1,1 1,3 1}
+{3 1,13 1,194 1,317 1,364 1,753 1,784 1}
+{0 1,1 1}
+{5 1,389 1,706 1,822 1,878 1}
+{0 1,1 1,4 1,205 1,206 1,207 1,243 1,244 1,270 1,278 1,439 1,465 1,494 1,549 1,550 1,551 1}
+{3 1,495 1}
+{3 1}
+{5 1,749 1}
+{3 1}
+{3 1}
+{5 1}
+{0 1}
+{0 1}
+{5 1}
+{5 1}
+{5 1,266 1}
+{4 1}
+{}
+{3 1}
+{107 1}
+{3 1}
+{4 1}
+{3 1}
+{2 1,3 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,215 1,220 1,279 1,576 1}
+{4 1}
+{5 1,101 1,511 1,710 1,903 1}
+{0 1,1 1,5 1}
+{4 1,5 1}
+{4 1}
+{3 1,316 1}
+{2 1,3 1,4 1}
+{3 1,4 1,120 1}
+{}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{4 1}
+{4 1}
+{5 1,696 1}
+{5 1}
+{3 1,134 1,187 1,417 1,491 1,497 1}
+{3 1}
+{}
+{1 1,3 1}
+{5 1,695 1,876 1}
+{5 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{1 1,2 1,3 1}
+{5 1,750 1}
+{4 1,5 1}
+{0 1,3 1,4 1}
+{0 1,1 1,4 1}
+{5 1}
+{5 1}
+{}
+{3 1}
+{4 1}
+{3 1,4 1}
+{4 1}
+{3 1}
+{3 1,632 1}
+{3 1,221 1,235 1,433 1,434 1,444 1,450 1,792 1}
+{3 1,4 1}
+{5 1}
+{0 1,3 1,797 1}
+{4 1,5 1}
+{3 1}
+{4 1}
+{2 1,3 1}
+{4 1}
+{3 1}
+{3 1}
+{2 1,3 1}
+{0 1,1 1}
+{5 1}
+{1 1,4 1}
+{}
+{4 1}
+{3 1,4 1,61 1,401 1,500 1,794 1}
+{4 1,5 1}
+{0 1,1 1}
+{2 1}
+{3 1,58 1,80 1,481 1,510 1,952 1,970 1}
+{3 1,5 1}
+{}
+{503 1}
+{2 1,3 1,124 1,174 1,397 1,844 1,978 1}
+{5 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{3 1,453 1}
+{4 1}
+{5 1}
+{3 1,4 1}
+{5 1}
+{3 1,4 1,82 1,420 1,992 1}
+{4 1}
+{2 1,3 1}
+{3 1}
+{5 1}
+{1 1,3 1,4 1}
+{2 1,5 1}
+{4 1,5 1,276 1,517 1}
+{5 1}
+{3 1,4 1}
+{3 1}
+{3 1,4 1}
+{5 1}
+{859 1}
+{0 1,1 1}
+{4 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1}
+{0 1,1 1}
+{3 1,4 1}
+{4 1,5 1}
+{3 1}
+{4 1}
+{4 1,5 1}
+{4 1,89 1,152 1,153 1,267 1,642 1,911 1,989 1}
+{3 1,4 1}
+{0 1,1 1,114 1,294 1,336 1,624 1,720 1,762 1,848 1,946 1}
+{3 1}
+{3 1,88 1,707 1,787 1,932 1,941 1,965 1,966 1}
+{1 1,2 1}
+{3 1,423 1,489 1,790 1,816 1,950 1}
+{3 1,4 1,204 1}
+{0 1,1 1,3 1}
+{}
+{}
+{1 1,3 1,6 1,22 1,265 1,287 1,359 1,499 1,506 1,507 1,610 1,659 1,781 1,873 1}
+{1 1,3 1,5 1}
+{0 1,1 1}
+{3 1}
+{3 1,4 1,496 1,606 1}
+{3 1,5 1,155 1,178 1,385 1,554 1,866 1}
+{5 1}
+{3 1,4 1,303 1,629 1,738 1}
+{3 1}
+{5 1}
+{0 1,1 1,3 1,760 1,768 1,834 1}
+{0 1,1 1}
+{2 1,3 1}
+{}
+{4 1}
+{23 1,803 1,849 1,963 1}
+{3 1}
+{2 1,5 1,96 1,103 1,128 1,338 1,832 1,841 1,938 1}
+{0 1,1 1,2 1}
+{1 1,2 1,3 1,4 1}
+{5 1}
+{2 1,3 1,349 1}
+{3 1}
+{2 1}
+{0 1,19 1}
+{4 1}
+{0 1,4 1}
+{0 1,3 1,4 1}
+{}
+{0 1,1 1}
+{5 1}
+{3 1,4 1}
+{2 1}
+{3 1}
+{5 1}
+{2 1,3 1}
+{4 1}
+{3 1,4 1}
+{0 1,1 1,3 1}
+{3 1}
+{3 1,57 1,452 1}
+{0 1,1 1}
+{3 1,4 1}
+{}
+{3 1}
+{4 1}
+{1 1}
+{3 1,809 1,1001 1}
+{2 1,5 1}
+{3 1,4 1}
+{2 1,3 1,173 1,473 1,730 1,854 1}
+{0 1,427 1}
+{0 1,4 1,5 1}
+{3 1,4 1}
+{0 1,4 1}
+{0 1,4 1,277 1}
+{0 1}
+{1 1,3 1,4 1}
+{3 1}
+{3 1,68 1,623 1}
+{0 1,3 1}
+{0 1,1 1}
+{3 1,4 1,402 1,501 1,795 1}
+{5 1,29 1,50 1,180 1,370 1,729 1,800 1,936 1,996 1}
+{0 1}
+{0 1,1 1}
+{3 1,4 1}
+{1 1,3 1}
+{3 1}
+{3 1,4 1,269 1,583 1}
+{2 1,85 1,103 1,128 1,628 1,832 1,841 1}
+{3 1}
+{4 1,5 1}
+{0 1,3 1,4 1}
+{5 1,16 1,263 1,684 1,837 1,839 1,981 1,997 1}
+{5 1}
+{3 1,68 1,623 1}
+{3 1}
+{5 1}
+{0 1,1 1}
+{2 1}
+{4 1,115 1,642 1,910 1}
+{5 1,772 1}
+{5 1}
+{1 1,3 1,4 1}
+{5 1}
+{4 1}
+{0 1,4 1}
+{3 1,4 1,5 1}
+{168 1,246 1,288 1,508 1,545 1,741 1,783 1,804 1,815 1}
+{2 1,5 1,822 1,878 1}
+{4 1,275 1}
+{5 1}
+{2 1,5 1}
+{4 1}
+{5 1}
+{3 1,864 1}
+{5 1}
+{3 1}
+{4 1}
+{3 1}
+{5 1,107 1,305 1,480 1,711 1}
+{5 1,23 1,803 1,849 1,963 1}
+{3 1}
+{}
+{3 1,120 1,208 1,230 1,362 1,546 1,548 1}
+{2 1,3 1}
+{3 1}
+{4 1,5 1}
+{5 1,94 1}
+{3 1,4 1}
+{3 1}
+{3 1,578 1}
+{3 1}
+{0 1}
+{1 1,2 1,3 1,113 1,298 1,300 1,647 1,724 1,735 1}
+{0 1,1 1}
+{3 1,4 1,478 1,579 1,593 1,827 1,994 1}
+{4 1}
+{0 1,1 1}
+{2 1,4 1}
+{3 1,4 1,140 1,640 1,665 1}
+{2 1,3 1,4 1,40 1,231 1,325 1,375 1,703 1,757 1,770 1,898 1}
+{3 1,4 1}
+{2 1,3 1}
+{3 1,214 1,358 1,597 1}
+{5 1}
+{3 1}
+{5 1,308 1}
+{4 1}
+{4 1}
+{4 1}
+{0 1,2 1,3 1}
+{1 1,3 1}
+{5 1}
+{0 1,3 1}
+{5 1}
+{3 1,4 1,402 1,501 1,795 1}
+{}
+{5 1}
+{5 1}
+{2 1,5 1,137 1,572 1,736 1,954 1}
+{2 1}
+{2 1,3 1}
+{1 1,4 1}
+{5 1,94 1}
+{3 1}
+{3 1}
+{5 1,355 1}
+{3 1,4 1,33 1,34 1,35 1,218 1,247 1,520 1,691 1,775 1,886 1}
+{2 1,5 1,797 1}
+{3 1,4 1}
+{2 1,4 1}
+{2 1,3 1,4 1,518 1,676 1,693 1,875 1}
+{92 1,167 1}
+{3 1}
+{5 1}
+{1 1,3 1,4 1}
+{0 1,1 1}
+{2 1,3 1}
+{5 1}
+{3 1,214 1,358 1,595 1,597 1,919 1}
+{5 1}
+{4 1}
+{4 1}
+{}
+{2 1,5 1}
+{4 1}
+{3 1,82 1,420 1,992 1}
+{0 1,1 1,3 1,84 1,166 1,229 1,254 1,291 1,685 1,855 1}
+{3 1,72 1,196 1,393 1,395 1,692 1,788 1}
+{5 1}
+{3 1,326 1,435 1,614 1}
+{0 1,1 1}
+{5 1}
+{0 1,1 1}
+{2 1,3 1,564 1,592 1,776 1,879 1}
+{2 1}
+{}
+{3 1}
+{3 1}
+{5 1}
+{}
